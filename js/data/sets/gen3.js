@@ -475,6 +475,32 @@ var SETDEX_ADV = {
 			"moves":[ "Reflect", "Light Screen", "Ancient Power", "Earthquake"],
 			"nature":"Modest"}
 	}
+	,"Combusken": {
+		"May 2 w/ Torchic (Route 110)": {
+			"ability":"Blaze","level":20,
+			"moves":[ "Ember", "Double Kick", "Focus Energy", "Peck"],
+			"nature":"Naive","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+		,"May 3 w/ Torchic (Route 119)": {
+			"ability":"Blaze","level":31,
+			"moves":[ "Double Kick", "Peck", "Sand Attack", "Bulk Up"],
+			"nature":"Hardy","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"May 4 w/ Torchic (Lilycove City)": {
+			"ability":"Blaze","level":34,
+			"moves":[ "Peck", "Sand Attack", "Bulk Up", "Quick Attack"],
+			"nature":"Naive","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
+		,"Brendan 2 w/ Torchic (Route 110)": {
+			"ability":"Blaze","level":20,
+			"moves":[ "Ember", "Double Kick", "Focus Energy", "Peck"],
+			"nature":"Naive","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+		,"Brendan 3 w/ Torchic (Route 119)": {
+			"ability":"Blaze","level":31,
+			"moves":[ "Double Kick", "Peck", "Sand Attack", "Bulk Up"],
+			"nature":"Quirky","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"Brendan 4 w/ Torchic (Lilycove City)": {
+			"ability":"Blaze","level":34,
+			"moves":[ "Peck", "Sand Attack", "Bulk Up", "Quick Attack"],
+			"nature":"Quiet","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
+	}
 	,"Corphish": {
 		"Beauty Olivia (Sootopolis Gym)": {
 			"ability":"Hyper Cutter","level":37,
@@ -892,18 +918,30 @@ var SETDEX_ADV = {
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Grovyle": {
-		"Fortree Rival (Route 119)": {
-			"ability":"Overgrow","level":31,
-			"moves":[ "Leaf Blade", "Fury Cutter", "Pursuit", "Screech"],
-			"nature":"Gentle","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
-		,"Lilycove Rival (Lilycove City)": {
-			"ability":"Overgrow","level":34,
-			"moves":[ "Fury Cutter", "Pursuit", "Screech", "Leaf Blade"],
-			"nature":"Lonely","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
-		,"Slateport Rival (Route 110)": {
+		"May 2 w/ Treecko (Route 110)": {
 			"ability":"Overgrow","level":20,
-			"moves":[ "Absorb", "Quick Attack", "Fury Cutter", "Pursuit"],
+			"moves":[ "Absorb", "Quick Attack", "Pursuit", "Fury Cutter"],
 			"nature":"Hasty","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+		,"May 3 w/ Treecko (Route 119)": {
+			"ability":"Overgrow","level":31,
+			"moves":[ "Fury Cutter", "Pursuit", "Leaf Blade", "Screech"],
+			"nature":"Sassy","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"May 4 w/ Treecko (Lilycove City)": {
+			"ability":"Overgrow","level":34,
+			"moves":[ "Leaf Blade", "Pursuit", "Fury Cutter", "Screech"],
+			"nature":"Careful","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
+		,"Brendan 2 w/ Treecko (Route 110)": {
+			"ability":"Overgrow","level":20,
+			"moves":[ "Absorb", "Quick Attack", "Pursuit", "Fury Cutter"],
+			"nature":"Hasty","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+		,"Brendan 3 w/ Treecko (Route 119)": {
+			"ability":"Overgrow","level":31,
+			"moves":[ "Fury Cutter", "Pursuit", "Leaf Blade", "Screech"],
+			"nature":"Gentle","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"Brendan 4 w/ Treecko (Lilycove City)": {
+			"ability":"Overgrow","level":34,
+			"moves":[ "Leaf Blade", "Pursuit", "Fury Cutter", "Screech"],
+			"nature":"Lonely","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
 	}
 	,"Gulpin": {
 		"Ninja Boy Jaiden (Route 115 Island)": {
@@ -1216,6 +1254,42 @@ var SETDEX_ADV = {
 			"ability":"Swift Swim","level":28,
 			"moves":[ "Absorb", "Nature Power", "Fake Out", "Fury Swipes"],
 			"ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"May 2 w/ Mudkip (Route 110)": {
+			"ability":"Swift Swim","level":18,
+			"moves":[ "Absorb", "Nature Power", "Astonish", "Growl"],
+			"nature":"Jolly","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"May 3 w/ Mudkip (Route 119)": {
+			"ability":"Swift Swim","level":29,
+			"moves":[ "Absorb", "Fury Swipes", "Nature Power", "Fake Out"],
+			"nature":"Jolly","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+		,"Brendan 2 w/ Mudkip (Route 110)": {
+			"ability":"Swift Swim","level":18,
+			"moves":[ "Absorb", "Nature Power", "Astonish", "Growl"],
+			"nature":"Relaxed","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"Brendan 3 w/ Mudkip (Route 119)": {
+			"ability":"Swift Swim","level":29,
+			"moves":[ "Absorb", "Fury Swipes", "Nature Power", "Fake Out"],
+			"nature":"Relaxed","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+		,"May 3 w/ Treecko (Route 119)": {
+			"ability":"Swift Swim","level":29,
+			"moves":[ "Absorb", "Nature Power", "Fake Out", "Fury Swipes"],
+			"nature":"Naughty","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+		,"May 2 w/ Torchic (Route 110)": {
+			"ability":"Swift Swim","level":18,
+			"moves":[ "Absorb", "Nature Power", "Astonish", "Growl"],
+			"nature":"Calm","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"May 3 w/ Torchic (Route 119)": {
+			"ability":"Swift Swim","level":29,
+			"moves":[ "Absorb", "Nature Power", "Fake Out", "Fury Swipes"],
+			"nature":"Bold","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+		,"Brendan 2 w/ Torchic (Route 110)": {
+			"ability":"Swift Swim","level":18,
+			"moves":[ "Absorb", "Nature Power", "Astonish", "Growl"],
+			"nature":"Quiet","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"Brendan 3 w/ Torchic (Route 119)": {
+			"ability":"Swift Swim","level":29,
+			"moves":[ "Absorb", "Nature Power", "Fake Out", "Fury Swipes"],
+			"nature":"Brave","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
 	}
 	,"Lotad": {
 		"Lady Sarah (Route 116)": {
@@ -1238,6 +1312,14 @@ var SETDEX_ADV = {
 			"ability":"Swift Swim","level":8,
 			"moves":[ "Astonish", "Growl", "Absorb"],
 			"nature":"Bold","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"May 1.5 w/ Torchic (Rustboro City)": {
+			"ability":"Swift Swim","level":13,
+			"moves":[ "Astonish", "Growl", "Absorb", "Swift"],
+			"nature":"Rash","ivs":{"hp":4,"at":4,"sa":4,"sp":4,"df":4,"sd":4}}
+		,"Brendan 1.5 w/ Torchic (Rustboro City)": {
+			"ability":"Swift Swim","level":13,
+			"moves":[ "Astonish", "Growl", "Absorb", "Swift"],
+			"nature":"Jolly","ivs":{"hp":4,"at":4,"sa":4,"sp":4,"df":4,"sd":4}}
 	}
 	,"Loudred": {
 		"Cooltrainer Cristin (Route 121)": {
@@ -1265,6 +1347,22 @@ var SETDEX_ADV = {
 			"ability":"Swift Swim","level":33,
 			"moves":[ "Astonish", "Growl", "Absorb", "Nature Power"],
 			"ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+		,"May 4 w/ Mudkip (Lilycove City)": {
+			"ability":"Swift Swim","level":32,
+			"moves":[ "Absorb", "Nature Power", "Astonish", "Growl"],
+			"nature":"Adamant","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"Brendan 4 w/ Mudkip (Lilycove City)": {
+			"ability":"Swift Swim","level":32,
+			"moves":[ "Absorb", "Nature Power", "Astonish", "Growl"],
+			"nature":"Hardy","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"May 4 w/ Torchic (Lilycove City)": {
+			"ability":"Swift Swim","level":32,
+			"moves":[ "Absorb", "Nature Power", "Astonish", "Growl"],
+			"nature":"Calm","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"Brendan 4 w/ Torchic (Lilycove City)": {
+			"ability":"Swift Swim","level":32,
+			"moves":[ "Absorb", "Nature Power", "Astonish", "Growl"],
+			"nature":"Calm","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
 	}
 	,"Lunatone": {
 		"Cooltrainer Mitchell (Victory Road)": {
@@ -1772,6 +1870,32 @@ var SETDEX_ADV = {
 			"moves":[ "Defense Curl", "Tail Whip", "Water Gun", "Rollout"],
 			"nature":"Quiet","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
 	}
+	,"Marshtomp": {
+		"May 2 w/ Mudkip (Route 110)": {
+			"ability":"Torrent","level":20,
+			"moves":[ "Water Gun", "Mud Shot", "Bide", "Foresight"],
+			"nature":"Hardy","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+		,"May 3 w/ Mudkip (Route 119)": {
+			"ability":"Torrent","level":31,
+			"moves":[ "Mud Shot", "Take Down", "Foresight", "Mud Sport"],
+			"nature":"Hardy","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"May 4 w/ Mudkip (Lilycove City)": {
+			"ability":"Torrent","level":34,
+			"moves":[ "Mud Shot", "Take Down", "Foresight", "Mud Sport"],
+			"nature":"Impish","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
+		,"Brendan 2 w/ Mudkip (Route 110)": {
+			"ability":"Torrent","level":20,
+			"moves":[ "Water Gun", "Mud Shot", "Bide", "Foresight"],
+			"nature":"Bashful","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+		,"Brendan 3 w/ Mudkip (Route 119)": {
+			"ability":"Torrent","level":31,
+			"moves":[ "Mud Shot", "Take Down", "Foresight", "Mud Sport"],
+			"nature":"Bashful","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"Brendan 4 w/ Mudkip (Lilycove City)": {
+			"ability":"Torrent","level":34,
+			"moves":[ "Mud Shot", "Take Down", "Foresight", "Mud Sport"],
+			"nature":"Hasty","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
+	}
 	,"Mawile": {
 		"Cooltrainer Leroy (Trick House)": {
 			"ability":"Hyper Cutter","level":46,
@@ -1976,6 +2100,24 @@ var SETDEX_ADV = {
 			"ability":"Minus","level":15,
 			"moves":[ "Growl", "Thunder Wave", "Quick Attack", "Helping Hand"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+	}
+	,"Mudkip": {
+		"May 1 w/ Mudkip (Route 103)": {
+			"ability":"Torrent","level":5,
+			"moves":[ "Tackle", "Growl"],
+			"nature":"Quiet","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"May 1.5 w/ Mudkip (Rustboro City)": {
+			"ability":"Torrent","level":15,
+			"moves":[ "Water Gun", "Mud-Slap", "Growl", "Bide"],
+			"nature":"Jolly","ivs":{"hp":4,"at":4,"sa":4,"sp":4,"df":4,"sd":4}}
+		,"Brendan 1 w/ Mudkip (Route 103)": {
+			"ability":"Torrent","level":5,
+			"moves":[ "Tackle", "Growl"],
+			"nature":"Hasty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"Brendan 1.5 w/ Mudkip (Rustboro City)": {
+			"ability":"Torrent","level":15,
+			"moves":[ "Water Gun", "Mud-Slap", "Growl", "Bide"],
+			"nature":"Bold","ivs":{"hp":4,"at":4,"sa":4,"sp":4,"df":4,"sd":4}}
 	}
 	,"Muk": {
 		"Cooltrainer Albert (Victory Road)": {
@@ -2248,10 +2390,34 @@ var SETDEX_ADV = {
 			"ability":"Keen Eye","level":29,
 			"moves":[ "Fly", "Water Gun", "Mist", "Protect"],
 			"nature":"Impish","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
-		,"Fortree Rival (Route 119)": {
+		,"May 4 w/ Treecko (Lilycove City)": {
+			"ability":"Keen Eye","level":32,
+			"moves":[ "Wing Attack", "Supersonic", "Mist", "Protect"],
+			"nature":"Bold","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"Brendan 3 w/ Treecko (Route 119)": {
 			"ability":"Keen Eye","level":29,
-			"moves":[ "Wing Attack", "Protect", "Supersonic", "Mist"],
-			"ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+			"moves":[ "Wing Attack", "Supersonic", "Mist", "Protect"],
+			"nature":"Hardy","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+		,"Brendan 4 w/ Treecko (Lilycove City)": {
+			"ability":"Keen Eye","level":32,
+			"moves":[ "Wing Attack", "Supersonic", "Mist", "Protect"],
+			"nature":"Bold","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"May 3 w/ Torchic (Route 119)": {
+			"ability":"Keen Eye","level":29,
+			"moves":[ "Wing Attack", "Supersonic", "Mist", "Protect"],
+			"nature":"Hardy","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+		,"May 4 w/ Torchic (Lilycove City)": {
+			"ability":"Keen Eye","level":32,
+			"moves":[ "Wing Attack", "Supersonic", "Mist", "Protect"],
+			"nature":"Naive","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"Brendan 3 w/ Torchic (Route 119)": {
+			"ability":"Keen Eye","level":29,
+			"moves":[ "Wing Attack", "Supersonic", "Mist", "Protect"],
+			"nature":"Docile","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+		,"Brendan 4 w/ Torchic (Lilycove City)": {
+			"ability":"Keen Eye","level":32,
+			"moves":[ "Wing Attack", "Supersonic", "Mist", "Protect"],
+			"nature":"Hasty","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
 		,"Leader Winona (Fortree Gym)": {
 			"ability":"Keen Eye","level":30,
 			"moves":[ "Aerial Ace", "Water Gun", "Supersonic", "Protect"],
@@ -2930,10 +3096,58 @@ var SETDEX_ADV = {
 			"nature":"Brave"}
 	}
 	,"Slugma": {
-		"Fortree Rival (Route 119)": {
+		"May 2 w/ Mudkip (Route 110)": {
+			"ability":"Magma Armor","level":18,
+			"moves":[ "Ember", "Yawn", "Smog", "Rock Throw"],
+			"nature":"Naughty","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"May 3 w/ Mudkip (Route 119)": {
 			"ability":"Magma Armor","level":29,
-			"moves":[ "Rock Throw", "Ember", "Harden", "Amnesia"],
+			"moves":[ "Ember", "Rock Throw", "Harden", "Amnesia"],
+			"nature":"Naughty","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+		,"May 4 w/ Mudkip (Lilycove City)": {
+			"ability":"Magma Armor","level":32,
+			"moves":[ "Ember", "Rock Throw", "Harden", "Amnesia"],
+			"nature":"Rash","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"Brendan 1.5 w/ Mudkip (Rustboro City)": {
+			"ability":"Magma Armor","level":13,
+			"moves":[ "Ember", "Smog", "Yawn"],
+			"nature":"Bold","ivs":{"hp":4,"at":4,"sa":4,"sp":4,"df":4,"sd":4}}
+		,"Brendan 2 w/ Mudkip (Route 110)": {
+			"ability":"Magma Armor","level":18,
+			"moves":[ "Ember", "Yawn", "Smog", "Rock Throw"],
+			"nature":"Lonely","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"Brendan 3 w/ Mudkip (Route 119)": {
+			"ability":"Magma Armor","level":29,
+			"moves":[ "Ember", "Rock Throw", "Harden", "Amnesia"],
+			"nature":"Lonely","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+		,"Brendan 4 w/ Mudkip (Lilycove City)": {
+			"ability":"Magma Armor","level":32,
+			"moves":[ "Ember", "Rock Throw", "Harden", "Amnesia"],
+			"nature":"Rash","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"May 2 w/ Treecko (Route 110)": {
+			"ability":"Magma Armor","level":18,
+			"moves":[ "Ember", "Yawn", "Smog", "Rock Throw"],
+			"nature":"Hardy","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"May 3 w/ Treecko (Route 119)": {
+			"ability":"Magma Armor","level":29,
+			"moves":[ "Ember", "Rock Throw", "Harden", "Amnesia"],
+			"nature":"Hasty","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+		,"May 4 w/ Treecko (Lilycove City)": {
+			"ability":"Magma Armor","level":32,
+			"moves":[ "Ember", "Rock Throw", "Harden", "Amnesia"],
+			"nature":"Jolly","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"Brendan 2 w/ Treecko (Route 110)": {
+			"ability":"Magma Armor","level":18,
+			"moves":[ "Ember", "Yawn", "Smog", "Rock Throw"],
+			"nature":"Bold","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"Brendan 3 w/ Treecko (Route 119)": {
+			"ability":"Magma Armor","level":29,
+			"moves":[ "Ember", "Rock Throw", "Harden", "Amnesia"],
 			"nature":"Bold","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+		,"Brendan 4 w/ Treecko (Lilycove City)": {
+			"ability":"Magma Armor","level":32,
+			"moves":[ "Ember", "Rock Throw", "Harden", "Amnesia"],
+			"nature":"Timid","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
 		,"Kindler Bernie (Route 114)": {
 			"ability":"Magma Armor","level":18,
 			"moves":[ "Yawn", "Smog", "Ember", "Rock Throw"],
@@ -2966,14 +3180,6 @@ var SETDEX_ADV = {
 			"ability":"Magma Armor","level":24,
 			"moves":[ "Smog", "Overheat", "Light Screen", "Sunny Day"],
 			"nature":"Calm","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
-		,"Lilycove Rival (Lilycove City)": {
-			"ability":"Magma Armor","level":32,
-			"moves":[ "Ember", "Rock Throw", "Harden", "Amnesia"],
-			"nature":"Timid","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
-		,"Slateport Rival (Route 110)": {
-			"ability":"Magma Armor","level":18,
-			"moves":[ "Yawn", "Smog", "Ember", "Rock Throw"],
-			"nature":"Bold","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
 	}
 	,"Solrock": {
 		"Cooltrainer Mitchell (Victory Road)": {
@@ -3395,8 +3601,30 @@ var SETDEX_ADV = {
 			"moves":[ "Constrict", "Acid", "Bubble Beam", "Wrap"],
 			"nature":"Naughty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
+	,"Torchic": {
+		"May 1 w/ Torchic (Route 103)": {
+			"ability":"Blaze","level":5,
+			"moves":[ "Scratch", "Growl"],
+			"nature":"Calm","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"May 1.5 w/ Torchic (Rustboro City)": {
+			"ability":"Blaze","level":15,
+			"moves":[ "Scratch", "Growl", "Focus Energy", "Ember"],
+			"nature":"Rash","ivs":{"hp":4,"at":4,"sa":4,"sp":4,"df":4,"sd":4}}
+		,"Brendan 1 w/ Torchic (Route 103)": {
+			"ability":"Blaze","level":5,
+			"moves":[ "Scratch", "Growl"],
+			"nature":"Naive","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"Brendan 1.5 w/ Torchic (Rustboro City)": {
+			"ability":"Blaze","level":15,
+			"moves":[ "Scratch", "Growl", "Focus Energy", "Ember"],
+			"nature":"Mild","ivs":{"hp":4,"at":4,"sa":4,"sp":4,"df":4,"sd":4}}
+	}
 	,"Torkoal": {
-		"Cooltrainer Michelle (Victory Road)": {
+		"May 1.5 w/ Mudkip (Rustboro City)": {
+			"ability":"White Smoke","level":13,
+			"moves":[ "Ember", "Smog", "Curse"],
+			"nature":"Mild","ivs":{"hp":4,"at":4,"sa":4,"sp":4,"df":4,"sd":4}}
+		,"Cooltrainer Michelle (Victory Road)": {
 			"ability":"White Smoke","level":42,
 			"moves":[ "Protect", "Flamethrower", "Iron Defense", "Amnesia"],
 			"nature":"Naive","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -3416,11 +3644,19 @@ var SETDEX_ADV = {
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Treecko": {
-		"Littleroot Rival (Route 103)": {
+		"May 1 w/ Treecko (Route 103)": {
+			"ability":"Overgrow","level":5,
+			"moves":[ "Pound", "Leer"],
+			"nature":"Lonely","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"May 1.5 w/ Treecko (Rustboro City)": {
+			"ability":"Overgrow","level":15,
+			"moves":[ "Pound", "Leer", "Absorb", "Quick Attack"],
+			"nature":"Impish","ivs":{"hp":4,"at":4,"sa":4,"sp":4,"df":4,"sd":4}}
+		,"Brendan 1 w/ Treecko (Route 103)": {
 			"ability":"Overgrow","level":5,
 			"moves":[ "Pound", "Leer"],
 			"nature":"Calm","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"Rustboro Rival (Rustboro City)": {
+		,"Brendan 1.5 w/ Treecko (Rustboro City)": {
 			"ability":"Overgrow","level":15,
 			"moves":[ "Pound", "Leer", "Absorb", "Quick Attack"],
 			"nature":"Bold","ivs":{"hp":4,"at":4,"sa":4,"sp":4,"df":4,"sd":4}}
@@ -3454,9 +3690,29 @@ var SETDEX_ADV = {
 			"ability":"Chlorophyll","level":29,
 			"moves":[ "Solar Beam", "Aerial Ace", "Sunny Day", "Synthesis"],
 			"nature":"Impish","ivs":{"hp":25,"at":25,"sa":25,"sp":25,"df":25,"sd":25}}
-		,"Lilycove Rival (Lilycove City)": {
+		,"May 4 w/ Mudkip (Lilycove City)": {
 			"ability":"Chlorophyll","level":31,
-			"moves":[ "Stomp", "Sweet Scent", "Whirlwind", "Magical Leaf"],
+			"moves":[ "Stomp", "Magical Leaf", "Sweet Scent", "Whirlwind"],
+			"nature":"Sassy","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"Brendan 4 w/ Mudkip (Lilycove City)": {
+			"ability":"Chlorophyll","level":31,
+			"moves":[ "Stomp", "Magical Leaf", "Sweet Scent", "Whirlwind"],
+			"nature":"Mild","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"May 4 w/ Treecko (Lilycove City)": {
+			"ability":"Chlorophyll","level":31,
+			"moves":[ "Stomp", "Magical Leaf", "Sweet Scent", "Whirlwind"],
+			"nature":"Sassy","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"Brendan 4 w/ Treecko (Lilycove City)": {
+			"ability":"Chlorophyll","level":31,
+			"moves":[ "Stomp", "Magical Leaf", "Sweet Scent", "Whirlwind"],
+			"nature":"Mild","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"May 4 w/ Torchic (Lilycove City)": {
+			"ability":"Chlorophyll","level":31,
+			"moves":[ "Stomp", "Magical Leaf", "Sweet Scent", "Whirlwind"],
+			"nature":"Sassy","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"Brendan 4 w/ Torchic (Lilycove City)": {
+			"ability":"Chlorophyll","level":31,
+			"moves":[ "Stomp", "Magical Leaf", "Sweet Scent", "Whirlwind"],
 			"nature":"Mild","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
 		,"Pokémon Breeder Myles (Route 121)": {
 			"ability":"Chlorophyll","level":25,
@@ -3677,10 +3933,14 @@ var SETDEX_ADV = {
 			"ability":"Keen Eye","level":25,
 			"moves":[ "Water Gun", "Supersonic", "Wing Attack", "Mist"],
 			"nature":"Mild","ivs":{"hp":1,"at":1,"sa":1,"sp":1,"df":1,"sd":1}}
-		,"Rustboro Rival (Rustboro City)": {
+		,"May 1.5 w/ Treecko (Rustboro City)": {
 			"ability":"Keen Eye","level":13,
-			"moves":[ "Growl", "Water Gun", "Supersonic", "Wing Attack"],
-			"nature":"Gentle","ivs":{"hp":2,"at":2,"sa":2,"sp":2,"df":2,"sd":2}}
+			"moves":[ "Water Gun", "Growl", "Supersonic", "Wing Attack"],
+			"nature":"Brave","ivs":{"hp":4,"at":4,"sa":4,"sp":4,"df":4,"sd":4}}
+		,"Brendan 1.5 w/ Treecko (Rustboro City)": {
+			"ability":"Keen Eye","level":13,
+			"moves":[ "Water Gun", "Growl", "Supersonic", "Wing Attack"],
+			"nature":"Calm","ivs":{"hp":4,"at":4,"sa":4,"sp":4,"df":4,"sd":4}}
 		,"Sailor Cory (Route 108)": {
 			"ability":"Keen Eye","level":24,
 			"moves":[ "Water Gun", "Supersonic", "Wing Attack", "Mist"],
@@ -3709,10 +3969,22 @@ var SETDEX_ADV = {
 			"ability":"Keen Eye","level":33,
 			"moves":[ "Supersonic", "Wing Attack", "Mist", "Quick Attack"],
 			"nature":"Bold","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"Slateport Rival (Route 110)": {
+		,"May 2 w/ Treecko (Route 110)": {
 			"ability":"Keen Eye","level":18,
-			"moves":[ "Growl", "Water Gun", "Supersonic", "Wing Attack"],
+			"moves":[ "Water Gun", "Wing Attack", "Supersonic", "Growl"],
+			"nature":"Brave","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"Brendan 2 w/ Treecko (Route 110)": {
+			"ability":"Keen Eye","level":18,
+			"moves":[ "Water Gun", "Wing Attack", "Supersonic", "Growl"],
 			"nature":"Modest","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"May 2 w/ Torchic (Route 110)": {
+			"ability":"Keen Eye","level":18,
+			"moves":[ "Water Gun", "Wing Attack", "Supersonic", "Growl"],
+			"nature":"Brave","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"Brendan 2 w/ Torchic (Route 110)": {
+			"ability":"Keen Eye","level":18,
+			"moves":[ "Water Gun", "Wing Attack", "Supersonic", "Growl"],
+			"nature":"Gentle","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
 		,"Swimmer Alice (Route 109 Surf)": {
 			"ability":"Keen Eye","level":24,
 			"moves":[ "Water Gun", "Supersonic", "Wing Attack", "Mist"],
