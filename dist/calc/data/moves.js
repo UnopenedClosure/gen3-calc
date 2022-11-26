@@ -450,12 +450,7 @@ var ADV_PATCH = {
     'Vise Grip': { makesContact: true },
     'Vital Throw': { makesContact: true },
     'Wing Attack': { makesContact: true },
-    'Arm Thrust': {
-        bp: 15,
-        type: 'Fighting',
-        multihit: [2, 5],
-        makesContact: true
-    },
+    'Arm Thrust': { bp: 15, type: 'Fighting', multihit: [2, 5], makesContact: true },
     Assist: { bp: 0, category: 'Status', type: 'Normal' },
     Astonish: { bp: 30, type: 'Ghost', makesContact: true },
     Block: { bp: 0, category: 'Status', type: 'Normal' },
