@@ -8,6 +8,10 @@ var SETDEX_ADV = {
 			"ability":"Synchronize","level":16,
 			"moves":[ "Hidden Power"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[FRLG] Rival 2 w/ Bulbasaur (Route 24)": {
+			"ability":"Synchronize","level":16,
+			"moves":[ "Teleport"],
+			"nature":"Lax","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
 		,"[FRLG] Rival 2 w/ Squirtle (Route 24)": {
 			"ability":"Synchronize","level":16,
 			"moves":[ "Teleport"],
@@ -49,6 +53,10 @@ var SETDEX_ADV = {
 			"nature":"Modest","evs":{"hp":104,"df":152,"sa":100,"sp":152},
 			"ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24},
 			"moves":[ "Fire Punch", "Thunder Punch", "Ice Punch", "Disable"]}
+		,"[FRLG] Rival 5 w/ Bulbasaur (Silph Co.)": {
+			"ability":"Synchronize","level":35,
+			"moves":[ "Reflect", "Recover", "Future Sight", "Calm Mind"],
+			"nature":"Lonely","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
 		,"[FRLG] Rival 5 w/ Squirtle (Silph Co.)": {
 			"ability":"Synchronize","level":35,
 			"moves":[ "Reflect", "Recover", "Future Sight", "Calm Mind"],
@@ -57,14 +65,26 @@ var SETDEX_ADV = {
 			"ability":"Synchronize","level":43,
 			"moves":[ "Psychic", "Recover", "Future Sight", "Calm Mind"],
 			"nature":"Adamant","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[FRLG] Rival 6 w/ Bulbasaur (Route 22)": {
+			"ability":"Synchronize","level":47,
+			"moves":[ "Psychic", "Calm Mind", "Future Sight", "Disable"],
+			"nature":"Calm","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
 		,"[FRLG] Rival 6 w/ Squirtle (Route 22)": {
 			"ability":"Synchronize","level":47,
 			"moves":[ "Psychic", "Calm Mind", "Future Sight", "Disable"],
 			"nature":"Adamant","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"[FRLG] Champ 1 w/ Bulbasaur (Indigo Plateau)": {
+			"ability":"Synchronize","level":57,
+			"moves":[ "Psychic", "Future Sight", "Recover", "Reflect"],
+			"nature":"Calm"}
 		,"[FRLG] Champ 1 w/ Squirtle (Indigo Plateau)": {
 			"ability":"Synchronize","level":57,
 			"moves":[ "Psychic", "Future Sight", "Recover", "Reflect"],
 			"nature":"Calm"}
+		,"[FRLG] Champ 2 w/ Bulbasaur (Indigo Plateau)": {
+			"ability":"Synchronize","level":73,
+			"moves":[ "Psychic", "Shadow Ball", "Calm Mind", "Reflect"],
+			"nature":"Relaxed"}
 		,"[FRLG] Champ 2 w/ Squirtle (Indigo Plateau)": {
 			"ability":"Synchronize","level":73,
 			"moves":[ "Psychic", "Shadow Ball", "Calm Mind", "Reflect"],
@@ -146,10 +166,18 @@ var SETDEX_ADV = {
 			"ability":"Intimidate","level":42,
 			"moves":[ "Flame Wheel", "Roar", "Bite", "Take Down"],
 			"nature":"Quiet","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+		,"[FRLG] Champ 1 w/ Bulbasaur (Indigo Plateau)": {
+			"ability":"Intimidate","level":61,
+			"moves":[ "Extreme Speed", "Flamethrower", "Roar", "Bite"],
+			"nature":"Rash"}
 		,"[FRLG] Champ 1 w/ Squirtle (Indigo Plateau)": {
 			"ability":"Intimidate","level":59,
 			"moves":[ "Extreme Speed", "Flamethrower", "Roar", "Bite"],
 			"nature":"Bold"}
+		,"[FRLG] Champ 2 w/ Bulbasaur (Indigo Plateau)": {
+			"ability":"Intimidate","level":73,
+			"moves":[ "Extreme Speed", "Overheat", "Aerial Ace", "Iron Tail"],
+			"nature":"Docile"}
 		,"[FRLG] Champ 2 w/ Squirtle (Indigo Plateau)": {
 			"ability":"Intimidate","level":73,
 			"moves":[ "Extreme Speed", "Overheat", "Aerial Ace", "Iron Tail"],
@@ -493,7 +521,19 @@ var SETDEX_ADV = {
 			"moves":[ "Focus Punch", "Giga Drain", "Headbutt", "Spore"]}
 	}
 	,"Bulbasaur": {
-		"[FRLG] Picknicker Martha (Rock Tunnel)": {
+		"[FRLG] Rival 1 w/ Bulbasaur (Pallet Town)": {
+			"ability":"Overgrow","level":5,
+			"moves":[ "Tackle", "Growl"],
+			"nature":"Impish","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[FRLG] Rival 1.5 w/ Bulbasaur (Route 22)": {
+			"ability":"Overgrow","level":9,
+			"moves":[ "Tackle", "Growl"],
+			"nature":"Gentle","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"[FRLG] Rival 2 w/ Bulbasaur (Route 24)": {
+			"ability":"Overgrow","level":18,
+			"moves":[ "Sleep Powder", "Poison Powder", "Vine Whip", "Leech Seed"],
+			"ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[FRLG] Picknicker Martha (Rock Tunnel)": {
 			"ability":"Overgrow","level":22,
 			"moves":[ "Vine Whip", "Poison Powder", "Sleep Powder", "Razor Leaf"],
 			"nature":"Calm","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -2362,10 +2402,18 @@ var SETDEX_ADV = {
 			"ability":"Intimidate","level":24,
 			"moves":[ "Roar", "Ember", "Leer", "Odor Sleuth"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[FRLG] Rival 4 w/ Bulbasaur (Pokémon Tower)": {
+			"ability":"Intimidate","level":22,
+			"moves":[ "Roar", "Ember", "Leer", "Odor Sleuth"],
+			"nature":"Careful","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
 		,"[FRLG] Rival 4 w/ Squirtle (Pokémon Tower)": {
 			"ability":"Intimidate","level":23,
 			"moves":[ "Roar", "Ember", "Leer", "Odor Sleuth"],
 			"nature":"Lax","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+		,"[FRLG] Rival 5 w/ Bulbasaur (Silph Co.)": {
+			"ability":"Intimidate","level":35,
+			"moves":[ "Leer", "Odor Sleuth", "Take Down", "Flame Wheel"],
+			"nature":"Docile","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
 		,"[FRLG] Rival 5 w/ Squirtle (Silph Co.)": {
 			"ability":"Intimidate","level":38,
 			"moves":[ "Odor Sleuth", "Take Down", "Flame Wheel", "Helping Hand"],
@@ -2394,6 +2442,10 @@ var SETDEX_ADV = {
 			"ability":"Intimidate","level":42,
 			"moves":[ "Bite", "Roar", "Take Down", "Fire Blast"],
 			"nature":"Hasty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[FRLG] Rival 6 w/ Bulbasaur (Route 22)": {
+			"ability":"Intimidate","level":45,
+			"moves":[ "Flame Wheel", "Take Down", "Leer", "Agility"],
+			"ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
 		,"[FRLG] Rival 6 w/ Squirtle (Route 22)": {
 			"ability":"Intimidate","level":45,
 			"moves":[ "Flame Wheel", "Take Down", "Leer", "Agility"],
@@ -2458,10 +2510,26 @@ var SETDEX_ADV = {
 			"level":50,"ability":"Intimidate","item":"Chesto Berry",
 			"nature":"Adamant","evs":{"hp":252,"at":4,"sd":252},
 			"moves":[ "Return", "Dragon Dance", "Roar", "Rest"]}
+		,"[FRLG] Rival 4 w/ Bulbasaur (Pokémon Tower)": {
+			"ability":"Intimidate","level":23,
+			"moves":[ "Thrash", "Bite"],
+			"nature":"Docile","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[FRLG] Rival 5 w/ Bulbasaur (Silph Co.)": {
+			"ability":"Intimidate","level":38,
+			"moves":[ "Bite", "Dragon Rage", "Leer", "Twister"],
+			"nature":"Naive","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[FRLG] Rival 6 w/ Bulbasaur (Route 22)": {
+			"ability":"Intimidate","level":45,
+			"moves":[ "Hydro Pump", "Twister", "Leer", "Rain Dance"],
+			"nature":"Impish","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
 		,"[FRLG] Lance 1 (Indigo Plateau)": {
 			"ability":"Intimidate","level":56,
 			"moves":[ "Hyper Beam", "Dragon Rage", "Twister", "Bite"],
 			"nature":"Rash","ivs":{"hp":30,"at":30,"sa":30,"sp":30,"df":30,"sd":30}}
+		,"[FRLG] Champ 1 w/ Bulbasaur (Indigo Plateau)": {
+			"ability":"Intimidate","level":59,
+			"moves":[ "Hydro Pump", "Dragon Rage", "Bite", "Thrash"],
+			"nature":"Bold"}
 		,"[FRLG] Swimmer Samir (Water Path)": {
 			"ability":"Intimidate","level":50,
 			"moves":[ "Twister", "Hydro Pump", "Rain Dance", "Dragon Dance"],
@@ -2470,6 +2538,10 @@ var SETDEX_ADV = {
 			"ability":"Intimidate","level":68,
 			"moves":[ "Hyper Beam", "Dragon Dance", "Earthquake", "Thunder Wave"],
 			"nature":"Rash"}
+		,"[FRLG] Champ 2 w/ Bulbasaur (Indigo Plateau)": {
+			"ability":"Intimidate","level":73,
+			"moves":[ "Hydro Pump", "Dragon Dance", "Earthquake", "Hyper Beam"],
+			"nature":"Quiet"}
 	}
 	,"Hariyama": {
 		"[Em] Batle Girl Reyna (Route 134)": {
@@ -2537,6 +2609,10 @@ var SETDEX_ADV = {
 			"ability":"Swarm","level":50,
 			"moves":[ "Brick Break", "Counter", "Take Down", "Reversal"],
 			"nature":"Timid","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[FRLG] Champ 2 w/ Bulbasaur (Indigo Plateau)": {
+			"ability":"Swarm","level":72,
+			"moves":[ "Megahorn", "Earthquake", "Counter", "Rock Tomb"],
+			"nature":"Serious"}
 		,"[FRLG] Champ 2 w/ Squirtle (Indigo Plateau)": {
 			"ability":"Swarm","level":72,
 			"moves":[ "Megahorn", "Earthquake", "Counter", "Rock Tomb"]}
@@ -2778,7 +2854,15 @@ var SETDEX_ADV = {
 			"nature":"Modest","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Ivysaur": {
-		"[FRLG] Cooltrainer Mary (Celadon Gym)": {
+		"[FRLG] Rival 3 w/ Bulbasaur (S.S. Anne)": {
+			"ability":"Overgrow","level":20,
+			"moves":[ "Leech Seed", "Vine Whip", "Poison Powder", "Sleep Powder"],
+			"nature":"Serious","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[FRLG] Rival 4 w/ Bulbasaur (Pokémon Tower)": {
+			"ability":"Overgrow","level":25,
+			"moves":[ "Vine Whip", "Poison Powder", "Sleep Powder", "Razor Leaf"],
+			"nature":"Relaxed","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[FRLG] Cooltrainer Mary (Celadon Gym)": {
 			"ability":"Overgrow","level":22,
 			"moves":[ "Razor Leaf", "Sleep Powder", "Vine Whip", "Leech Seed"],
 			"nature":"Relaxed","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -2868,10 +2952,18 @@ var SETDEX_ADV = {
 			"ability":"Synchronize","level":36,
 			"moves":[ "Recover", "Future Sight", "Role Play", "Psychic"],
 			"nature":"Naive","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+		,"[FRLG] Rival 3 w/ Bulbasaur (S.S. Anne)": {
+			"ability":"Synchronize","level":18,
+			"moves":[ "Teleport", "Kinesis", "Confusion", "Disable"],
+			"nature":"Naive","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
 		,"[FRLG] Rival 3 w/ Squirtle (S.S. Anne)": {
 			"ability":"Synchronize","level":18,
 			"moves":[ "Teleport", "Kinesis", "Confusion", "Disable"],
 			"nature":"Naive","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"[FRLG] Rival 4 w/ Bulbasaur (Pokémon Tower)": {
+			"ability":"Synchronize","level":20,
+			"moves":[ "Teleport", "Kinesis", "Confusion", "Disable"],
+			"nature":"Lax","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
 		,"[FRLG] Rival 4 w/ Squirtle (Pokémon Tower)": {
 			"ability":"Synchronize","level":20,
 			"moves":[ "Teleport", "Kinesis", "Confusion", "Disable"],
@@ -5520,24 +5612,43 @@ var SETDEX_ADV = {
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Pidgeot": {
-		"[FRLG] Rival 5 w/ Squirtle (Silph Co.)": {
+		"[FRLG] Rival 5 w/ Bulbasaur (Silph Co.)": {
+			"ability":"Keen Eye","level":37,
+			"moves":[ "Quick Attack", "Whirlwind", "Wing Attack", "Feather Dance"],
+			"ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[FRLG] Rival 5 w/ Squirtle (Silph Co.)": {
 			"ability":"Keen Eye","level":37,
 			"moves":[ "Quick Attack", "Whirlwind", "Wing Attack", "Feather Dance"],
 			"ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+		,"[FRLG] Rival 6 w/ Bulbasaur (Route 22)": {
+			"ability":"Keen Eye","level":47,
+			"moves":[ "Feather Dance", "Wing Attack", "Gust", "Quick Attack"],
+			"ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
 		,"[FRLG] Rival 6 w/ Squirtle (Route 22)": {
 			"ability":"Keen Eye","level":47,
 			"moves":[ "Feather Dance", "Wing Attack", "Gust", "Quick Attack"],
 			"ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"[FRLG] Champ 1 w/ Bulbasaur (Indigo Plateau)": {
+			"ability":"Keen Eye","level":59,
+			"moves":[ "Aerial Ace", "Feather Dance", "Sand Attack", "Whirlwind"]}
 		,"[FRLG] Champ 1 w/ Squirtle (Indigo Plateau)": {
 			"ability":"Keen Eye","level":59,
 			"moves":[ "Aerial Ace", "Feather Dance", "Sand Attack", "Whirlwind"],
-			}
+		}
 	}
 	,"Pidgeotto": {
-		"[FRLG] Rival 2 w/ Squirtle (Route 24)": {
+		"[FRLG] Rival 2 w/ Bulbasaur (Route 24)": {
+			"ability":"Keen Eye","level":17,
+			"moves":[ "Tackle", "Sand Attack", "Gust", "Quick Attack"],
+			"nature":"Quiet","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[FRLG] Rival 2 w/ Squirtle (Route 24)": {
 			"ability":"Keen Eye","level":17,
 			"moves":[ "Tackle", "Sand Attack", "Gust", "Quick Attack"],
 			"nature":"Quiet","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"[FRLG] Rival 3 w/ Bulbasaur (S.S. Anne)": {
+			"ability":"Keen Eye","level":19,
+			"moves":[ "Tackle", "Sand Attack", "Gust", "Quick Attack"],
+			"nature":"Quiet","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
 		,"[FRLG] Rival 3 w/ Squirtle (S.S. Anne)": {
 			"ability":"Keen Eye","level":19,
 			"moves":[ "Tackle", "Sand Attack", "Gust", "Quick Attack"],
@@ -5546,6 +5657,10 @@ var SETDEX_ADV = {
 			"ability":"Keen Eye","level":21,
 			"moves":[ "Sand Attack", "Gust", "Quick Attack", "Whirlwind"],
 			"nature":"Calm","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[FRLG] Rival 4 w/ Bulbasaur (Pokémon Tower)": {
+			"ability":"Keen Eye","level":25,
+			"moves":[ "Sand Attack", "Gust", "Quick Attack", "Whirlwind"],
+			"nature":"Quiet","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
 		,"[FRLG] Rival 4 w/ Squirtle (Pokémon Tower)": {
 			"ability":"Keen Eye","level":25,
 			"moves":[ "Sand Attack", "Gust", "Quick Attack", "Whirlwind"],
@@ -5592,7 +5707,11 @@ var SETDEX_ADV = {
 			"nature":"Naughty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Pidgey": {
-		"[FRLG] Rival 1.5 w/ Squirtle (Route 22)": {
+		"[FRLG] Rival 1.5 w/ Bulbasaur (Route 22)": {
+			"ability":"Keen Eye","level":9,
+			"moves":[ "Tackle", "Sand Attack"],
+			"nature":"Quirky","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"[FRLG] Rival 1.5 w/ Squirtle (Route 22)": {
 			"ability":"Keen Eye","level":9,
 			"moves":[ "Tackle", "Sand Attack"],
 			"ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
@@ -6144,6 +6263,10 @@ var SETDEX_ADV = {
 			"ability":"Run Away","level":17,
 			"moves":[ "Tackle", "Tail Whip", "Quick Attack", "Hyper Fang"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[FRLG] Rival 3 w/ Bulbasaur (S.S. Anne)": {
+			"ability":"Run Away","level":16,
+			"moves":[ "Tackle", "Tail Whip", "Quick Attack", "Hyper Fang"],
+			"nature":"Adamant","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
 		,"[FRLG] Rival 3 w/ Squirtle (S.S. Anne)": {
 			"ability":"Run Away","level":16,
 			"moves":[ "Tackle", "Tail Whip", "Quick Attack", "Hyper Fang"],
@@ -6254,6 +6377,10 @@ var SETDEX_ADV = {
 			"ability":"Run Away","level":13,
 			"moves":[ "Tackle", "Tail Whip", "Quick Attack", "Hyper Fang"],
 			"nature":"Rash","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[FRLG] Rival 2 w/ Bulbasaur (Route 24)": {
+			"ability":"Run Away","level":15,
+			"moves":[ "Tackle", "Tail Whip", "Quick Attack"],
+			"nature":"Adamant","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
 		,"[FRLG] Rival 2 w/ Squirtle (Route 24)": {
 			"ability":"Run Away","level":15,
 			"moves":[ "Tackle", "Tail Whip", "Quick Attack"],
@@ -6377,7 +6504,11 @@ var SETDEX_ADV = {
 			"moves":[ "Metal Claw", "Earthquake", "Iron Defense", "Toxic"]}
 	}
 	,"Rhydon": {
-		"[FRLG] Champ 1 w/ Squirtle (Indigo Plateau)": {
+		"[FRLG] Champ 1 w/ Bulbasaur (Indigo Plateau)": {
+			"ability":"Lightning Rod","level":59,
+			"moves":[ "Take Down", "Earthquake", "Rock Tomb", "Scary Face"],
+			"nature":"Mild"}
+		,"[FRLG] Champ 1 w/ Squirtle (Indigo Plateau)": {
 			"ability":"Lightning Rod","level":59,
 			"moves":[ "Take Down", "Earthquake", "Rock Tomb", "Scary Face"],
 			"nature":"Mild"}
@@ -6423,6 +6554,10 @@ var SETDEX_ADV = {
 			"ability":"Lightning Rod","level":50,
 			"moves":[ "Take Down", "Rock Blast", "Scary Face", "Earthquake"],
 			"nature":"Sassy","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[FRLG] Rival 6 w/ Bulbasaur (Route 22)": {
+			"ability":"Lightning Rod","level":45,
+			"moves":[ "Take Down", "Horn Drill", "Rock Blast", "Fury Attack"],
+			"nature":"Rash","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
 		,"[FRLG] Rival 6 w/ Squirtle (Route 22)": {
 			"ability":"Lightning Rod","level":45,
 			"moves":[ "Take Down", "Horn Drill", "Rock Blast", "Fury Attack"],
@@ -8280,7 +8415,11 @@ var SETDEX_ADV = {
 			"nature":"Timid","ivs":{"hp":1,"at":1,"sa":1,"sp":1,"df":1,"sd":1}}
 	}
 	,"Tyranitar": {
-		"[FRLG] Champ 2 w/ Squirtle (Indigo Plateau)": {
+		"[FRLG] Champ 2 w/ Bulbasaur (Indigo Plateau)": {
+			"ability":"Sand Stream","level":72,
+			"moves":[ "Crunch", "Earthquake", "Thunderbolt", "Aerial Ace"],
+			"nature":"Adamant"}
+		,"[FRLG] Champ 2 w/ Squirtle (Indigo Plateau)": {
 			"ability":"Sand Stream","level":72,
 			"moves":[ "Crunch", "Earthquake", "Thunderbolt", "Aerial Ace"],
 			"nature":"Adamant"}
@@ -8325,6 +8464,24 @@ var SETDEX_ADV = {
 			"ability":"Compound Eyes","level":48,
 			"moves":[ "Stun Spore", "Psybeam", "Sleep Powder", "Psychic"],
 			"nature":"Rash","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+	}
+	,"Venusaur": {
+		"[FRLG] Champ 1 w/ Bulbasaur (Indigo Plateau)": {
+			"ability":"Overgrow","level":63,"item":"Sitrus Berry",
+			"moves":[ "Solar Beam", "Synthesis", "Sunny Day", "Growth"],
+			"nature":"Rash"}
+		,"[FRLG] Champ 2 w/ Bulbasaur (Indigo Plateau)": {
+			"ability":"Overgrow","level":75,"item":"Sitrus Berry",
+			"moves":[ "Solar Beam", "Sludge Bomb", "Earthquake", "Sunny Day"],
+			"nature":"Docile"}
+		,"[FRLG] Rival 5 w/ Bulbasaur (Silph Co.)": {
+			"ability":"Overgrow","level":40,
+			"moves":[ "Poison Powder", "Sleep Powder", "Razor Leaf", "Sweet Scent"],
+			"nature":"Lonely","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[FRLG] Rival 6 w/ Bulbasaur (Route 22)": {
+			"ability":"Overgrow","level":53,
+			"moves":[ "Razor Leaf", "Sweet Scent", "Growth", "Synthesis"],
+			"nature":"Calm","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
 	}
 	,"Victreebel": {
 		"[FRLG] Leader Erika (Celadon Gym)": {
