@@ -157,7 +157,7 @@ var SETDEX_ADV = {
 		"[Em] Palace Maven Spenser (Gold Symbol)": {
 			"level":50,"ability":"Intimidate","item":"White Herb",
 			"nature":"Hasty","evs":{"hp":4,"at":252,"df":252},
-			"moves":[ "Overheat", "Extreme Speed", "Protect", "Roar"]
+			"moves":[ "Overheat", "Extreme Speed", "Protect", "Roar"]}
 		,"[FRLG] Leader Blaine (Cinnabar Gym)": {
 			"ability":"Intimidate","level":47,
 			"moves":[ "Bite", "Roar", "Take Down", "Fire Blast"],
@@ -181,7 +181,7 @@ var SETDEX_ADV = {
 		,"[FRLG] Champ 2 w/ Squirtle (Indigo Plateau)": {
 			"ability":"Intimidate","level":73,
 			"moves":[ "Extreme Speed", "Overheat", "Aerial Ace", "Iron Tail"],
-			"nature":"Quiet"}}
+			"nature":"Quiet"}
 	}
 	,"Armaldo": {
 		"[Em] PKMN Trainer Steven (Meteor Falls)": {
