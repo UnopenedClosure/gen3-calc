@@ -1,6 +1,10 @@
 var SETDEX_ADV = {
 	"Abra": {
-		"[Em] Psychic Edward (Route 110)": {
+		"[RuSa] Psychic Edward (Route 110)": {
+			"ability":"Synchronize","level":16,
+			"moves":[ "Hidden Power"],
+			"nature":"Impish","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Psychic Edward (Route 110)": {
 			"ability":"Synchronize","level":15,
 			"moves":[ "Hidden Power"],
 			"nature":"Impish","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -18,7 +22,10 @@ var SETDEX_ADV = {
 			"nature":"Lax","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
 	}
 	,"Absol": {
-		"[Em] Cooltrainer Halle (Victory Road)": {
+		"[RuSa] Elite Four Sidney (Pokémon League)": {
+			"ability":"Pressure","level":49,"item":"Sitrus Berry",
+			"moves":[ "Aerial Ace", "Snatch", "Swords Dance", "Slash"],}
+		,"[Em] Cooltrainer Halle (Victory Road)": {
 			"ability":"Pressure","level":43,
 			"moves":[ "Swords Dance", "Double Team", "Slash", "Future Sight"],
 			"nature":"Hasty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -42,7 +49,11 @@ var SETDEX_ADV = {
 			"nature":"Gentle"}
 	}
 	,"Aggron": {
-		"[Em] PKMN Trainer Steven (Meteor Falls)": {
+		"[RuSa] Champion Steven (Pokémon League)": {
+			"ability":"Sturdy","level":56,
+			"moves":[ "Thunder", "Earthquake", "Solar Beam", "Dragon Claw"],
+			"nature":"Naive",}
+		,"[Em] PKMN Trainer Steven (Meteor Falls)": {
 			"ability":"Sturdy","level":76,
 			"moves":[ "Thunder", "Earthquake", "Solar Beam", "Dragon Claw"],
 			"nature":"Naive"}
@@ -91,7 +102,27 @@ var SETDEX_ADV = {
 			"nature":"Relaxed"}
 	}
 	,"Altaria": {
-		"[Em] Dragon Tamer Nicolas (Meteor Falls) [1]": {
+		"[RuSa] Dragon Tamer Nicolas (Meteor Falls) [1]": {
+			"ability":"Natural Cure","level":38,
+			"moves":[ "Safeguard", "Mist", "Take Down", "Dragon Breath"],
+			"nature":"Calm","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Dragon Tamer Nicolas (Meteor Falls) [2]": {
+			"ability":"Natural Cure","level":38,
+			"moves":[ "Safeguard", "Mist", "Take Down", "Dragon Breath"],
+			"nature":"Naughty","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Elite Four Drake (Pokémon League)": {
+			"ability":"Natural Cure","level":54,
+			"moves":[ "Take Down", "Dragon Breath", "Dragon Dance", "Refresh"],
+			"nature":"Modest","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[RuSa] Leader Winona (Fortree Gym)": {
+			"ability":"Natural Cure","level":33,
+			"moves":[ "Earthquake", "Dragon Breath", "Dragon Dance", "Aerial Ace"],
+			"nature":"Hasty","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[RuSa] PKMN Trainer Wally (Victory Road)": {
+			"ability":"Natural Cure","level":44,
+			"moves":[ "Aerial Ace", "Safeguard", "Dragon Breath", "Dragon Dance"],
+			"nature":"Jolly","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[Em] Dragon Tamer Nicolas (Meteor Falls) [1]": {
 			"ability":"Natural Cure","level":37,
 			"moves":[ "Safeguard", "Mist", "Take Down", "Dragon Breath"],
 			"nature":"Calm","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -162,7 +193,7 @@ var SETDEX_ADV = {
 			"ability":"Intimidate","level":47,
 			"moves":[ "Bite", "Roar", "Take Down", "Fire Blast"],
 			"nature":"Quiet","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Cooltrainer George (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer George (Victory Road)": {
 			"ability":"Intimidate","level":42,
 			"moves":[ "Flame Wheel", "Roar", "Bite", "Take Down"],
 			"nature":"Quiet","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -184,13 +215,33 @@ var SETDEX_ADV = {
 			"nature":"Quiet"}
 	}
 	,"Armaldo": {
-		"[Em] PKMN Trainer Steven (Meteor Falls)": {
+		"[RuSa] Champion Steven (Pokémon League)": {
+			"ability":"Battle Armor","level":56,
+			"moves":[ "Water Pulse", "Ancient Power", "Aerial Ace", "Slash"],
+			"nature":"Mild",}
+		,"[Em] PKMN Trainer Steven (Meteor Falls)": {
 			"ability":"Battle Armor","level":76,
 			"moves":[ "Water Pulse", "Aerial Ace", "Ancient Power", "Slash"],
 			"nature":"Mild"}
 	}
 	,"Aron": {
-		"[Em] Pokémaniac Wyatt (Route 113) [1]": {
+		"[RuSa] Pokémaniac Steve (Route 114)": {
+			"ability":"Sturdy","level":20,
+			"moves":[ "Mud-Slap", "Headbutt", "Metal Claw", "Iron Defense"],
+			"nature":"Rash","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Pokémon Breeder Isaac (Route 117)": {
+			"ability":"Sturdy","level":12,
+			"moves":[ "Tackle", "Harden", "Mud-Slap", "Headbutt"],
+			"nature":"Naive","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Youngster Dillon (Route 113)": {
+			"ability":"Sturdy","level":20,
+			"moves":[ "Mud-Slap", "Headbutt", "Metal Claw", "Iron Defense"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Youngster Timmy (Route 110)": {
+			"ability":"Sturdy","level":16,
+			"moves":[ "Harden", "Mud-Slap", "Headbutt", "Metal Claw"],
+			"nature":"Naive","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Pokémaniac Wyatt (Route 113) [1]": {
 			"ability":"Sturdy","level":18,
 			"moves":[ "Mud-Slap", "Headbutt", "Metal Claw", "Iron Defense"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -226,7 +277,31 @@ var SETDEX_ADV = {
 			"moves":[ "Blizzard", "Aerial Ace", "Water Pulse", "Reflect"]}
 	}
 	,"Azumarill": {
-		"[Em] Beauty Bridget (Sootopolis Gym)": {
+		"[RuSa] Beauty Bridget (Sootopolis Gym)": {
+			"ability":"Thick Fat","level":41,
+			"moves":[ "Water Gun", "Rollout", "Bubble Beam", "Double-Edge"],
+			"nature":"Rash","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Alexa (Route 128)": {
+			"ability":"Thick Fat","level":35,
+			"moves":[ "Water Gun", "Rollout", "Bubble Beam", "Double-Edge"],
+			"nature":"Calm","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Pokéfan Marissa (Sootopolis Gym)": {
+			"ability":"Thick Fat","level":40,"item":"Oran Berry",
+			"moves":[ "Water Gun", "Rollout", "Bubble Beam", "Double-Edge"],
+			"nature":"Timid","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Rich Boy Garret (S.S. Tidal Rooms)": {
+			"ability":"Thick Fat","level":45,"item":"Nugget",
+			"moves":[ "Rollout", "Bubble Beam", "Double-Edge", "Rain Dance"],
+			"nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Sis and Bro Reli & Ian (Route 131)": {
+			"ability":"Thick Fat","level":36,
+			"moves":[ "Water Gun", "Rollout", "Bubble Beam", "Double-Edge"],
+			"nature":"Modest","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Dana (Route 132)": {
+			"ability":"Thick Fat","level":33,
+			"moves":[ "Tail Whip", "Water Gun", "Rollout", "Bubble Beam"],
+			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Beauty Bridget (Sootopolis Gym)": {
 			"ability":"Thick Fat","level":40,
 			"moves":[ "Water Gun", "Rollout", "Bubble Beam", "Double-Edge"],
 			"nature":"Rash","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
@@ -246,13 +321,29 @@ var SETDEX_ADV = {
 			"ability":"Thick Fat","level":35,
 			"moves":[ "Water Gun", "Rollout", "Bubble Beam", "Double-Edge"],
 			"nature":"Modest","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Dana (Route 132)": {
+		,"[Em] Swimmer-F Dana (Route 132)": {
 			"ability":"Thick Fat","level":34,
 			"moves":[ "Water Gun", "Rollout", "Bubble Beam", "Double-Edge"],
 			"nature":"Lonely","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Azurill": {
-		"[Em] Pokéfan Bethany (Sootopolis Gym)": {
+		"[RuSa] Pokéfan Marissa (Sootopolis Gym)": {
+			"ability":"Thick Fat","level":36,"item":"Oran Berry",
+			"moves":[ "Tail Whip", "Bubble", "Slam", "Water Gun"],
+			"nature":"Bashful","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Tuber Lola (Route 109) [1]": {
+			"ability":"Thick Fat","level":13,
+			"moves":[ "Splash", "Charm", "Tail Whip", "Bubble"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Tuber Lola (Route 109) [2]": {
+			"ability":"Thick Fat","level":13,
+			"moves":[ "Splash", "Charm", "Tail Whip", "Bubble"],
+			"nature":"Modest","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Tuber Simon (Route 109 House)": {
+			"ability":"Thick Fat","level":12,
+			"moves":[ "Splash", "Charm", "Tail Whip", "Bubble"],
+			"nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Pokéfan Bethany (Sootopolis Gym)": {
 			"ability":"Thick Fat","level":35,"item":"Oran Berry",
 			"moves":[ "Tail Whip", "Bubble", "Slam", "Water Gun"],
 			"nature":"Jolly","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -264,18 +355,42 @@ var SETDEX_ADV = {
 			"ability":"Thick Fat","level":12,
 			"moves":[ "Splash", "Charm", "Tail Whip", "Bubble"],
 			"nature":"Modest","ivs":{"hp":1,"at":1,"sa":1,"sp":1,"df":1,"sd":1}}
-		,"[Em] Tuber Simon (Route 109)": {
+		,"[Em] Tuber Simon (Route 109 House)": {
 			"ability":"Thick Fat","level":12,
 			"moves":[ "Splash", "Charm", "Tail Whip", "Bubble"],
 			"nature":"Quiet","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Bagon": {
-		"[Em] Dragon Tamer Aaron (Route 134)": {
+		"[RuSa] Dragon Tamer Aaron (Route 134)": {
+			"ability":"Rock Head","level":35,
+			"moves":[ "Headbutt", "Focus Energy", "Ember", "Dragon Breath"],
+			"nature":"Quirky","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[Em] Dragon Tamer Aaron (Route 134)": {
 			"ability":"Rock Head","level":34,
 			"moves":[ "Dragon Breath", "Headbutt", "Focus Energy", "Ember"]}
 	}
 	,"Baltoy": {
-		"[Em] Camper Beau (Route 111 Desert) [1]": {
+		"[RuSa] Camper Cliff (Route 111 Desert) [1]": {
+			"ability":"Levitate","level":22,
+			"moves":[ "Rapid Spin", "Mud-Slap", "Psybeam", "Rock Tomb"],
+			"nature":"Adamant","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Camper Cliff (Route 111 Desert) [2]": {
+			"ability":"Levitate","level":22,
+			"moves":[ "Rapid Spin", "Mud-Slap", "Psybeam", "Rock Tomb"],
+			"nature":"Lonely","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Hiker Eric (Jagged Pass) [1]": {
+			"ability":"Levitate","level":21,
+			"moves":[ "Mud-Slap", "Psybeam", "Rock Tomb", "Self-Destruct"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Hiker Eric (Jagged Pass) [2]": {
+			"ability":"Levitate","level":21,
+			"moves":[ "Mud-Slap", "Psybeam", "Rock Tomb", "Self-Destruct"],
+			"nature":"Lonely","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Picnicker Heidi (Route 111 Desert)": {
+			"ability":"Levitate","level":23,
+			"moves":[ "Rapid Spin", "Mud-Slap", "Psybeam", "Rock Tomb"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Camper Beau (Route 111 Desert) [1]": {
 			"ability":"Levitate","level":21,
 			"moves":[ "Rapid Spin", "Mud-Slap", "Psybeam", "Rock Tomb"],
 			"nature":"Calm","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -291,27 +406,27 @@ var SETDEX_ADV = {
 			"ability":"Levitate","level":20,
 			"moves":[ "Mud-Slap", "Psybeam", "Rock Tomb", "Self-Destruct"],
 			"nature":"Impish","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #13 (Magma Hideout)": {
+		,"[Em] Magma Grunt 13 (Magma Hideout)": {
 			"ability":"Levitate","level":29,
 			"moves":[ "Psybeam", "Rock Tomb", "Self-Destruct", "Ancient Power"],
 			"nature":"Lonely","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #14 (Magma Hideout)": {
+		,"[Em] Magma Grunt 14 (Magma Hideout)": {
 			"ability":"Levitate","level":29,
 			"moves":[ "Psybeam", "Rock Tomb", "Self-Destruct", "Ancient Power"],
 			"nature":"Quiet","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #3 (Space Center)": {
+		,"[Em] Magma Grunt 3 (Space Center)": {
 			"ability":"Levitate","level":32,
 			"moves":[ "Self-Destruct", "Ancient Power", "Rock Tomb", "Sandstorm"],
 			"nature":"Quiet","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #4 (Magma Hideout)": {
+		,"[Em] Magma Grunt 4 (Magma Hideout)": {
 			"ability":"Levitate","level":28,
 			"moves":[ "Psybeam", "Rock Tomb", "Self-Destruct", "Ancient Power"],
 			"nature":"Quiet","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #5 (Magma Hideout)": {
+		,"[Em] Magma Grunt 5 (Magma Hideout)": {
 			"ability":"Levitate","level":28,
 			"moves":[ "Psybeam", "Rock Tomb", "Self-Destruct", "Ancient Power"],
 			"nature":"Quiet","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #7 (Space Center)": {
+		,"[Em] Magma Grunt 7 (Space Center)": {
 			"ability":"Levitate","level":32,
 			"moves":[ "Self-Destruct", "Ancient Power", "Rock Tomb", "Sandstorm"],
 			"nature":"Quiet","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -325,7 +440,19 @@ var SETDEX_ADV = {
 			"ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
 	}
 	,"Banette": {
-		"[Em] Elite Four Phoebe (Pokémon League) [1]": {
+		"[RuSa] Elite Four Phoebe (Pokémon League) [1]": {
+			"ability":"Insomnia","level":49,
+			"moves":[ "Shadow Ball", "Spite", "Will-O-Wisp", "Feint Attack"],
+			"nature":"Calm","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[RuSa] Elite Four Phoebe (Pokémon League) [2]": {
+			"ability":"Insomnia","level":49,
+			"moves":[ "Shadow Ball", "Psychic", "Toxic", "Skill Swap"],
+			"nature":"Naive","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[RuSa] Hex Maniac Patricia (Trick House)": {
+			"ability":"Insomnia","level":42,
+			"moves":[ "Curse", "Spite", "Will-O-Wisp", "Feint Attack"],
+			"nature":"Quirky","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Elite Four Phoebe (Pokémon League) [1]": {
 			"ability":"Insomnia","level":49,
 			"moves":[ "Shadow Ball", "Feint Attack", "Will-O-Wisp", "Grudge"],
 			"nature":"Calm","ivs":{"hp":30,"at":30,"sa":30,"sp":30,"df":30,"sd":30}}
@@ -343,7 +470,15 @@ var SETDEX_ADV = {
 			"nature":"Timid","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Barboach": {
-		"[Em] Fisherman Claude (Route 114)": {
+		"[RuSa] Fisherman Claude (Route 114)": {
+			"ability":"Oblivious","level":18,
+			"moves":[ "Mud Sport", "Water Sport", "Water Gun", "Magnitude"],
+			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Nolan (Route 114)": {
+			"ability":"Oblivious","level":20,
+			"moves":[ "Mud Sport", "Water Sport", "Water Gun", "Magnitude"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Fisherman Claude (Route 114)": {
 			"ability":"Oblivious","level":18,
 			"moves":[ "Mud Sport", "Water Sport", "Water Gun", "Magnitude"],
 			"nature":"Careful","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -357,7 +492,27 @@ var SETDEX_ADV = {
 			"nature":"Bold","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Beautifly": {
-		"[Em] Bug Maniac Cale (Route 121)": {
+		"[RuSa] Bug Maniac Derek (Route 117)": {
+			"ability":"Swarm","level":15,
+			"moves":[ "Absorb", "Gust"],
+			"nature":"Brave","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[RuSa] Bug Maniac Donald (Route 119)": {
+			"ability":"Swarm","level":25,
+			"moves":[ "Gust", "Stun Spore", "Morning Sun", "Mega Drain"],
+			"nature":"Bashful","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] School Kid Georgia (Trick House)": {
+			"ability":"Swarm","level":16,
+			"moves":[ "Absorb", "Gust"],
+			"nature":"Lonely","ivs":{"hp":1,"at":1,"df":1,"sa":1,"sd":1,"sp":1}}
+		,"[RuSa] Twins Miu & Yuki (Route 123)": {
+			"ability":"Swarm","level":27,
+			"moves":[ "Stun Spore", "Morning Sun", "Mega Drain", "Whirlwind"],
+			"nature":"Naive","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Young Couple Mel & Paul (Route 109 Surf)": {
+			"ability":"Swarm","level":27,
+			"moves":[ "Gust", "Mega Drain", "Attract", "Stun Spore"],
+			"nature":"Mild","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Bug Maniac Cale (Route 121)": {
 			"ability":"Swarm","level":29,
 			"moves":[ "Stun Spore", "Morning Sun", "Mega Drain", "Whirlwind"],
 			"nature":"Bold","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -471,7 +626,7 @@ var SETDEX_ADV = {
 			"ability":"Chlorophyll","level":37,
 			"moves":[ "Stun Spore", "Acid", "Sweet Scent", "Razor Leaf"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Cooltrainer Caroline (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer Caroline (Victory Road)": {
 			"ability":"Chlorophyll","level":42,
 			"moves":[ "Razor Leaf", "Acid", "Stun Spore", "Poison Powder"],
 			"nature":"Timid","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -489,7 +644,7 @@ var SETDEX_ADV = {
 			"ability":"Torrent","level":53,
 			"moves":[ "Water Gun", "Rain Dance", "Bite", "Rapid Spin"],
 			"nature":"Bold","ivs":{"hp":30,"at":30,"sa":30,"sp":30,"df":30,"sd":30}}
-		,"[FRLG] Cooltrainer Colby (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer Colby (Victory Road)": {
 			"ability":"Torrent","level":43,
 			"moves":[ "Water Gun", "Bite", "Rapid Spin", "Rain Dance"],
 			"nature":"Naughty","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -503,7 +658,19 @@ var SETDEX_ADV = {
 			"nature":"Mild"}
 	}
 	,"Breloom": {
-		"[Em] Battle Girl Paula (Trick House)": {
+		"[RuSa] Aroma Lady Violet (Route 123)": {
+			"ability":"Effect Spore","level":25,
+			"moves":[ "Leech Seed", "Mega Drain", "Headbutt", "Mach Punch"],
+			"nature":"Lax","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Battle Girl Jill (Trick House)": {
+			"ability":"Effect Spore","level":27,
+			"moves":[ "Leech Seed", "Mega Drain", "Headbutt", "Mach Punch"],
+			"nature":"Lax","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Pokémon Ranger Jackson (Route 119)": {
+			"ability":"Effect Spore","level":28,
+			"moves":[ "Mega Drain", "Headbutt", "Mach Punch", "Counter"],
+			"nature":"Adamant","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[Em] Battle Girl Paula (Trick House)": {
 			"ability":"Effect Spore","level":27,
 			"moves":[ "Leech Seed", "Mega Drain", "Headbutt", "Mach Punch"],
 			"nature":"Careful","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -557,7 +724,19 @@ var SETDEX_ADV = {
 			"nature":"Relaxed","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Cacturne": {
-		"[Em] Cooltrainer Edgar (Victory Road)": {
+		"[RuSa] Cooltrainer Edgar (Victory Road)": {
+			"ability":"Sand Veil","level":44,
+			"moves":[ "Ingrain", "Feint Attack", "Spikes", "Needle Arm"],
+			"nature":"Naive","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Elite Four Sidney (Pokémon League)": {
+			"ability":"Sand Veil","level":46,
+			"moves":[ "Leech Seed", "Feint Attack", "Needle Arm", "Cotton Spore"],
+			"nature":"Adamant","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[RuSa] Pokémon Ranger Sebastian (Trick House)": {
+			"ability":"Sand Veil","level":39,
+			"moves":[ "Pin Missile", "Ingrain", "Feint Attack", "Spikes"],
+			"nature":"Impish","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[Em] Cooltrainer Edgar (Victory Road)": {
 			"ability":"Sand Veil","level":43,
 			"moves":[ "Feint Attack", "Needle Arm", "Ingrain", "Spikes"],
 			"nature":"Naive","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -601,59 +780,203 @@ var SETDEX_ADV = {
 			"nature":"Adamant","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
 	}
 	,"Carvanha": {
-		"[Em] Aqua Admin Shelly (Weather Institute)": {
+		"[RuSa] Aqua Admin Matt (Aqua Hideout B2F)": {
+			"ability":"Rough Skin","level":32,
+			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
+			"nature":"Timid","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Aqua Admin Matt (Mt. Chimney) [1]": {
+			"ability":"Rough Skin","level":20,
+			"moves":[ "Bite", "Rage", "Focus Energy", "Scary Face"],
+			"nature":"Timid","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Aqua Admin Matt (Mt. Chimney) [2]": {
+			"ability":"Rough Skin","level":20,
+			"moves":[ "Bite", "Rage", "Focus Energy", "Scary Face"],
+			"nature":"Adamant","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Aqua Admin Shelly (Weather Institute)": {
+			"ability":"Rough Skin","level":28,
+			"moves":[ "Focus Energy", "Scary Face", "Crunch", "Screech"],
+			"nature":"Jolly","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Beauty Tiffany (Sootopolis Gym)": {
+			"ability":"Rough Skin","level":39,
+			"moves":[ "Crunch", "Screech", "Take Down", "Swagger"],
+			"nature":"Naughty","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Fisherman Barny (Route 118) [1]": {
+			"ability":"Rough Skin","level":26,
+			"moves":[ "Rage", "Focus Energy", "Scary Face", "Crunch"],
+			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Barny (Route 118) [2]": {
+			"ability":"Rough Skin","level":26,
+			"moves":[ "Rage", "Focus Energy", "Scary Face", "Crunch"],
+			"nature":"Jolly","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Eugene (Route 119)": {
+			"ability":"Rough Skin","level":24,
+			"moves":[ "Rage", "Focus Energy", "Scary Face", "Crunch"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Henry (Route 127)": {
+			"ability":"Rough Skin","level":33,
+			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Wade (Route 118)": {
+			"ability":"Rough Skin","level":17,
+			"moves":[ "Bite", "Rage", "Focus Energy", "Scary Face"],
+			"nature":"Lax","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Sis and Bro Rita & Sam (Route 124)": {
+			"ability":"Rough Skin","level":34,
+			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
+			"nature":"Naive","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M David (Route 109 Surf)": {
+			"ability":"Rough Skin","level":26,
+			"moves":[ "Rage", "Focus Energy", "Scary Face", "Crunch"],
+			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Dean (Route 126) [1]": {
+			"ability":"Rough Skin","level":33,
+			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Dean (Route 126) [2]": {
+			"ability":"Rough Skin","level":33,
+			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
+			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Luis (Route 105)": {
+			"ability":"Rough Skin","level":27,
+			"moves":[ "Rage", "Focus Energy", "Scary Face", "Crunch"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Matthew (Route 108)": {
+			"ability":"Rough Skin","level":27,
+			"moves":[ "Rage", "Focus Energy", "Scary Face", "Crunch"],
+			"nature":"Quirky","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Reed (Route 129) [1]": {
+			"ability":"Rough Skin","level":32,
+			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
+			"nature":"Adamant","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Reed (Route 129) [2]": {
+			"ability":"Rough Skin","level":32,
+			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
+			"nature":"Calm","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Roland (Route 124)": {
+			"ability":"Rough Skin","level":35,
+			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Tony (Route 107)": {
+			"ability":"Rough Skin","level":27,
+			"moves":[ "Rage", "Focus Energy", "Scary Face", "Crunch"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt (Seafloor Cavern)": {
+			"ability":"Rough Skin","level":36,
+			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
+			"nature":"Impish","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 1 (Aqua Hideout B1F) [1]": {
+			"ability":"Rough Skin","level":31,
+			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
+			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 1 (Aqua Hideout B1F) [2]": {
+			"ability":"Rough Skin","level":31,
+			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
+			"nature":"Adamant","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 1 (Aqua Hideout B2F)": {
+			"ability":"Rough Skin","level":33,
+			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
+			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 1 (Weather Institute)": {
+			"ability":"Rough Skin","level":28,
+			"moves":[ "Focus Energy", "Scary Face", "Crunch", "Screech"],
+			"nature":"Mild","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 1 (Seafloor Cavern)": {
+			"ability":"Rough Skin","level":37,
+			"moves":[ "Crunch", "Screech", "Take Down", "Swagger"],
+			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 1 (Slateport City)": {
+			"ability":"Rough Skin","level":15,
+			"moves":[ "Leer", "Bite", "Rage", "Focus Energy"],
+			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 2 (Aqua Hideout B1F)": {
+			"ability":"Rough Skin","level":30,
+			"moves":[ "Focus Energy", "Scary Face", "Crunch", "Screech"],
+			"nature":"Impish","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 2 (Mt. Pyre)": {
+			"ability":"Rough Skin","level":31,
+			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
+			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 2 (Seafloor Cavern)": {
+			"ability":"Rough Skin","level":38,
+			"moves":[ "Crunch", "Screech", "Take Down", "Swagger"],
+			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 2 (Slateport City)": {
+			"ability":"Rough Skin","level":14,
+			"moves":[ "Leer", "Bite", "Rage", "Focus Energy"],
+			"nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 3 (Aqua Hideout B1F)": {
+			"ability":"Rough Skin","level":32,
+			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
+			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 3 (Mt. Pyre) [1]": {
+			"ability":"Rough Skin","level":31,
+			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
+			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 3 (Mt. Pyre) [2]": {
+			"ability":"Rough Skin","level":31,
+			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
+			"nature":"Adamant","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 3 (Weather Institute)": {
+			"ability":"Rough Skin","level":27,
+			"moves":[ "Rage", "Focus Energy", "Scary Face", "Crunch"],
+			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 4 (Weather Institute)": {
+			"ability":"Rough Skin","level":26,
+			"moves":[ "Rage", "Focus Energy", "Scary Face", "Crunch"],
+			"nature":"Impish","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Aqua Admin Shelly (Weather Institute)": {
 			"ability":"Rough Skin","level":28,
 			"moves":[ "Crunch", "Screech", "Focus Energy", "Scary Face"],
 			"nature":"Jolly","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
-		,"[Em] Aqua Grunt #1 (Mt. Pyre)": {
+		,"[Em] Aqua Grunt 1 (Mt. Pyre)": {
 			"ability":"Rough Skin","level":32,
 			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
 			"nature":"Relaxed","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #1 (Slateport City)": {
+		,"[Em] Aqua Grunt 1 (Slateport City)": {
 			"ability":"Rough Skin","level":15,
 			"moves":[ "Leer", "Bite", "Rage", "Focus Energy"],
 			"nature":"Relaxed","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #1 (Weather Institute)": {
+		,"[Em] Aqua Grunt 1 (Weather Institute)": {
 			"ability":"Rough Skin","level":28,
 			"moves":[ "Crunch", "Screech", "Focus Energy", "Scary Face"],
 			"nature":"Mild","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #2 (Aqua Hideout)": {
+		,"[Em] Aqua Grunt 2 (Aqua Hideout)": {
 			"ability":"Rough Skin","level":32,
 			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
 			"nature":"Mild","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #2 (Seafloor Cavern)": {
+		,"[Em] Aqua Grunt 2 (Seafloor Cavern)": {
 			"ability":"Rough Skin","level":36,
 			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
 			"nature":"Relaxed","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #2 (Slateport City)": {
+		,"[Em] Aqua Grunt 2 (Slateport City)": {
 			"ability":"Rough Skin","level":14,
 			"moves":[ "Leer", "Bite", "Rage", "Focus Energy"],
 			"nature":"Quiet","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #3 (Aqua Hideout)": {
+		,"[Em] Aqua Grunt 3 (Aqua Hideout)": {
 			"ability":"Rough Skin","level":31,
 			"moves":[ "Crunch", "Take Down", "Scary Face", "Screech"],
 			"nature":"Quiet","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #3 (Mt. Pyre)": {
+		,"[Em] Aqua Grunt 3 (Mt. Pyre)": {
 			"ability":"Rough Skin","level":30,
 			"moves":[ "Focus Energy", "Scary Face", "Crunch", "Screech"],
 			"nature":"Careful","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #4 (Weather Institute)": {
+		,"[Em] Aqua Grunt 4 (Weather Institute)": {
 			"ability":"Rough Skin","level":27,
 			"moves":[ "Rage", "Focus Energy", "Scary Face", "Crunch"],
 			"nature":"Careful","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #4 (Seafloor Cavern)": {
+		,"[Em] Aqua Grunt 4 (Seafloor Cavern)": {
 			"ability":"Rough Skin","level":36,
 			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
 			"nature":"Mild","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #5 (Aqua Hideout)": {
+		,"[Em] Aqua Grunt 5 (Aqua Hideout)": {
 			"ability":"Rough Skin","level":32,
 			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
 			"nature":"Relaxed","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #5 (Weather Institute)": {
+		,"[Em] Aqua Grunt 5 (Weather Institute)": {
 			"ability":"Rough Skin","level":26,
 			"moves":[ "Rage", "Focus Energy", "Scary Face", "Crunch"],
 			"nature":"Impish","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #8 (Aqua Hideout)": {
+		,"[Em] Aqua Grunt 8 (Aqua Hideout)": {
 			"ability":"Rough Skin","level":32,
 			"moves":[ "Crunch", "Take Down", "Scary Face", "Screech"],
 			"nature":"Relaxed","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -677,47 +1000,55 @@ var SETDEX_ADV = {
 			"ability":"Rough Skin","level":33,
 			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer David (Route 109 Surf)": {
+		,"[Em] Swimmer-M David (Route 109 Surf)": {
 			"ability":"Rough Skin","level":25,
 			"moves":[ "Rage", "Focus Energy", "Scary Face", "Crunch"],
 			"nature":"Hasty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Dean (Route 126) [1]": {
+		,"[Em] Swimmer-M Dean (Route 126) [1]": {
 			"ability":"Rough Skin","level":31,
 			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
 			"nature":"Bold","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Dean (Route 126) [2]": {
+		,"[Em] Swimmer-M Dean (Route 126) [2]": {
 			"ability":"Rough Skin","level":31,
 			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
 			"nature":"Relaxed","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Leonardo (Route 126)": {
+		,"[Em] Swimmer-M Leonardo (Route 126)": {
 			"ability":"Rough Skin","level":34,
 			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
 			"nature":"Naughty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Luis (Route 105)": {
+		,"[Em] Swimmer-M Luis (Route 105)": {
 			"ability":"Rough Skin","level":26,
 			"moves":[ "Rage", "Focus Energy", "Scary Face", "Crunch"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Matthew (Route 108)": {
+		,"[Em] Swimmer-M Matthew (Route 108)": {
 			"ability":"Rough Skin","level":26,
 			"moves":[ "Rage", "Focus Energy", "Scary Face", "Crunch"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Roland (Route 124)": {
+		,"[Em] Swimmer-M Roland (Route 124)": {
 			"ability":"Rough Skin","level":34,
 			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Tony (Route 107)": {
+		,"[Em] Swimmer-M Tony (Route 107)": {
 			"ability":"Rough Skin","level":26,
 			"moves":[ "Rage", "Focus Energy", "Scary Face", "Crunch"],
 			"nature":"Bold","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Cascoon": {
-		"[Em] Bug Maniac Taylor (Route 119)": {
+		"[RuSa] Bug Maniac Taylor (Route 119)": {
+			"ability":"Shed Skin","level":25,
+			"moves":[ "Harden"],
+			"nature":"Serious","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[Em] Bug Maniac Taylor (Route 119)": {
 			"ability":"Shed Skin","level":27,
 			"moves":[ "Harden"],
 			"ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
 	}
 	,"Castform": {
-		"[Em] Parasol Lady Angelica (Route 120)": {
+		"[RuSa] Parasol Lady Angelica (Route 120)": {
+			"ability":"Forecast","level":30,
+			"moves":[ "Rain Dance", "Sunny Day", "Hail", "Weather Ball"],
+			"nature":"Impish","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Parasol Lady Angelica (Route 120)": {
 			"ability":"Forecast","level":30,
 			"moves":[ "Rain Dance", "Weather Ball", "Thunder", "Water Pulse"],
 			"nature":"Impish","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
@@ -781,7 +1112,7 @@ var SETDEX_ADV = {
 			"nature":"Hasty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Chansey": {
-		"[FRLG] Cooltrainer Alexa (Victory Road 1F)": {
+		"[FRLG] Cooltrainer Alexa (Victory Road)": {
 			"ability":"Natural Cure","level":42,
 			"moves":[ "Sing", "Egg Bomb", "Soft-Boiled", "Minimize"],
 			"nature":"Naive","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -800,7 +1131,7 @@ var SETDEX_ADV = {
 			"nature":"Quiet","evs":{"hp":100,"at":152,"df":104,"sp":152},
 			"ivs":{"hp":20,"at":20,"df":20,"sa":20,"sd":20,"sp":20},
 			"moves":[ "Overheat", "Aerial Ace", "Earthquake", "Rock Slide"]}
-		,"[FRLG] Cooltrainer Rolando (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer Rolando (Victory Road)": {
 			"ability":"Blaze","level":42,
 			"moves":[ "Flamethrower", "Wing Attack", "Smokescreen", "Scary Face"],
 			"nature":"Modest","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -832,11 +1163,11 @@ var SETDEX_ADV = {
 			"ability":"Blaze","level":34,
 			"moves":[ "Metal Claw", "Smokescreen", "Scary Face", "Flamethrower"],
 			"nature":"Naughty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Cooltrainer Rolando (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer Rolando (Victory Road)": {
 			"ability":"Blaze","level":42,
 			"moves":[ "Flamethrower", "Slash", "Smokescreen", "Scary Face"],
 			"nature":"Relaxed","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
-		,"[FRLG] Pokémaniac Dawson (Victory Road B1F)": {
+		,"[FRLG] Pokémaniac Dawson (Victory Road)": {
 			"ability":"Blaze","level":40,
 			"moves":[ "Metal Claw", "Smokescreen", "Scary Face", "Flamethrower"],
 			"ivs":{"hp":3,"at":3,"sa":3,"sp":3,"df":3,"sd":3}}
@@ -848,7 +1179,19 @@ var SETDEX_ADV = {
 			"nature":"Careful","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Chinchou": {
-		"[Em] Expert Conor (Route 133)": {
+		"[RuSa] Sis and Bro Rita & Sam (Route 124)": {
+			"ability":"Volt Absorb","level":36,
+			"moves":[ "Flail", "Water Gun", "Spark", "Confuse Ray"],
+			"nature":"Timid","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Katie (Route 130)": {
+			"ability":"Volt Absorb","level":33,
+			"moves":[ "Flail", "Water Gun", "Spark", "Confuse Ray"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Tisha (Route 129)": {
+			"ability":"Volt Absorb","level":33,
+			"moves":[ "Flail", "Water Gun", "Spark", "Confuse Ray"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Expert Conor (Route 133)": {
 			"ability":"Volt Absorb","level":33,
 			"moves":[ "Flail", "Water Gun", "Spark", "Confuse Ray"],
 			"nature":"Calm","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -856,7 +1199,7 @@ var SETDEX_ADV = {
 			"ability":"Volt Absorb","level":34,
 			"moves":[ "Flail", "Water Gun", "Spark", "Confuse Ray"],
 			"nature":"Lonely","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Tisha (Route 129)": {
+		,"[Em] Swimmer-F Tisha (Route 129)": {
 			"ability":"Volt Absorb","level":34,
 			"moves":[ "Flail", "Water Gun", "Spark", "Confuse Ray"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -872,7 +1215,15 @@ var SETDEX_ADV = {
 			"nature":"Relaxed","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
 	}
 	,"Claydol": {
-		"[Em] Cooltrainer Dianne (Victory Road)": {
+		"[RuSa] Champion Steven (Pokémon League)": {
+			"ability":"Levitate","level":55,
+			"moves":[ "Reflect", "Light Screen", "Ancient Power", "Earthquake"],
+			"nature":"Modest",}
+		,"[RuSa] Cooltrainer Shannon (Victory Road)": {
+			"ability":"Levitate","level":44,
+			"moves":[ "Ancient Power", "Sandstorm", "Hyper Beam", "Cosmic Power"],
+			"nature":"Hasty","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[Em] Cooltrainer Dianne (Victory Road)": {
 			"ability":"Levitate","level":43,
 			"moves":[ "Skill Swap", "Earthquake"],
 			"nature":"Quiet","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -940,7 +1291,7 @@ var SETDEX_ADV = {
 			"ability":"Cute Charm","level":37,
 			"moves":[ "Defense Curl", "Metronome", "Cosmic Power", "Moonlight"],
 			"nature":"Naive","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Cooltrainer Alexa (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer Alexa (Victory Road)": {
 			"ability":"Cute Charm","level":42,
 			"moves":[ "Light Screen", "Cosmic Power", "Double Slap", "Encore"],
 			"nature":"Timid","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -974,7 +1325,7 @@ var SETDEX_ADV = {
 			"ability":"Shell Armor","level":31,
 			"moves":[ "Withdraw", "Supersonic", "Aurora Beam", "Protect"],
 			"nature":"Hasty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Cooltrainer George (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer George (Victory Road)": {
 			"ability":"Shell Armor","level":42,
 			"moves":[ "Spike Cannon", "Spikes", "Aurora Beam", "Supersonic"],
 			"nature":"Relaxed","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -1024,7 +1375,11 @@ var SETDEX_ADV = {
 			"nature":"Modest","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
 	}
 	,"Cradily": {
-		"[Em] PKMN Trainer Steven (Meteor Falls)": {
+		"[RuSa] Champion Steven (Pokémon League)": {
+			"ability":"Suction Cups","level":56,
+			"moves":[ "Giga Drain", "Ancient Power", "Sludge Bomb", "Confuse Ray"],
+			"nature":"Naive",}
+		,"[Em] PKMN Trainer Steven (Meteor Falls)": {
 			"ability":"Suction Cups","level":76,
 			"moves":[ "Giga Drain", "Ancient Power", "Ingrain", "Confuse Ray"],
 			"nature":"Naive"}
@@ -1040,7 +1395,11 @@ var SETDEX_ADV = {
 			"nature":"Adamant","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
 	}
 	,"Crobat": {
-		"[Em] Aqua Leader Archie (Seafloor Cavern)": {
+		"[RuSa] Aqua Leader Archie (Seafloor Cavern)": {
+			"ability":"Inner Focus","level":41,
+			"moves":[ "Bite", "Wing Attack", "Confuse Ray", "Air Cutter"],
+			"nature":"Serious","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[Em] Aqua Leader Archie (Seafloor Cavern)": {
 			"ability":"Inner Focus","level":41,
 			"moves":[ "Air Cutter", "Wing Attack", "Bite", "Confuse Ray"],
 			"ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
@@ -1101,7 +1460,27 @@ var SETDEX_ADV = {
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Delcatty": {
-		"[Em] Cooltrainer Mary (Petalburg Gym)": {
+		"[RuSa] Cooltrainer Mary (Petalburg Gym)": {
+			"ability":"Cute Charm","level":27,
+			"moves":[ "Growl", "Attract", "Sing", "Double Slap"],
+			"nature":"Rash","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Randall (Petalburg Gym)": {
+			"ability":"Cute Charm","level":27,
+			"moves":[ "Growl", "Attract", "Sing", "Double Slap"],
+			"nature":"Jolly","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Pokéfan Colton (S.S. Tidal Rooms)": {
+			"ability":"Cute Charm","level":42,"item":"Oran Berry",
+			"moves":[ "Assist", "Charm", "Feint Attack", "Heal Bell"],
+			"nature":"Quirky","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] PKMN Trainer Wally (Victory Road)": {
+			"ability":"Cute Charm","level":43,
+			"moves":[ "Sing", "Assist", "Charm", "Feint Attack"],
+			"nature":"Quirky","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[RuSa] Young Couple Dez & Luke (Mt. Pyre)": {
+			"ability":"Cute Charm","level":32,
+			"moves":[ "Growl", "Attract", "Sing", "Double Slap"],
+			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Cooltrainer Mary (Petalburg Gym)": {
 			"ability":"Cute Charm","level":26,
 			"moves":[ "Feint Attack", "Shock Wave"],
 			"nature":"Rash"}
@@ -1123,7 +1502,7 @@ var SETDEX_ADV = {
 			"ability":"Thick Fat","level":36,
 			"moves":[ "Icy Wind", "Aurora Beam", "Rest", "Sheer Cold"],
 			"nature":"Naughty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Cooltrainer Alexa (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer Alexa (Victory Road)": {
 			"ability":"Thick Fat","level":42,
 			"moves":[ "Sheer Cold", "Take Down", "Rest", "Aurora Beam"],
 			"nature":"Naive","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -1141,7 +1520,11 @@ var SETDEX_ADV = {
 			"nature":"Mild"}
 	}
 	,"Dodrio": {
-		"[Em] Cooltrainer Vito (Victory Road)": {
+		"[RuSa] Cooltrainer Samuel (Victory Road)": {
+			"ability":"Run Away","level":42,
+			"moves":[ "Fury Attack", "Tri Attack", "Rage", "Uproar"],
+			"nature":"Rash","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[Em] Cooltrainer Vito (Victory Road)": {
 			"ability":"Run Away","level":42,
 			"moves":[ "Fury Attack", "Tri Attack", "Rage", "Uproar"],
 			"nature":"Relaxed","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -1159,7 +1542,19 @@ var SETDEX_ADV = {
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Doduo": {
-		"[Em] Bird Keeper Edwardo (Fortree Gym)": {
+		"[RuSa] Bird Keeper Jared (Fortree Gym)": {
+			"ability":"Run Away","level":30,
+			"moves":[ "Pursuit", "Fury Attack", "Tri Attack", "Rage"],
+			"nature":"Adamant","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Triathlete Dylan (Route 117)": {
+			"ability":"Run Away","level":18,
+			"moves":[ "Peck", "Growl", "Pursuit", "Fury Attack"],
+			"nature":"Hasty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Triathlete Maria (Route 117)": {
+			"ability":"Run Away","level":18,
+			"moves":[ "Peck", "Growl", "Pursuit", "Fury Attack"],
+			"nature":"Hasty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Bird Keeper Edwardo (Fortree Gym)": {
 			"ability":"Run Away","level":29,
 			"moves":[ "Tri Attack", "Fury Attack", "Rage", "Pursuit"],
 			"nature":"Brave","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
@@ -1281,7 +1676,7 @@ var SETDEX_ADV = {
 			"ability":"Insomnia","level":34,
 			"moves":[ "Headbutt", "Poison Gas", "Meditate", "Psychic"],
 			"nature":"Rash","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Juggler Nelson (Victory Road B1F)": {
+		,"[FRLG] Juggler Nelson (Victory Road)": {
 			"ability":"Insomnia","level":41,
 			"moves":[ "Meditate", "Psychic", "Psych Up", "Swagger"],
 			"nature":"Rash","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -1297,7 +1692,15 @@ var SETDEX_ADV = {
 			"nature":"Impish","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Dusclops": {
-		"[Em] Cooltrainer Quincy (Victory Road)": {
+		"[RuSa] Elite Four Phoebe (Pokémon League) [1]": {
+			"ability":"Pressure","level":48,
+			"moves":[ "Shadow Punch", "Confuse Ray", "Curse", "Future Sight"],
+			"nature":"Naughty","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[RuSa] Elite Four Phoebe (Pokémon League) [2]": {
+			"ability":"Pressure","level":51,"item":"Sitrus Berry",
+			"moves":[ "Shadow Ball", "Ice Beam", "Confuse Ray", "Earthquake"],
+			"nature":"Careful",}
+		,"[Em] Cooltrainer Quincy (Victory Road)": {
 			"ability":"Pressure","level":43,
 			"moves":[ "Skill Swap", "Protect", "Will-O-Wisp", "Toxic"],
 			"nature":"Adamant","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -1311,7 +1714,15 @@ var SETDEX_ADV = {
 			"nature":"Careful"}
 	}
 	,"Duskull": {
-		"[Em] Hex Maniac Kindra (Route 123)": {
+		"[RuSa] Hex Maniac Kindra (Route 123)": {
+			"ability":"Levitate","level":31,
+			"moves":[ "Foresight", "Astonish", "Confuse Ray", "Pursuit"],
+			"nature":"Calm","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Hex Maniac Tammy (Route 121)": {
+			"ability":"Levitate","level":30,
+			"moves":[ "Foresight", "Astonish", "Confuse Ray", "Pursuit"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Hex Maniac Kindra (Route 123)": {
 			"ability":"Levitate","level":30,
 			"moves":[ "Foresight", "Astonish", "Confuse Ray", "Pursuit"],
 			"nature":"Calm","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -1321,7 +1732,23 @@ var SETDEX_ADV = {
 			"nature":"Rash","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Dustox": {
-		"[Em] Bug Maniac Cale (Route 121)": {
+		"[RuSa] Bug Maniac Derek (Route 117)": {
+			"ability":"Shield Dust","level":15,
+			"moves":[ "Confusion", "Gust"],
+			"nature":"Naive","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[RuSa] Bug Maniac Taylor (Route 119)": {
+			"ability":"Shield Dust","level":25,
+			"moves":[ "Gust", "Protect", "Moonlight", "Psybeam"],
+			"nature":"Bashful","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Twins Miu & Yuki (Route 123)": {
+			"ability":"Shield Dust","level":27,
+			"moves":[ "Protect", "Moonlight", "Psybeam", "Whirlwind"],
+			"nature":"Naive","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Young Couple Mel & Paul (Route 109 Surf)": {
+			"ability":"Shield Dust","level":27,
+			"moves":[ "Gust", "Psybeam", "Toxic", "Protect"],
+			"nature":"Naughty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Bug Maniac Cale (Route 121)": {
 			"ability":"Shield Dust","level":29,
 			"moves":[ "Protect", "Moonlight", "Psybeam", "Whirlwind"],
 			"nature":"Modest","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -1409,7 +1836,19 @@ var SETDEX_ADV = {
 			"nature":"Lonely","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
 	}
 	,"Electrike": {
-		"[Em] Cooltrainer Wilton (Route 111)": {
+		"[RuSa] Cooltrainer Wilton (Route 111)": {
+			"ability":"Static","level":18,
+			"moves":[ "Thunder Wave", "Leer", "Howl", "Quick Attack"],
+			"nature":"Serious","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Guitarist Kirk (Mauville Gym)": {
+			"ability":"Static","level":18,
+			"moves":[ "Thunder Wave", "Leer", "Howl", "Quick Attack"],
+			"nature":"Mild","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Youngster Timmy (Route 110)": {
+			"ability":"Static","level":14,
+			"moves":[ "Tackle", "Thunder Wave", "Leer", "Howl"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Cooltrainer Wilton (Route 111)": {
 			"ability":"Static","level":17,
 			"moves":[ "Thunder Wave", "Leer", "Howl", "Quick Attack"],
 			"ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -1479,7 +1918,7 @@ var SETDEX_ADV = {
 			"ability":"Soundproof","level":34,
 			"moves":[ "Sonic Boom", "Spark", "Self-Destruct", "Rollout"],
 			"nature":"Careful","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Cooltrainer George (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer George (Victory Road)": {
 			"ability":"Soundproof","level":42,
 			"moves":[ "Spark", "Sonic Boom", "Screech", "Light Screen"],
 			"nature":"Hasty","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -1526,7 +1965,7 @@ var SETDEX_ADV = {
 			"nature":"Lax","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
 	}
 	,"Exeggutor": {
-		"[FRLG] Cooltrainer George (Victory Road 1F)": {
+		"[FRLG] Cooltrainer George (Victory Road)": {
 			"ability":"Chlorophyll","level":42,
 			"moves":[ "Egg Bomb", "Confusion", "Stun Spore", "Sleep Powder"],
 			"ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -1546,6 +1985,12 @@ var SETDEX_ADV = {
 			"ability":"Chlorophyll","level":73,
 			"moves":[ "Giga Drain", "Psychic", "Sleep Powder", "Light Screen"],
 			"nature":"Naive"}
+	}
+	,"Exploud": {
+		"[RuSa] Interviewer Gabby & Ty 6 (Route 120)": {
+			"ability":"Soundproof","level":39,
+			"moves":[ "Astonish", "Stomp", "Supersonic", "Hyper Voice"],
+			"nature":"Relaxed","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
 	}
 	,"Farfetch'd": {
 		"[FRLG] Bird Keeper Donald (Route 14)": {
@@ -1608,7 +2053,11 @@ var SETDEX_ADV = {
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Feebas": {
-		"[Em] Fisherman Chris (Route 119)": {
+		"[RuSa] Fisherman Eugene (Route 119)": {
+			"ability":"Swift Swim","level":27,
+			"moves":[ "Splash", "Tackle"],
+			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Fisherman Chris (Route 119)": {
 			"ability":"Swift Swim","level":26,
 			"moves":[ "Splash", "Tackle"],
 			"nature":"Lax","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -1628,13 +2077,25 @@ var SETDEX_ADV = {
 			"nature":"Mild","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Flygon": {
-		"[Em] Elite Four Drake (Pokémon League)": {
+		"[RuSa] Elite Four Drake (Pokémon League) [1]": {
+			"ability":"Levitate","level":53,
+			"moves":[ "Dig", "Dragon Breath", "Fly", "Sandstorm"],
+			"nature":"Quirky","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[RuSa] Elite Four Drake (Pokémon League) [2]": {
+			"ability":"Levitate","level":53,
+			"moves":[ "Flamethrower", "Crunch", "Dragon Breath", "Sand Attack"],
+			"nature":"Impish","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[Em] Elite Four Drake (Pokémon League)": {
 			"ability":"Levitate","level":53,
 			"moves":[ "Dragon Breath", "Earthquake", "Crunch", "Flamethrower"],
 			"nature":"Lax","ivs":{"hp":29,"at":29,"sa":29,"sp":29,"df":29,"sd":29}}
 	}
 	,"Gardevoir": {
-		"[Em] Cooltrainer Katelynn (Victory Road)": {
+		"[RuSa] PKMN Trainer Wally (Victory Road)": {
+			"ability":"Synchronize","level":45,
+			"moves":[ "Double Team", "Calm Mind", "Psychic", "Future Sight"],
+			"nature":"Naive","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[Em] Cooltrainer Katelynn (Victory Road)": {
 			"ability":"Synchronize","level":43,
 			"moves":[ "Skill Swap", "Psychic", "Thunderbolt", "Calm Mind"],
 			"nature":"Careful","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -1740,7 +2201,79 @@ var SETDEX_ADV = {
 			"nature":"Bold"}
 	}
 	,"Geodude": {
-		"[Em] Hiker Alan (Trick House)": {
+		"[RuSa] Hiker Alan (Trick House)": {
+			"ability":"Rock Head","level":22,
+			"moves":[ "Mud Sport", "Rock Throw", "Magnitude", "Self-Destruct"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Hiker Clark (Route 116) [1]": {
+			"ability":"Rock Head","level":8,
+			"moves":[ "Tackle", "Defense Curl", "Mud Sport"],
+			"nature":"Naive","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Hiker Clark (Route 116) [2]": {
+			"ability":"Rock Head","level":8,
+			"moves":[ "Tackle", "Defense Curl", "Mud Sport"],
+			"nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Hiker Clark (Route 116) [3]": {
+			"ability":"Rock Head","level":8,
+			"moves":[ "Tackle", "Defense Curl", "Mud Sport"],
+			"nature":"Calm","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Hiker Lucas (Route 114) [1]": {
+			"ability":"Rock Head","level":18,
+			"moves":[ "Defense Curl", "Mud Sport", "Rock Throw", "Magnitude"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Hiker Lucas (Route 114) [2]": {
+			"ability":"Rock Head","level":18,
+			"moves":[ "Defense Curl", "Mud Sport", "Rock Throw", "Magnitude"],
+			"nature":"Quirky","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Hiker Lucas (Route 114) [3]": {
+			"ability":"Rock Head","level":18,
+			"moves":[ "Defense Curl", "Mud Sport", "Rock Throw", "Magnitude"],
+			"nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Hiker Mike (Rusturf Tunnel) [1]": {
+			"ability":"Rock Head","level":16,
+			"moves":[ "Defense Curl", "Mud Sport", "Rock Throw", "Magnitude"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Hiker Mike (Rusturf Tunnel) [2]": {
+			"ability":"Rock Head","level":16,
+			"moves":[ "Defense Curl", "Mud Sport", "Rock Throw", "Magnitude"],
+			"nature":"Lonely","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Hiker Trent (Route 112) [1]": {
+			"ability":"Rock Head","level":16,
+			"moves":[ "Defense Curl", "Mud Sport", "Rock Throw", "Magnitude"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Hiker Trent (Route 112) [2]": {
+			"ability":"Rock Head","level":16,
+			"moves":[ "Defense Curl", "Mud Sport", "Rock Throw", "Magnitude"],
+			"nature":"Lonely","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Hiker Trent (Route 112) [3]": {
+			"ability":"Rock Head","level":16,
+			"moves":[ "Defense Curl", "Mud Sport", "Rock Throw", "Magnitude"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Hiker Trent (Route 112) [4]": {
+			"ability":"Rock Head","level":16,
+			"moves":[ "Defense Curl", "Mud Sport", "Rock Throw", "Magnitude"],
+			"nature":"Mild","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Leader Roxanne (Rustboro Gym)": {
+			"ability":"Rock Head","level":14,
+			"moves":[ "Tackle", "Defense Curl", "Rock Throw", "Rock Tomb"],
+			"nature":"Docile","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[RuSa] Youngster Josh (Rustboro Gym) [1]": {
+			"ability":"Rock Head","level":10,
+			"moves":[ "Tackle"],
+			"nature":"Modest","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Youngster Josh (Rustboro Gym) [2]": {
+			"ability":"Rock Head","level":8,
+			"moves":[ "Tackle"],
+			"nature":"Rash","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Youngster Josh (Rustboro Gym) [3]": {
+			"ability":"Rock Head","level":6,
+			"moves":[ "Tackle"],
+			"nature":"Careful","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Youngster Tommy (Rustboro Gym)": {
+			"ability":"Rock Head","level":11,
+			"moves":[ "Tackle", "Defense Curl", "Mud Sport", "Rock Throw"],
+			"nature":"Timid","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[Em] Hiker Alan (Trick House)": {
 			"ability":"Rock Head","level":22,
 			"moves":[ "Mud Sport", "Rock Throw", "Magnitude", "Self-Destruct"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -1906,7 +2439,11 @@ var SETDEX_ADV = {
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Girafarig": {
-		"[Em] Gentleman Clifford (Mossdeep Gym)": {
+		"[RuSa] Psychic Fritz (Mossdeep Gym)": {
+			"ability":"Inner Focus","level":35,
+			"moves":[ "Confusion", "Stomp", "Odor Sleuth", "Agility"],
+			"nature":"Rash","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[Em] Gentleman Clifford (Mossdeep Gym)": {
 			"ability":"Inner Focus","level":36,
 			"moves":[ "Confusion", "Stomp", "Odor Sleuth", "Agility"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -1924,7 +2461,15 @@ var SETDEX_ADV = {
 			"nature":"Impish","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
 	}
 	,"Glalie": {
-		"[Em] Elite Four Glacia (Pokémon League) [1]": {
+		"[RuSa] Elite Four Glacia (Pokémon League) [1]": {
+			"ability":"Inner Focus","level":50,
+			"moves":[ "Light Screen", "Crunch", "Hail", "Ice Beam"],
+			"nature":"Hasty","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[RuSa] Elite Four Glacia (Pokémon League) [2]": {
+			"ability":"Inner Focus","level":52,
+			"moves":[ "Shadow Ball", "Crunch", "Hail", "Ice Beam"],
+			"nature":"Mild","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[Em] Elite Four Glacia (Pokémon League) [1]": {
 			"ability":"Inner Focus","level":50,
 			"moves":[ "Ice Beam", "Icy Wind", "Crunch", "Light Screen"],
 			"ivs":{"hp":30,"at":30,"sa":30,"sp":30,"df":30,"sd":30}}
@@ -1934,7 +2479,19 @@ var SETDEX_ADV = {
 			"nature":"Mild","ivs":{"hp":29,"at":29,"sa":29,"sp":29,"df":29,"sd":29}}
 	}
 	,"Gloom": {
-		"[Em] Aroma Lady Violet (Route 123)": {
+		"[RuSa] Aroma Lady Violet (Route 123)": {
+			"ability":"Chlorophyll","level":25,
+			"moves":[ "Poison Powder", "Stun Spore", "Sleep Powder", "Acid"],
+			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Cooltrainer Alexa (Route 128)": {
+			"ability":"Chlorophyll","level":35,
+			"moves":[ "Stun Spore", "Sleep Powder", "Acid", "Moonlight"],
+			"nature":"Timid","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Pokémon Ranger Catherine (Route 119)": {
+			"ability":"Chlorophyll","level":27,
+			"moves":[ "Poison Powder", "Stun Spore", "Sleep Powder", "Acid"],
+			"nature":"Naive","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[Em] Aroma Lady Violet (Route 123)": {
 			"ability":"Chlorophyll","level":26,
 			"moves":[ "Poison Powder", "Stun Spore", "Sleep Powder", "Acid"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -1980,11 +2537,15 @@ var SETDEX_ADV = {
 			"ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
 	}
 	,"Golbat": {
-		"[Em] Aqua Admin Matt (Aqua Hideout)": {
+		"[RuSa] Aqua Leader Archie (Mt. Chimney)": {
+			"ability":"Inner Focus","level":24,
+			"moves":[ "Supersonic", "Astonish", "Bite", "Wing Attack"],
+			"ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[Em] Aqua Admin Matt (Aqua Hideout)": {
 			"ability":"Inner Focus","level":34,
 			"moves":[ "Wing Attack", "Bite", "Astonish", "Confuse Ray"],
 			"ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
-		,"[Em] Aqua Grunt #5 (Seafloor Cavern)": {
+		,"[Em] Aqua Grunt 5 (Seafloor Cavern)": {
 			"ability":"Inner Focus","level":35,
 			"moves":[ "Bite", "Wing Attack", "Confuse Ray", "Air Cutter"],
 			"ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
@@ -2038,11 +2599,75 @@ var SETDEX_ADV = {
 			"ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
 	}
 	,"Goldeen": {
-		"[Em] Beauty Connie (Sootopolis Gym)": {
+		"[RuSa] Beauty Connie (Sootopolis Gym)": {
+			"ability":"Swift Swim","level":40,
+			"moves":[ "Horn Attack", "Flail", "Fury Attack", "Waterfall"],
+			"nature":"Timid","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Beauty Johanna (Route 109 House)": {
+			"ability":"Swift Swim","level":13,
+			"moves":[ "Peck", "Tail Whip", "Water Sport", "Supersonic"],
+			"nature":"Rash","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Claude (Route 114) [1]": {
+			"ability":"Swift Swim","level":16,
+			"moves":[ "Tail Whip", "Water Sport", "Supersonic", "Horn Attack"],
+			"nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Claude (Route 114) [2]": {
+			"ability":"Swift Swim","level":16,
+			"moves":[ "Tail Whip", "Water Sport", "Supersonic", "Horn Attack"],
+			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Claude (Route 114) [3]": {
+			"ability":"Swift Swim","level":16,
+			"moves":[ "Tail Whip", "Water Sport", "Supersonic", "Horn Attack"],
+			"nature":"Naughty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Parasol Lady Clarissa (Route 120)": {
+			"ability":"Swift Swim","level":29,
+			"moves":[ "Supersonic", "Horn Attack", "Flail", "Fury Attack"],
+			"nature":"Quirky","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Pokémon Breeder Lydia (Route 117)": {
+			"ability":"Swift Swim","level":12,
+			"moves":[ "Peck", "Tail Whip", "Water Sport", "Supersonic"],
+			"ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Sis and Bro Lisa & Ray (Route 107)": {
+			"ability":"Swift Swim","level":28,
+			"moves":[ "Water Sport", "Supersonic", "Horn Attack", "Flail"],
+			"nature":"Naughty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Alice (Route 109 Surf) [1]": {
+			"ability":"Swift Swim","level":25,
+			"moves":[ "Water Sport", "Supersonic", "Horn Attack", "Flail"],
+			"nature":"Naive","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Alice (Route 109 Surf) [2]": {
+			"ability":"Swift Swim","level":25,
+			"moves":[ "Water Sport", "Supersonic", "Horn Attack", "Flail"],
+			"nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Beth (Route 107)": {
+			"ability":"Swift Swim","level":25,
+			"moves":[ "Water Sport", "Supersonic", "Horn Attack", "Flail"],
+			"nature":"Jolly","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Brenda (Route 126)": {
+			"ability":"Swift Swim","level":35,
+			"moves":[ "Supersonic", "Horn Attack", "Flail", "Fury Attack"],
+			"nature":"Naive","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Debra (Route 133)": {
+			"ability":"Swift Swim","level":34,
+			"moves":[ "Supersonic", "Horn Attack", "Flail", "Fury Attack"],
+			"nature":"Naive","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Katie (Route 130)": {
+			"ability":"Swift Swim","level":33,
+			"moves":[ "Supersonic", "Horn Attack", "Flail", "Fury Attack"],
+			"nature":"Timid","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Missy (Route 108)": {
+			"ability":"Swift Swim","level":24,
+			"moves":[ "Water Sport", "Supersonic", "Horn Attack", "Flail"],
+			"nature":"Rash","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Sharon (Route 125)": {
+			"ability":"Swift Swim","level":34,
+			"moves":[ "Supersonic", "Horn Attack", "Flail", "Fury Attack"],
+			"ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Beauty Connie (Sootopolis Gym)": {
 			"ability":"Swift Swim","level":40,
 			"moves":[ "Horn Attack", "Flail", "Fury Attack", "Waterfall"],
 			"nature":"Timid","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
-		,"[Em] Beauty Johanna (Route 109)": {
+		,"[Em] Beauty Johanna (Route 109 House)": {
 			"ability":"Swift Swim","level":13,
 			"moves":[ "Peck", "Tail Whip", "Water Sport", "Supersonic"],
 			"nature":"Rash","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -2066,31 +2691,31 @@ var SETDEX_ADV = {
 			"ability":"Swift Swim","level":27,
 			"moves":[ "Water Sport", "Supersonic", "Horn Attack", "Flail"],
 			"nature":"Naughty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Alice (Route 109 Surf) [1]": {
+		,"[Em] Swimmer-F Alice (Route 109 Surf) [1]": {
 			"ability":"Swift Swim","level":24,
 			"moves":[ "Water Sport", "Supersonic", "Horn Attack", "Flail"],
 			"nature":"Naive","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Alice (Route 109 Surf) [2]": {
+		,"[Em] Swimmer-F Alice (Route 109 Surf) [2]": {
 			"ability":"Swift Swim","level":24,
 			"moves":[ "Water Sport", "Supersonic", "Horn Attack", "Flail"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Beth (Route 107)": {
+		,"[Em] Swimmer-F Beth (Route 107)": {
 			"ability":"Swift Swim","level":26,
 			"moves":[ "Water Sport", "Supersonic", "Horn Attack", "Flail"],
 			"nature":"Adamant","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Brenda (Route 126)": {
+		,"[Em] Swimmer-F Brenda (Route 126)": {
 			"ability":"Swift Swim","level":34,
 			"moves":[ "Supersonic", "Horn Attack", "Flail", "Fury Attack"],
 			"nature":"Naive","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Denise (Route 107)": {
+		,"[Em] Swimmer-F Denise (Route 107)": {
 			"ability":"Swift Swim","level":25,
 			"moves":[ "Water Sport", "Supersonic", "Horn Attack", "Flail"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Katie (Route 130)": {
+		,"[Em] Swimmer-F Katie (Route 130)": {
 			"ability":"Swift Swim","level":33,
 			"moves":[ "Supersonic", "Horn Attack", "Flail", "Fury Attack"],
 			"nature":"Timid","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Missy (Route 108)": {
+		,"[Em] Swimmer-F Missy (Route 108)": {
 			"ability":"Swift Swim","level":26,
 			"moves":[ "Water Sport", "Supersonic", "Horn Attack", "Flail"],
 			"nature":"Rash","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -2180,7 +2805,7 @@ var SETDEX_ADV = {
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Golduck": {
-		"[FRLG] Tamer Vincent (Victory Road B1F)": {
+		"[FRLG] Tamer Vincent (Victory Road)": {
 			"ability":"Damp","level":44,
 			"moves":[ "Confusion", "Screech", "Psych Up", "Fury Swipes"],
 			"nature":"Impish","ivs":{"hp":4,"at":4,"sa":4,"sp":4,"df":4,"sd":4}}
@@ -2204,7 +2829,23 @@ var SETDEX_ADV = {
 			"nature":"Sassy","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Graveler": {
-		"[Em] Cooltrainer Owen (Victory Road)": {
+		"[RuSa] Cooltrainer Ruben (Route 128)": {
+			"ability":"Rock Head","level":34,
+			"moves":[ "Rock Throw", "Magnitude", "Self-Destruct", "Rollout"],
+			"nature":"Naive","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Warren (Route 133)": {
+			"ability":"Rock Head","level":34,
+			"moves":[ "Rock Throw", "Magnitude", "Self-Destruct", "Rollout"],
+			"nature":"Serious","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Hiker Alan (Trick House)": {
+			"ability":"Rock Head","level":22,
+			"moves":[ "Mud Sport", "Rock Throw", "Magnitude", "Self-Destruct"],
+			"nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Sr. and Jr. Tyra & Ivy (Route 114)": {
+			"ability":"Rock Head","level":21,
+			"moves":[ "Defense Curl", "Rollout", "Mud Sport", "Rock Throw"],
+			"nature":"Quirky","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Cooltrainer Owen (Victory Road)": {
 			"ability":"Rock Head","level":42,
 			"moves":[ "Magnitude", "Self-Destruct", "Rollout", "Rock Blast"],
 			"ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -2352,7 +2993,19 @@ var SETDEX_ADV = {
 			"nature":"Calm","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Grovyle": {
-		"[Em] May 2 w/ Treecko (Route 110)": {
+		"[RuSa] PKMN Trainer Brendan (Lilycove City)": {
+			"ability":"Overgrow","level":34,
+			"moves":[ "Fury Cutter", "Pursuit", "Screech", "Leaf Blade"],
+			"nature":"Gentle","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
+		,"[RuSa] PKMN Trainer Brendan (Route 110)": {
+			"ability":"Overgrow","level":20,
+			"moves":[ "Absorb", "Quick Attack", "Fury Cutter", "Pursuit"],
+			"nature":"Calm","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] PKMN Trainer Brendan (Route 119)": {
+			"ability":"Overgrow","level":31,
+			"moves":[ "Fury Cutter", "Pursuit", "Screech", "Leaf Blade"],
+			"nature":"Calm","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[Em] May 2 w/ Treecko (Route 110)": {
 			"ability":"Overgrow","level":20,
 			"moves":[ "Absorb", "Quick Attack", "Pursuit", "Fury Cutter"],
 			"nature":"Hasty","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -2462,7 +3115,43 @@ var SETDEX_ADV = {
 			"ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
 	}
 	,"Gyarados": {
-		"[Em] Champion Wallace (Pokémon League)": {
+		"[RuSa] Fisherman Roger (Route 127)": {
+			"ability":"Intimidate","level":35,
+			"moves":[ "Bite", "Dragon Rage", "Leer", "Twister"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Ronald (Route 132) [1]": {
+			"ability":"Intimidate","level":34,
+			"moves":[ "Thrash", "Bite", "Dragon Rage", "Leer"],
+			"nature":"Lax","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Ronald (Route 132) [2]": {
+			"ability":"Intimidate","level":29,
+			"moves":[ "Thrash", "Bite", "Dragon Rage"],
+			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Ronald (Route 132) [3]": {
+			"ability":"Intimidate","level":25,
+			"moves":[ "Thrash", "Bite", "Dragon Rage"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Ronald (Route 132) [4]": {
+			"ability":"Intimidate","level":22,
+			"moves":[ "Thrash", "Bite"],
+			"nature":"Adamant","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Ronald (Route 132) [5]": {
+			"ability":"Intimidate","level":20,
+			"moves":[ "Thrash", "Bite"],
+			"nature":"Lonely","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Barry (Route 126)": {
+			"ability":"Intimidate","level":35,
+			"moves":[ "Bite", "Dragon Rage", "Leer", "Twister"],
+			"nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Jack (Route 134)": {
+			"ability":"Intimidate","level":34,
+			"moves":[ "Thrash", "Bite", "Dragon Rage", "Leer"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Rodney (Route 130)": {
+			"ability":"Intimidate","level":34,
+			"moves":[ "Thrash", "Bite", "Dragon Rage", "Leer"],
+			"nature":"Timid","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Champion Wallace (Pokémon League)": {
 			"ability":"Intimidate","level":56,
 			"moves":[ "Surf", "Hyper Beam", "Earthquake", "Dragon Dance"],
 			"nature":"Rash"}
@@ -2490,19 +3179,19 @@ var SETDEX_ADV = {
 			"ability":"Intimidate","level":35,
 			"moves":[ "Bite", "Dragon Rage", "Leer", "Twister"],
 			"nature":"Modest","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Barry (Route 126)": {
+		,"[Em] Swimmer-M Barry (Route 126)": {
 			"ability":"Intimidate","level":34,
 			"moves":[ "Thrash", "Bite", "Dragon Rage", "Leer"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Declan (Route 124)": {
+		,"[Em] Swimmer-M Declan (Route 124)": {
 			"ability":"Intimidate","level":34,
 			"moves":[ "Thrash", "Bite", "Dragon Rage", "Leer"],
 			"nature":"Lax","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Jack (Route 134)": {
+		,"[Em] Swimmer-M Jack (Route 134)": {
 			"ability":"Intimidate","level":34,
 			"moves":[ "Thrash", "Bite", "Dragon Rage", "Leer"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Rodney (Route 130)": {
+		,"[Em] Swimmer-M Rodney (Route 130)": {
 			"ability":"Intimidate","level":34,
 			"moves":[ "Thrash", "Bite", "Dragon Rage", "Leer"],
 			"nature":"Hasty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -2544,7 +3233,19 @@ var SETDEX_ADV = {
 			"nature":"Quiet"}
 	}
 	,"Hariyama": {
-		"[Em] Batle Girl Reyna (Route 134)": {
+		"[RuSa] Black Belt Atsushi (Mt. Pyre)": {
+			"ability":"Thick Fat","level":30,
+			"moves":[ "Vital Throw", "Fake Out", "Whirlwind", "Knock Off"],
+			"nature":"Relaxed","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Expert Timothy (Route 115)": {
+			"ability":"Thick Fat","level":28,
+			"moves":[ "Arm Thrust", "Vital Throw", "Fake Out", "Whirlwind"],
+			"nature":"Quiet","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
+		,"[RuSa] Old Couple John & Jay (Meteor Falls)": {
+			"ability":"Thick Fat","level":40,
+			"moves":[ "Focus Punch", "Rock Tomb", "Rest", "Belly Drum"],
+			"nature":"Hasty","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
+		,"[Em] Batle Girl Reyna (Route 134)": {
 			"ability":"Thick Fat","level":33,
 			"moves":[ "Fake Out", "Whirlwind", "Knock Off", "Smelling Salts"],
 			"nature":"Impish","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
@@ -2568,7 +3269,7 @@ var SETDEX_ADV = {
 			"ability":"Thick Fat","level":27,
 			"moves":[ "Arm Thrust", "Vital Throw", "Fake Out", "Whirlwind"],
 			"nature":"Quiet","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
-		,"[Em] Old Couple John and Jay (Meteor Falls)": {
+		,"[Em] Old Couple John & Jay (Meteor Falls)": {
 			"ability":"Thick Fat","level":39,
 			"moves":[ "Focus Punch", "Rock Tomb", "Rest", "Belly Drum"],
 			"nature":"Hasty","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
@@ -2696,19 +3397,39 @@ var SETDEX_ADV = {
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Horsea": {
-		"[Em] Beauty Thalia (Abandonded Ship)": {
+		"[RuSa] Swimmer-F Linda (Route 133)": {
+			"ability":"Swift Swim","level":34,
+			"moves":[ "Smokescreen", "Leer", "Water Gun", "Twister"],
+			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Susie (Route 131)": {
+			"ability":"Swift Swim","level":33,
+			"moves":[ "Smokescreen", "Leer", "Water Gun", "Twister"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Tara (Route 108)": {
+			"ability":"Swift Swim","level":26,
+			"moves":[ "Bubble", "Smokescreen", "Leer", "Water Gun"],
+			"nature":"Mild","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Rodney (Route 130)": {
+			"ability":"Swift Swim","level":34,
+			"moves":[ "Smokescreen", "Leer", "Water Gun", "Twister"],
+			"nature":"Timid","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Stan (Route 125)": {
+			"ability":"Swift Swim","level":35,
+			"moves":[ "Smokescreen", "Leer", "Water Gun", "Twister"],
+			"nature":"Mild","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Beauty Thalia (Abandonded Ship)": {
 			"ability":"Swift Swim","level":25,
 			"moves":[ "Bubble", "Smokescreen", "Leer", "Water Gun"],
 			"nature":"Naive","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Linda (Route 133)": {
+		,"[Em] Swimmer-F Linda (Route 133)": {
 			"ability":"Swift Swim","level":33,
 			"moves":[ "Smokescreen", "Leer", "Water Gun", "Twister"],
 			"nature":"Relaxed","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Stan (Route 125)": {
+		,"[Em] Swimmer-M Stan (Route 125)": {
 			"ability":"Swift Swim","level":34,
 			"moves":[ "Smokescreen", "Leer", "Water Gun", "Twister"],
 			"nature":"Mild","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Tara (Route 108)": {
+		,"[Em] Swimmer-F Tara (Route 108)": {
 			"ability":"Swift Swim","level":25,
 			"moves":[ "Bubble", "Smokescreen", "Leer", "Water Gun"],
 			"nature":"Mild","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -2822,7 +3543,7 @@ var SETDEX_ADV = {
 			"ability":"Insomnia","level":34,
 			"moves":[ "Confusion", "Headbutt", "Poison Gas", "Meditate"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Juggler Nelson (Victory Road B1F)": {
+		,"[FRLG] Juggler Nelson (Victory Road)": {
 			"ability":"Insomnia","level":41,
 			"moves":[ "Headbutt", "Poison Gas", "Meditate", "Psychic"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -2840,7 +3561,15 @@ var SETDEX_ADV = {
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Illumise": {
-		"[Em] Bug Catcher Greg (Route 119)": {
+		"[RuSa] Bug Catcher Greg (Route 119)": {
+			"ability":"Oblivious","level":26,
+			"moves":[ "Moonlight", "Quick Attack", "Wish", "Encore"],
+			"nature":"Timid","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Young Couple Lois & Hal (Abandoned Ship Rooms 2 1F)": {
+			"ability":"Oblivious","level":27,
+			"moves":[ "Moonlight", "Quick Attack", "Wish", "Encore"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Bug Catcher Greg (Route 119)": {
 			"ability":"Oblivious","level":25,
 			"moves":[ "Moonlight", "Quick Attack", "Wish", "Encore"],
 			"nature":"Timid","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -2882,7 +3611,7 @@ var SETDEX_ADV = {
 			"ability":"Overgrow","level":36,
 			"moves":[ "Poison Powder", "Sleep Powder", "Razor Leaf", "Sweet Scent"],
 			"nature":"Relaxed","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Cooltrainer Rolando (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer Rolando (Victory Road)": {
 			"ability":"Overgrow","level":42,
 			"moves":[ "Razor Leaf", "Sleep Powder", "Sweet Scent", "Synthesis"],
 			"ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -2900,7 +3629,7 @@ var SETDEX_ADV = {
 			"ability":"Cute Charm","level":22,
 			"moves":[ "Defense Curl", "Pound", "Disable", "Rollout"],
 			"nature":"Jolly","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Cooltrainer Alexa (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer Alexa (Victory Road)": {
 			"ability":"Cute Charm","level":42,
 			"moves":[ "Sing", "Body Slam", "Rollout", "Disable"],
 			"nature":"Sassy","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -2916,7 +3645,51 @@ var SETDEX_ADV = {
 			"nature":"Adamant"}
 	}
 	,"Kadabra": {
-		"[Em] Cooltrainer Samuel (Victory Road)": {
+		"[RuSa] Cooltrainer Samuel (Victory Road)": {
+			"ability":"Synchronize","level":42,
+			"moves":[ "Recover", "Future Sight", "Role Play", "Psychic"],
+			"nature":"Jolly","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Vito (Victory Road)": {
+			"ability":"Synchronize","level":42,
+			"moves":[ "Recover", "Future Sight", "Role Play", "Psychic"],
+			"nature":"Serious","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Hex Maniac Tasha (Mt. Pyre)": {
+			"ability":"Synchronize","level":31,
+			"moves":[ "Psybeam", "Reflect", "Recover", "Future Sight"],
+			"ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Psychic Alexis (Trick House)": {
+			"ability":"Synchronize","level":40,
+			"moves":[ "Recover", "Future Sight", "Role Play", "Psychic"],
+			"nature":"Quirky","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Psychic Cameron (Route 123)": {
+			"ability":"Synchronize","level":31,
+			"moves":[ "Psybeam", "Reflect", "Recover", "Future Sight"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Psychic Fritz (Mossdeep Gym)": {
+			"ability":"Synchronize","level":35,
+			"moves":[ "Reflect", "Recover", "Future Sight", "Role Play"],
+			"nature":"Jolly","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Psychic Jacki (Route 123)": {
+			"ability":"Synchronize","level":31,
+			"moves":[ "Psybeam", "Reflect", "Recover", "Future Sight"],
+			"nature":"Rash","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Psychic Joshua (Trick House)": {
+			"ability":"Synchronize","level":41,
+			"moves":[ "Recover", "Future Sight", "Role Play", "Psychic"],
+			"nature":"Mild","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Psychic Kayla (Mt. Pyre)": {
+			"ability":"Synchronize","level":32,
+			"moves":[ "Psybeam", "Reflect", "Recover", "Future Sight"],
+			"nature":"Modest","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Psychic Maura (Mossdeep Gym)": {
+			"ability":"Synchronize","level":36,
+			"moves":[ "Recover", "Future Sight", "Role Play", "Psychic"],
+			"nature":"Naive","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Psychic Virgil (Mossdeep Gym)": {
+			"ability":"Synchronize","level":36,
+			"moves":[ "Recover", "Future Sight", "Role Play", "Psychic"],
+			"nature":"Quiet","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[Em] Cooltrainer Samuel (Victory Road)": {
 			"ability":"Synchronize","level":42,
 			"moves":[ "Recover", "Future Sight", "Role Play", "Psychic"],
 			"nature":"Relaxed","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -2996,11 +3769,11 @@ var SETDEX_ADV = {
 			"ability":"Synchronize","level":31,
 			"moves":[ "Psybeam", "Reflect", "Recover", "Future Sight"],
 			"nature":"Lonely","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Juggler Nelson (Victory Road B1F) [1]": {
+		,"[FRLG] Juggler Nelson (Victory Road) [1]": {
 			"ability":"Synchronize","level":41,
 			"moves":[ "Recover", "Future Sight", "Role Play", "Psychic"],
 			"nature":"Sassy","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Juggler Nelson (Victory Road B1F) [2]": {
+		,"[FRLG] Juggler Nelson (Victory Road) [2]": {
 			"ability":"Synchronize","level":41,
 			"moves":[ "Recover", "Future Sight", "Role Play", "Psychic"],
 			"nature":"Relaxed","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -3046,7 +3819,23 @@ var SETDEX_ADV = {
 			"nature":"Rash","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
 	}
 	,"Kecleon": {
-		"[Em] Beauty Jessica (Route 121)": {
+		"[RuSa] Beauty Jessica (Route 121)": {
+			"ability":"Color Change","level":30,
+			"moves":[ "Bind", "Lick", "Fury Swipes", "Feint Attack"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Camper Justin (Trick House)": {
+			"ability":"Color Change","level":24,
+			"moves":[ "Feint Attack", "Fury Swipes", "Psybeam", "Screech"],
+			"nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Cooltrainer Owen (Victory Road)": {
+			"ability":"Color Change","level":42,
+			"moves":[ "Psybeam", "Screech", "Slash", "Substitute"],
+			"nature":"Rash","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Zane (Lavaridge Gym 1F)": {
+			"ability":"Color Change","level":24,
+			"moves":[ "Flamethrower", "Fury Swipes", "Feint Attack", "Bind"],
+			"nature":"Adamant","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[Em] Beauty Jessica (Route 121)": {
 			"ability":"Color Change","level":29,
 			"moves":[ "Bind", "Lick", "Fury Swipes", "Feint Attack"],
 			"nature":"Bold","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -3086,7 +3875,7 @@ var SETDEX_ADV = {
 			"ability":"Hyper Cutter","level":38,
 			"moves":[ "Harden", "Mud Shot", "Stomp", "Guillotine"],
 			"nature":"Timid","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Cooltrainer Colby (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer Colby (Victory Road)": {
 			"ability":"Hyper Cutter","level":41,
 			"moves":[ "Guillotine", "Stomp", "Mud Shot", "Bubble"],
 			"nature":"Lonely","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -3096,7 +3885,27 @@ var SETDEX_ADV = {
 			"nature":"Naive","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Kirlia": {
-		"[Em] Psychic Alexis (Trick House)": {
+		"[RuSa] Psychic Alexis (Trick House)": {
+			"ability":"Synchronize","level":40,
+			"moves":[ "Calm Mind", "Psychic", "Imprison", "Future Sight"],
+			"nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Psychic Hannah (Mossdeep Gym)": {
+			"ability":"Synchronize","level":36,
+			"moves":[ "Teleport", "Calm Mind", "Psychic", "Imprison"],
+			"nature":"Calm","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Psychic Maura (Mossdeep Gym)": {
+			"ability":"Synchronize","level":36,
+			"moves":[ "Teleport", "Calm Mind", "Psychic", "Imprison"],
+			"nature":"Quirky","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Psychic Preston (Mossdeep Gym)": {
+			"ability":"Synchronize","level":37,
+			"moves":[ "Teleport", "Calm Mind", "Psychic", "Imprison"],
+			"nature":"Gentle","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Psychic William (Mt. Pyre)": {
+			"ability":"Synchronize","level":31,
+			"moves":[ "Double Team", "Teleport", "Calm Mind", "Psychic"],
+			"nature":"Naive","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Psychic Alexis (Trick House)": {
 			"ability":"Synchronize","level":41,
 			"moves":[ "Calm Mind", "Psychic", "Imprison", "Future Sight"],
 			"nature":"Quiet","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -3118,7 +3927,43 @@ var SETDEX_ADV = {
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Koffing": {
-		"[Em] Ninja Boy Hideo (Route 119) [1]": {
+		"[RuSa] Ninja Boy Hideo (Route 119) [1]": {
+			"ability":"Levitate","level":26,
+			"moves":[ "Tackle", "Self-Destruct", "Sludge", "Smokescreen"],
+			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Ninja Boy Hideo (Route 119) [2]": {
+			"ability":"Levitate","level":26,
+			"moves":[ "Tackle", "Poison Gas", "Sludge", "Smokescreen"],
+			"nature":"Adamant","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Ninja Boy Keigo (Route 120)": {
+			"ability":"Levitate","level":29,
+			"moves":[ "Poison Gas", "Tackle", "Sludge", "Smokescreen"],
+			"nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Ninja Boy Lao (Route 113) [1]": {
+			"ability":"Levitate","level":17,
+			"moves":[ "Poison Gas", "Tackle", "Smog", "Self-Destruct"],
+			"nature":"Sassy","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Ninja Boy Lao (Route 113) [2]": {
+			"ability":"Levitate","level":17,
+			"moves":[ "Poison Gas", "Tackle", "Smog"],
+			"nature":"Impish","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Ninja Boy Lao (Route 113) [3]": {
+			"ability":"Levitate","level":17,
+			"moves":[ "Poison Gas", "Tackle", "Smog", "Self-Destruct"],
+			"nature":"Rash","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Ninja Boy Lao (Route 113) [4]": {
+			"ability":"Levitate","level":19,
+			"moves":[ "Tackle", "Smog"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Ninja Boy Takashi (Route 119)": {
+			"ability":"Levitate","level":25,
+			"moves":[ "Smog", "Self-Destruct", "Sludge", "Smokescreen"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Ninja Boy Tsunao (Route 120)": {
+			"ability":"Levitate","level":28,
+			"moves":[ "Tackle", "Self-Destruct", "Sludge", "Smokescreen"],
+			"nature":"Mild","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Ninja Boy Hideo (Route 119) [1]": {
 			"ability":"Levitate","level":25,
 			"moves":[ "Tackle", "Self-Destruct", "Sludge", "Smokescreen"],
 			"nature":"Relaxed","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -3342,7 +4187,19 @@ var SETDEX_ADV = {
 			"nature":"Modest","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Lairon": {
-		"[Em] Cooltrainer Keira (Trick House)": {
+		"[RuSa] Cooltrainer Elaine (Trick House)": {
+			"ability":"Sturdy","level":45,
+			"moves":[ "Take Down", "Iron Tail", "Protect", "Metal Sound"],
+			"nature":"Brave","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Samuel (Victory Road)": {
+			"ability":"Sturdy","level":42,
+			"moves":[ "Roar", "Take Down", "Iron Tail", "Protect"],
+			"nature":"Lonely","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Pokémaniac Mark (Mt. Pyre)": {
+			"ability":"Sturdy","level":32,
+			"moves":[ "Iron Defense", "Roar", "Take Down", "Iron Tail"],
+			"nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Cooltrainer Keira (Trick House)": {
 			"ability":"Sturdy","level":45,
 			"moves":[ "Take Down", "Iron Tail", "Protect", "Metal Sound"],
 			"ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -3363,7 +4220,7 @@ var SETDEX_ADV = {
 			"nature":"Quiet","evs":{"df":252,"sa":104,"sd":152},
 			"ivs":{"hp":16,"at":16,"df":16,"sa":16,"sd":16,"sp":16},
 			"moves":[ "Ice Beam", "Horn Drill", "Protect", "Confuse Ray"]}
-		,"[FRLG] Pokémaniac Dawson (Victory Road B1F)": {
+		,"[FRLG] Pokémaniac Dawson (Victory Road)": {
 			"ability":"Water Absorb","level":40,
 			"moves":[ "Confuse Ray", "Perish Song", "Ice Beam", "Rain Dance"],
 			"ivs":{"hp":3,"at":3,"sa":3,"sp":3,"df":3,"sd":3}}
@@ -3393,7 +4250,7 @@ var SETDEX_ADV = {
 			"ability":"Own Tempo","level":29,
 			"moves":[ "Defense Curl", "Knock Off", "Stomp", "Wrap"],
 			"nature":"Impish","ivs":{"hp":3,"at":3,"sa":3,"sp":3,"df":3,"sd":3}}
-		,"[FRLG] Pokémaniac Dawson (Victory Road B1F)": {
+		,"[FRLG] Pokémaniac Dawson (Victory Road)": {
 			"ability":"Own Tempo","level":40,
 			"moves":[ "Stomp", "Wrap", "Disable", "Slam"],
 			"nature":"Rash","ivs":{"hp":3,"at":3,"sa":3,"sp":3,"df":3,"sd":3}}
@@ -3403,7 +4260,23 @@ var SETDEX_ADV = {
 			"ivs":{"hp":4,"at":4,"sa":4,"sp":4,"df":4,"sd":4}}
 	}
 	,"Linoone": {
-		"[Em] Cooltrainer Athena (Route 127)": {
+		"[RuSa] Cooltrainer George (Petalburg Gym)": {
+			"ability":"Pickup","level":27,
+			"moves":[ "Headbutt", "Sand Attack", "Odor Sleuth", "Mud Sport"],
+			"nature":"Modest","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Lori (Petalburg Gym)": {
+			"ability":"Pickup","level":27,
+			"moves":[ "Headbutt", "Sand Attack", "Odor Sleuth", "Mud Sport"],
+			"nature":"Quirky","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Parker (Petalburg Gym)": {
+			"ability":"Pickup","level":27,
+			"moves":[ "Headbutt", "Sand Attack", "Odor Sleuth", "Mud Sport"],
+			"nature":"Serious","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Youngster Neal (Route 113)": {
+			"ability":"Pickup","level":20,
+			"moves":[ "Tail Whip", "Headbutt", "Sand Attack", "Odor Sleuth"],
+			"nature":"Lonely","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Cooltrainer Athena (Route 127)": {
 			"ability":"Pickup","level":32,
 			"moves":[ "Surf", "Thief"],
 			"nature":"Lonely","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -3413,7 +4286,31 @@ var SETDEX_ADV = {
 			"nature":"Lonely","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
 	}
 	,"Lombre": {
-		"[Em] Beauty Olivia (Sootopolis Gym)": {
+		"[RuSa] Beauty Olivia (Sootopolis Gym)": {
+			"ability":"Swift Swim","level":41,
+			"moves":[ "Uproar", "Fury Swipes", "Fake Out", "Water Gun"],
+			"nature":"Timid","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Collector Edwin (Route 110)": {
+			"ability":"Swift Swim","level":14,
+			"moves":[ "Astonish", "Growl", "Absorb", "Nature Power"],
+			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Picnicker Carol (Route 112)": {
+			"ability":"Swift Swim","level":18,
+			"moves":[ "Astonish", "Growl", "Absorb", "Nature Power"],
+			"nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Picnicker Nancy (Route 114)": {
+			"ability":"Swift Swim","level":19,
+			"moves":[ "Growl", "Absorb", "Nature Power", "Fake Out"],
+			"nature":"Hasty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Pokémon Ranger Carlos (Route 120)": {
+			"ability":"Swift Swim","level":29,
+			"moves":[ "Absorb", "Nature Power", "Fake Out", "Fury Swipes"],
+			"nature":"Timid","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Pokémon Ranger Jenna (Route 120)": {
+			"ability":"Swift Swim","level":29,
+			"moves":[ "Absorb", "Nature Power", "Fake Out", "Fury Swipes"],
+			"nature":"Hasty","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[Em] Beauty Olivia (Sootopolis Gym)": {
 			"ability":"Swift Swim","level":39,
 			"moves":[ "Uproar", "Fury Swipes", "Fake Out", "Water Pulse"],
 			"nature":"Bold","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -3487,7 +4384,19 @@ var SETDEX_ADV = {
 			"nature":"Brave","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
 	}
 	,"Lotad": {
-		"[Em] Lady Sarah (Route 116)": {
+		"[RuSa] Lass Haley (Route 104)": {
+			"ability":"Swift Swim","level":7,
+			"moves":[ "Astonish", "Growl", "Absorb"],
+			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Pokémon Ranger Jenna (Route 120)": {
+			"ability":"Swift Swim","level":29,
+			"moves":[ "Growl", "Absorb", "Nature Power", "Mist"],
+			"nature":"Docile","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Twins Gina & Mia (Route 104)": {
+			"ability":"Swift Swim","level":8,
+			"moves":[ "Astonish", "Growl", "Absorb"],
+			"nature":"Lonely","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Lady Sarah (Route 116)": {
 			"ability":"Swift Swim","level":8,
 			"moves":[ "Astonish", "Growl", "Absorb"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -3517,7 +4426,27 @@ var SETDEX_ADV = {
 			"nature":"Jolly","ivs":{"hp":4,"at":4,"sa":4,"sp":4,"df":4,"sd":4}}
 	}
 	,"Loudred": {
-		"[Em] Cooltrainer Cristin (Route 121)": {
+		"[RuSa] Cooltrainer Ruben (Route 128)": {
+			"ability":"Soundproof","level":34,
+			"moves":[ "Astonish", "Howl", "Supersonic", "Stomp"],
+			"nature":"Modest","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Interviewer Gabby & Ty 2 (Route 118)": {
+			"ability":"Soundproof","level":27,
+			"moves":[ "Uproar", "Astonish", "Howl", "Supersonic"],
+			"nature":"Adamant","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Interviewer Gabby & Ty 3 (Route 120)": {
+			"ability":"Soundproof","level":30,
+			"moves":[ "Astonish", "Howl", "Supersonic", "Stomp"],
+			"nature":"Quirky","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[RuSa] Interviewer Gabby & Ty 4 (Route 111)": {
+			"ability":"Soundproof","level":33,
+			"moves":[ "Astonish", "Howl", "Supersonic", "Stomp"],
+			"nature":"Quirky","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
+		,"[RuSa] Interviewer Gabby & Ty 5 (Route 118)": {
+			"ability":"Soundproof","level":36,
+			"moves":[ "Astonish", "Howl", "Supersonic", "Stomp"],
+			"nature":"Quirky","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[Em] Cooltrainer Cristin (Route 121)": {
 			"ability":"Soundproof","level":29,
 			"moves":[ "Astonish", "Howl", "Supersonic", "Stomp"],
 			"nature":"Calm","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -3531,7 +4460,15 @@ var SETDEX_ADV = {
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Ludicolo": {
-		"[Em] Champion Wallace (Pokémon League)": {
+		"[RuSa] Cooltrainer Michelle (Victory Road)": {
+			"ability":"Swift Swim","level":42,
+			"moves":[ "Astonish", "Growl", "Absorb", "Nature Power"],
+			"nature":"Quirky","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Warren (Route 133)": {
+			"ability":"Swift Swim","level":34,
+			"moves":[ "Astonish", "Growl", "Absorb", "Nature Power"],
+			"nature":"Rash","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[Em] Champion Wallace (Pokémon League)": {
 			"ability":"Swift Swim","level":56,
 			"moves":[ "Giga Drain", "Surf", "Double Team", "Leech Seed"]}
 		,"[Em] Cooltrainer Michelle (Victory Road)": {
@@ -3560,7 +4497,15 @@ var SETDEX_ADV = {
 			"nature":"Calm","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
 	}
 	,"Lunatone": {
-		"[Em] Cooltrainer Mitchell (Victory Road)": {
+		"[RuSa] Leader Tate&Liza (Mossdeep Gym)": {
+			"ability":"Levitate","level":42,
+			"moves":[ "Light Screen", "Psychic", "Hypnosis", "Calm Mind"],
+			"nature":"Bold","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[RuSa] Psychic Jacki (Route 123)": {
+			"ability":"Levitate","level":31,
+			"moves":[ "Rock Throw", "Hypnosis", "Psywave", "Cosmic Power"],
+			"nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Cooltrainer Mitchell (Victory Road)": {
 			"ability":"Levitate","level":43,
 			"moves":[ "Explosion", "Reflect", "Light Screen", "Psychic"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -3578,7 +4523,47 @@ var SETDEX_ADV = {
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Luvdisc": {
-		"[Em] Lady Daphne (Sootopolis Gym) [1]": {
+		"[RuSa] Lass Andrea (Sootopolis Gym)": {
+			"ability":"Swift Swim","level":41,
+			"moves":[ "Take Down", "Attract", "Sweet Kiss", "Flail"],
+			"nature":"Lonely","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Leader Wallace (Sootopolis Gym)": {
+			"ability":"Swift Swim","level":40,
+			"moves":[ "Water Pulse", "Attract", "Sweet Kiss", "Flail"],
+			"nature":"Quiet","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
+		,"[RuSa] Swimmer-F Dana (Route 132)": {
+			"ability":"Swift Swim","level":33,
+			"moves":[ "Water Gun", "Agility", "Take Down", "Attract"],
+			"nature":"Lonely","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Laurel (Route 134) [1]": {
+			"ability":"Swift Swim","level":33,
+			"moves":[ "Water Gun", "Agility", "Take Down", "Attract"],
+			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Laurel (Route 134) [2]": {
+			"ability":"Swift Swim","level":33,
+			"moves":[ "Water Gun", "Agility", "Take Down", "Attract"],
+			"nature":"Rash","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Laurel (Route 134) [3]": {
+			"ability":"Swift Swim","level":33,
+			"moves":[ "Water Gun", "Agility", "Take Down", "Attract"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Tanya (Route 125)": {
+			"ability":"Swift Swim","level":35,
+			"moves":[ "Water Gun", "Agility", "Take Down", "Attract"],
+			"nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Tisha (Route 129)": {
+			"ability":"Swift Swim","level":33,
+			"moves":[ "Water Gun", "Agility", "Take Down", "Attract"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Young Couple Lea & Jed (S.S. Tidal Rooms) [1]": {
+			"ability":"Swift Swim","level":45,
+			"moves":[ "Take Down", "Attract", "Sweet Kiss", "Flail"],
+			"nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Young Couple Lea & Jed (S.S. Tidal Rooms) [2]": {
+			"ability":"Swift Swim","level":45,
+			"moves":[ "Take Down", "Attract", "Sweet Kiss", "Flail"],
+			"nature":"Impish","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Lady Daphne (Sootopolis Gym) [1]": {
 			"ability":"Swift Swim","level":39,"item":"Nugget",
 			"moves":[ "Attract", "Sweet Kiss", "Flail", "Water Pulse"],
 			"ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -3594,27 +4579,27 @@ var SETDEX_ADV = {
 			"ability":"Swift Swim","level":41,
 			"moves":[ "Water Pulse", "Flail", "Sweet Kiss", "Attract"],
 			"nature":"Adamant","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
-		,"[Em] Swimmer Laurel (Route 134) [1]": {
+		,"[Em] Swimmer-F Laurel (Route 134) [1]": {
 			"ability":"Swift Swim","level":33,
 			"moves":[ "Water Gun", "Agility", "Take Down", "Attract"],
 			"nature":"Relaxed","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Laurel (Route 134) [2]": {
+		,"[Em] Swimmer-F Laurel (Route 134) [2]": {
 			"ability":"Swift Swim","level":33,
 			"moves":[ "Water Gun", "Agility", "Take Down", "Attract"],
 			"nature":"Rash","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Sienna (Route 126) [1]": {
+		,"[Em] Swimmer-F Sienna (Route 126) [1]": {
 			"ability":"Swift Swim","level":33,
 			"moves":[ "Water Gun", "Agility", "Take Down", "Attract"],
 			"nature":"Modest","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Sienna (Route 126) [2]": {
+		,"[Em] Swimmer-F Sienna (Route 126) [2]": {
 			"ability":"Swift Swim","level":33,
 			"moves":[ "Water Gun", "Agility", "Take Down", "Attract"],
 			"nature":"Timid","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Susie (Route 131)": {
+		,"[Em] Swimmer-F Susie (Route 131)": {
 			"ability":"Swift Swim","level":34,
 			"moves":[ "Water Gun", "Agility", "Take Down", "Attract"],
 			"nature":"Modest","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Tanya (Route 125)": {
+		,"[Em] Swimmer-F Tanya (Route 125)": {
 			"ability":"Swift Swim","level":34,
 			"moves":[ "Water Gun", "Agility", "Take Down", "Attract"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -3650,7 +4635,55 @@ var SETDEX_ADV = {
 			"nature":"Calm"}
 	}
 	,"Machoke": {
-		"[Em] Black Belt Hitoshi (Route 134)": {
+		"[RuSa] Black Belt Atsushi (Mt. Pyre)": {
+			"ability":"Guts","level":30,
+			"moves":[ "Karate Chop", "Seismic Toss", "Foresight", "Revenge"],
+			"nature":"Naughty","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Black Belt Hitoshi (Route 134) [1]": {
+			"ability":"Guts","level":34,
+			"moves":[ "Seismic Toss", "Foresight", "Revenge", "Vital Throw"],
+			"nature":"Quirky","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Black Belt Hitoshi (Route 134) [2]": {
+			"ability":"Guts","level":34,
+			"moves":[ "Seismic Toss", "Foresight", "Revenge", "Vital Throw"],
+			"nature":"Serious","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Black Belt Kiyo (Route 132)": {
+			"ability":"Guts","level":33,
+			"moves":[ "Seismic Toss", "Foresight", "Revenge", "Vital Throw"],
+			"nature":"Calm","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Black Belt Koichi (Route 115)": {
+			"ability":"Guts","level":26,
+			"moves":[ "Karate Chop", "Seismic Toss", "Foresight", "Revenge"],
+			"nature":"Bashful","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Black Belt Koji (Route 127) [1]": {
+			"ability":"Guts","level":34,
+			"moves":[ "Seismic Toss", "Foresight", "Revenge", "Vital Throw"],
+			"nature":"Bashful","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Black Belt Koji (Route 127) [2]": {
+			"ability":"Guts","level":34,
+			"moves":[ "Seismic Toss", "Foresight", "Revenge", "Vital Throw"],
+			"ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Black Belt Yuji (Trick House)": {
+			"ability":"Guts","level":26,
+			"moves":[ "Karate Chop", "Seismic Toss", "Foresight", "Revenge"],
+			"nature":"Quirky","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Sailor Duncan (Abandoned Ship Corridors B1F)": {
+			"ability":"Guts","level":26,
+			"moves":[ "Karate Chop", "Seismic Toss", "Foresight", "Revenge"],
+			"nature":"Impish","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Sailor Ernest (Route 125)": {
+			"ability":"Guts","level":33,
+			"moves":[ "Seismic Toss", "Foresight", "Revenge", "Vital Throw"],
+			"nature":"Naughty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Sailor Leonard (S.S. Tidal Lower Deck)": {
+			"ability":"Guts","level":43,
+			"moves":[ "Foresight", "Revenge", "Vital Throw", "Submission"],
+			"nature":"Naughty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Sailor Phillip (S.S. Tidal Lower Deck)": {
+			"ability":"Guts","level":44,
+			"moves":[ "Foresight", "Revenge", "Vital Throw", "Submission"],
+			"nature":"Mild","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Black Belt Hitoshi (Route 134)": {
 			"ability":"Guts","level":32,
 			"moves":[ "Karate Chop", "Seismic Toss", "Foresight", "Revenge"],
 			"nature":"Gentle","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
@@ -3726,11 +4759,11 @@ var SETDEX_ADV = {
 			"ability":"Guts","level":38,
 			"moves":[ "Seismic Toss", "Foresight", "Revenge", "Vital Throw"],
 			"nature":"Quiet","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
-		,"[FRLG] Black Belt Daisuke (Victory Road B1F) [1]": {
+		,"[FRLG] Black Belt Daisuke (Victory Road) [1]": {
 			"ability":"Guts","level":43,"item":"Black Belt",
 			"moves":[ "Foresight", "Revenge", "Vital Throw", "Submission"],
 			"nature":"Mild","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
-		,"[FRLG] Black Belt Daisuke (Victory Road B1F) [2]": {
+		,"[FRLG] Black Belt Daisuke (Victory Road) [2]": {
 			"ability":"Guts","level":43,
 			"moves":[ "Foresight", "Revenge", "Vital Throw", "Submission"],
 			"nature":"Timid","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -3772,7 +4805,67 @@ var SETDEX_ADV = {
 			"nature":"Adamant","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Machop": {
-		"[Em] Black Belt Daisuke (Route 111)": {
+		"[RuSa] Battle Girl Tessa (Dewford Gym)": {
+			"ability":"Guts","level":12,
+			"moves":[ "Low Kick", "Leer", "Focus Energy"],
+			"nature":"Bashful","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Black Belt Daisuke (Route 111)": {
+			"ability":"Guts","level":19,
+			"moves":[ "Leer", "Focus Energy", "Karate Chop", "Seismic Toss"],
+			"ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Black Belt Hideki (Dewford Gym)": {
+			"ability":"Guts","level":14,
+			"moves":[ "Low Kick", "Leer", "Focus Energy", "Karate Chop"],
+			"nature":"Modest","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Black Belt Koichi (Route 115)": {
+			"ability":"Guts","level":26,
+			"moves":[ "Karate Chop", "Seismic Toss", "Foresight", "Revenge"],
+			"nature":"Rash","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Black Belt Nob (Route 115)": {
+			"ability":"Guts","level":20,
+			"moves":[ "Leer", "Focus Energy", "Karate Chop", "Seismic Toss"],
+			"nature":"Brave","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Hiker Brice (Route 112)": {
+			"ability":"Guts","level":18,
+			"moves":[ "Low Kick", "Leer", "Focus Energy", "Karate Chop"],
+			"nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Hiker Lenny (Route 114) [1]": {
+			"ability":"Guts","level":19,
+			"moves":[ "Leer", "Focus Energy", "Karate Chop", "Seismic Toss"],
+			"nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Hiker Lenny (Route 114) [2]": {
+			"ability":"Guts","level":19,
+			"moves":[ "Leer", "Focus Energy", "Karate Chop", "Seismic Toss"],
+			"ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Hiker Mike (Rusturf Tunnel)": {
+			"ability":"Guts","level":16,
+			"moves":[ "Low Kick", "Leer", "Focus Energy", "Karate Chop"],
+			"ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Leader Brawly (Dewford Gym)": {
+			"ability":"Guts","level":17,
+			"moves":[ "Leer", "Karate Chop", "Seismic Toss", "Bulk Up"],
+			"ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[RuSa] Sailor Dwayne (Route 109 House)": {
+			"ability":"Guts","level":11,
+			"moves":[ "Low Kick", "Leer", "Focus Energy"],
+			"nature":"Quirky","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Sailor Edmond (Route 109)": {
+			"ability":"Guts","level":12,
+			"moves":[ "Low Kick", "Leer", "Focus Energy"],
+			"nature":"Calm","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Sailor Huey (Route 109)": {
+			"ability":"Guts","level":14,
+			"moves":[ "Low Kick", "Leer", "Focus Energy", "Karate Chop"],
+			"nature":"Hasty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Sailor Leonard (S.S. Tidal Lower Deck)": {
+			"ability":"Guts","level":43,
+			"moves":[ "Vital Throw", "Submission", "Cross Chop", "Scary Face"],
+			"nature":"Rash","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Youngster Joey (Route 116)": {
+			"ability":"Guts","level":10,
+			"moves":[ "Low Kick", "Leer", "Focus Energy"],
+			"nature":"Calm","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Black Belt Daisuke (Route 111)": {
 			"ability":"Guts","level":19,
 			"moves":[ "Leer", "Focus Energy", "Karate Chop", "Seismic Toss"],
 			"ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -3816,7 +4909,7 @@ var SETDEX_ADV = {
 			"ability":"Guts","level":24,
 			"moves":[ "Focus Energy", "Karate Chop", "Seismic Toss", "Foresight"],
 			"nature":"Adamant","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Sailor Dwayne (Route 109)": {
+		,"[Em] Sailor Dwayne (Route 109 House)": {
 			"ability":"Guts","level":11,
 			"moves":[ "Low Kick", "Leer", "Focus Energy"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -3936,7 +5029,7 @@ var SETDEX_ADV = {
 			"ability":"Guts","level":38,
 			"moves":[ "Foresight", "Revenge", "Vital Throw", "Submission"],
 			"ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
-		,"[FRLG] Black Belt Daisuke (Victory Road B1F)": {
+		,"[FRLG] Black Belt Daisuke (Victory Road)": {
 			"ability":"Guts","level":43,
 			"moves":[ "Vital Throw", "Submission", "Cross Chop", "Scary Face"],
 			"nature":"Bold","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -3957,8 +5050,66 @@ var SETDEX_ADV = {
 			"moves":[ "Vital Throw", "Submission", "Cross Chop", "Scary Face"],
 			"nature":"Calm","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
+	,"Magcargo": {
+		"[RuSa] Cooltrainer Warren (Route 133)": {
+			"ability":"Magma Armor","level":34,
+			"moves":[ "Ember", "Rock Throw", "Harden", "Amnesia"],
+			"ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+	}
 	,"Magikarp": {
-		"[Em] Fisherman Andrew (Route 103) [1]": {
+		"[RuSa] Fisherman Andrew (Route 103) [1]": {
+			"ability":"Swift Swim","level":5,
+			"moves":[ "Splash"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Andrew (Route 103) [2]": {
+			"ability":"Swift Swim","level":15,
+			"moves":[ "Splash", "Tackle"],
+			"nature":"Hasty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Elliot (Route 106) [1]": {
+			"ability":"Swift Swim","level":11,
+			"moves":[ "Splash"],
+			"nature":"Naughty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Elliot (Route 106) [2]": {
+			"ability":"Swift Swim","level":11,
+			"moves":[ "Splash"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Eugene (Route 119)": {
+			"ability":"Swift Swim","level":30,
+			"moves":[ "Splash", "Tackle", "Flail"],
+			"nature":"Impish","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Ivan (Route 104) [1]": {
+			"ability":"Swift Swim","level":6,
+			"moves":[ "Splash"],
+			"nature":"Timid","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Ivan (Route 104) [2]": {
+			"ability":"Swift Swim","level":6,
+			"moves":[ "Splash"],
+			"nature":"Lax","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Ivan (Route 104) [3]": {
+			"ability":"Swift Swim","level":6,
+			"moves":[ "Splash"],
+			"nature":"Impish","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Roger (Route 127) [1]": {
+			"ability":"Swift Swim","level":15,
+			"moves":[ "Splash", "Tackle"],
+			"nature":"Adamant","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Roger (Route 127) [2]": {
+			"ability":"Swift Swim","level":25,
+			"moves":[ "Splash", "Tackle"],
+			"nature":"Calm","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Roger (Route 127) [3]": {
+			"ability":"Swift Swim","level":45,
+			"moves":[ "Splash", "Tackle", "Flail"],
+			"nature":"Jolly","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Ronald (Route 132)": {
+			"ability":"Swift Swim","level":19,
+			"moves":[ "Splash", "Tackle"],
+			"nature":"Modest","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Austin (Route 105)": {
+			"ability":"Swift Swim","level":25,
+			"moves":[ "Splash", "Tackle"],
+			"nature":"Calm","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Fisherman Andrew (Route 103) [1]": {
 			"ability":"Swift Swim","level":5,
 			"moves":[ "Splash"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -4044,7 +5195,59 @@ var SETDEX_ADV = {
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Magnemite": {
-		"[Em] Guitarist Dalton (Route 118)": {
+		"[RuSa] Guitarist Dalton (Route 118) [1]": {
+			"ability":"Magnet Pull","level":15,
+			"moves":[ "Metal Sound", "Tackle", "Thunder Shock", "Supersonic"],
+			"nature":"Rash","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Guitarist Dalton (Route 118) [2]": {
+			"ability":"Magnet Pull","level":15,
+			"moves":[ "Metal Sound", "Tackle", "Thunder Shock", "Supersonic"],
+			"nature":"Sassy","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Guitarist Kirk (Mauville Gym)": {
+			"ability":"Magnet Pull","level":18,
+			"moves":[ "Tackle", "Thunder Shock", "Supersonic", "Sonic Boom"],
+			"nature":"Modest","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Interviewer Gabby & Ty 1 (Route 111)": {
+			"ability":"Magnet Pull","level":19,
+			"moves":[ "Tackle", "Thunder Shock", "Supersonic", "Sonic Boom"],
+			"nature":"Bashful","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Interviewer Gabby & Ty 2 (Route 118)": {
+			"ability":"Magnet Pull","level":27,
+			"moves":[ "Supersonic", "Sonic Boom", "Thunder Wave", "Spark"],
+			"nature":"Bashful","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Leader Wattson (Mauville Gym)": {
+			"ability":"Magnet Pull","level":22,
+			"moves":[ "Supersonic", "Sonic Boom", "Thunder Shock", "Thunder Wave"],
+			"nature":"Hasty","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
+		,"[RuSa] Triathlete Abigail (Route 110)": {
+			"ability":"Magnet Pull","level":17,
+			"moves":[ "Tackle", "Thunder Shock", "Supersonic", "Sonic Boom"],
+			"nature":"Rash","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Triathlete Anthony (Route 110) [1]": {
+			"ability":"Magnet Pull","level":16,
+			"moves":[ "Tackle", "Thunder Shock", "Supersonic", "Sonic Boom"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Triathlete Anthony (Route 110) [2]": {
+			"ability":"Magnet Pull","level":16,
+			"moves":[ "Tackle", "Thunder Shock", "Supersonic", "Sonic Boom"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Triathlete Benjamin (Route 110)": {
+			"ability":"Magnet Pull","level":17,
+			"moves":[ "Tackle", "Thunder Shock", "Supersonic", "Sonic Boom"],
+			"nature":"Jolly","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Triathlete Jacob (Route 110)": {
+			"ability":"Magnet Pull","level":15,
+			"moves":[ "Metal Sound", "Tackle", "Thunder Shock", "Supersonic"],
+			"nature":"Sassy","ivs":{"hp":19,"at":19,"df":19,"sa":19,"sd":19,"sp":19}}
+		,"[RuSa] Triathlete Jasmine (Route 110) [1]": {
+			"ability":"Magnet Pull","level":15,
+			"moves":[ "Metal Sound", "Tackle", "Thunder Shock", "Supersonic"],
+			"nature":"Quirky","ivs":{"hp":9,"at":9,"df":9,"sa":9,"sd":9,"sp":9}}
+		,"[RuSa] Triathlete Jasmine (Route 110) [2]": {
+			"ability":"Magnet Pull","level":15,
+			"moves":[ "Metal Sound", "Tackle", "Thunder Shock", "Supersonic"],
+			"nature":"Adamant","ivs":{"hp":9,"at":9,"df":9,"sa":9,"sd":9,"sp":9}}
+		,"[Em] Guitarist Dalton (Route 118)": {
 			"ability":"Magnet Pull","level":15,
 			"moves":[ "Metal Sound", "Tackle", "Thunder Shock", "Supersonic"],
 			"nature":"Rash","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -4150,7 +5353,35 @@ var SETDEX_ADV = {
 			"nature":"Naive","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Magneton": {
-		"[Em] Cooltrainer Albert (Victory Road)": {
+		"[RuSa] Cooltrainer Clyde (Route 123)": {
+			"ability":"Magnet Pull","level":29,
+			"moves":[ "Thunderbolt", "Supersonic", "Thunder Wave", "Sonic Boom"],
+			"nature":"Calm","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Interviewer Gabby & Ty 3 (Route 120)": {
+			"ability":"Magnet Pull","level":30,
+			"moves":[ "Supersonic", "Sonic Boom", "Thunder Wave", "Spark"],
+			"nature":"Naive","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[RuSa] Interviewer Gabby & Ty 4 (Route 111)": {
+			"ability":"Magnet Pull","level":33,
+			"moves":[ "Supersonic", "Sonic Boom", "Thunder Wave", "Spark"],
+			"nature":"Naive","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
+		,"[RuSa] Interviewer Gabby & Ty 5 (Route 118)": {
+			"ability":"Magnet Pull","level":36,
+			"moves":[ "Sonic Boom", "Thunder Wave", "Spark", "Lock-On"],
+			"nature":"Naive","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[RuSa] Interviewer Gabby & Ty 6 (Route 120)": {
+			"ability":"Magnet Pull","level":39,
+			"moves":[ "Sonic Boom", "Thunder Wave", "Metal Sound", "Thunderbolt"],
+			"nature":"Naive","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[RuSa] Leader Wattson (Mauville Gym)": {
+			"ability":"Magnet Pull","level":23,
+			"moves":[ "Supersonic", "Sonic Boom", "Shock Wave", "Thunder Wave"],
+			"nature":"Brave","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[RuSa] PKMN Trainer Wally (Victory Road)": {
+			"ability":"Magnet Pull","level":41,
+			"moves":[ "Supersonic", "Thunderbolt", "Tri Attack", "Screech"],
+			"nature":"Impish","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[Em] Cooltrainer Albert (Victory Road)": {
 			"ability":"Magnet Pull","level":43,
 			"moves":[ "Sonic Boom", "Thunder Wave", "Spark", "Lock-On"],
 			"nature":"Quiet","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -4196,7 +5427,47 @@ var SETDEX_ADV = {
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Makuhita": {
-		"[Em] Battle Girl Callie (Route 120)": {
+		"[RuSa] Battle Girl Cyndy (Route 115)": {
+			"ability":"Thick Fat","level":19,
+			"moves":[ "Sand Attack", "Arm Thrust", "Vital Throw", "Fake Out"],
+			"nature":"Brave","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Black Belt Atsushi (Mt. Pyre)": {
+			"ability":"Thick Fat","level":30,
+			"moves":[ "Vital Throw", "Fake Out", "Whirlwind", "Knock Off"],
+			"nature":"Serious","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Black Belt Kiyo (Route 132) [1]": {
+			"ability":"Thick Fat","level":33,
+			"moves":[ "Fake Out", "Whirlwind", "Knock Off", "Smelling Salts"],
+			"nature":"Quiet","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Black Belt Kiyo (Route 132) [2]": {
+			"ability":"Thick Fat","level":33,
+			"moves":[ "Fake Out", "Whirlwind", "Knock Off", "Smelling Salts"],
+			"nature":"Careful","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Black Belt Yuji (Trick House)": {
+			"ability":"Thick Fat","level":26,
+			"moves":[ "Arm Thrust", "Vital Throw", "Fake Out", "Whirlwind"],
+			"nature":"Sassy","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Wilton (Route 111)": {
+			"ability":"Thick Fat","level":18,
+			"moves":[ "Focus Energy", "Sand Attack", "Arm Thrust", "Vital Throw"],
+			"ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Expert Shelby (Mt. Chimney)": {
+			"ability":"Thick Fat","level":22,
+			"moves":[ "Arm Thrust", "Vital Throw", "Fake Out", "Whirlwind"],
+			"nature":"Lax","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
+		,"[RuSa] Leader Brawly (Dewford Gym)": {
+			"ability":"Thick Fat","level":18,
+			"moves":[ "Arm Thrust", "Knock Off", "Sand Attack", "Bulk Up"],
+			"nature":"Naive","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
+		,"[RuSa] Pokémon Breeder Isaac (Route 117)": {
+			"ability":"Thick Fat","level":12,
+			"moves":[ "Tackle", "Focus Energy", "Sand Attack", "Arm Thrust"],
+			"ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Sr. and Jr. Anna & Meg (Route 117)": {
+			"ability":"Thick Fat","level":18,
+			"moves":[ "Tackle", "Focus Energy", "Arm Thrust"],
+			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Battle Girl Callie (Route 120)": {
 			"ability":"Thick Fat","level":28,
 			"moves":[ "Vital Throw", "Fake Out", "Whirlwind", "Knock Off"],
 			"nature":"Hasty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -4250,7 +5521,35 @@ var SETDEX_ADV = {
 			"nature":"Careful","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Manectric": {
-		"[Em] Cooltrainer Athena (Route 127)": {
+		"[RuSa] Cooltrainer Albert (Victory Road)": {
+			"ability":"Static","level":43,
+			"moves":[ "Spark", "Odor Sleuth", "Roar", "Bite"],
+			"nature":"Modest","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Elaine (Trick House)": {
+			"ability":"Static","level":45,
+			"moves":[ "Odor Sleuth", "Roar", "Bite", "Thunder"],
+			"nature":"Lax","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Vito (Victory Road)": {
+			"ability":"Static","level":42,
+			"moves":[ "Spark", "Odor Sleuth", "Roar", "Bite"],
+			"nature":"Relaxed","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Gentleman Tucker (S.S. Tidal Rooms) [1]": {
+			"ability":"Static","level":44,
+			"moves":[ "Spark", "Odor Sleuth", "Roar", "Bite"],
+			"nature":"Timid","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Gentleman Tucker (S.S. Tidal Rooms) [2]": {
+			"ability":"Static","level":44,
+			"moves":[ "Spark", "Odor Sleuth", "Roar", "Bite"],
+			"nature":"Lax","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Gentleman Walter (Route 121)": {
+			"ability":"Static","level":31,
+			"moves":[ "Quick Attack", "Spark", "Odor Sleuth", "Roar"],
+			"nature":"Mild","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Young Couple Dez & Luke (Mt. Pyre)": {
+			"ability":"Static","level":32,
+			"moves":[ "Quick Attack", "Spark", "Odor Sleuth", "Roar"],
+			"nature":"Adamant","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Cooltrainer Athena (Route 127)": {
 			"ability":"Static","level":32,
 			"moves":[ "Thunder", "Thunder Wave", "Quick Attack"],
 			"nature":"Calm","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -4364,7 +5663,83 @@ var SETDEX_ADV = {
 			"nature":"Mild","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Marill": {
-		"[Em] Beauty Melissa (Mt. Chimney)": {
+		"[RuSa] Beauty Melissa (Mt. Chimney)": {
+			"ability":"Thick Fat","level":22,
+			"moves":[ "Tail Whip", "Water Gun", "Rollout", "Bubble Beam"],
+			"nature":"Hasty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Lass Janice (Route 116)": {
+			"ability":"Thick Fat","level":10,
+			"moves":[ "Tackle", "Defense Curl", "Tail Whip", "Water Gun"],
+			"nature":"Naughty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Lass Robin (Trick House)": {
+			"ability":"Thick Fat","level":14,
+			"moves":[ "Tackle", "Defense Curl", "Tail Whip", "Water Gun"],
+			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Picnicker Irene (Route 111)": {
+			"ability":"Thick Fat","level":18,
+			"moves":[ "Defense Curl", "Tail Whip", "Water Gun", "Rollout"],
+			"nature":"Mild","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Picnicker Nancy (Route 114)": {
+			"ability":"Thick Fat","level":19,
+			"moves":[ "Defense Curl", "Tail Whip", "Water Gun", "Rollout"],
+			"nature":"Adamant","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Pokéfan Marissa (Sootopolis Gym)": {
+			"ability":"Thick Fat","level":38,"item":"Oran Berry",
+			"moves":[ "Rollout", "Bubble Beam", "Double-Edge", "Rain Dance"],
+			"nature":"Gentle","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Pokémon Breeder Lydia (Route 117)": {
+			"ability":"Thick Fat","level":12,
+			"moves":[ "Tackle", "Defense Curl", "Tail Whip", "Water Gun"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Beth (Route 107)": {
+			"ability":"Thick Fat","level":25,
+			"moves":[ "Tail Whip", "Water Gun", "Rollout", "Bubble Beam"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Dana (Route 132)": {
+			"ability":"Thick Fat","level":33,
+			"moves":[ "Water Gun", "Rollout", "Bubble Beam", "Double-Edge"],
+			"nature":"Modest","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Dawn (Route 105)": {
+			"ability":"Thick Fat","level":27,
+			"moves":[ "Tail Whip", "Water Gun", "Rollout", "Bubble Beam"],
+			"nature":"Sassy","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Grace (Route 124)": {
+			"ability":"Thick Fat","level":33,
+			"moves":[ "Water Gun", "Rollout", "Bubble Beam", "Double-Edge"],
+			"nature":"Modest","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Missy (Route 108)": {
+			"ability":"Thick Fat","level":24,
+			"moves":[ "Tail Whip", "Water Gun", "Rollout", "Bubble Beam"],
+			"nature":"Timid","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Nikki (Route 126)": {
+			"ability":"Thick Fat","level":32,
+			"moves":[ "Water Gun", "Rollout", "Bubble Beam", "Double-Edge"],
+			"nature":"Timid","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Tara (Route 108)": {
+			"ability":"Thick Fat","level":26,
+			"moves":[ "Tail Whip", "Water Gun", "Rollout", "Bubble Beam"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Tuber Carmen (Route 109 Surf)": {
+			"ability":"Thick Fat","level":27,
+			"moves":[ "Tail Whip", "Water Gun", "Rollout", "Bubble Beam"],
+			"nature":"Lonely","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Tuber Charlie (Abandoned Ship Corridors 1F)": {
+			"ability":"Thick Fat","level":27,
+			"moves":[ "Tail Whip", "Water Gun", "Rollout", "Bubble Beam"],
+			"nature":"Calm","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Tuber Gwen (Route 109 Surf)": {
+			"ability":"Thick Fat","level":27,
+			"moves":[ "Tail Whip", "Water Gun", "Rollout", "Bubble Beam"],
+			"nature":"Naive","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Tuber Simon (Route 109 House)": {
+			"ability":"Thick Fat","level":12,
+			"moves":[ "Tackle", "Defense Curl", "Tail Whip", "Water Gun"],
+			"nature":"Adamant","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Winstrate Vivi (Route 111)": {
+			"ability":"Thick Fat","level":15,
+			"moves":[ "Defense Curl", "Tail Whip", "Water Gun", "Rollout"],
+			"nature":"Quiet","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[Em] Beauty Melissa (Mt. Chimney)": {
 			"ability":"Thick Fat","level":21,
 			"moves":[ "Tail Whip", "Water Gun", "Rollout", "Bubble Beam"],
 			"nature":"Hasty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -4408,23 +5783,23 @@ var SETDEX_ADV = {
 			"ability":"Thick Fat","level":11,
 			"moves":[ "Tackle", "Defense Curl", "Tail Whip", "Water Gun"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Grace (Route 124)": {
+		,"[Em] Swimmer-F Grace (Route 124)": {
 			"ability":"Thick Fat","level":34,
 			"moves":[ "Water Gun", "Rollout", "Bubble Beam", "Double-Edge"],
 			"nature":"Modest","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Imani (Route 105)": {
+		,"[Em] Swimmer-F Imani (Route 105)": {
 			"ability":"Thick Fat","level":26,
 			"moves":[ "Tail Whip", "Water Gun", "Rollout", "Bubble Beam"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Isabelle (Route 103 Surfing)": {
+		,"[Em] Swimmer-F Isabelle (Route 103 Surfing)": {
 			"ability":"Thick Fat","level":15,
 			"moves":[ "Defense Curl", "Tail Whip", "Water Gun", "Rollout"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Nikki (Route 126)": {
+		,"[Em] Swimmer-F Nikki (Route 126)": {
 			"ability":"Thick Fat","level":33,
 			"moves":[ "Water Gun", "Rollout", "Bubble Beam", "Double-Edge"],
 			"nature":"Timid","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Tara (Route 108)": {
+		,"[Em] Swimmer-F Tara (Route 108)": {
 			"ability":"Thick Fat","level":25,
 			"moves":[ "Tail Whip", "Water Gun", "Rollout", "Bubble Beam"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -4448,7 +5823,7 @@ var SETDEX_ADV = {
 			"ability":"Thick Fat","level":26,
 			"moves":[ "Tail Whip", "Water Gun", "Rollout", "Bubble Beam"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Tuber Simon (Route 109)": {
+		,"[Em] Tuber Simon (Route 109 House)": {
 			"ability":"Thick Fat","level":12,
 			"moves":[ "Tackle", "Defense Curl", "Tail Whip", "Water Gun"],
 			"nature":"Adamant","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -4522,7 +5897,19 @@ var SETDEX_ADV = {
 			"nature":"Hasty","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
 	}
 	,"Mawile": {
-		"[Em] Cooltrainer Leroy (Trick House)": {
+		"[RuSa] Cooltrainer Caroline (Victory Road)": {
+			"ability":"Hyper Cutter","level":43,
+			"moves":[ "Feint Attack", "Baton Pass", "Crunch", "Iron Defense"],
+			"nature":"Lax","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Leroy (Trick House)": {
+			"ability":"Hyper Cutter","level":46,
+			"moves":[ "Iron Defense", "Stockpile", "Swallow", "Spit Up"],
+			"nature":"Modest","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Wendy (Route 123)": {
+			"ability":"Hyper Cutter","level":31,
+			"moves":[ "Baton Pass", "Feint Attack", "Fake Tears", "Bite"],
+			"ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[Em] Cooltrainer Leroy (Trick House)": {
 			"ability":"Hyper Cutter","level":46,
 			"moves":[ "Iron Defense", "Stockpile", "Swallow", "Spit Up"],
 			"nature":"Modest","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -4536,7 +5923,19 @@ var SETDEX_ADV = {
 			"ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
 	}
 	,"Medicham": {
-		"[Em] Cooltrainer Felix (Victory Road)": {
+		"[RuSa] Cooltrainer Michelle (Victory Road)": {
+			"ability":"Pure Power","level":42,
+			"moves":[ "Mind Reader", "Calm Mind", "High Jump Kick", "Psych Up"],
+			"nature":"Calm","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Vincent (Trick House)": {
+			"ability":"Pure Power","level":44,
+			"moves":[ "Mind Reader", "Calm Mind", "High Jump Kick", "Psych Up"],
+			"nature":"Rash","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Old Couple John & Jay (Meteor Falls)": {
+			"ability":"Pure Power","level":40,
+			"moves":[ "Psychic", "Fire Punch", "Psych Up", "Protect"],
+			"nature":"Sassy","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
+		,"[Em] Cooltrainer Felix (Victory Road)": {
 			"ability":"Pure Power","level":43,
 			"moves":[ "Psychic"],
 			"nature":"Mild","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -4552,13 +5951,49 @@ var SETDEX_ADV = {
 			"ability":"Pure Power","level":33,
 			"moves":[ "Hidden Power", "Mind Reader", "Calm Mind", "High Jump Kick"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Old Couple John and Jay (Meteor Falls)": {
+		,"[Em] Old Couple John & Jay (Meteor Falls)": {
 			"ability":"Pure Power","level":39,
 			"moves":[ "Psychic", "Fire Punch", "Psych Up", "Protect"],
 			"nature":"Sassy","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
 	}
 	,"Meditite": {
-		"[Em] Batle Girl Reyna (Route 134)": {
+		"[RuSa] Battle Girl Cora (Trick House)": {
+			"ability":"Pure Power","level":27,
+			"moves":[ "Confusion", "Detect", "Hidden Power", "Mind Reader"],
+			"nature":"Rash","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Battle Girl Cyndy (Route 115)": {
+			"ability":"Pure Power","level":19,
+			"moves":[ "Meditate", "Confusion", "Detect", "Hidden Power"],
+			"nature":"Naive","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Battle Girl Laura (Dewford Gym)": {
+			"ability":"Pure Power","level":14,
+			"moves":[ "Bide", "Meditate", "Confusion", "Detect"],
+			"nature":"Docile","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Battle Girl Sadie (Lavaridge Gym 1F)": {
+			"ability":"Pure Power","level":24,
+			"moves":[ "Bide", "Detect", "Confusion", "Fire Punch"],
+			"nature":"Mild","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Battle Girl Tessa (Dewford Gym) [1]": {
+			"ability":"Pure Power","level":12,
+			"moves":[ "Bide", "Meditate", "Confusion", "Detect"],
+			"nature":"Sassy","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Battle Girl Tessa (Dewford Gym) [2]": {
+			"ability":"Pure Power","level":12,
+			"moves":[ "Bide", "Meditate", "Confusion", "Detect"],
+			"nature":"Calm","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Battle Girl Vivian (Mauville Gym)": {
+			"ability":"Pure Power","level":19,
+			"moves":[ "Bide", "Detect", "Confusion", "Thunder Punch"],
+			"nature":"Mild","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Expert Shelby (Mt. Chimney)": {
+			"ability":"Pure Power","level":22,
+			"moves":[ "Confusion", "Detect", "Hidden Power", "Mind Reader"],
+			"nature":"Bold","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
+		,"[RuSa] Winstrate Vicky (Route 111)": {
+			"ability":"Pure Power","level":18,
+			"moves":[ "High Jump Kick", "Meditate", "Confusion", "Detect"],
+			"nature":"Impish","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
+		,"[Em] Batle Girl Reyna (Route 134)": {
 			"ability":"Pure Power","level":33,
 			"moves":[ "Hidden Power", "Mind Reader", "Calm Mind", "High Jump Kick"],
 			"nature":"Mild","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
@@ -4686,7 +6121,11 @@ var SETDEX_ADV = {
 			"nature":"Jolly","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Metagross": {
-		"[Em] PKMN Trainer Steven (Meteor Falls)": {
+		"[RuSa] Champion Steven (Pokémon League)": {
+			"ability":"Clear Body","level":58,"item":"Sitrus Berry",
+			"moves":[ "Earthquake", "Psychic", "Meteor Mash", "Hyper Beam"],
+			"nature":"Bashful",}
+		,"[Em] PKMN Trainer Steven (Meteor Falls)": {
 			"ability":"Clear Body","level":78,"item":"Sitrus Berry",
 			"moves":[ "Earthquake", "Psychic", "Meteor Mash", "Shadow Ball"]}
 		,"[Em] Dome Ace Tucker (Gold Symbol)": {
@@ -4721,7 +6160,31 @@ var SETDEX_ADV = {
 			"nature":"Sassy","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Mightyena": {
-		"[Em] Aqua Admin Matt (Aqua Hideout)": {
+		"[RuSa] Aqua Admin Matt (Aqua Hideout B2F)": {
+			"ability":"Intimidate","level":32,
+			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
+			"nature":"Naughty","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Aqua Admin Shelly (Weather Institute)": {
+			"ability":"Intimidate","level":28,
+			"moves":[ "Bite", "Odor Sleuth", "Roar", "Swagger"],
+			"nature":"Lonely","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Aqua Admin Shelly (Seafloor Cavern)": {
+			"ability":"Intimidate","level":38,
+			"moves":[ "Roar", "Swagger", "Scary Face", "Take Down"],
+			"nature":"Lax","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Aqua Leader Archie (Mt. Chimney)": {
+			"ability":"Intimidate","level":24,
+			"moves":[ "Sand Attack", "Bite", "Odor Sleuth", "Roar"],
+			"nature":"Brave","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[RuSa] Aqua Leader Archie (Seafloor Cavern)": {
+			"ability":"Intimidate","level":41,
+			"moves":[ "Roar", "Swagger", "Scary Face", "Take Down"],
+			"nature":"Brave","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[RuSa] Elite Four Sidney (Pokémon League)": {
+			"ability":"Intimidate","level":46,
+			"moves":[ "Roar", "Take Down", "Sand Attack", "Crunch"],
+			"nature":"Rash","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[Em] Aqua Admin Matt (Aqua Hideout)": {
 			"ability":"Intimidate","level":34,
 			"moves":[ "Swagger", "Roar", "Scary Face", "Odor Sleuth"],
 			"nature":"Bold","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
@@ -4733,7 +6196,7 @@ var SETDEX_ADV = {
 			"ability":"Intimidate","level":28,
 			"moves":[ "Bite", "Swagger", "Roar", "Odor Sleuth"],
 			"nature":"Lonely","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
-		,"[Em] Aqua Grunt #5 (Seafloor Cavern)": {
+		,"[Em] Aqua Grunt 5 (Seafloor Cavern)": {
 			"ability":"Intimidate","level":35,
 			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
 			"nature":"Brave","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
@@ -4753,27 +6216,27 @@ var SETDEX_ADV = {
 			"ability":"Intimidate","level":38,
 			"moves":[ "Take Down", "Swagger", "Roar", "Scary Face"],
 			"nature":"Impish","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
-		,"[Em] Magma Grunt #12 (Magma Hideout)": {
+		,"[Em] Magma Grunt 12 (Magma Hideout)": {
 			"ability":"Intimidate","level":29,
 			"moves":[ "Bite", "Odor Sleuth", "Roar", "Swagger"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #3 (Magma Hideout)": {
+		,"[Em] Magma Grunt 3 (Magma Hideout)": {
 			"ability":"Intimidate","level":29,
 			"moves":[ "Bite", "Odor Sleuth", "Roar", "Swagger"],
 			"nature":"Hasty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #4 (Space Center) [1]": {
+		,"[Em] Magma Grunt 4 (Space Center) [1]": {
 			"ability":"Intimidate","level":26,
 			"moves":[ "Bite", "Sand Attack", "Roar", "Odor Sleuth"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #4 (Space Center) [2]": {
+		,"[Em] Magma Grunt 4 (Space Center) [2]": {
 			"ability":"Intimidate","level":28,
 			"moves":[ "Bite", "Swagger", "Roar", "Odor Sleuth"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #6 (Space Center)": {
+		,"[Em] Magma Grunt 6 (Space Center)": {
 			"ability":"Intimidate","level":32,
 			"moves":[ "Swagger", "Scary Face", "Roar", "Odor Sleuth"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #7 (Magma Hideout)": {
+		,"[Em] Magma Grunt 7 (Magma Hideout)": {
 			"ability":"Intimidate","level":29,
 			"moves":[ "Bite", "Odor Sleuth", "Roar", "Swagger"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -4791,7 +6254,15 @@ var SETDEX_ADV = {
 			"nature":"Lax","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
 	}
 	,"Milotic": {
-		"[Em] Champion Wallace (Pokémon League)": {
+		"[RuSa] Cooltrainer Jennifer (Route 120)": {
+			"ability":"Marvel Scale","level":31,
+			"moves":[ "Refresh", "Water Pulse", "Twister", "Recover"],
+			"nature":"Relaxed","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Leader Wallace (Sootopolis Gym)": {
+			"ability":"Marvel Scale","level":43,
+			"moves":[ "Water Pulse", "Twister", "Recover", "Ice Beam"],
+			"nature":"Calm","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[Em] Champion Wallace (Pokémon League)": {
 			"ability":"Marvel Scale","level":58,"item":"Sitrus Berry",
 			"moves":[ "Ice Beam", "Surf", "Toxic", "Recover"],
 			"nature":"Gentle"}
@@ -4808,7 +6279,15 @@ var SETDEX_ADV = {
 			"nature":"Sassy","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
 	}
 	,"Minun": {
-		"[Em] Pokéfan Isabel (Route 110)": {
+		"[RuSa] Pokéfan Isabel (Route 110)": {
+			"ability":"Minus","level":15,"item":"Oran Berry",
+			"moves":[ "Growl", "Thunder Wave", "Quick Attack", "Helping Hand"],
+			"ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Twins Amy & Liv (Route 103)": {
+			"ability":"Minus","level":16,
+			"moves":[ "Growl", "Thunder Wave", "Quick Attack", "Helping Hand"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Pokéfan Isabel (Route 110)": {
 			"ability":"Minus","level":14,"item":"Oran Berry",
 			"moves":[ "Growl", "Thunder Wave", "Quick Attack", "Helping Hand"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -4850,7 +6329,7 @@ var SETDEX_ADV = {
 			"ability":"Soundproof","level":37,
 			"moves":[ "Barrier", "Psybeam", "Baton Pass", "Calm Mind"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Juggler Gregory (Victory Road B1F)": {
+		,"[FRLG] Juggler Gregory (Victory Road)": {
 			"ability":"Soundproof","level":48,
 			"moves":[ "Psychic", "Role Play", "Double Slap", "Encore"],
 			"nature":"Adamant","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -4878,7 +6357,11 @@ var SETDEX_ADV = {
 			"nature":"Bold","ivs":{"hp":4,"at":4,"sa":4,"sp":4,"df":4,"sd":4}}
 	}
 	,"Muk": {
-		"[Em] Cooltrainer Albert (Victory Road)": {
+		"[RuSa] Cooltrainer Albert (Victory Road)": {
+			"ability":"Stench","level":43,
+			"moves":[ "Sludge", "Minimize", "Screech", "Acid Armor"],
+			"nature":"Brave","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[Em] Cooltrainer Albert (Victory Road)": {
 			"ability":"Stench","level":43,
 			"moves":[ "Sludge", "Minimize", "Screech", "Acid Armor"],
 			"nature":"Naughty","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -4924,7 +6407,19 @@ var SETDEX_ADV = {
 			"nature":"Bold","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
 	}
 	,"Natu": {
-		"[Em] Bird Keeper Alex (Route 134)": {
+		"[RuSa] Bird Keeper Alex (Route 134)": {
+			"ability":"Synchronize","level":32,
+			"moves":[ "Night Shade", "Teleport", "Wish", "Future Sight"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bird Keeper Colin (Route 120)": {
+			"ability":"Synchronize","level":29,
+			"moves":[ "Peck", "Leer", "Night Shade", "Teleport"],
+			"nature":"Lax","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Psychic Fritz (Mossdeep Gym)": {
+			"ability":"Synchronize","level":35,
+			"moves":[ "Night Shade", "Teleport", "Wish", "Future Sight"],
+			"nature":"Modest","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[Em] Bird Keeper Alex (Route 134)": {
 			"ability":"Synchronize","level":33,
 			"moves":[ "Night Shade", "Teleport", "Wish", "Future Sight"],
 			"nature":"Brave","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
@@ -4966,7 +6461,7 @@ var SETDEX_ADV = {
 			"ability":"Poison Point","level":45,
 			"moves":[ "Thrash", "Double Kick", "Poison Sting", "Earthquake"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Cool Couple Ray and Tyra (Victory Road)": {
+		,"[FRLG] Cool Couple Ray & Tyra (Victory Road)": {
 			"ability":"Poison Point","level":45,
 			"moves":[ "Megahorn", "Thrash", "Double Kick", "Poison Sting"],
 			"nature":"Relaxed","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -4984,7 +6479,7 @@ var SETDEX_ADV = {
 			"ability":"Poison Point","level":44,
 			"moves":[ "Body Slam", "Double Kick", "Poison Sting", "Earthquake"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Cool Couple Ray and Tyra (Victory Road)": {
+		,"[FRLG] Cool Couple Ray & Tyra (Victory Road)": {
 			"ability":"Poison Point","level":45,
 			"moves":[ "Superpower", "Body Slam", "Double Kick", "Poison Sting"],
 			"nature":"Lonely","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -5014,7 +6509,7 @@ var SETDEX_ADV = {
 			"ability":"Poison Point","level":23,
 			"moves":[ "Double Kick", "Poison Sting", "Bite", "Helping Hand"],
 			"nature":"Relaxed","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Young Couple Gia and Ges (Route 12)": {
+		,"[FRLG] Young Couple Gia & Ges (Route 12)": {
 			"ability":"Poison Point","level":24,
 			"moves":[ "Double Kick", "Poison Sting", "Bite", "Helping Hand"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -5044,7 +6539,7 @@ var SETDEX_ADV = {
 			"ability":"Poison Point","level":19,
 			"moves":[ "Peck", "Focus Energy", "Double Kick", "Poison Sting"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Young Couple Gia and Ges (Route 12)": {
+		,"[FRLG] Young Couple Gia & Ges (Route 12)": {
 			"ability":"Poison Point","level":24,
 			"moves":[ "Double Kick", "Poison Sting", "Horn Attack", "Helping Hand"],
 			"nature":"Careful","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -5086,7 +6581,39 @@ var SETDEX_ADV = {
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Nincada": {
-		"[Em] Bug Catcher Doug (Route 119)": {
+		"[RuSa] Bug Catcher Doug (Route 119) [1]": {
+			"ability":"Compound Eyes","level":26,
+			"moves":[ "Sand Attack", "Fury Swipes", "Mind Reader", "False Swipe"],
+			"nature":"Calm","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bug Catcher Doug (Route 119) [2]": {
+			"ability":"Compound Eyes","level":26,
+			"moves":[ "Sand Attack", "Fury Swipes", "Mind Reader", "False Swipe"],
+			"nature":"Naughty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bug Catcher James (Petalburg Woods)": {
+			"ability":"Compound Eyes","level":8,
+			"moves":[ "Scratch", "Harden", "Leech Life"],
+			"nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bug Catcher Jose (Route 116)": {
+			"ability":"Compound Eyes","level":8,
+			"moves":[ "Scratch", "Harden", "Leech Life"],
+			"nature":"Quiet","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Bug Maniac Derek (Route 117)": {
+			"ability":"Compound Eyes","level":15,
+			"moves":[ "Harden", "Leech Life", "Sand Attack", "Fury Swipes"],
+			"nature":"Serious","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Ninja Boy Lung (Route 113)": {
+			"ability":"Compound Eyes","level":19,
+			"moves":[ "Leech Life", "Sand Attack", "Fury Swipes", "Mind Reader"],
+			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Ninja Boy Takashi (Route 119)": {
+			"ability":"Compound Eyes","level":25,
+			"moves":[ "Sand Attack", "Fury Swipes", "Mind Reader", "False Swipe"],
+			"ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Ninja Boy Tsunao (Route 120)": {
+			"ability":"Compound Eyes","level":28,
+			"moves":[ "Leech Life", "Fury Swipes", "Mind Reader", "Dig"],
+			"nature":"Timid","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Bug Catcher Doug (Route 119)": {
 			"ability":"Compound Eyes","level":28,
 			"moves":[ "Sand Attack", "Fury Swipes", "Mind Reader", "False Swipe"],
 			"nature":"Calm","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -5108,7 +6635,11 @@ var SETDEX_ADV = {
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Ninetales": {
-		"[Em] Cooltrainer Julie (Victory Road)": {
+		"[RuSa] Cooltrainer Julie (Victory Road)": {
+			"ability":"Flash Fire","level":43,
+			"moves":[ "Ember", "Quick Attack", "Confuse Ray", "Safeguard"],
+			"nature":"Adamant","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[Em] Cooltrainer Julie (Victory Road)": {
 			"ability":"Flash Fire","level":42,
 			"moves":[ "Ember", "Quick Attack", "Confuse Ray", "Safeguard"],
 			"nature":"Adamant","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -5128,7 +6659,7 @@ var SETDEX_ADV = {
 			"ability":"Flash Fire","level":36,
 			"moves":[ "Ember", "Quick Attack", "Confuse Ray", "Safeguard"],
 			"nature":"Bold","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Cooltrainer Naomi (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer Naomi (Victory Road)": {
 			"ability":"Flash Fire","level":42,
 			"moves":[ "Safeguard", "Will-O-Wisp", "Confuse Ray", "Fire Spin"],
 			"ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -5138,7 +6669,31 @@ var SETDEX_ADV = {
 			"nature":"Naive","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
 	}
 	,"Ninjask": {
-		"[Em] Bug Catcher Doug (Route 119)": {
+		"[RuSa] Bug Catcher Kent (Route 119)": {
+			"ability":"Speed Boost","level":26,
+			"moves":[ "Double Team", "Fury Cutter", "Screech", "Swords Dance"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Ninja Boy Keigo (Route 120)": {
+			"ability":"Speed Boost","level":29,
+			"moves":[ "Sand Attack", "Double Team", "Fury Cutter", "Swords Dance"],
+			"nature":"Timid","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Ninja Boy Lung (Route 113)": {
+			"ability":"Speed Boost","level":19,
+			"moves":[ "Leech Life", "Sand Attack", "Fury Swipes", "Mind Reader"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Ninja Boy Takashi (Route 119)": {
+			"ability":"Speed Boost","level":25,
+			"moves":[ "Double Team", "Fury Cutter", "Screech", "Swords Dance"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Ninja Boy Tsunao (Route 120)": {
+			"ability":"Speed Boost","level":28,
+			"moves":[ "Double Team", "Fury Cutter", "Screech", "Swords Dance"],
+			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Ninja Boy Yasu (Route 119)": {
+			"ability":"Speed Boost","level":27,
+			"moves":[ "Double Team", "Fury Cutter", "Screech", "Swords Dance"],
+			"nature":"Lonely","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Bug Catcher Doug (Route 119)": {
 			"ability":"Speed Boost","level":28,
 			"moves":[ "Double Team", "Fury Cutter", "Screech", "Swords Dance"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -5174,7 +6729,19 @@ var SETDEX_ADV = {
 			"nature":"Sassy","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Nosepass": {
-		"[Em] Cooltrainer Ruben (Route 128)": {
+		"[RuSa] Cooltrainer Michelle (Victory Road)": {
+			"ability":"Sturdy","level":42,
+			"moves":[ "Thunder Wave", "Rock Slide", "Sandstorm", "Rest"],
+			"nature":"Lonely","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Hiker Alan (Trick House)": {
+			"ability":"Sturdy","level":22,
+			"moves":[ "Harden", "Rock Throw", "Block", "Thunder Wave"],
+			"nature":"Naughty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Leader Roxanne (Rustboro Gym)": {
+			"ability":"Sturdy","level":15,
+			"moves":[ "Tackle", "Harden", "Rock Throw", "Rock Tomb"],
+			"nature":"Modest","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
+		,"[Em] Cooltrainer Ruben (Route 128)": {
 			"ability":"Sturdy","level":34,
 			"moves":[ "Block", "Thunder Wave", "Rock Slide", "Sandstorm"],
 			"nature":"Lax","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -5188,7 +6755,59 @@ var SETDEX_ADV = {
 			"nature":"Lonely","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
 	}
 	,"Numel": {
-		"[Em] Beauty Shirley (Mt. Chimney)": {
+		"[RuSa] Beauty Shirley (Mt. Chimney)": {
+			"ability":"Oblivious","level":22,
+			"moves":[ "Growl", "Tackle", "Ember", "Magnitude"],
+			"nature":"Adamant","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Cooltrainer Brooke (Route 111)": {
+			"ability":"Oblivious","level":18,
+			"moves":[ "Growl", "Tackle", "Ember"],
+			"nature":"Quirky","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Hiker Brice (Route 112)": {
+			"ability":"Oblivious","level":18,
+			"moves":[ "Growl", "Tackle", "Ember"],
+			"nature":"Impish","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Kindler Andy (Lavaridge Gym 1F)": {
+			"ability":"Oblivious","level":23,
+			"moves":[ "Growl", "Tackle", "Ember", "Magnitude"],
+			"nature":"Gentle","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Kindler Axle (Lavaridge Gym 1F)": {
+			"ability":"Oblivious","level":23,
+			"moves":[ "Growl", "Tackle", "Ember", "Magnitude"],
+			"nature":"Sassy","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Kindler Cole (Lavaridge Gym 1F)": {
+			"ability":"Oblivious","level":22,
+			"moves":[ "Growl", "Tackle", "Ember", "Magnitude"],
+			"nature":"Gentle","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Parasol Lady Madeline (Route 113)": {
+			"ability":"Oblivious","level":20,
+			"moves":[ "Ember", "Tackle", "Magnitude", "Sunny Day"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] PKMN Trainer Brendan (Lilycove City)": {
+			"ability":"Oblivious","level":32,
+			"moves":[ "Magnitude", "Focus Energy", "Take Down", "Amnesia"],
+			"nature":"Quiet","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[RuSa] PKMN Trainer Brendan (Route 110)": {
+			"ability":"Oblivious","level":18,
+			"moves":[ "Growl", "Tackle", "Ember"],
+			"nature":"Mild","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] PKMN Trainer Brendan (Route 119)": {
+			"ability":"Oblivious","level":29,
+			"moves":[ "Ember", "Magnitude", "Focus Energy", "Take Down"],
+			"nature":"Mild","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] School Kid Paul (Trick House)": {
+			"ability":"Oblivious","level":15,
+			"moves":[ "Growl", "Tackle", "Ember"],
+			"nature":"Calm","ivs":{"hp":1,"at":1,"df":1,"sa":1,"sd":1,"sp":1}}
+		,"[RuSa] Sr. and Jr. Kim & Iris (Route 125)": {
+			"ability":"Oblivious","level":36,
+			"moves":[ "Flamethrower", "Take Down", "Rest", "Earthquake"],
+			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Winstrate Vivi (Route 111)": {
+			"ability":"Oblivious","level":15,
+			"moves":[ "Growl", "Tackle", "Ember"],
+			"nature":"Sassy","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[Em] Beauty Shirley (Mt. Chimney)": {
 			"ability":"Oblivious","level":21,
 			"moves":[ "Growl", "Tackle", "Ember", "Magnitude"],
 			"nature":"Adamant","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -5244,31 +6863,31 @@ var SETDEX_ADV = {
 			"ability":"Oblivious","level":22,
 			"moves":[ "Magnitude", "Ember", "Tackle", "Growl"],
 			"nature":"Mild","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
-		,"[Em] Magma Grunt #1 (Mt. Chimney)": {
+		,"[Em] Magma Grunt 1 (Mt. Chimney)": {
 			"ability":"Oblivious","level":20,
 			"moves":[ "Growl", "Tackle", "Ember", "Magnitude"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #15 (Magma Hideout)": {
+		,"[Em] Magma Grunt 15 (Magma Hideout)": {
 			"ability":"Oblivious","level":29,
 			"moves":[ "Ember", "Magnitude", "Focus Energy", "Take Down"],
 			"nature":"Mild","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #2 (Magma Hideout)": {
+		,"[Em] Magma Grunt 2 (Magma Hideout)": {
 			"ability":"Oblivious","level":29,
 			"moves":[ "Ember", "Magnitude", "Focus Energy", "Take Down"],
 			"nature":"Mild","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #2 (Space Center)": {
+		,"[Em] Magma Grunt 2 (Space Center)": {
 			"ability":"Oblivious","level":32,
 			"moves":[ "Magnitude", "Focus Energy", "Take Down", "Amnesia"],
 			"nature":"Mild","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #4 (Magma Hideout)": {
+		,"[Em] Magma Grunt 4 (Magma Hideout)": {
 			"ability":"Oblivious","level":28,
 			"moves":[ "Tackle", "Ember", "Magnitude", "Focus Energy"],
 			"nature":"Sassy","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #4 (Space Center)": {
+		,"[Em] Magma Grunt 4 (Space Center)": {
 			"ability":"Oblivious","level":30,
 			"moves":[ "Magnitude", "Take Down", "Ember", "Focus Energy"],
 			"nature":"Careful","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #6 (Magma Hideout)": {
+		,"[Em] Magma Grunt 6 (Magma Hideout)": {
 			"ability":"Oblivious","level":29,
 			"moves":[ "Ember", "Magnitude", "Focus Energy", "Take Down"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -5294,7 +6913,27 @@ var SETDEX_ADV = {
 			"nature":"Sassy","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
 	}
 	,"Nuzleaf": {
-		"[Em] Camper Branden (Route 111 Desert)": {
+		"[RuSa] Camper Larry (Route 112)": {
+			"ability":"Chlorophyll","level":18,
+			"moves":[ "Pound", "Harden", "Growth", "Nature Power"],
+			"nature":"Calm","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Camper Shane (Route 114)": {
+			"ability":"Chlorophyll","level":19,
+			"moves":[ "Harden", "Growth", "Nature Power", "Fake Out"],
+			"nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Collector Edwin (Route 110)": {
+			"ability":"Chlorophyll","level":14,
+			"moves":[ "Pound", "Harden", "Growth", "Nature Power"],
+			"nature":"Naive","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Pokémon Ranger Carlos (Route 120)": {
+			"ability":"Chlorophyll","level":29,
+			"moves":[ "Growth", "Nature Power", "Fake Out", "Torment"],
+			"nature":"Calm","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Pokémon Ranger Jenna (Route 120)": {
+			"ability":"Chlorophyll","level":29,
+			"moves":[ "Growth", "Nature Power", "Fake Out", "Torment"],
+			"nature":"Brave","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[Em] Camper Branden (Route 111 Desert)": {
 			"ability":"Chlorophyll","level":22,
 			"moves":[ "Harden", "Growth", "Nature Power", "Fake Out"],
 			"nature":"Quiet","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -5324,7 +6963,19 @@ var SETDEX_ADV = {
 			"nature":"Gentle","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
 	}
 	,"Oddish": {
-		"[Em] Lass Sally (Trick House)": {
+		"[RuSa] Lass Sally (Trick House)": {
+			"ability":"Chlorophyll","level":16,
+			"moves":[ "Absorb", "Sweet Scent", "Poison Powder", "Stun Spore"],
+			"nature":"Naive","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Picnicker Diana (Jagged Pass)": {
+			"ability":"Chlorophyll","level":20,
+			"moves":[ "Sweet Scent", "Poison Powder", "Stun Spore", "Sleep Powder"],
+			"nature":"Mild","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] School Kid Paul (Trick House)": {
+			"ability":"Chlorophyll","level":15,
+			"moves":[ "Absorb", "Sweet Scent", "Poison Powder"],
+			"nature":"Lax","ivs":{"hp":1,"at":1,"df":1,"sa":1,"sd":1,"sp":1}}
+		,"[Em] Lass Sally (Trick House)": {
 			"ability":"Chlorophyll","level":16,
 			"moves":[ "Absorb", "Sweet Scent", "Poison Powder", "Stun Spore"],
 			"nature":"Naive","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -5488,7 +7139,7 @@ var SETDEX_ADV = {
 			"ability":"Effect Spore","level":31,
 			"moves":[ "Poison Powder", "Leech Life", "Spore", "Slash"],
 			"nature":"Careful","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Cooltrainer Caroline (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer Caroline (Victory Road)": {
 			"ability":"Effect Spore","level":42,
 			"moves":[ "Growth", "Slash", "Leech Life", "Stun Spore"],
 			"nature":"Lax","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -5506,7 +7157,7 @@ var SETDEX_ADV = {
 			"ability":"Effect Spore","level":31,
 			"moves":[ "Stun Spore", "Poison Powder", "Leech Life", "Spore"],
 			"nature":"Adamant","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Cooltrainer Caroline (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer Caroline (Victory Road)": {
 			"ability":"Effect Spore","level":42,
 			"moves":[ "Spore", "Slash", "Leech Life", "Poison Powder"],
 			"ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -5516,7 +7167,55 @@ var SETDEX_ADV = {
 			"nature":"Hasty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Pelipper": {
-		"[Em] Bird Keeper Alberto (Route 123)": {
+		"[RuSa] Bird Keeper Alex (Route 134)": {
+			"ability":"Keen Eye","level":32,
+			"moves":[ "Wing Attack", "Supersonic", "Mist", "Protect"],
+			"nature":"Lonely","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bird Keeper Beck (Route 133) [1]": {
+			"ability":"Keen Eye","level":34,
+			"moves":[ "Mist", "Protect", "Stockpile", "Swallow"],
+			"nature":"Hasty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bird Keeper Beck (Route 133) [2]": {
+			"ability":"Keen Eye","level":34,
+			"moves":[ "Mist", "Protect", "Stockpile", "Swallow"],
+			"nature":"Hasty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bird Keeper Benny (Trick House)": {
+			"ability":"Keen Eye","level":36,
+			"moves":[ "Mist", "Protect", "Stockpile", "Swallow"],
+			"nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bird Keeper Byron (Route 127)": {
+			"ability":"Keen Eye","level":34,
+			"moves":[ "Mist", "Protect", "Stockpile", "Swallow"],
+			"nature":"Timid","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bird Keeper Will (Fortree Gym)": {
+			"ability":"Keen Eye","level":28,
+			"moves":[ "Wing Attack", "Supersonic", "Mist", "Protect"],
+			"nature":"Serious","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Wendy (Route 123)": {
+			"ability":"Keen Eye","level":31,
+			"moves":[ "Fly", "Water Gun", "Mist", "Protect"],
+			"nature":"Impish","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Leader Winona (Fortree Gym)": {
+			"ability":"Keen Eye","level":30,
+			"moves":[ "Water Gun", "Supersonic", "Protect", "Aerial Ace"],
+			"ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
+		,"[RuSa] Sailor Leonard (S.S. Tidal Lower Deck)": {
+			"ability":"Keen Eye","level":43,
+			"moves":[ "Mist", "Protect", "Stockpile", "Swallow"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Susie (Route 131)": {
+			"ability":"Keen Eye","level":33,
+			"moves":[ "Mist", "Protect", "Stockpile", "Swallow"],
+			"nature":"Quirky","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Tisha (Route 129)": {
+			"ability":"Keen Eye","level":33,
+			"moves":[ "Mist", "Protect", "Stockpile", "Swallow"],
+			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Richard (Route 131)": {
+			"ability":"Keen Eye","level":35,
+			"moves":[ "Mist", "Protect", "Stockpile", "Swallow"],
+			"nature":"Quirky","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Bird Keeper Alberto (Route 123)": {
 			"ability":"Keen Eye","level":30,
 			"moves":[ "Wing Attack", "Supersonic", "Mist", "Protect"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -5580,21 +7279,21 @@ var SETDEX_ADV = {
 			"ability":"Keen Eye","level":43,
 			"moves":[ "Mist", "Protect", "Stockpile", "Swallow"],
 			"nature":"Bold","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Richard (Route 131)": {
+		,"[Em] Swimmer-M Richard (Route 131)": {
 			"ability":"Keen Eye","level":34,
 			"moves":[ "Mist", "Protect", "Stockpile", "Swallow"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Persian": {
-		"[FRLG] Cooltrainer Naomi (Victory Road 1F)": {
+		"[FRLG] Cooltrainer Naomi (Victory Road)": {
 			"ability":"Limber","level":42,
 			"moves":[ "Fury Swipes", "Screech", "Feint Attack", "Pay Day"],
 			"nature":"Mild","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
-		,"[FRLG] Tamer Vincent (Victory Road B1F)": {
+		,"[FRLG] Tamer Vincent (Victory Road)": {
 			"ability":"Limber","level":44,
 			"moves":[ "Pay Day", "Feint Attack", "Screech", "Fury Swipes"],
 			"ivs":{"hp":4,"at":4,"sa":4,"sp":4,"df":4,"sd":4}}
-		,"[FRLG] Cooltrainer Alexa (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer Alexa (Victory Road)": {
 			"ability":"Limber","level":42,
 			"moves":[ "Pay Day", "Feint Attack", "Bite", "Screech"],
 			"nature":"Naive","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -5817,7 +7516,11 @@ var SETDEX_ADV = {
 			"nature":"Hasty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Pikachu": {
-		"[Em] Pokéfan Vanessa (Route 121)": {
+		"[RuSa] Pokéfan Vanessa (Route 121)": {
+			"ability":"Static","level":31,"item":"Oran Berry",
+			"moves":[ "Quick Attack", "Double Team", "Slam", "Thunderbolt"],
+			"nature":"Rash","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Pokéfan Vanessa (Route 121)": {
 			"ability":"Static","level":30,"item":"Oran Berry",
 			"moves":[ "Quick Attack", "Double Team", "Slam", "Thunderbolt"],
 			"nature":"Rash","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -5913,7 +7616,15 @@ var SETDEX_ADV = {
 			"nature":"Hasty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Plusle": {
-		"[Em] Pokéfan Isabel (Route 110)": {
+		"[RuSa] Pokéfan Isabel (Route 110)": {
+			"ability":"Plus","level":15,"item":"Oran Berry",
+			"moves":[ "Growl", "Thunder Wave", "Quick Attack", "Helping Hand"],
+			"nature":"Timid","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Twins Amy & Liv (Route 103)": {
+			"ability":"Plus","level":16,
+			"moves":[ "Growl", "Thunder Wave", "Quick Attack", "Helping Hand"],
+			"nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Pokéfan Isabel (Route 110)": {
 			"ability":"Plus","level":14,"item":"Oran Berry",
 			"moves":[ "Growl", "Thunder Wave", "Quick Attack", "Helping Hand"],
 			"nature":"Timid","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -6001,7 +7712,7 @@ var SETDEX_ADV = {
 			"ability":"Water Absorb","level":32,
 			"moves":[ "Hypnosis", "Water Gun", "Double Slap", "Rain Dance"],
 			"nature":"Quiet","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Cooltrainer Colby (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer Colby (Victory Road)": {
 			"ability":"Water Absorb","level":42,
 			"moves":[ "Body Slam", "Double Slap", "Water Gun", "Hypnosis"],
 			"ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -6035,13 +7746,85 @@ var SETDEX_ADV = {
 			"ability":"Run Away","level":40,
 			"moves":[ "Stomp", "Bounce", "Fire Spin", "Fire Blast"],
 			"nature":"Relaxed","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Cooltrainer Naomi (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer Naomi (Victory Road)": {
 			"ability":"Run Away","level":42,
 			"moves":[ "Agility", "Take Down", "Fire Spin", "Stomp"],
 			"ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
 	}
 	,"Poochyena": {
-		"[Em] Aqua Grunt #1 (Aqua Hideout)": {
+		"[RuSa] Aqua Admin Matt (Mt. Chimney)": {
+			"ability":"Run Away","level":20,
+			"moves":[ "Howl", "Sand Attack", "Bite", "Odor Sleuth"],
+			"nature":"Naughty","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Pokémon Breeder Isaac (Route 117)": {
+			"ability":"Run Away","level":12,
+			"moves":[ "Tackle", "Howl", "Sand Attack"],
+			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt (Aqua Hideout 1F) [1]": {
+			"ability":"Run Away","level":32,
+			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt (Aqua Hideout 1F) [2]": {
+			"ability":"Run Away","level":32,
+			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
+			"nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt (Mt. Chimney)": {
+			"ability":"Run Away","level":20,
+			"moves":[ "Howl", "Sand Attack", "Bite", "Odor Sleuth"],
+			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt (Petalburg Woods)": {
+			"ability":"Run Away","level":9,
+			"moves":[ "Tackle", "Howl", "Sand Attack"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt (Rusturf Tunnel)": {
+			"ability":"Run Away","level":11,
+			"moves":[ "Tackle", "Howl", "Sand Attack"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt (Seafloor Cavern)": {
+			"ability":"Run Away","level":36,
+			"moves":[ "Roar", "Swagger", "Scary Face", "Take Down"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 1 (Aqua Hideout B1F)": {
+			"ability":"Run Away","level":31,
+			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
+			"nature":"Hasty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 1 (Seafloor Cavern)": {
+			"ability":"Run Away","level":37,
+			"moves":[ "Swagger", "Scary Face", "Take Down", "Taunt"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 2 (Aqua Hideout B1F) [1]": {
+			"ability":"Run Away","level":30,
+			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
+			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 2 (Aqua Hideout B1F) [2]": {
+			"ability":"Run Away","level":30,
+			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
+			"nature":"Quirky","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 2 (Mt. Pyre)": {
+			"ability":"Run Away","level":31,
+			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 2 (Weather Institute)": {
+			"ability":"Run Away","level":27,
+			"moves":[ "Bite", "Odor Sleuth", "Roar", "Swagger"],
+			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 3 (Weather Institute)": {
+			"ability":"Run Away","level":27,
+			"moves":[ "Bite", "Odor Sleuth", "Roar", "Swagger"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 4 (Weather Institute)": {
+			"ability":"Run Away","level":26,
+			"moves":[ "Bite", "Odor Sleuth", "Roar", "Swagger"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Youngster Allen (Route 102)": {
+			"ability":"Run Away","level":5,
+			"moves":[ "Tackle", "Howl"],
+			"nature":"Hasty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Youngster Timmy (Route 110)": {
+			"ability":"Run Away","level":12,
+			"moves":[ "Tackle", "Howl", "Sand Attack"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Aqua Grunt 1 (Aqua Hideout)": {
 			"ability":"Run Away","level":32,
 			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -6053,31 +7836,31 @@ var SETDEX_ADV = {
 			"ability":"Run Away","level":11,
 			"moves":[ "Tackle", "Howl", "Sand Attack"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #1 (Seafloor Cavern)": {
+		,"[Em] Aqua Grunt 1 (Seafloor Cavern)": {
 			"ability":"Run Away","level":36,
 			"moves":[ "Roar", "Swagger", "Scary Face", "Take Down"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #2 (Weather Institute)": {
+		,"[Em] Aqua Grunt 2 (Weather Institute)": {
 			"ability":"Run Away","level":27,
 			"moves":[ "Bite", "Odor Sleuth", "Roar", "Swagger"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #3 (Mt. Pyre)": {
+		,"[Em] Aqua Grunt 3 (Mt. Pyre)": {
 			"ability":"Run Away","level":30,
 			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #3 (Weather Institute)": {
+		,"[Em] Aqua Grunt 3 (Weather Institute)": {
 			"ability":"Run Away","level":27,
 			"moves":[ "Bite", "Odor Sleuth", "Roar", "Swagger"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #4 (Weather Institute)": {
+		,"[Em] Aqua Grunt 4 (Weather Institute)": {
 			"ability":"Run Away","level":27,
 			"moves":[ "Bite", "Odor Sleuth", "Roar", "Swagger"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #4 (Aqua Hideout)": {
+		,"[Em] Aqua Grunt 4 (Aqua Hideout)": {
 			"ability":"Run Away","level":31,
 			"moves":[ "Swagger", "Roar", "Scary Face", "Odor Sleuth"],
 			"nature":"Hasty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #5 (Weather Institute)": {
+		,"[Em] Aqua Grunt 5 (Weather Institute)": {
 			"ability":"Run Away","level":26,
 			"moves":[ "Bite", "Odor Sleuth", "Roar", "Swagger"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -6085,15 +7868,15 @@ var SETDEX_ADV = {
 			"ability":"Run Away","level":20,
 			"moves":[ "Bite", "Howl", "Sand Attack", "Odor Sleuth"],
 			"ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
-		,"[Em] Magma Grunt #1 (Magma Hideout)": {
+		,"[Em] Magma Grunt 1 (Magma Hideout)": {
 			"ability":"Run Away","level":29,
 			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #1 (Space Center)": {
+		,"[Em] Magma Grunt 1 (Space Center)": {
 			"ability":"Run Away","level":31,
 			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #9 (Magma Hideout)": {
+		,"[Em] Magma Grunt 9 (Magma Hideout)": {
 			"ability":"Run Away","level":29,
 			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -6203,7 +7986,35 @@ var SETDEX_ADV = {
 			"moves":[ "Thunderbolt", "Reflect", "Calm Mind", "Rest"]}
 	}
 	,"Ralts": {
-		"[Em] PKMN Trainer Wally (Mauville City)": {
+		"[RuSa] Hex Maniac Tammy (Route 121)": {
+			"ability":"Synchronize","level":30,
+			"moves":[ "Double Team", "Teleport", "Calm Mind", "Psychic"],
+			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] PKMN Trainer Wally (Mauville City)": {
+			"ability":"Synchronize","level":16,
+			"moves":[ "Growl", "Confusion", "Double Team", "Teleport"],
+			"nature":"Naughty","ivs":{"hp":3,"at":3,"df":3,"sa":3,"sd":3,"sp":3}}
+		,"[RuSa] Psychic Hannah (Mossdeep Gym)": {
+			"ability":"Synchronize","level":36,
+			"moves":[ "Calm Mind", "Psychic", "Imprison", "Future Sight"],
+			"nature":"Quiet","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Psychic Virgil (Mossdeep Gym)": {
+			"ability":"Synchronize","level":36,
+			"moves":[ "Calm Mind", "Psychic", "Imprison", "Future Sight"],
+			"nature":"Rash","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Psychic William (Mt. Pyre)": {
+			"ability":"Synchronize","level":31,
+			"moves":[ "Teleport", "Calm Mind", "Psychic", "Imprison"],
+			"nature":"Sassy","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] School Kid Jerry (Route 116)": {
+			"ability":"Synchronize","level":10,
+			"moves":[ "Growl", "Confusion"],
+			"nature":"Sassy","ivs":{"hp":1,"at":1,"df":1,"sa":1,"sd":1,"sp":1}}
+		,"[RuSa] School Kid Ted (Trick House)": {
+			"ability":"Synchronize","level":17,
+			"moves":[ "Growl", "Confusion", "Double Team", "Teleport"],
+			"nature":"Impish","ivs":{"hp":1,"at":1,"df":1,"sa":1,"sd":1,"sp":1}}
+		,"[Em] PKMN Trainer Wally (Mauville City)": {
 			"ability":"Synchronize","level":16,
 			"moves":[ "Growl", "Confusion", "Double Team", "Teleport"],
 			"nature":"Naughty","ivs":{"hp":3,"at":3,"sa":3,"sp":3,"df":3,"sd":3}}
@@ -6245,7 +8056,7 @@ var SETDEX_ADV = {
 			"ability":"Run Away","level":42,
 			"moves":[ "Stomp", "Bounce", "Fire Spin", "Fire Blast"],
 			"nature":"Calm","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Cooltrainer Naomi (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer Naomi (Victory Road)": {
 			"ability":"Run Away","level":42,
 			"moves":[ "Fury Attack", "Fire Spin", "Stomp", "Growl"],
 			"nature":"Lonely","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -6327,7 +8138,7 @@ var SETDEX_ADV = {
 			"ability":"Run Away","level":34,
 			"moves":[ "Quick Attack", "Hyper Fang", "Scary Face", "Pursuit"],
 			"nature":"Relaxed","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Cooltrainer Rolando (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer Rolando (Victory Road)": {
 			"ability":"Run Away","level":42,
 			"moves":[ "Super Fang", "Pursuit", "Scary Face", "Quick Attack"],
 			"ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -6518,7 +8329,11 @@ var SETDEX_ADV = {
 			"nature":"Mild","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
 	}
 	,"Rhyhorn": {
-		"[Em] Pokémaniac Mark (Mt. Pyre)": {
+		"[RuSa] Cooltrainer Owen (Victory Road)": {
+			"ability":"Lightning Rod","level":42,
+			"moves":[ "Fury Attack", "Scary Face", "Rock Blast", "Horn Drill"],
+			"nature":"Careful","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[Em] Pokémaniac Mark (Mt. Pyre)": {
 			"ability":"Lightning Rod","level":31,
 			"moves":[ "Stomp", "Fury Attack", "Scary Face", "Rock Blast"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -6568,7 +8383,55 @@ var SETDEX_ADV = {
 			"nature":"Rash","ivs":{"hp":3,"at":3,"sa":3,"sp":3,"df":3,"sd":3}}
 	}
 	,"Roselia": {
-		"[Em] Aroma Lady Celina (Route 111)": {
+		"[RuSa] Aroma Lady Daisy (Route 103)": {
+			"ability":"Natural Cure","level":16,
+			"moves":[ "Absorb", "Growth", "Poison Sting", "Stun Spore"],
+			"nature":"Lax","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Aroma Lady Rose (Route 118)": {
+			"ability":"Natural Cure","level":16,
+			"moves":[ "Absorb", "Growth", "Poison Sting", "Stun Spore"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Cooltrainer Brooke (Route 111)": {
+			"ability":"Natural Cure","level":18,
+			"moves":[ "Growth", "Poison Sting", "Stun Spore", "Mega Drain"],
+			"nature":"Brave","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Hope (Victory Road)": {
+			"ability":"Natural Cure","level":44,
+			"moves":[ "Grass Whistle", "Giga Drain", "Sweet Scent", "Ingrain"],
+			"nature":"Lax","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Wendy (Route 123)": {
+			"ability":"Natural Cure","level":31,
+			"moves":[ "Mega Drain", "Magical Leaf", "Grass Whistle", "Leech Seed"],
+			"nature":"Quiet","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Lady Anette (S.S. Tidal Rooms)": {
+			"ability":"Natural Cure","level":45,"item":"Nugget",
+			"moves":[ "Giga Drain", "Sweet Scent", "Ingrain", "Toxic"],
+			"nature":"Quiet","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Pokémon Breeder Lydia (Route 117)": {
+			"ability":"Natural Cure","level":12,
+			"moves":[ "Absorb", "Growth", "Poison Sting"],
+			"nature":"Quirky","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Pokémon Ranger Catherine (Route 119)": {
+			"ability":"Natural Cure","level":27,
+			"moves":[ "Stun Spore", "Mega Drain", "Leech Seed", "Magical Leaf"],
+			"nature":"Quiet","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Pokémon Ranger Sophia (Trick House)": {
+			"ability":"Natural Cure","level":38,
+			"moves":[ "Magical Leaf", "Grass Whistle", "Giga Drain", "Sweet Scent"],
+			"nature":"Adamant","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] PKMN Trainer Wally (Victory Road)": {
+			"ability":"Natural Cure","level":44,
+			"moves":[ "Magical Leaf", "Leech Seed", "Giga Drain", "Toxic"],
+			"nature":"Adamant","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[RuSa] Sr. and Jr. Tyra & Ivy (Route 114)": {
+			"ability":"Natural Cure","level":19,
+			"moves":[ "Growth", "Stun Spore", "Mega Drain", "Leech Seed"],
+			"nature":"Mild","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Winstrate Victoria (Route 111)": {
+			"ability":"Natural Cure","level":17,"item":"Oran Berry",
+			"moves":[ "Growth", "Poison Sting", "Stun Spore", "Mega Drain"],
+			"nature":"Mild","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[Em] Aroma Lady Celina (Route 111)": {
 			"ability":"Natural Cure","level":18,
 			"moves":[ "Growth", "Poison Sting", "Stun Spore", "Mega Drain"],
 			"nature":"Mild","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -6642,7 +8505,23 @@ var SETDEX_ADV = {
 			"nature":"Mild","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
 	}
 	,"Sableye": {
-		"[Em] Cooltrainer Caroline (Victory Road)": {
+		"[RuSa] Cooltrainer Caroline (Victory Road)": {
+			"ability":"Keen Eye","level":43,
+			"moves":[ "Feint Attack", "Knock Off", "Confuse Ray", "Shadow Ball"],
+			"ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Vincent (Trick House)": {
+			"ability":"Keen Eye","level":44,
+			"moves":[ "Feint Attack", "Knock Off", "Confuse Ray", "Shadow Ball"],
+			"nature":"Gentle","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Elite Four Phoebe (Pokémon League)": {
+			"ability":"Keen Eye","level":50,
+			"moves":[ "Shadow Ball", "Psychic", "Attract", "Feint Attack"],
+			"nature":"Careful","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[RuSa] Hex Maniac Valerie (Mt. Pyre)": {
+			"ability":"Keen Eye","level":32,
+			"moves":[ "Fury Swipes", "Fake Out", "Detect", "Feint Attack"],
+			"nature":"Modest","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Cooltrainer Caroline (Victory Road)": {
 			"ability":"Keen Eye","level":43,
 			"moves":[ "Feint Attack", "Knock Off", "Confuse Ray", "Shadow Ball"],
 			"ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -6668,7 +8547,11 @@ var SETDEX_ADV = {
 			"nature":"Modest","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Salamence": {
-		"[Em] Elite Four Drake (Pokémon League)": {
+		"[RuSa] Elite Four Drake (Pokémon League)": {
+			"ability":"Intimidate","level":55,"item":"Sitrus Berry",
+			"moves":[ "Flamethrower", "Dragon Claw", "Fly", "Crunch"],
+			"nature":"Naughty",}
+		,"[Em] Elite Four Drake (Pokémon League)": {
 			"ability":"Intimidate","level":55,"item":"Sitrus Berry",
 			"moves":[ "Dragon Claw", "Rock Slide", "Crunch", "Flamethrower"],
 			"nature":"Bold"}
@@ -6679,7 +8562,43 @@ var SETDEX_ADV = {
 			"moves":[ "Dragon Claw", "Aerial Ace", "Brick Break", "Earthquake"]}
 	}
 	,"Sandshrew": {
-		"[Em] Camper Beau (Route 111 Desert)": {
+		"[RuSa] Camper Cliff (Route 111 Desert)": {
+			"ability":"Sand Veil","level":22,
+			"moves":[ "Poison Sting", "Sand Attack", "Scratch", "Dig"],
+			"nature":"Lax","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Camper Drew (Route 111 Desert)": {
+			"ability":"Sand Veil","level":24,
+			"moves":[ "Dig", "Sand Attack", "Poison Sting", "Slash"],
+			"nature":"Timid","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Camper Shane (Route 114)": {
+			"ability":"Sand Veil","level":19,
+			"moves":[ "Scratch", "Defense Curl", "Sand Attack", "Poison Sting"],
+			"nature":"Impish","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Camper Travis (Route 111)": {
+			"ability":"Sand Veil","level":19,
+			"moves":[ "Scratch", "Defense Curl", "Sand Attack", "Poison Sting"],
+			"nature":"Lonely","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Picnicker Becky (Route 111 Desert)": {
+			"ability":"Sand Veil","level":24,
+			"moves":[ "Sand Attack", "Poison Sting", "Slash", "Dig"],
+			"nature":"Hasty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Picnicker Heidi (Route 111 Desert)": {
+			"ability":"Sand Veil","level":23,
+			"moves":[ "Dig", "Sand Attack", "Poison Sting", "Slash"],
+			"nature":"Calm","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Ruin Maniac Chip (Route 120) [1]": {
+			"ability":"Sand Veil","level":28,
+			"moves":[ "Dig", "Slash", "Sand Attack", "Poison Sting"],
+			"nature":"Lonely","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Ruin Maniac Chip (Route 120) [2]": {
+			"ability":"Sand Veil","level":28,
+			"moves":[ "Dig", "Slash", "Sand Attack", "Poison Sting"],
+			"nature":"Mild","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Ruin Maniac Foster (Route 105)": {
+			"ability":"Sand Veil","level":26,
+			"moves":[ "Dig", "Slash", "Sand Attack", "Poison Sting"],
+			"nature":"Modest","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[Em] Camper Beau (Route 111 Desert)": {
 			"ability":"Sand Veil","level":21,
 			"moves":[ "Poison Sting", "Sand Attack", "Scratch", "Dig"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -6781,7 +8700,23 @@ var SETDEX_ADV = {
 			"nature":"Naive","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Sandslash": {
-		"[Em] Cooltrainer Julie (Victory Road)": {
+		"[RuSa] Cooltrainer Julie (Victory Road)": {
+			"ability":"Sand Veil","level":43,
+			"moves":[ "Poison Sting", "Slash", "Swift", "Fury Swipes"],
+			"nature":"Bashful","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Ruin Maniac Chip (Route 120)": {
+			"ability":"Sand Veil","level":28,
+			"moves":[ "Dig", "Slash", "Sand Attack", "Poison Sting"],
+			"nature":"Sassy","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Ruin Maniac Dusty (Route 111 Desert)": {
+			"ability":"Sand Veil","level":24,
+			"moves":[ "Dig", "Slash", "Sand Attack", "Poison Sting"],
+			"nature":"Lonely","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Ruin Maniac Foster (Route 105)": {
+			"ability":"Sand Veil","level":26,
+			"moves":[ "Dig", "Slash", "Sand Attack", "Poison Sting"],
+			"nature":"Timid","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[Em] Cooltrainer Julie (Victory Road)": {
 			"ability":"Sand Veil","level":42,
 			"moves":[ "Slash", "Swift", "Fury Swipes", "Poison Sting"],
 			"ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -6833,7 +8768,7 @@ var SETDEX_ADV = {
 			"ability":"Sand Veil","level":38,
 			"moves":[ "Slash", "Swift", "Sand Attack", "Poison Sting"],
 			"nature":"Mild","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
-		,"[FRLG] Cooltrainer George (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer George (Victory Road)": {
 			"ability":"Sand Veil","level":42,
 			"moves":[ "Fury Swipes", "Swift", "Poison Sting", "Sand Attack"],
 			"nature":"Naive","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -6859,7 +8794,11 @@ var SETDEX_ADV = {
 			"nature":"Adamant","ivs":{"hp":4,"at":4,"sa":4,"sp":4,"df":4,"sd":4}}
 	}
 	,"Seadra": {
-		"[Em] Swimmer Linda (Route 133)": {
+		"[RuSa] Swimmer-F Linda (Route 133)": {
+			"ability":"Poison Point","level":34,
+			"moves":[ "Smokescreen", "Leer", "Water Gun", "Twister"],
+			"nature":"Hasty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Swimmer-F Linda (Route 133)": {
 			"ability":"Poison Point","level":33,
 			"moves":[ "Smokescreen", "Leer", "Water Gun", "Twister"],
 			"nature":"Hasty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -6887,7 +8826,7 @@ var SETDEX_ADV = {
 			"ability":"Poison Point","level":33,
 			"moves":[ "Smokescreen", "Leer", "Water Gun", "Twister"],
 			"nature":"Calm","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Cooltrainer Colby (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer Colby (Victory Road)": {
 			"ability":"Poison Point","level":42,
 			"moves":[ "Water Gun", "Smokescreen", "Twister", "Leer"],
 			"nature":"Lonely","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -6901,23 +8840,43 @@ var SETDEX_ADV = {
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Seaking": {
-		"[Em] Lady Brianna (Sootopolis Gym)": {
+		"[RuSa] Lady Brianna (Sootopolis Gym)": {
+			"ability":"Swift Swim","level":41,"item":"Nugget",
+			"moves":[ "Horn Attack", "Flail", "Fury Attack", "Waterfall"],
+			"nature":"Rash","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Leader Wallace (Sootopolis Gym)": {
+			"ability":"Swift Swim","level":42,
+			"moves":[ "Water Pulse", "Rain Dance", "Fury Attack", "Horn Drill"],
+			"nature":"Bashful","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
+		,"[RuSa] Swimmer-F Debra (Route 133)": {
+			"ability":"Swift Swim","level":34,
+			"moves":[ "Supersonic", "Horn Attack", "Flail", "Fury Attack"],
+			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Kara (Route 131)": {
+			"ability":"Swift Swim","level":35,
+			"moves":[ "Supersonic", "Horn Attack", "Flail", "Fury Attack"],
+			"nature":"Adamant","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Sharon (Route 125)": {
+			"ability":"Swift Swim","level":34,
+			"moves":[ "Supersonic", "Horn Attack", "Flail", "Fury Attack"],
+			"nature":"Naughty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Lady Brianna (Sootopolis Gym)": {
 			"ability":"Swift Swim","level":40,"item":"Nugget",
 			"moves":[ "Supersonic", "Horn Attack", "Flail", "Fury Attack"],
 			"nature":"Rash","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
-		,"[Em] Swimmer Carlee (Route 128)": {
+		,"[Em] Swimmer-F Carlee (Route 128)": {
 			"ability":"Swift Swim","level":35,
 			"moves":[ "Supersonic", "Horn Attack", "Flail", "Fury Attack"],
 			"nature":"Jolly","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Debra (Route 133)": {
+		,"[Em] Swimmer-F Debra (Route 133)": {
 			"ability":"Swift Swim","level":34,
 			"moves":[ "Supersonic", "Horn Attack", "Flail", "Fury Attack"],
 			"nature":"Jolly","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Kara (Route 131)": {
+		,"[Em] Swimmer-F Kara (Route 131)": {
 			"ability":"Swift Swim","level":34,
 			"moves":[ "Supersonic", "Horn Attack", "Flail", "Fury Attack"],
 			"nature":"Adamant","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Sharon (Route 125)": {
+		,"[Em] Swimmer-F Sharon (Route 125)": {
 			"ability":"Swift Swim","level":34,
 			"moves":[ "Supersonic", "Horn Attack", "Flail", "Fury Attack"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -6979,7 +8938,23 @@ var SETDEX_ADV = {
 			"nature":"Impish","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Sealeo": {
-		"[Em] Elite Four Glacia (Pokémon League) [1]": {
+		"[RuSa] Elite Four Glacia (Pokémon League) [1]": {
+			"ability":"Thick Fat","level":50,
+			"moves":[ "Surf", "Body Slam", "Hail", "Ice Ball"],
+			"nature":"Bashful","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[RuSa] Elite Four Glacia (Pokémon League) [2]": {
+			"ability":"Thick Fat","level":52,
+			"moves":[ "Attract", "Dive", "Hail", "Blizzard"],
+			"ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[RuSa] Leader Wallace (Sootopolis Gym)": {
+			"ability":"Thick Fat","level":40,
+			"moves":[ "Encore", "Body Slam", "Aurora Beam", "Water Pulse"],
+			"nature":"Docile","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
+		,"[RuSa] Swimmer-M Franklin (Route 133)": {
+			"ability":"Thick Fat","level":34,
+			"moves":[ "Ice Ball", "Body Slam", "Aurora Beam", "Hail"],
+			"nature":"Quirky","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Elite Four Glacia (Pokémon League) [1]": {
 			"ability":"Thick Fat","level":50,
 			"moves":[ "Ice Ball", "Body Slam", "Hail", "Encore"],
 			"nature":"Brave","ivs":{"hp":30,"at":30,"sa":30,"sp":30,"df":30,"sd":30}}
@@ -6991,13 +8966,25 @@ var SETDEX_ADV = {
 			"ability":"Thick Fat","level":43,
 			"moves":[ "Aurora Beam", "Water Pulse", "Body Slam", "Encore"],
 			"nature":"Naive","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
-		,"[Em] Swimmer Franklin (Route 133)": {
+		,"[Em] Swimmer-M Franklin (Route 133)": {
 			"ability":"Thick Fat","level":34,
 			"moves":[ "Ice Ball", "Body Slam", "Aurora Beam", "Hail"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Seedot": {
-		"[Em] Pokémon Ranger Lorenzo (Route 120)": {
+		"[RuSa] Pokémon Ranger Carlos (Route 120)": {
+			"ability":"Chlorophyll","level":29,
+			"moves":[ "Harden", "Growth", "Nature Power", "Synthesis"],
+			"nature":"Rash","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Twins Gina & Mia (Route 104)": {
+			"ability":"Chlorophyll","level":8,
+			"moves":[ "Bide", "Harden", "Growth"],
+			"nature":"Hasty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Youngster Billy (Route 104)": {
+			"ability":"Chlorophyll","level":6,
+			"moves":[ "Bide", "Harden"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Pokémon Ranger Lorenzo (Route 120)": {
 			"ability":"Chlorophyll","level":28,
 			"moves":[ "Harden", "Growth", "Nature Power", "Synthesis"],
 			"nature":"Relaxed","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
@@ -7025,7 +9012,11 @@ var SETDEX_ADV = {
 			"nature":"Impish","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Seviper": {
-		"[Em] Beauty Jessica (Route 121)": {
+		"[RuSa] Beauty Jessica (Route 121)": {
+			"ability":"Shed Skin","level":30,
+			"moves":[ "Poison Tail", "Screech", "Glare", "Crunch"],
+			"nature":"Naive","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Beauty Jessica (Route 121)": {
 			"ability":"Shed Skin","level":29,
 			"moves":[ "Poison Tail", "Screech", "Glare", "Crunch"],
 			"nature":"Naive","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -7048,7 +9039,47 @@ var SETDEX_ADV = {
 			"moves":[ "Sludge Bomb", "Crunch", "Giga Drain", "Swagger"]}
 	}
 	,"Sharpedo": {
-		"[Em] Aqua Admin Shelly (Seafloor Cavern)": {
+		"[RuSa] Aqua Admin Matt (Aqua Hideout B2F)": {
+			"ability":"Rough Skin","level":32,
+			"moves":[ "Focus Energy", "Scary Face", "Crunch", "Screech"],
+			"nature":"Hasty","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Aqua Admin Shelly (Seafloor Cavern)": {
+			"ability":"Rough Skin","level":38,
+			"moves":[ "Crunch", "Screech", "Slash", "Taunt"],
+			"nature":"Gentle","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Aqua Leader Archie (Mt. Chimney)": {
+			"ability":"Rough Skin","level":25,
+			"moves":[ "Rage", "Focus Energy", "Scary Face", "Crunch"],
+			"nature":"Naughty","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[RuSa] Aqua Leader Archie (Seafloor Cavern)": {
+			"ability":"Rough Skin","level":43,
+			"moves":[ "Screech", "Slash", "Taunt", "Swagger"],
+			"nature":"Mild","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[RuSa] Beauty Tiffany (Sootopolis Gym)": {
+			"ability":"Rough Skin","level":39,
+			"moves":[ "Crunch", "Screech", "Slash", "Taunt"],
+			"nature":"Quiet","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Vincent (Trick House)": {
+			"ability":"Rough Skin","level":44,
+			"moves":[ "Screech", "Slash", "Taunt", "Swagger"],
+			"nature":"Sassy","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Elite Four Sidney (Pokémon League)": {
+			"ability":"Rough Skin","level":48,
+			"moves":[ "Crunch", "Swagger", "Surf", "Slash"],
+			"nature":"Quirky","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[RuSa] Fisherman Jonah (Route 127)": {
+			"ability":"Rough Skin","level":32,
+			"moves":[ "Focus Energy", "Scary Face", "Crunch", "Screech"],
+			"nature":"Sassy","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Gilbert (Route 132)": {
+			"ability":"Rough Skin","level":35,
+			"moves":[ "Scary Face", "Crunch", "Screech", "Slash"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Reed (Route 129)": {
+			"ability":"Rough Skin","level":32,
+			"moves":[ "Focus Energy", "Scary Face", "Crunch", "Screech"],
+			"nature":"Jolly","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Aqua Admin Shelly (Seafloor Cavern)": {
 			"ability":"Rough Skin","level":37,
 			"moves":[ "Scary Face", "Crunch", "Screech", "Slash"],
 			"nature":"Gentle","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -7068,15 +9099,15 @@ var SETDEX_ADV = {
 			"ability":"Rough Skin","level":32,
 			"moves":[ "Focus Energy", "Scary Face", "Crunch", "Screech"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Clarence (Route 129)": {
+		,"[Em] Swimmer-M Clarence (Route 129)": {
 			"ability":"Rough Skin","level":34,
 			"moves":[ "Scary Face", "Crunch", "Screech", "Slash"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Gilbert (Route 132)": {
+		,"[Em] Swimmer-M Gilbert (Route 132)": {
 			"ability":"Rough Skin","level":34,
 			"moves":[ "Scary Face", "Crunch", "Screech", "Slash"],
 			"nature":"Bold","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Reed (Route 129)": {
+		,"[Em] Swimmer-M Reed (Route 129)": {
 			"ability":"Rough Skin","level":33,
 			"moves":[ "Scary Face", "Crunch", "Screech", "Slash"],
 			"nature":"Naughty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -7089,7 +9120,11 @@ var SETDEX_ADV = {
 			"moves":[ "Shadow Ball", "Return", "Aerial Ace", "Confuse Ray"]}
 	}
 	,"Shelgon": {
-		"[Em] Elite Four Drake (Pokémon League)": {
+		"[RuSa] Elite Four Drake (Pokémon League)": {
+			"ability":"Rock Head","level":52,
+			"moves":[ "Rock Tomb", "Dragon Claw", "Protect", "Crunch"],
+			"nature":"Quiet","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[Em] Elite Four Drake (Pokémon League)": {
 			"ability":"Rock Head","level":52,
 			"moves":[ "Rock Tomb", "Double-Edge", "Dragon Claw", "Protect"],
 			"nature":"Quiet","ivs":{"hp":30,"at":30,"sa":30,"sp":30,"df":30,"sd":30}}
@@ -7149,7 +9184,23 @@ var SETDEX_ADV = {
 			"nature":"Impish","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Shiftry": {
-		"[Em] Cooltrainer Braxton (Route 123)": {
+		"[RuSa] Cooltrainer Clyde (Route 123)": {
+			"ability":"Chlorophyll","level":29,
+			"moves":[ "Giga Drain", "Feint Attack", "Double Team", "Swagger"],
+			"nature":"Hasty","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Ruben (Route 128)": {
+			"ability":"Chlorophyll","level":34,
+			"moves":[ "Pound", "Harden", "Growth", "Nature Power"],
+			"nature":"Bashful","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Vito (Victory Road)": {
+			"ability":"Chlorophyll","level":42,
+			"moves":[ "Pound", "Harden", "Growth", "Nature Power"],
+			"nature":"Lax","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Elite Four Sidney (Pokémon League)": {
+			"ability":"Chlorophyll","level":48,
+			"moves":[ "Fake Out", "Double Team", "Swagger", "Extrasensory"],
+			"nature":"Jolly","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[Em] Cooltrainer Braxton (Route 123)": {
 			"ability":"Chlorophyll","level":28,
 			"moves":[ "Giga Drain", "Feint Attack", "Double Team", "Swagger"],
 			"nature":"Gentle","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -7171,7 +9222,51 @@ var SETDEX_ADV = {
 			"nature":"Jolly","ivs":{"hp":30,"at":30,"sa":30,"sp":30,"df":30,"sd":30}}
 	}
 	,"Shroomish": {
-		"[Em] Aroma Lady Daisy (Route 103)": {
+		"[RuSa] Aroma Lady Rose (Route 118)": {
+			"ability":"Effect Spore","level":16,
+			"moves":[ "Tackle", "Stun Spore", "Leech Seed", "Mega Drain"],
+			"nature":"Naive","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Aroma Lady Violet (Route 123)": {
+			"ability":"Effect Spore","level":25,
+			"moves":[ "Stun Spore", "Leech Seed", "Mega Drain", "Headbutt"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Beauty Sheila (Mt. Chimney)": {
+			"ability":"Effect Spore","level":22,
+			"moves":[ "Stun Spore", "Leech Seed", "Mega Drain", "Headbutt"],
+			"nature":"Adamant","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Lass Haley (Route 104)": {
+			"ability":"Effect Spore","level":7,
+			"moves":[ "Absorb", "Tackle", "Stun Spore"],
+			"nature":"Sassy","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Lass Robin (Trick House)": {
+			"ability":"Effect Spore","level":14,
+			"moves":[ "Absorb", "Tackle", "Stun Spore", "Leech Seed"],
+			"nature":"Lax","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Picnicker Diana (Jagged Pass)": {
+			"ability":"Effect Spore","level":20,
+			"moves":[ "Tackle", "Stun Spore", "Leech Seed", "Mega Drain"],
+			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Picnicker Irene (Route 111)": {
+			"ability":"Effect Spore","level":18,
+			"moves":[ "Tackle", "Stun Spore", "Leech Seed", "Mega Drain"],
+			"nature":"Rash","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Pokémon Breeder Lydia (Route 117)": {
+			"ability":"Effect Spore","level":12,
+			"moves":[ "Absorb", "Tackle", "Stun Spore", "Leech Seed"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] School Kid Georgia (Trick House)": {
+			"ability":"Effect Spore","level":16,
+			"moves":[ "Tackle", "Stun Spore", "Leech Seed", "Mega Drain"],
+			"nature":"Quiet","ivs":{"hp":1,"at":1,"df":1,"sa":1,"sd":1,"sp":1}}
+		,"[RuSa] School Kid Karen (Route 116)": {
+			"ability":"Effect Spore","level":9,
+			"moves":[ "Absorb", "Tackle", "Stun Spore"],
+			"nature":"Relaxed","ivs":{"hp":1,"at":1,"df":1,"sa":1,"sd":1,"sp":1}}
+		,"[RuSa] Winstrate Vivi (Route 111)": {
+			"ability":"Effect Spore","level":15,
+			"moves":[ "Absorb", "Tackle", "Stun Spore", "Leech Seed"],
+			"nature":"Mild","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[Em] Aroma Lady Daisy (Route 103)": {
 			"ability":"Effect Spore","level":14,
 			"moves":[ "Absorb", "Tackle", "Stun Spore", "Leech Seed"],
 			"nature":"Hasty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -7248,7 +9343,15 @@ var SETDEX_ADV = {
 			"moves":[ "Sandstorm", "Toxic", "Rest", "Protect"]}
 	}
 	,"Shuppet": {
-		"[Em] Hex Maniac Kindra (Route 123)": {
+		"[RuSa] Hex Maniac Kindra (Route 123)": {
+			"ability":"Insomnia","level":31,
+			"moves":[ "Screech", "Night Shade", "Curse", "Spite"],
+			"ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Hex Maniac Tasha (Mt. Pyre)": {
+			"ability":"Insomnia","level":31,
+			"moves":[ "Screech", "Night Shade", "Curse", "Spite"],
+			"nature":"Hasty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Hex Maniac Kindra (Route 123)": {
 			"ability":"Insomnia","level":30,
 			"moves":[ "Screech", "Night Shade", "Curse", "Spite"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -7262,13 +9365,29 @@ var SETDEX_ADV = {
 			"nature":"Hasty","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
 	}
 	,"Silcoon": {
-		"[Em] Bug Maniac Donald (Route 119)": {
+		"[RuSa] Bug Catcher Jose (Route 116)": {
+			"ability":"Shed Skin","level":8,
+			"moves":[ "Harden"],
+			"nature":"Gentle","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Bug Maniac Donald (Route 119)": {
+			"ability":"Shed Skin","level":25,
+			"moves":[ "Harden"],
+			"nature":"Sassy","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[Em] Bug Maniac Donald (Route 119)": {
 			"ability":"Shed Skin","level":24,
 			"moves":[ "Harden"],
 			"nature":"Sassy","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
 	}
 	,"Skarmory": {
-		"[Em] Bird Keeper Aidan (Route 127)": {
+		"[RuSa] Champion Steven (Pokémon League)": {
+			"ability":"Keen Eye","level":57,
+			"moves":[ "Toxic", "Aerial Ace", "Spikes", "Steel Wing"],
+			"nature":"Modest",}
+		,"[RuSa] Leader Winona (Fortree Gym)": {
+			"ability":"Keen Eye","level":32,
+			"moves":[ "Sand Attack", "Fury Attack", "Steel Wing", "Aerial Ace"],
+			"ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
+		,"[Em] Bird Keeper Aidan (Route 127)": {
 			"ability":"Keen Eye","level":32,
 			"moves":[ "Agility", "Fury Attack", "Air Cutter", "Steel Wing"],
 			"nature":"Impish","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -7320,7 +9439,43 @@ var SETDEX_ADV = {
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Skitty": {
-		"[Em] Lass Robin (Trick House)": {
+		"[RuSa] Lass Robin (Trick House)": {
+			"ability":"Cute Charm","level":14,
+			"moves":[ "Tackle", "Tail Whip", "Attract", "Sing"],
+			"nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Picnicker Martha (Trick House)": {
+			"ability":"Cute Charm","level":23,
+			"moves":[ "Attract", "Sing", "Double Slap", "Assist"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Pokéfan Colton (S.S. Tidal Rooms) [1]": {
+			"ability":"Cute Charm","level":22,"item":"Oran Berry",
+			"moves":[ "Assist", "Charm", "Feint Attack", "Heal Bell"],
+			"nature":"Lonely","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Pokéfan Colton (S.S. Tidal Rooms) [2]": {
+			"ability":"Cute Charm","level":36,"item":"Oran Berry",
+			"moves":[ "Assist", "Charm", "Feint Attack", "Heal Bell"],
+			"nature":"Mild","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Pokéfan Colton (S.S. Tidal Rooms) [3]": {
+			"ability":"Cute Charm","level":40,"item":"Oran Berry",
+			"moves":[ "Assist", "Charm", "Feint Attack", "Heal Bell"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Pokéfan Colton (S.S. Tidal Rooms) [4]": {
+			"ability":"Cute Charm","level":12,"item":"Oran Berry",
+			"moves":[ "Assist", "Charm", "Feint Attack", "Heal Bell"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Pokéfan Colton (S.S. Tidal Rooms) [5]": {
+			"ability":"Cute Charm","level":30,"item":"Oran Berry",
+			"moves":[ "Assist", "Charm", "Feint Attack", "Heal Bell"],
+			"nature":"Hasty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Pokéfan Miguel (Route 103)": {
+			"ability":"Cute Charm","level":16,"item":"Oran Berry",
+			"moves":[ "Tail Whip", "Attract", "Sing", "Double Slap"],
+			"nature":"Naughty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Pokémon Breeder Lydia (Route 117)": {
+			"ability":"Cute Charm","level":12,
+			"moves":[ "Growl", "Tackle", "Tail Whip", "Attract"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Lass Robin (Trick House)": {
 			"ability":"Cute Charm","level":14,
 			"moves":[ "Tackle", "Tail Whip", "Attract", "Sing"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -7362,7 +9517,19 @@ var SETDEX_ADV = {
 			"nature":"Bold","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Slaking": {
-		"[Em] Cooltrainer Katelynn (Victory Road)": {
+		"[RuSa] Leader Norman (Petalburg Gym) [1]": {
+			"ability":"Truant","level":28,
+			"moves":[ "Encore", "Facade", "Yawn", "Feint Attack"],
+			"nature":"Relaxed","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
+		,"[RuSa] Leader Norman (Petalburg Gym) [2]": {
+			"ability":"Truant","level":31,
+			"moves":[ "Focus Punch", "Slack Off", "Facade", "Feint Attack"],
+			"nature":"Hasty","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[RuSa] Sr. and Jr. Kate & Joy (Route 121)": {
+			"ability":"Truant","level":32,
+			"moves":[ "Focus Punch", "Yawn", "Slack Off", "Feint Attack"],
+			"nature":"Timid","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Cooltrainer Katelynn (Victory Road)": {
 			"ability":"Truant","level":43,
 			"moves":[ "Earthquake", "Shadow Ball", "Aerial Ace", "Brick Break"],
 			"nature":"Jolly","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -7459,7 +9626,35 @@ var SETDEX_ADV = {
 			"nature":"Hasty","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
 	}
 	,"Slugma": {
-		"[Em] May 2 w/ Mudkip (Route 110)": {
+		"[RuSa] Kindler Andy (Lavaridge Gym 1F)": {
+			"ability":"Magma Armor","level":23,
+			"moves":[ "Smog", "Ember", "Rock Throw", "Harden"],
+			"nature":"Careful","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Kindler Axle (Lavaridge Gym 1F)": {
+			"ability":"Magma Armor","level":23,
+			"moves":[ "Smog", "Ember", "Rock Throw", "Harden"],
+			"nature":"Sassy","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Kindler Bernie (Route 114)": {
+			"ability":"Magma Armor","level":19,
+			"moves":[ "Yawn", "Smog", "Ember", "Rock Throw"],
+			"nature":"Lax","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Kindler Cole (Lavaridge Gym 1F) [1]": {
+			"ability":"Magma Armor","level":22,
+			"moves":[ "Smog", "Ember", "Rock Throw", "Harden"],
+			"nature":"Rash","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Kindler Cole (Lavaridge Gym 1F) [2]": {
+			"ability":"Magma Armor","level":22,
+			"moves":[ "Smog", "Ember", "Rock Throw", "Harden"],
+			"nature":"Brave","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Leader Flannery (Lavaridge Gym 1F) [1]": {
+			"ability":"Magma Armor","level":26,
+			"moves":[ "Overheat", "Smog", "Light Screen", "Sunny Day"],
+			"nature":"Brave","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
+		,"[RuSa] Leader Flannery (Lavaridge Gym 1F) [2]": {
+			"ability":"Magma Armor","level":26,
+			"moves":[ "Flamethrower", "Rock Slide", "Light Screen", "Sunny Day"],
+			"nature":"Lax","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
+		,"[Em] May 2 w/ Mudkip (Route 110)": {
 			"ability":"Magma Armor","level":18,
 			"moves":[ "Ember", "Yawn", "Smog", "Rock Throw"],
 			"nature":"Naughty","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
@@ -7580,7 +9775,19 @@ var SETDEX_ADV = {
 			"nature":"Quiet","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Solrock": {
-		"[Em] Cooltrainer Mitchell (Victory Road)": {
+		"[RuSa] Leader Tate&Liza (Mossdeep Gym)": {
+			"ability":"Levitate","level":42,
+			"moves":[ "Sunny Day", "Solar Beam", "Psychic", "Flamethrower"],
+			"nature":"Serious","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[RuSa] Psychic Cameron (Route 123)": {
+			"ability":"Levitate","level":31,
+			"moves":[ "Rock Throw", "Fire Spin", "Psywave", "Cosmic Power"],
+			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Psychic Joshua (Trick House)": {
+			"ability":"Levitate","level":41,
+			"moves":[ "Fire Spin", "Psywave", "Cosmic Power", "Rock Slide"],
+			"nature":"Lonely","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Cooltrainer Mitchell (Victory Road)": {
 			"ability":"Levitate","level":43,
 			"moves":[ "Explosion", "Reflect", "Light Screen", "Shadow Ball"],
 			"nature":"Hasty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -7660,7 +9867,19 @@ var SETDEX_ADV = {
 			"nature":"Sassy","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Spheal": {
-		"[Em] Sailor Duncan (Abandonded Ship)": {
+		"[RuSa] Swimmer-F Katie (Route 130)": {
+			"ability":"Thick Fat","level":33,
+			"moves":[ "Ice Ball", "Body Slam", "Aurora Beam", "Hail"],
+			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Nikki (Route 126)": {
+			"ability":"Thick Fat","level":32,
+			"moves":[ "Ice Ball", "Body Slam", "Aurora Beam", "Hail"],
+			"nature":"Adamant","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Reed (Route 129)": {
+			"ability":"Thick Fat","level":32,
+			"moves":[ "Ice Ball", "Body Slam", "Aurora Beam", "Hail"],
+			"nature":"Jolly","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Sailor Duncan (Abandonded Ship)": {
 			"ability":"Thick Fat","level":25,
 			"moves":[ "Encore", "Ice Ball", "Body Slam", "Aurora Beam"],
 			"nature":"Hasty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -7668,25 +9887,29 @@ var SETDEX_ADV = {
 			"ability":"Thick Fat","level":33,
 			"moves":[ "Ice Ball", "Body Slam", "Aurora Beam", "Hail"],
 			"nature":"Naive","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
-		,"[Em] Swimmer Katie (Route 130)": {
+		,"[Em] Swimmer-F Katie (Route 130)": {
 			"ability":"Thick Fat","level":33,
 			"moves":[ "Ice Ball", "Body Slam", "Aurora Beam", "Hail"],
 			"nature":"Adamant","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Kevin (Route 131)": {
+		,"[Em] Swimmer-M Kevin (Route 131)": {
 			"ability":"Thick Fat","level":34,
 			"moves":[ "Ice Ball", "Body Slam", "Aurora Beam", "Hail"],
 			"nature":"Rash","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Nikki (Route 126)": {
+		,"[Em] Swimmer-F Nikki (Route 126)": {
 			"ability":"Thick Fat","level":33,
 			"moves":[ "Ice Ball", "Body Slam", "Aurora Beam", "Hail"],
 			"nature":"Lonely","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Reed (Route 129)": {
+		,"[Em] Swimmer-M Reed (Route 129)": {
 			"ability":"Thick Fat","level":33,
 			"moves":[ "Ice Ball", "Body Slam", "Aurora Beam", "Hail"],
 			"nature":"Naughty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Spinda": {
-		"[Em] Cooltrainer Parker (Petalburg Gym)": {
+		"[RuSa] Sr. and Jr. Kate & Joy (Route 121)": {
+			"ability":"Own Tempo","level":30,
+			"moves":[ "Hypnosis", "Psybeam", "Dizzy Punch", "Teeter Dance"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Cooltrainer Parker (Petalburg Gym)": {
 			"ability":"Own Tempo","level":26,
 			"moves":[ "Teeter Dance", "Dizzy Punch", "Focus Punch"],
 			"nature":"Calm"}
@@ -7744,7 +9967,11 @@ var SETDEX_ADV = {
 			"nature":"Bold","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Starmie": {
-		"[Em] Cooltrainer Leroy (Trick House)": {
+		"[RuSa] Cooltrainer Leroy (Trick House)": {
+			"ability":"Illuminate","level":46,
+			"moves":[ "Rapid Spin", "Recover", "Swift", "Confuse Ray"],
+			"nature":"Quiet","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[Em] Cooltrainer Leroy (Trick House)": {
 			"ability":"Illuminate","level":46,
 			"moves":[ "Rapid Spin", "Recover", "Swift", "Confuse Ray"],
 			"nature":"Quiet","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -7770,7 +9997,55 @@ var SETDEX_ADV = {
 			"nature":"Naive","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Staryu": {
-		"[Em] Trialthete Isaiah (Route 128)": {
+		"[RuSa] Swimmer-M Cody (Route 125)": {
+			"ability":"Illuminate","level":34,
+			"moves":[ "Camouflage", "Swift", "Bubble Beam", "Minimize"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Jack (Route 134)": {
+			"ability":"Illuminate","level":34,
+			"moves":[ "Camouflage", "Swift", "Bubble Beam", "Minimize"],
+			"nature":"Calm","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Triathlete Allison (Route 129)": {
+			"ability":"Illuminate","level":33,
+			"moves":[ "Camouflage", "Swift", "Bubble Beam", "Minimize"],
+			"nature":"Brave","ivs":{"hp":29,"at":29,"df":29,"sa":29,"sd":29,"sp":29}}
+		,"[RuSa] Triathlete Caleb (Route 127) [1]": {
+			"ability":"Illuminate","level":33,
+			"moves":[ "Camouflage", "Swift", "Bubble Beam", "Minimize"],
+			"nature":"Quirky","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Triathlete Caleb (Route 127) [2]": {
+			"ability":"Illuminate","level":33,
+			"moves":[ "Camouflage", "Swift", "Bubble Beam", "Minimize"],
+			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Triathlete Caleb (Route 127) [3]": {
+			"ability":"Illuminate","level":33,
+			"moves":[ "Camouflage", "Swift", "Bubble Beam", "Minimize"],
+			"ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Triathlete Caleb (Route 127) [4]": {
+			"ability":"Illuminate","level":33,
+			"moves":[ "Camouflage", "Swift", "Bubble Beam", "Minimize"],
+			"nature":"Jolly","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Triathlete Chase (Route 129)": {
+			"ability":"Illuminate","level":35,
+			"moves":[ "Camouflage", "Swift", "Bubble Beam", "Minimize"],
+			"nature":"Careful","ivs":{"hp":9,"at":9,"df":9,"sa":9,"sd":9,"sp":9}}
+		,"[RuSa] Triathlete Connor (Route 127) [1]": {
+			"ability":"Illuminate","level":33,
+			"moves":[ "Camouflage", "Swift", "Bubble Beam", "Minimize"],
+			"nature":"Bold","ivs":{"hp":19,"at":19,"df":19,"sa":19,"sd":19,"sp":19}}
+		,"[RuSa] Triathlete Connor (Route 127) [2]": {
+			"ability":"Illuminate","level":33,
+			"moves":[ "Camouflage", "Swift", "Bubble Beam", "Minimize"],
+			"nature":"Modest","ivs":{"hp":19,"at":19,"df":19,"sa":19,"sd":19,"sp":19}}
+		,"[RuSa] Triathlete Isaiah (Route 128)": {
+			"ability":"Illuminate","level":36,
+			"moves":[ "Camouflage", "Swift", "Bubble Beam", "Minimize"],
+			"nature":"Lax","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Triathlete Katelyn (Route 128)": {
+			"ability":"Illuminate","level":36,
+			"moves":[ "Camouflage", "Swift", "Bubble Beam", "Minimize"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Trialthete Isaiah (Route 128)": {
 			"ability":"Illuminate","level":35,
 			"moves":[ "Camouflage", "Swift", "Bubble Beam", "Minimize"],
 			"nature":"Lax","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -7910,7 +10185,23 @@ var SETDEX_ADV = {
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Surskit": {
-		"[Em] Bug Maniac Brent (Route 119)": {
+		"[RuSa] Bug Maniac Brandon (Route 120) [1]": {
+			"ability":"Swift Swim","level":28,
+			"moves":[ "Quick Attack", "Sweet Scent", "Water Sport", "Bubble Beam"],
+			"nature":"Calm","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bug Maniac Brandon (Route 120) [2]": {
+			"ability":"Swift Swim","level":28,
+			"moves":[ "Quick Attack", "Sweet Scent", "Water Sport", "Bubble Beam"],
+			"nature":"Naughty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bug Maniac Brandon (Route 120) [3]": {
+			"ability":"Swift Swim","level":28,
+			"moves":[ "Quick Attack", "Sweet Scent", "Water Sport", "Bubble Beam"],
+			"nature":"Jolly","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bug Maniac Brent (Route 119)": {
+			"ability":"Swift Swim","level":27,
+			"moves":[ "Quick Attack", "Sweet Scent", "Water Sport", "Bubble Beam"],
+			"nature":"Lax","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[Em] Bug Maniac Brent (Route 119)": {
 			"ability":"Swift Swim","level":26,
 			"moves":[ "Quick Attack", "Sweet Scent", "Water Sport", "Bubble Beam"],
 			"nature":"Lax","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -7928,7 +10219,31 @@ var SETDEX_ADV = {
 			"nature":"Naive","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Swablu": {
-		"[Em] Bird Keeper Robert (Route 120)": {
+		"[RuSa] Bird Keeper Robert (Route 120)": {
+			"ability":"Natural Cure","level":30,
+			"moves":[ "Sing", "Fury Attack", "Safeguard", "Mist"],
+			"nature":"Naive","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Picnicker Diana (Jagged Pass)": {
+			"ability":"Natural Cure","level":20,
+			"moves":[ "Growl", "Astonish", "Sing", "Fury Attack"],
+			"nature":"Lax","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Picnicker Kylee (Fortree Gym)": {
+			"ability":"Natural Cure","level":30,
+			"moves":[ "Sing", "Fury Attack", "Safeguard", "Mist"],
+			"nature":"Serious","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Picnicker Martha (Trick House)": {
+			"ability":"Natural Cure","level":23,
+			"moves":[ "Astonish", "Sing", "Fury Attack", "Safeguard"],
+			"nature":"Adamant","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Pokémon Ranger Sophia (Trick House)": {
+			"ability":"Natural Cure","level":38,
+			"moves":[ "Safeguard", "Mist", "Take Down", "Mirror Move"],
+			"nature":"Jolly","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Sr. and Jr. Kim & Iris (Route 125)": {
+			"ability":"Natural Cure","level":34,
+			"moves":[ "Sing", "Fury Attack", "Safeguard", "Aerial Ace"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Bird Keeper Robert (Route 120)": {
 			"ability":"Natural Cure","level":29,
 			"moves":[ "Sing", "Fury Attack", "Safeguard", "Mist"],
 			"nature":"Naive","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -7977,7 +10292,59 @@ var SETDEX_ADV = {
 			"moves":[ "Surf", "Ice Beam", "Earthquake", "Mirror Coat"]}
 	}
 	,"Swellow": {
-		"[Em] Bird Keeper Aidan (Route 127)": {
+		"[RuSa] Bird Keeper Alex (Route 134)": {
+			"ability":"Guts","level":32,
+			"moves":[ "Quick Attack", "Wing Attack", "Double Team", "Endeavor"],
+			"ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bird Keeper Benny (Trick House)": {
+			"ability":"Guts","level":36,
+			"moves":[ "Quick Attack", "Wing Attack", "Double Team", "Endeavor"],
+			"nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bird Keeper Byron (Route 127)": {
+			"ability":"Guts","level":34,
+			"moves":[ "Quick Attack", "Wing Attack", "Double Team", "Endeavor"],
+			"nature":"Lonely","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bird Keeper Chester (Route 118)": {
+			"ability":"Guts","level":26,
+			"moves":[ "Focus Energy", "Quick Attack", "Wing Attack", "Double Team"],
+			"nature":"Lonely","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bird Keeper Colin (Route 120)": {
+			"ability":"Guts","level":29,
+			"moves":[ "Quick Attack", "Wing Attack", "Double Team", "Endeavor"],
+			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bird Keeper Hugh (Route 119)": {
+			"ability":"Guts","level":27,
+			"moves":[ "Focus Energy", "Quick Attack", "Wing Attack", "Double Team"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bird Keeper Phil (Route 119)": {
+			"ability":"Guts","level":25,
+			"moves":[ "Focus Energy", "Quick Attack", "Wing Attack", "Double Team"],
+			"nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bird Keeper Will (Fortree Gym)": {
+			"ability":"Guts","level":28,
+			"moves":[ "Quick Attack", "Wing Attack", "Double Team", "Endeavor"],
+			"nature":"Brave","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Camper Terrell (Fortree Gym)": {
+			"ability":"Guts","level":29,
+			"moves":[ "Quick Attack", "Wing Attack", "Double Team", "Endeavor"],
+			"nature":"Calm","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Clyde (Route 123)": {
+			"ability":"Guts","level":29,
+			"moves":[ "Focus Energy", "Quick Attack", "Wing Attack", "Endeavor"],
+			"nature":"Lonely","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Vito (Victory Road)": {
+			"ability":"Guts","level":42,
+			"moves":[ "Wing Attack", "Double Team", "Endeavor", "Aerial Ace"],
+			"nature":"Serious","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Leader Winona (Fortree Gym)": {
+			"ability":"Guts","level":31,
+			"moves":[ "Quick Attack", "Aerial Ace", "Double Team", "Endeavor"],
+			"nature":"Jolly","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
+		,"[RuSa] PKMN Trainer Brendan (Lilycove City)": {
+			"ability":"Guts","level":31,
+			"moves":[ "Quick Attack", "Wing Attack", "Double Team", "Endeavor"],
+			"nature":"Serious","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[Em] Bird Keeper Aidan (Route 127)": {
 			"ability":"Guts","level":32,
 			"moves":[ "Quick Attack", "Wing Attack", "Double Team", "Endeavor"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -8027,7 +10394,43 @@ var SETDEX_ADV = {
 			"nature":"Jolly","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Taillow": {
-		"[Em] Bird Keeper Chester (Route 118)": {
+		"[RuSa] Bird Keeper Chester (Route 118)": {
+			"ability":"Guts","level":26,
+			"moves":[ "Quick Attack", "Wing Attack", "Double Team", "Endeavor"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bird Keeper Phil (Route 119)": {
+			"ability":"Guts","level":25,
+			"moves":[ "Focus Energy", "Quick Attack", "Wing Attack", "Double Team"],
+			"nature":"Lax","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Camper Ethan (Jagged Pass)": {
+			"ability":"Guts","level":21,
+			"moves":[ "Focus Energy", "Quick Attack", "Wing Attack", "Double Team"],
+			"ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Camper Terrell (Fortree Gym)": {
+			"ability":"Guts","level":29,
+			"moves":[ "Quick Attack", "Wing Attack", "Double Team", "Endeavor"],
+			"nature":"Brave","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Picnicker Carol (Route 112)": {
+			"ability":"Guts","level":18,
+			"moves":[ "Growl", "Focus Energy", "Quick Attack", "Wing Attack"],
+			"nature":"Impish","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Pokémon Breeder Isaac (Route 117)": {
+			"ability":"Guts","level":12,
+			"moves":[ "Peck", "Growl", "Focus Energy", "Quick Attack"],
+			"nature":"Modest","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Winstrate Victor (Route 111)": {
+			"ability":"Guts","level":16,"item":"Oran Berry",
+			"moves":[ "Growl", "Focus Energy", "Quick Attack", "Wing Attack"],
+			"nature":"Bashful","ivs":{"hp":3,"at":3,"df":3,"sa":3,"sd":3,"sp":3}}
+		,"[RuSa] Youngster Allen (Route 102)": {
+			"ability":"Guts","level":3,
+			"moves":[ "Peck", "Growl"],
+			"nature":"Rash","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Youngster Billy (Route 104)": {
+			"ability":"Guts","level":8,
+			"moves":[ "Peck", "Growl", "Focus Energy", "Quick Attack"],
+			"nature":"Lax","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Bird Keeper Chester (Route 118)": {
 			"ability":"Guts","level":25,
 			"moves":[ "Focus Energy", "Quick Attack", "Wing Attack", "Double Team"],
 			"nature":"Bold","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -8085,7 +10488,107 @@ var SETDEX_ADV = {
 			"nature":"Lax","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
 	}
 	,"Tentacool": {
-		"[Em] Fisherman Andrew (Route 103)": {
+		"[RuSa] Fisherman Andrew (Route 103)": {
+			"ability":"Clear Body","level":10,
+			"moves":[ "Poison Sting", "Supersonic"],
+			"nature":"Mild","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Carter (Route 109 Surf) [1]": {
+			"ability":"Clear Body","level":23,
+			"moves":[ "Poison Sting", "Supersonic", "Constrict", "Acid"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Carter (Route 109 Surf) [2]": {
+			"ability":"Clear Body","level":24,
+			"moves":[ "Poison Sting", "Supersonic", "Constrict", "Acid"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Carter (Route 109 Surf) [3]": {
+			"ability":"Clear Body","level":25,
+			"moves":[ "Supersonic", "Constrict", "Acid", "Bubble Beam"],
+			"ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Dale (Route 110) [1]": {
+			"ability":"Clear Body","level":12,
+			"moves":[ "Poison Sting", "Supersonic", "Constrict"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Dale (Route 110) [2]": {
+			"ability":"Clear Body","level":9,
+			"moves":[ "Poison Sting", "Supersonic"],
+			"nature":"Calm","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Dale (Route 110) [3]": {
+			"ability":"Clear Body","level":12,
+			"moves":[ "Poison Sting", "Supersonic", "Constrict"],
+			"nature":"Modest","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Elliot (Route 106)": {
+			"ability":"Clear Body","level":8,
+			"moves":[ "Poison Sting", "Supersonic"],
+			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Eugene (Route 119)": {
+			"ability":"Clear Body","level":21,
+			"moves":[ "Poison Sting", "Supersonic", "Constrict", "Acid"],
+			"nature":"Calm","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Henry (Route 127)": {
+			"ability":"Clear Body","level":31,
+			"moves":[ "Constrict", "Acid", "Bubble Beam", "Wrap"],
+			"nature":"Timid","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Jonah (Route 127)": {
+			"ability":"Clear Body","level":32,
+			"moves":[ "Constrict", "Acid", "Bubble Beam", "Wrap"],
+			"nature":"Rash","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Ned (Route 106)": {
+			"ability":"Clear Body","level":12,
+			"moves":[ "Poison Sting", "Supersonic", "Constrict"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Wayne (Route 128) [1]": {
+			"ability":"Clear Body","level":30,
+			"moves":[ "Constrict", "Acid", "Bubble Beam", "Wrap"],
+			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Wayne (Route 128) [2]": {
+			"ability":"Clear Body","level":30,
+			"moves":[ "Constrict", "Acid", "Bubble Beam", "Wrap"],
+			"nature":"Timid","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Sailor Dwayne (Route 109 House)": {
+			"ability":"Clear Body","level":11,
+			"moves":[ "Poison Sting", "Supersonic"],
+			"nature":"Lonely","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Sailor Ernest (Route 125)": {
+			"ability":"Clear Body","level":33,
+			"moves":[ "Constrict", "Acid", "Bubble Beam", "Wrap"],
+			"nature":"Quirky","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Sis and Bro Lisa & Ray (Route 107)": {
+			"ability":"Clear Body","level":26,
+			"moves":[ "Supersonic", "Constrict", "Acid", "Bubble Beam"],
+			"nature":"Calm","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Austin (Route 105)": {
+			"ability":"Clear Body","level":25,
+			"moves":[ "Supersonic", "Constrict", "Acid", "Bubble Beam"],
+			"nature":"Rash","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Darrin (Route 107)": {
+			"ability":"Clear Body","level":27,
+			"moves":[ "Supersonic", "Constrict", "Acid", "Bubble Beam"],
+			"nature":"Modest","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Douglas (Route 106) [1]": {
+			"ability":"Clear Body","level":26,
+			"moves":[ "Supersonic", "Constrict", "Acid", "Bubble Beam"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Douglas (Route 106) [2]": {
+			"ability":"Clear Body","level":26,
+			"moves":[ "Supersonic", "Constrict", "Acid", "Bubble Beam"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Jerome (Route 108)": {
+			"ability":"Clear Body","level":26,
+			"moves":[ "Supersonic", "Constrict", "Acid", "Bubble Beam"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Spencer (Route 124) [1]": {
+			"ability":"Clear Body","level":33,
+			"moves":[ "Constrict", "Acid", "Bubble Beam", "Wrap"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Spencer (Route 124) [2]": {
+			"ability":"Clear Body","level":33,
+			"moves":[ "Constrict", "Acid", "Bubble Beam", "Wrap"],
+			"nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Spencer (Route 124) [3]": {
+			"ability":"Clear Body","level":33,
+			"moves":[ "Constrict", "Acid", "Bubble Beam", "Wrap"],
+			"nature":"Lax","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Fisherman Andrew (Route 103)": {
 			"ability":"Clear Body","level":10,
 			"moves":[ "Poison Sting", "Supersonic"],
 			"nature":"Mild","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -8133,7 +10636,7 @@ var SETDEX_ADV = {
 			"ability":"Clear Body","level":24,
 			"moves":[ "Poison Sting", "Supersonic", "Constrict", "Acid"],
 			"nature":"Relaxed","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Sailor Dwayne (Route 109)": {
+		,"[Em] Sailor Dwayne (Route 109 House)": {
 			"ability":"Clear Body","level":11,
 			"moves":[ "Poison Sting", "Supersonic"],
 			"nature":"Lonely","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -8141,39 +10644,39 @@ var SETDEX_ADV = {
 			"ability":"Clear Body","level":25,
 			"moves":[ "Supersonic", "Constrict", "Acid", "Bubble Beam"],
 			"nature":"Calm","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Chad (Route 124)": {
+		,"[Em] Swimmer-M Chad (Route 124)": {
 			"ability":"Clear Body","level":33,
 			"moves":[ "Constrict", "Acid", "Bubble Beam", "Wrap"],
 			"nature":"Calm","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Darrin (Route 107) [1]": {
+		,"[Em] Swimmer-M Darrin (Route 107) [1]": {
 			"ability":"Clear Body","level":24,
 			"moves":[ "Poison Sting", "Supersonic", "Constrict", "Acid"],
 			"nature":"Modest","ivs":{"hp":1,"at":1,"sa":1,"sp":1,"df":1,"sd":1}}
-		,"[Em] Swimmer Darrin (Route 107) [2]": {
+		,"[Em] Swimmer-M Darrin (Route 107) [2]": {
 			"ability":"Clear Body","level":24,
 			"moves":[ "Poison Sting", "Supersonic", "Constrict", "Acid"],
 			"ivs":{"hp":1,"at":1,"sa":1,"sp":1,"df":1,"sd":1}}
-		,"[Em] Swimmer David (Route 109 Surf)": {
+		,"[Em] Swimmer-M David (Route 109 Surf)": {
 			"ability":"Clear Body","level":25,
 			"moves":[ "Supersonic", "Constrict", "Acid", "Bubble Beam"],
 			"nature":"Bold","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Domimik (Route 105)": {
+		,"[Em] Swimmer-null Domimik (Route 105)": {
 			"ability":"Clear Body","level":26,
 			"moves":[ "Supersonic", "Constrict", "Acid", "Bubble Beam"],
 			"nature":"Sassy","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Douglas (Route 106) [1]": {
+		,"[Em] Swimmer-M Douglas (Route 106) [1]": {
 			"ability":"Clear Body","level":24,
 			"moves":[ "Poison Sting", "Supersonic", "Constrict", "Acid"],
 			"nature":"Gentle","ivs":{"hp":1,"at":1,"sa":1,"sp":1,"df":1,"sd":1}}
-		,"[Em] Swimmer Douglas (Route 106) [2]": {
+		,"[Em] Swimmer-M Douglas (Route 106) [2]": {
 			"ability":"Clear Body","level":24,
 			"moves":[ "Poison Sting", "Supersonic", "Constrict", "Acid"],
 			"ivs":{"hp":1,"at":1,"sa":1,"sp":1,"df":1,"sd":1}}
-		,"[Em] Swimmer Pete (Route 103 Surfing)": {
+		,"[Em] Swimmer-M Pete (Route 103 Surfing)": {
 			"ability":"Clear Body","level":15,
 			"moves":[ "Poison Sting", "Supersonic", "Constrict"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Spencer (Route 124)": {
+		,"[Em] Swimmer-M Spencer (Route 124)": {
 			"ability":"Clear Body","level":33,
 			"moves":[ "Constrict", "Acid", "Bubble Beam", "Wrap"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -8243,7 +10746,31 @@ var SETDEX_ADV = {
 			"nature":"Impish","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Tentacruel": {
-		"[Em] Champion Wallace (Pokémon League)": {
+		"[RuSa] Cooltrainer Owen (Victory Road)": {
+			"ability":"Clear Body","level":42,
+			"moves":[ "Acid", "Bubble Beam", "Wrap", "Barrier"],
+			"nature":"Adamant","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Fisherman Henry (Route 127)": {
+			"ability":"Clear Body","level":35,
+			"moves":[ "Constrict", "Acid", "Bubble Beam", "Wrap"],
+			"nature":"Calm","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Wayne (Route 128)": {
+			"ability":"Clear Body","level":32,
+			"moves":[ "Constrict", "Acid", "Bubble Beam", "Wrap"],
+			"nature":"Impish","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Sailor Phillip (S.S. Tidal Lower Deck)": {
+			"ability":"Clear Body","level":44,
+			"moves":[ "Acid", "Bubble Beam", "Wrap", "Barrier"],
+			"nature":"Naive","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Franklin (Route 133)": {
+			"ability":"Clear Body","level":34,
+			"moves":[ "Constrict", "Acid", "Bubble Beam", "Wrap"],
+			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Herman (Route 131)": {
+			"ability":"Clear Body","level":34,
+			"moves":[ "Constrict", "Acid", "Bubble Beam", "Wrap"],
+			"nature":"Impish","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Champion Wallace (Pokémon League)": {
 			"ability":"Clear Body","level":55,
 			"moves":[ "Ice Beam", "Sludge", "Hydro Pump", "Toxic"],
 			"nature":"Sassy"}
@@ -8259,23 +10786,23 @@ var SETDEX_ADV = {
 			"ability":"Clear Body","level":44,
 			"moves":[ "Acid", "Bubble Beam", "Wrap", "Barrier"],
 			"nature":"Naive","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Harrison (Route 128)": {
+		,"[Em] Swimmer-M Harrison (Route 128)": {
 			"ability":"Clear Body","level":35,
 			"moves":[ "Constrict", "Acid", "Bubble Beam", "Wrap"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Herman (Route 131)": {
+		,"[Em] Swimmer-M Herman (Route 131)": {
 			"ability":"Clear Body","level":33,
 			"moves":[ "Constrict", "Acid", "Bubble Beam", "Wrap"],
 			"nature":"Timid","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Jerome (Route 108)": {
+		,"[Em] Swimmer-M Jerome (Route 108)": {
 			"ability":"Clear Body","level":26,
 			"moves":[ "Supersonic", "Constrict", "Acid", "Bubble Beam"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Nolen (Route 125)": {
+		,"[Em] Swimmer-M Nolen (Route 125)": {
 			"ability":"Clear Body","level":34,
 			"moves":[ "Constrict", "Acid", "Bubble Beam", "Wrap"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Santiago (Route 130)": {
+		,"[Em] Swimmer-M Santiago (Route 130)": {
 			"ability":"Clear Body","level":33,
 			"moves":[ "Constrict", "Acid", "Bubble Beam", "Wrap"],
 			"nature":"Naughty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -8287,7 +10814,7 @@ var SETDEX_ADV = {
 			"ability":"Clear Body","level":33,
 			"moves":[ "Constrict", "Acid", "Bubble Beam", "Wrap"],
 			"nature":"Adamant","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Cooltrainer Colby (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer Colby (Victory Road)": {
 			"ability":"Clear Body","level":42,
 			"moves":[ "Barrier", "Wrap", "Bubble Beam", "Acid"],
 			"nature":"Calm","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -8315,7 +10842,11 @@ var SETDEX_ADV = {
 			"nature":"Mild","ivs":{"hp":4,"at":4,"sa":4,"sp":4,"df":4,"sd":4}}
 	}
 	,"Torkoal": {
-		"[Em] May 1.5 w/ Mudkip (Rustboro City)": {
+		"[RuSa] Leader Flannery (Lavaridge Gym 1F)": {
+			"ability":"White Smoke","level":28,
+			"moves":[ "Overheat", "Body Slam", "Flail", "Attract"],
+			"nature":"Gentle","ivs":{"hp":30,"at":30,"df":30,"sa":30,"sd":30,"sp":30}}
+		,"[Em] May 1.5 w/ Mudkip (Rustboro City)": {
 			"ability":"White Smoke","level":13,
 			"moves":[ "Ember", "Smog", "Curse"],
 			"nature":"Mild","ivs":{"hp":4,"at":4,"sa":4,"sp":4,"df":4,"sd":4}}
@@ -8329,7 +10860,15 @@ var SETDEX_ADV = {
 			"nature":"Modest","ivs":{"hp":30,"at":30,"sa":30,"sp":30,"df":30,"sd":30}}
 	}
 	,"Trapinch": {
-		"[Em] Cooltrainer Braxton (Route 123)": {
+		"[RuSa] Cooltrainer Clyde (Route 123)": {
+			"ability":"Hyper Cutter","level":29,
+			"moves":[ "Bite", "Dig", "Feint Attack", "Sand Tomb"],
+			"nature":"Serious","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Youngster Neal (Route 113)": {
+			"ability":"Hyper Cutter","level":18,
+			"moves":[ "Bite", "Sand Attack", "Feint Attack"],
+			"nature":"Naughty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Cooltrainer Braxton (Route 123)": {
 			"ability":"Hyper Cutter","level":28,
 			"moves":[ "Bite", "Dig", "Feint Attack", "Sand Tomb"],
 			"nature":"Mild","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -8339,7 +10878,11 @@ var SETDEX_ADV = {
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Treecko": {
-		"[Em] May 1 w/ Treecko (Route 103)": {
+		"[RuSa] PKMN Trainer Brendan (Route 103)": {
+			"ability":"Overgrow","level":5,
+			"moves":[ "Pound", "Leer"],
+			"nature":"Calm","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] May 1 w/ Treecko (Route 103)": {
 			"ability":"Overgrow","level":5,
 			"moves":[ "Pound", "Leer"],
 			"nature":"Lonely","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -8488,7 +11031,7 @@ var SETDEX_ADV = {
 			"ability":"Chlorophyll","level":29,
 			"moves":[ "Stun Spore", "Acid", "Poison Powder", "Giga Drain"],
 			"nature":"Bold","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Cooltrainer Caroline (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer Caroline (Victory Road)": {
 			"ability":"Chlorophyll","level":42,
 			"moves":[ "Razor Leaf", "Acid", "Stun Spore", "Sleep Powder"],
 			"nature":"Lax","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -8502,7 +11045,11 @@ var SETDEX_ADV = {
 			"nature":"Bold","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
 	}
 	,"Vigoroth": {
-		"[Em] Cooltrainer Berke (Petalburg Gym)": {
+		"[RuSa] Leader Norman (Petalburg Gym)": {
+			"ability":"Vital Spirit","level":30,
+			"moves":[ "Slash", "Feint Attack", "Facade", "Encore"],
+			"nature":"Modest","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
+		,"[Em] Cooltrainer Berke (Petalburg Gym)": {
 			"ability":"Vital Spirit","level":26,
 			"moves":[ "Slash", "Focus Energy"]}
 		,"[Em] Cooltrainer Cristin (Route 121)": {
@@ -8529,7 +11076,15 @@ var SETDEX_ADV = {
 			"nature":"Adamant","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
 	}
 	,"Volbeat": {
-		"[Em] Bug Catcher Greg (Route 119)": {
+		"[RuSa] Bug Catcher Greg (Route 119)": {
+			"ability":"Illuminate","level":26,
+			"moves":[ "Moonlight", "Quick Attack", "Tail Glow", "Signal Beam"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Young Couple Lois & Hal (Abandoned Ship Rooms 2 1F)": {
+			"ability":"Illuminate","level":27,
+			"moves":[ "Moonlight", "Quick Attack", "Tail Glow", "Signal Beam"],
+			"nature":"Modest","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Bug Catcher Greg (Route 119)": {
 			"ability":"Illuminate","level":25,
 			"moves":[ "Moonlight", "Quick Attack", "Tail Glow", "Signal Beam"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -8543,7 +11098,35 @@ var SETDEX_ADV = {
 			"nature":"Relaxed","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Voltorb": {
-		"[Em] Guitarist Joseph (Route 110)": {
+		"[RuSa] Guitarist Shawn (Mauville Gym) [1]": {
+			"ability":"Soundproof","level":17,
+			"moves":[ "Charge", "Tackle", "Screech", "Sonic Boom"],
+			"nature":"Quiet","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Guitarist Shawn (Mauville Gym) [2]": {
+			"ability":"Soundproof","level":17,
+			"moves":[ "Charge", "Tackle", "Screech", "Sonic Boom"],
+			"nature":"Careful","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Guitarist Shawn (Mauville Gym) [3]": {
+			"ability":"Soundproof","level":17,
+			"moves":[ "Charge", "Tackle", "Screech", "Sonic Boom"],
+			"nature":"Naughty","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Leader Wattson (Mauville Gym)": {
+			"ability":"Soundproof","level":20,
+			"moves":[ "Rollout", "Self-Destruct", "Spark", "Sonic Boom"],
+			"nature":"Docile","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
+		,"[RuSa] Triathlete Jacob (Route 110) [1]": {
+			"ability":"Soundproof","level":7,
+			"moves":[ "Charge", "Tackle"],
+			"nature":"Jolly","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Triathlete Jacob (Route 110) [2]": {
+			"ability":"Soundproof","level":7,
+			"moves":[ "Charge", "Tackle"],
+			"nature":"Modest","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Triathlete Jasmine (Route 110)": {
+			"ability":"Soundproof","level":7,
+			"moves":[ "Charge", "Tackle"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Guitarist Joseph (Route 110)": {
 			"ability":"Soundproof","level":14,
 			"moves":[ "Charge", "Tackle", "Screech"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -8685,13 +11268,117 @@ var SETDEX_ADV = {
 			"ability":"Flash Fire","level":37,
 			"moves":[ "Imprison", "Flamethrower", "Safeguard", "Grudge"],
 			"nature":"Impish","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Cooltrainer Naomi (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer Naomi (Victory Road)": {
 			"ability":"Flash Fire","level":42,
 			"moves":[ "Flamethrower", "Confuse Ray", "Quick Attack", "Imprison"],
 			"nature":"Jolly","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
 	}
 	,"Wailmer": {
-		"[Em] Aqua Grunt #4 (Mt. Pyre)": {
+		"[RuSa] Beauty Connie (Sootopolis Gym)": {
+			"ability":"Water Veil","level":40,
+			"moves":[ "Astonish", "Water Pulse", "Mist", "Rest"],
+			"nature":"Naive","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Beauty Tiffany (Sootopolis Gym)": {
+			"ability":"Water Veil","level":39,
+			"moves":[ "Astonish", "Water Pulse", "Mist", "Rest"],
+			"ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Clyde (Route 123)": {
+			"ability":"Water Veil","level":29,
+			"moves":[ "Rollout", "Whirlpool", "Astonish", "Water Pulse"],
+			"nature":"Lax","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Wilton (Route 111)": {
+			"ability":"Water Veil","level":18,
+			"moves":[ "Splash", "Growl", "Water Gun", "Rollout"],
+			"nature":"Naive","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Fisherman Carter (Route 109 Surf)": {
+			"ability":"Water Veil","level":24,
+			"moves":[ "Water Gun", "Rollout", "Whirlpool", "Astonish"],
+			"nature":"Modest","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Dale (Route 110)": {
+			"ability":"Water Veil","level":15,
+			"moves":[ "Splash", "Growl", "Water Gun", "Rollout"],
+			"ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Jonah (Route 127) [1]": {
+			"ability":"Water Veil","level":34,
+			"moves":[ "Whirlpool", "Astonish", "Water Pulse", "Mist"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Jonah (Route 127) [2]": {
+			"ability":"Water Veil","level":30,
+			"moves":[ "Rollout", "Whirlpool", "Astonish", "Water Pulse"],
+			"nature":"Timid","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Fisherman Wayne (Route 128)": {
+			"ability":"Water Veil","level":35,
+			"moves":[ "Whirlpool", "Astonish", "Water Pulse", "Mist"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Lass Crissy (Sootopolis Gym) [1]": {
+			"ability":"Water Veil","level":40,
+			"moves":[ "Astonish", "Water Pulse", "Mist", "Rest"],
+			"nature":"Sassy","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Lass Crissy (Sootopolis Gym) [2]": {
+			"ability":"Water Veil","level":40,
+			"moves":[ "Astonish", "Water Pulse", "Mist", "Rest"],
+			"nature":"Quirky","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Parasol Lady Clarissa (Route 120)": {
+			"ability":"Water Veil","level":29,
+			"moves":[ "Rollout", "Whirlpool", "Astonish", "Water Pulse"],
+			"nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] PKMN Trainer Brendan (Lilycove City)": {
+			"ability":"Water Veil","level":32,
+			"moves":[ "Whirlpool", "Astonish", "Water Pulse", "Mist"],
+			"ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[RuSa] PKMN Trainer Brendan (Route 110)": {
+			"ability":"Water Veil","level":18,
+			"moves":[ "Splash", "Growl", "Water Gun", "Rollout"],
+			"nature":"Quirky","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] PKMN Trainer Brendan (Route 119)": {
+			"ability":"Water Veil","level":29,
+			"moves":[ "Rollout", "Whirlpool", "Astonish", "Water Pulse"],
+			"nature":"Quirky","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Sailor Duncan (Abandoned Ship Corridors B1F)": {
+			"ability":"Water Veil","level":26,
+			"moves":[ "Water Gun", "Rollout", "Whirlpool", "Astonish"],
+			"nature":"Sassy","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Beverly (Route 105) [1]": {
+			"ability":"Water Veil","level":26,
+			"moves":[ "Water Gun", "Rollout", "Whirlpool", "Astonish"],
+			"nature":"Naive","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Beverly (Route 105) [2]": {
+			"ability":"Water Veil","level":26,
+			"moves":[ "Water Gun", "Rollout", "Whirlpool", "Astonish"],
+			"nature":"Impish","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Grace (Route 124)": {
+			"ability":"Water Veil","level":33,
+			"moves":[ "Whirlpool", "Astonish", "Water Pulse", "Mist"],
+			"nature":"Sassy","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Jenny (Route 124)": {
+			"ability":"Water Veil","level":35,
+			"moves":[ "Whirlpool", "Astonish", "Water Pulse", "Mist"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Missy (Route 108)": {
+			"ability":"Water Veil","level":24,
+			"moves":[ "Water Gun", "Rollout", "Whirlpool", "Astonish"],
+			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Nicole (Route 106)": {
+			"ability":"Water Veil","level":27,
+			"moves":[ "Water Gun", "Rollout", "Whirlpool", "Astonish"],
+			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Nikki (Route 126)": {
+			"ability":"Water Veil","level":32,
+			"moves":[ "Whirlpool", "Astonish", "Water Pulse", "Mist"],
+			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Susie (Route 131)": {
+			"ability":"Water Veil","level":33,
+			"moves":[ "Whirlpool", "Astonish", "Water Pulse", "Mist"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Chad (Route 124)": {
+			"ability":"Water Veil","level":34,
+			"moves":[ "Whirlpool", "Astonish", "Water Pulse", "Mist"],
+			"nature":"Naughty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Herman (Route 131)": {
+			"ability":"Water Veil","level":34,
+			"moves":[ "Whirlpool", "Astonish", "Water Pulse", "Mist"],
+			"nature":"Lax","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Aqua Grunt 4 (Mt. Pyre)": {
 			"ability":"Water Veil","level":30,
 			"moves":[ "Rollout", "Whirlpool", "Astonish", "Water Pulse"],
 			"nature":"Adamant","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -8739,23 +11426,23 @@ var SETDEX_ADV = {
 			"ability":"Water Veil","level":34,
 			"moves":[ "Whirlpool", "Astonish", "Water Pulse", "Mist"],
 			"nature":"Mild","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Beverly (Route 105)": {
+		,"[Em] Swimmer-F Beverly (Route 105)": {
 			"ability":"Water Veil","level":25,
 			"moves":[ "Water Gun", "Rollout", "Whirlpool", "Astonish"],
 			"nature":"Timid","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Chad (Route 124)": {
+		,"[Em] Swimmer-M Chad (Route 124)": {
 			"ability":"Water Veil","level":33,
 			"moves":[ "Whirlpool", "Astonish", "Water Pulse", "Mist"],
 			"nature":"Adamant","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Jenny (Route 124)": {
+		,"[Em] Swimmer-F Jenny (Route 124)": {
 			"ability":"Water Veil","level":34,
 			"moves":[ "Whirlpool", "Astonish", "Water Pulse", "Mist"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Kyla (Route 106)": {
+		,"[Em] Swimmer-F Kyla (Route 106)": {
 			"ability":"Water Veil","level":26,
 			"moves":[ "Water Gun", "Rollout", "Whirlpool", "Astonish"],
 			"nature":"Lonely","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Santiago (Route 130)": {
+		,"[Em] Swimmer-M Santiago (Route 130)": {
 			"ability":"Water Veil","level":33,
 			"moves":[ "Whirlpool", "Astonish", "Water Pulse", "Mist"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -8771,7 +11458,11 @@ var SETDEX_ADV = {
 			"nature":"Mild","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
 	}
 	,"Walrein": {
-		"[Em] Elite Four Glacia (Pokémon League)": {
+		"[RuSa] Elite Four Glacia (Pokémon League)": {
+			"ability":"Thick Fat","level":53,"item":"Sitrus Berry",
+			"moves":[ "Surf", "Body Slam", "Blizzard", "Sheer Cold"],
+			"nature":"Naive",}
+		,"[Em] Elite Four Glacia (Pokémon League)": {
 			"ability":"Thick Fat","level":53,"item":"Sitrus Berry",
 			"moves":[ "Ice Beam", "Surf", "Body Slam", "Sheer Cold"],
 			"nature":"Naive"}
@@ -8789,7 +11480,7 @@ var SETDEX_ADV = {
 			"ability":"Torrent","level":33,
 			"moves":[ "Water Gun", "Bite", "Rapid Spin", "Protect"],
 			"nature":"Lonely","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Cooltrainer Rolando (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer Rolando (Victory Road)": {
 			"ability":"Torrent","level":42,
 			"moves":[ "Water Gun", "Bite", "Rapid Spin", "Tail Whip"],
 			"nature":"Sassy","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -8861,7 +11552,7 @@ var SETDEX_ADV = {
 			"ability":"Chlorophyll","level":37,
 			"moves":[ "Poison Powder", "Stun Spore", "Acid", "Sweet Scent"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Cooltrainer Caroline (Victory Road 1F)": {
+		,"[FRLG] Cooltrainer Caroline (Victory Road)": {
 			"ability":"Chlorophyll","level":42,
 			"moves":[ "Razor Leaf", "Acid", "Sleep Powder", "Poison Powder"],
 			"nature":"Adamant","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
@@ -8961,7 +11652,11 @@ var SETDEX_ADV = {
 			"nature":"Sassy","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
 	}
 	,"Whiscash": {
-		"[Em] Champion Wallace (Pokémon League)": {
+		"[RuSa] Leader Wallace (Sootopolis Gym)": {
+			"ability":"Oblivious","level":42,
+			"moves":[ "Rain Dance", "Water Pulse", "Amnesia", "Earthquake"],
+			"nature":"Naive","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
+		,"[Em] Champion Wallace (Pokémon League)": {
 			"ability":"Oblivious","level":56,
 			"moves":[ "Surf", "Hyper Beam", "Earthquake", "Amnesia"],
 			"nature":"Sassy"}
@@ -8975,7 +11670,31 @@ var SETDEX_ADV = {
 			"nature":"Hasty","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
 	}
 	,"Whismur": {
-		"[Em] Guitarist Dalton (Route 118)": {
+		"[RuSa] Guitarist Dalton (Route 118)": {
+			"ability":"Soundproof","level":15,
+			"moves":[ "Pound", "Uproar", "Astonish", "Howl"],
+			"nature":"Naive","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Interviewer Gabby & Ty 1 (Route 111)": {
+			"ability":"Soundproof","level":19,
+			"moves":[ "Pound", "Uproar", "Astonish", "Howl"],
+			"nature":"Calm","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Pokémon Breeder Isaac (Route 117)": {
+			"ability":"Soundproof","level":12,
+			"moves":[ "Pound", "Uproar", "Astonish"],
+			"nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] School Kid Karen (Route 116)": {
+			"ability":"Soundproof","level":9,
+			"moves":[ "Pound", "Uproar"],
+			"nature":"Lax","ivs":{"hp":1,"at":1,"df":1,"sa":1,"sd":1,"sp":1}}
+		,"[RuSa] Twins Tori & Tia (Route 113) [1]": {
+			"ability":"Soundproof","level":20,
+			"moves":[ "Pound", "Uproar", "Astonish", "Howl"],
+			"nature":"Modest","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Twins Tori & Tia (Route 113) [2]": {
+			"ability":"Soundproof","level":20,
+			"moves":[ "Pound", "Uproar", "Astonish", "Howl"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Guitarist Dalton (Route 118)": {
 			"ability":"Soundproof","level":15,
 			"moves":[ "Pound", "Uproar", "Astonish", "Howl"],
 			"nature":"Naive","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -8999,7 +11718,127 @@ var SETDEX_ADV = {
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Wingull": {
-		"[Em] Bird Keeper Colin (Route 120)": {
+		"[RuSa] Bird Keeper Alex (Route 134)": {
+			"ability":"Keen Eye","level":32,
+			"moves":[ "Supersonic", "Wing Attack", "Mist", "Quick Attack"],
+			"nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bird Keeper Perry (Route 118)": {
+			"ability":"Keen Eye","level":27,
+			"moves":[ "Water Gun", "Supersonic", "Wing Attack", "Mist"],
+			"nature":"Impish","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bird Keeper Phil (Route 119)": {
+			"ability":"Keen Eye","level":25,
+			"moves":[ "Water Gun", "Supersonic", "Wing Attack", "Mist"],
+			"nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bird Keeper Will (Fortree Gym)": {
+			"ability":"Keen Eye","level":28,
+			"moves":[ "Water Gun", "Supersonic", "Wing Attack", "Mist"],
+			"nature":"Hasty","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Brooke (Route 111)": {
+			"ability":"Keen Eye","level":18,
+			"moves":[ "Growl", "Water Gun", "Supersonic", "Wing Attack"],
+			"nature":"Serious","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Kindler Bernie (Route 114)": {
+			"ability":"Keen Eye","level":19,
+			"moves":[ "Growl", "Water Gun", "Supersonic", "Wing Attack"],
+			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Pokémon Breeder Lydia (Route 117)": {
+			"ability":"Keen Eye","level":12,
+			"moves":[ "Growl", "Water Gun", "Supersonic"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Sailor Dwayne (Route 109 House)": {
+			"ability":"Keen Eye","level":11,
+			"moves":[ "Growl", "Water Gun", "Supersonic"],
+			"nature":"Naive","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Sailor Edmond (Route 109) [1]": {
+			"ability":"Keen Eye","level":12,
+			"moves":[ "Growl", "Water Gun", "Supersonic"],
+			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Sailor Edmond (Route 109) [2]": {
+			"ability":"Keen Eye","level":12,
+			"moves":[ "Growl", "Water Gun", "Supersonic"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Sailor Ernest (Route 125)": {
+			"ability":"Keen Eye","level":33,
+			"moves":[ "Supersonic", "Wing Attack", "Mist", "Quick Attack"],
+			"nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] School Kid Paul (Trick House)": {
+			"ability":"Keen Eye","level":15,
+			"moves":[ "Growl", "Water Gun", "Supersonic", "Wing Attack"],
+			"nature":"Careful","ivs":{"hp":1,"at":1,"df":1,"sa":1,"sd":1,"sp":1}}
+		,"[RuSa] Sis and Bro Reli & Ian (Route 131)": {
+			"ability":"Keen Eye","level":34,
+			"moves":[ "Supersonic", "Wing Attack", "Mist", "Quick Attack"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Alice (Route 109 Surf)": {
+			"ability":"Keen Eye","level":25,
+			"moves":[ "Water Gun", "Supersonic", "Wing Attack", "Mist"],
+			"nature":"Quirky","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Beth (Route 107)": {
+			"ability":"Keen Eye","level":25,
+			"moves":[ "Water Gun", "Supersonic", "Wing Attack", "Mist"],
+			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Denise (Route 107)": {
+			"ability":"Keen Eye","level":27,
+			"moves":[ "Water Gun", "Supersonic", "Wing Attack", "Mist"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Grace (Route 124)": {
+			"ability":"Keen Eye","level":33,
+			"moves":[ "Supersonic", "Wing Attack", "Mist", "Quick Attack"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-F Missy (Route 108)": {
+			"ability":"Keen Eye","level":24,
+			"moves":[ "Water Gun", "Supersonic", "Wing Attack", "Mist"],
+			"nature":"Lax","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Austin (Route 105)": {
+			"ability":"Keen Eye","level":25,
+			"moves":[ "Water Gun", "Supersonic", "Wing Attack", "Mist"],
+			"nature":"Rash","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Chad (Route 124)": {
+			"ability":"Keen Eye","level":34,
+			"moves":[ "Supersonic", "Wing Attack", "Mist", "Quick Attack"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Cody (Route 125)": {
+			"ability":"Keen Eye","level":34,
+			"moves":[ "Supersonic", "Wing Attack", "Mist", "Quick Attack"],
+			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M David (Route 109 Surf)": {
+			"ability":"Keen Eye","level":26,
+			"moves":[ "Water Gun", "Supersonic", "Wing Attack", "Mist"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Dean (Route 126)": {
+			"ability":"Keen Eye","level":33,
+			"moves":[ "Supersonic", "Wing Attack", "Mist", "Quick Attack"],
+			"nature":"Jolly","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Swimmer-M Jerome (Route 108)": {
+			"ability":"Keen Eye","level":26,
+			"moves":[ "Water Gun", "Supersonic", "Wing Attack", "Mist"],
+			"nature":"Rash","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Triathlete Allison (Route 129) [1]": {
+			"ability":"Keen Eye","level":25,
+			"moves":[ "Water Gun", "Supersonic", "Wing Attack", "Mist"],
+			"nature":"Quirky","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Triathlete Allison (Route 129) [2]": {
+			"ability":"Keen Eye","level":25,
+			"moves":[ "Water Gun", "Supersonic", "Wing Attack", "Mist"],
+			"nature":"Adamant","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Triathlete Allison (Route 129) [3]": {
+			"ability":"Keen Eye","level":25,
+			"moves":[ "Water Gun", "Supersonic", "Wing Attack", "Mist"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Triathlete Chase (Route 129)": {
+			"ability":"Keen Eye","level":27,
+			"moves":[ "Water Gun", "Supersonic", "Wing Attack", "Mist"],
+			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Triathlete Connor (Route 127) [1]": {
+			"ability":"Keen Eye","level":25,
+			"moves":[ "Water Gun", "Supersonic", "Wing Attack", "Mist"],
+			"nature":"Modest","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Triathlete Connor (Route 127) [2]": {
+			"ability":"Keen Eye","level":25,
+			"moves":[ "Water Gun", "Supersonic", "Wing Attack", "Mist"],
+			"ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Bird Keeper Colin (Route 120)": {
 			"ability":"Keen Eye","level":28,
 			"moves":[ "Water Gun", "Supersonic", "Wing Attack", "Mist"],
 			"nature":"Lax","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -9043,7 +11882,7 @@ var SETDEX_ADV = {
 			"ability":"Keen Eye","level":24,
 			"moves":[ "Water Gun", "Supersonic", "Wing Attack", "Mist"],
 			"nature":"Mild","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Sailor Dwayne (Route 109)": {
+		,"[Em] Sailor Dwayne (Route 109 House)": {
 			"ability":"Keen Eye","level":11,
 			"moves":[ "Growl", "Water Gun", "Supersonic"],
 			"nature":"Naive","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -9083,31 +11922,31 @@ var SETDEX_ADV = {
 			"ability":"Keen Eye","level":18,
 			"moves":[ "Water Gun", "Wing Attack", "Supersonic", "Growl"],
 			"nature":"Gentle","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
-		,"[Em] Swimmer Alice (Route 109 Surf)": {
+		,"[Em] Swimmer-F Alice (Route 109 Surf)": {
 			"ability":"Keen Eye","level":24,
 			"moves":[ "Water Gun", "Supersonic", "Wing Attack", "Mist"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Beverly (Route 105)": {
+		,"[Em] Swimmer-F Beverly (Route 105)": {
 			"ability":"Keen Eye","level":25,
 			"moves":[ "Water Gun", "Supersonic", "Wing Attack", "Mist"],
 			"nature":"Mild","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Darrin (Route 107)": {
+		,"[Em] Swimmer-M Darrin (Route 107)": {
 			"ability":"Keen Eye","level":24,
 			"moves":[ "Water Gun", "Supersonic", "Wing Attack", "Mist"],
 			"nature":"Calm","ivs":{"hp":1,"at":1,"sa":1,"sp":1,"df":1,"sd":1}}
-		,"[Em] Swimmer Dean (Route 126)": {
+		,"[Em] Swimmer-M Dean (Route 126)": {
 			"ability":"Keen Eye","level":31,
 			"moves":[ "Supersonic", "Wing Attack", "Mist", "Quick Attack"],
 			"nature":"Jolly","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Denise (Route 107)": {
+		,"[Em] Swimmer-F Denise (Route 107)": {
 			"ability":"Keen Eye","level":25,
 			"moves":[ "Water Gun", "Supersonic", "Wing Attack", "Mist"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Herman (Route 131)": {
+		,"[Em] Swimmer-M Herman (Route 131)": {
 			"ability":"Keen Eye","level":33,
 			"moves":[ "Supersonic", "Wing Attack", "Mist", "Quick Attack"],
 			"nature":"Hasty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Swimmer Spencer (Route 124)": {
+		,"[Em] Swimmer-M Spencer (Route 124)": {
 			"ability":"Keen Eye","level":33,
 			"moves":[ "Supersonic", "Wing Attack", "Mist", "Quick Attack"],
 			"nature":"Rash","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -9143,7 +11982,51 @@ var SETDEX_ADV = {
 			"nature":"Rash","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Wurmple": {
-		"[Em] Bug Catcher Jose (Route 116)": {
+		"[RuSa] Bug Catcher Jose (Route 116)": {
+			"ability":"Shield Dust","level":8,
+			"moves":[ "Tackle", "String Shot", "Poison Sting"],
+			"nature":"Naughty","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Bug Catcher Lyle (Petalburg Woods) [1]": {
+			"ability":"Shield Dust","level":3,
+			"moves":[ "Tackle", "String Shot"],
+			"nature":"Lax","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bug Catcher Lyle (Petalburg Woods) [2]": {
+			"ability":"Shield Dust","level":3,
+			"moves":[ "Tackle", "String Shot"],
+			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bug Catcher Lyle (Petalburg Woods) [3]": {
+			"ability":"Shield Dust","level":3,
+			"moves":[ "Tackle", "String Shot"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bug Catcher Lyle (Petalburg Woods) [4]": {
+			"ability":"Shield Dust","level":3,
+			"moves":[ "Tackle", "String Shot"],
+			"nature":"Adamant","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bug Catcher Lyle (Petalburg Woods) [5]": {
+			"ability":"Shield Dust","level":3,
+			"moves":[ "Tackle", "String Shot"],
+			"nature":"Lonely","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bug Catcher Lyle (Petalburg Woods) [6]": {
+			"ability":"Shield Dust","level":3,
+			"moves":[ "Tackle", "String Shot"],
+			"nature":"Quirky","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bug Catcher Rick (Route 102) [1]": {
+			"ability":"Shield Dust","level":4,
+			"moves":[ "Tackle", "String Shot"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bug Catcher Rick (Route 102) [2]": {
+			"ability":"Shield Dust","level":4,
+			"moves":[ "Tackle", "String Shot"],
+			"nature":"Lonely","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Bug Maniac Donald (Route 119)": {
+			"ability":"Shield Dust","level":25,
+			"moves":[ "Tackle", "String Shot", "Poison Sting"],
+			"nature":"Quiet","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Bug Maniac Taylor (Route 119)": {
+			"ability":"Shield Dust","level":25,
+			"moves":[ "Tackle", "String Shot", "Poison Sting"],
+			"nature":"Jolly","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[Em] Bug Catcher Jose (Route 116)": {
 			"ability":"Shield Dust","level":8,
 			"moves":[ "Tackle", "String Shot"],
 			"nature":"Naughty","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
@@ -9181,7 +12064,19 @@ var SETDEX_ADV = {
 			"nature":"Jolly","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
 	}
 	,"Xatu": {
-		"[Em] Bird Keeper Alberto (Route 123)": {
+		"[RuSa] Bird Keeper Benny (Trick House)": {
+			"ability":"Synchronize","level":36,
+			"moves":[ "Night Shade", "Teleport", "Wish", "Future Sight"],
+			"nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Psychic Alexis (Trick House)": {
+			"ability":"Synchronize","level":40,
+			"moves":[ "Night Shade", "Teleport", "Wish", "Future Sight"],
+			"nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Psychic Samantha (Mossdeep Gym)": {
+			"ability":"Synchronize","level":37,
+			"moves":[ "Night Shade", "Teleport", "Wish", "Future Sight"],
+			"nature":"Calm","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[Em] Bird Keeper Alberto (Route 123)": {
 			"ability":"Synchronize","level":30,
 			"moves":[ "Peck", "Leer", "Night Shade", "Teleport"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -9225,7 +12120,23 @@ var SETDEX_ADV = {
 			"nature":"Adamant","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Zangoose": {
-		"[Em] Collector Ed (Route 123)": {
+		"[RuSa] Collector Hector (Route 115)": {
+			"ability":"Immunity","level":20,
+			"moves":[ "Quick Attack", "Swords Dance", "Fury Cutter", "Slash"],
+			"nature":"Hasty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Cooltrainer Berke (Petalburg Gym)": {
+			"ability":"Immunity","level":27,
+			"moves":[ "Swords Dance", "Fury Cutter", "Slash", "Pursuit"],
+			"nature":"Brave","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Cooltrainer Jody (Petalburg Gym)": {
+			"ability":"Immunity","level":27,
+			"moves":[ "Swords Dance", "Fury Cutter", "Slash", "Pursuit"],
+			"nature":"Careful","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Gentleman Thomas (S.S. Tidal Rooms)": {
+			"ability":"Immunity","level":45,
+			"moves":[ "Slash", "Pursuit", "Crush Claw", "Taunt"],
+			"nature":"Adamant","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Collector Ed (Route 123)": {
 			"ability":"Immunity","level":30,
 			"moves":[ "Swords Dance", "Fury Cutter", "Slash", "Pursuit"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -9249,7 +12160,67 @@ var SETDEX_ADV = {
 			"moves":[ "Thunder", "Drill Peck", "Light Screen", "Detect"]}
 	}
 	,"Zigzagoon": {
-		"[Em] Camper Ethan (Jagged Pass)": {
+		"[RuSa] Camper Ethan (Jagged Pass)": {
+			"ability":"Pickup","level":21,
+			"moves":[ "Headbutt", "Sand Attack", "Odor Sleuth", "Mud Sport"],
+			"nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Camper Larry (Route 112)": {
+			"ability":"Pickup","level":18,
+			"moves":[ "Tail Whip", "Headbutt", "Sand Attack", "Odor Sleuth"],
+			"nature":"Quirky","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Lady Cindy (Route 104)": {
+			"ability":"Pickup","level":7,"item":"Nugget",
+			"moves":[ "Tackle", "Growl", "Tail Whip"],
+			"nature":"Rash","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Lass Tiana (Route 102) [1]": {
+			"ability":"Pickup","level":4,
+			"moves":[ "Tackle", "Growl"],
+			"nature":"Lax","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Lass Tiana (Route 102) [2]": {
+			"ability":"Pickup","level":4,
+			"moves":[ "Tackle", "Growl"],
+			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Pokémon Breeder Isaac (Route 117)": {
+			"ability":"Pickup","level":12,
+			"moves":[ "Tackle", "Growl", "Tail Whip", "Headbutt"],
+			"nature":"Lax","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Rich Boy Winston (Route 104)": {
+			"ability":"Pickup","level":7,"item":"Nugget",
+			"moves":[ "Tackle", "Growl", "Tail Whip"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Sr. and Jr. Anna & Meg (Route 117)": {
+			"ability":"Pickup","level":16,
+			"moves":[ "Growl", "Tail Whip", "Headbutt", "Odor Sleuth"],
+			"nature":"Naughty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Tuber Ricky (Route 109)": {
+			"ability":"Pickup","level":14,
+			"moves":[ "Sand Attack", "Headbutt", "Tail Whip", "Surf"],
+			"nature":"Lonely","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Winstrate Victor (Route 111)": {
+			"ability":"Pickup","level":16,"item":"Oran Berry",
+			"moves":[ "Growl", "Tail Whip", "Headbutt", "Sand Attack"],
+			"ivs":{"hp":3,"at":3,"df":3,"sa":3,"sd":3,"sp":3}}
+		,"[RuSa] Youngster Ben (Mauville Gym)": {
+			"ability":"Pickup","level":19,
+			"moves":[ "Headbutt", "Sand Attack", "Growl", "Thunderbolt"],
+			"nature":"Quirky","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Youngster Calvin (Route 102)": {
+			"ability":"Pickup","level":5,
+			"moves":[ "Tackle", "Growl", "Tail Whip"],
+			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Youngster Eddie (Trick House) [1]": {
+			"ability":"Pickup","level":14,
+			"moves":[ "Growl", "Tail Whip", "Headbutt", "Sand Attack"],
+			"nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Youngster Eddie (Trick House) [2]": {
+			"ability":"Pickup","level":16,
+			"moves":[ "Growl", "Tail Whip", "Headbutt", "Sand Attack"],
+			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Youngster Joey (Route 116)": {
+			"ability":"Pickup","level":8,
+			"moves":[ "Tackle", "Growl", "Tail Whip"],
+			"nature":"Rash","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Camper Ethan (Jagged Pass)": {
 			"ability":"Pickup","level":20,
 			"moves":[ "Tail Whip", "Headbutt", "Sand Attack", "Odor Sleuth"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -9323,47 +12294,91 @@ var SETDEX_ADV = {
 			"nature":"Careful","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Zubat": {
-		"[Em] Aqua Grunt #2 (Mt. Pyre)": {
+		"[RuSa] Team Aqua Grunt (Mt. Chimney)": {
+			"ability":"Inner Focus","level":20,
+			"moves":[ "Leech Life", "Supersonic", "Astonish", "Bite"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt (Seafloor Cavern)": {
+			"ability":"Inner Focus","level":36,
+			"moves":[ "Wing Attack", "Confuse Ray", "Air Cutter", "Mean Look"],
+			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 1 (Mt. Pyre) [1]": {
+			"ability":"Inner Focus","level":30,
+			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 1 (Mt. Pyre) [2]": {
+			"ability":"Inner Focus","level":30,
+			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 1 (Mt. Pyre) [3]": {
+			"ability":"Inner Focus","level":30,
+			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
+			"nature":"Mild","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 2 (Aqua Hideout B1F)": {
+			"ability":"Inner Focus","level":30,
+			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 2 (Aqua Hideout B2F)": {
+			"ability":"Inner Focus","level":33,
+			"moves":[ "Bite", "Wing Attack", "Confuse Ray", "Air Cutter"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 2 (Weather Institute)": {
+			"ability":"Inner Focus","level":27,
+			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 2 (Slateport City)": {
+			"ability":"Inner Focus","level":14,
+			"moves":[ "Leech Life", "Supersonic", "Astonish"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 3 (Aqua Hideout B1F)": {
+			"ability":"Inner Focus","level":32,
+			"moves":[ "Bite", "Wing Attack", "Confuse Ray", "Air Cutter"],
+			"nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Team Aqua Grunt 4 (Weather Institute)": {
+			"ability":"Inner Focus","level":26,
+			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
+			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Em] Aqua Grunt 2 (Mt. Pyre)": {
 			"ability":"Inner Focus","level":32,
 			"moves":[ "Bite", "Wing Attack", "Confuse Ray", "Air Cutter"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #2 (Slateport City)": {
+		,"[Em] Aqua Grunt 2 (Slateport City)": {
 			"ability":"Inner Focus","level":14,
 			"moves":[ "Leech Life", "Supersonic", "Astonish"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #2 (Weather Institute)": {
+		,"[Em] Aqua Grunt 2 (Weather Institute)": {
 			"ability":"Inner Focus","level":27,
 			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #3 (Aqua Hideout)": {
+		,"[Em] Aqua Grunt 3 (Aqua Hideout)": {
 			"ability":"Inner Focus","level":31,
 			"moves":[ "Air Cutter", "Wing Attack", "Bite", "Confuse Ray"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #3 (Seafloor Cavern)": {
+		,"[Em] Aqua Grunt 3 (Seafloor Cavern)": {
 			"ability":"Inner Focus","level":36,
 			"moves":[ "Wing Attack", "Confuse Ray", "Air Cutter", "Mean Look"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #4 (Aqua Hideout)": {
+		,"[Em] Aqua Grunt 4 (Aqua Hideout)": {
 			"ability":"Inner Focus","level":31,
 			"moves":[ "Air Cutter", "Wing Attack", "Bite", "Confuse Ray"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #4 (Mt. Pyre)": {
+		,"[Em] Aqua Grunt 4 (Mt. Pyre)": {
 			"ability":"Inner Focus","level":30,
 			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
 			"nature":"Jolly","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #3 (Weather Institute)": {
+		,"[Em] Aqua Grunt 3 (Weather Institute)": {
 			"ability":"Inner Focus","level":27,
 			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
 			"nature":"Bold","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #5 (Weather Institute)": {
+		,"[Em] Aqua Grunt 5 (Weather Institute)": {
 			"ability":"Inner Focus","level":26,
 			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #6 (Aqua Hideout)": {
+		,"[Em] Aqua Grunt 6 (Aqua Hideout)": {
 			"ability":"Inner Focus","level":32,
 			"moves":[ "Bite", "Wing Attack", "Confuse Ray", "Air Cutter"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Aqua Grunt #7 (Aqua Hideout)": {
+		,"[Em] Aqua Grunt 7 (Aqua Hideout)": {
 			"ability":"Inner Focus","level":32,
 			"moves":[ "Air Cutter", "Wing Attack", "Bite", "Confuse Ray"],
 			"nature":"Bold","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -9375,35 +12390,35 @@ var SETDEX_ADV = {
 			"ability":"Inner Focus","level":22,
 			"moves":[ "Wing Attack", "Bite", "Astonish", "Supersonic"],
 			"nature":"Rash","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
-		,"[Em] Magma Grunt #1 (Space Center)": {
+		,"[Em] Magma Grunt 1 (Space Center)": {
 			"ability":"Inner Focus","level":31,
 			"moves":[ "Bite", "Wing Attack", "Confuse Ray", "Air Cutter"],
 			"nature":"Bold","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #10 (Magma Hideout)": {
+		,"[Em] Magma Grunt 10 (Magma Hideout)": {
 			"ability":"Inner Focus","level":29,
 			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #11 (Magma Hideout)": {
+		,"[Em] Magma Grunt 11 (Magma Hideout)": {
 			"ability":"Inner Focus","level":29,
 			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #16 (Magma Hideout)": {
+		,"[Em] Magma Grunt 16 (Magma Hideout)": {
 			"ability":"Inner Focus","level":29,
 			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #2 (Mt. Chimney)": {
+		,"[Em] Magma Grunt 2 (Mt. Chimney)": {
 			"ability":"Inner Focus","level":20,
 			"moves":[ "Leech Life", "Supersonic", "Astonish", "Bite"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #5 (Magma Hideout)": {
+		,"[Em] Magma Grunt 5 (Magma Hideout)": {
 			"ability":"Inner Focus","level":28,
 			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #5 (Space Center)": {
+		,"[Em] Magma Grunt 5 (Space Center)": {
 			"ability":"Inner Focus","level":32,
 			"moves":[ "Air Cutter", "Wing Attack", "Bite", "Confuse Ray"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[Em] Magma Grunt #8 (Magma Hideout)": {
+		,"[Em] Magma Grunt 8 (Magma Hideout)": {
 			"ability":"Inner Focus","level":29,
 			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
