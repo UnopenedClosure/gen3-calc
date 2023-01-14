@@ -12,11 +12,7 @@ var SETDEX_ADV = {
 			"ability":"Synchronize","level":16,
 			"moves":[ "Hidden Power"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Rival 2 w/ Bulbasaur (Route 24)": {
-			"ability":"Synchronize","level":16,
-			"moves":[ "Teleport"],
-			"nature":"Lax","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
-		,"[FRLG] Rival 2 w/ Squirtle (Route 24)": {
+		,"[FRLG] Rival 2 (Route 24)": {
 			"ability":"Synchronize","level":16,
 			"moves":[ "Teleport"],
 			"nature":"Lax","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
@@ -92,23 +88,11 @@ var SETDEX_ADV = {
 			"ability":"Synchronize","level":47,
 			"moves":[ "Psychic", "Calm Mind", "Future Sight", "Disable"],
 			"nature":"Adamant","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
-		,"[FRLG] Champ 1 w/ Bulbasaur (Indigo Plateau)": {
+		,"[FRLG] Champ 1 (Indigo Plateau)": {
 			"ability":"Synchronize","level":57,
 			"moves":[ "Psychic", "Future Sight", "Recover", "Reflect"],
 			"nature":"Calm"}
-		,"[FRLG] Champ 1 w/ Charmander (Indigo Plateau)": {
-			"ability":"Synchronize","level":57,
-			"moves":[ "Psychic", "Future Sight", "Recover", "Reflect"],
-			"nature":"Calm"}
-		,"[FRLG] Champ 1 w/ Squirtle (Indigo Plateau)": {
-			"ability":"Synchronize","level":57,
-			"moves":[ "Psychic", "Future Sight", "Recover", "Reflect"],
-			"nature":"Calm"}
-		,"[FRLG] Champ 2 w/ Bulbasaur (Indigo Plateau)": {
-			"ability":"Synchronize","level":73,
-			"moves":[ "Psychic", "Shadow Ball", "Calm Mind", "Reflect"],
-			"nature":"Relaxed"}
-		,"[FRLG] Champ 2 w/ Squirtle (Indigo Plateau)": {
+		,"[FRLG] Champ 2 (Indigo Plateau)": {
 			"ability":"Synchronize","level":73,
 			"moves":[ "Psychic", "Shadow Ball", "Calm Mind", "Reflect"],
 			"nature":"Relaxed"}
@@ -3398,13 +3382,10 @@ var SETDEX_ADV = {
 			"ability":"Swarm","level":50,
 			"moves":[ "Brick Break", "Counter", "Take Down", "Reversal"],
 			"nature":"Timid","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Champ 2 w/ Bulbasaur (Indigo Plateau)": {
+		,"[FRLG] Champ 2 (Indigo Plateau)": {
 			"ability":"Swarm","level":72,
 			"moves":[ "Megahorn", "Earthquake", "Counter", "Rock Tomb"],
 			"nature":"Serious"}
-		,"[FRLG] Champ 2 w/ Squirtle (Indigo Plateau)": {
-			"ability":"Swarm","level":72,
-			"moves":[ "Megahorn", "Earthquake", "Counter", "Rock Tomb"]}
 	}
 	,"Hitmonchan": {
 		"[FRLG] Crush Kin Ron & Mya (Route 15)": {
@@ -3813,14 +3794,10 @@ var SETDEX_ADV = {
 			"ability":"Synchronize","level":36,
 			"moves":[ "Recover", "Future Sight", "Role Play", "Psychic"],
 			"nature":"Naive","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
-		,"[FRLG] Rival 3 w/ Bulbasaur (S.S. Anne)": {
+		,"[FRLG] Rival 3 (S.S. Anne)": {
 			"ability":"Synchronize","level":18,
 			"moves":[ "Teleport", "Kinesis", "Confusion", "Disable"],
 			"nature":"Naive","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
-		,"[FRLG] Rival 3 w/ Squirtle (S.S. Anne)": {
-			"ability":"Synchronize","level":18,
-			"moves":[ "Teleport", "Kinesis", "Confusion", "Disable"],
-			"nature":"Naive","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
 		,"[FRLG] Rival 4 w/ Bulbasaur (Pokémon Tower)": {
 			"ability":"Synchronize","level":20,
 			"moves":[ "Teleport", "Kinesis", "Confusion", "Disable"],
@@ -7403,82 +7380,35 @@ var SETDEX_ADV = {
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Pidgeot": {
-		"[FRLG] Rival 5 w/ Bulbasaur (Silph Co.)": {
+		"[FRLG] Rival 5 (Silph Co.)": {
 			"ability":"Keen Eye","level":37,
 			"moves":[ "Quick Attack", "Whirlwind", "Wing Attack", "Feather Dance"],
 			"ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
-		,"[FRLG] Rival 5 w/ Charmander (Silph Co.)": {
-			"ability":"Keen Eye","level":37,
-			"moves":[ "Quick Attack", "Whirlwind", "Wing Attack", "Feather Dance"],
-			"ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
-		,"[FRLG] Rival 5 w/ Squirtle (Silph Co.)": {
-			"ability":"Keen Eye","level":37,
-			"moves":[ "Quick Attack", "Whirlwind", "Wing Attack", "Feather Dance"],
-			"ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
-		,"[FRLG] Rival 6 w/ Bulbasaur (Route 22)": {
+		,"[FRLG] Rival 6 (Route 22)": {
 			"ability":"Keen Eye","level":47,
 			"moves":[ "Feather Dance", "Wing Attack", "Gust", "Quick Attack"],
 			"ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
-		,"[FRLG] Rival 6 w/ Charmander (Route 22)": {
-			"ability":"Keen Eye","level":47,
-			"moves":[ "Feather Dance", "Wing Attack", "Gust", "Quick Attack"],
-			"ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
-		,"[FRLG] Rival 6 w/ Squirtle (Route 22)": {
-			"ability":"Keen Eye","level":47,
-			"moves":[ "Feather Dance", "Wing Attack", "Gust", "Quick Attack"],
-			"ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
-		,"[FRLG] Champ 1 w/ Bulbasaur (Indigo Plateau)": {
+		,"[FRLG] Champ 1 (Indigo Plateau)": {
 			"ability":"Keen Eye","level":59,
 			"moves":[ "Aerial Ace", "Feather Dance", "Sand Attack", "Whirlwind"]}
-		,"[FRLG] Champ 1 w/ Charmander (Indigo Plateau)": {
-			"ability":"Keen Eye","level":59,
-			"moves":[ "Aerial Ace", "Feather Dance", "Sand Attack", "Whirlwind"]}
-		,"[FRLG] Champ 1 w/ Squirtle (Indigo Plateau)": {
-			"ability":"Keen Eye","level":59,
-			"moves":[ "Aerial Ace", "Feather Dance", "Sand Attack", "Whirlwind"],
-		}
 	}
 	,"Pidgeotto": {
-		"[FRLG] Rival 2 w/ Bulbasaur (Route 24)": {
+		"[FRLG] Rival 2 (Route 24)": {
 			"ability":"Keen Eye","level":17,
 			"moves":[ "Tackle", "Sand Attack", "Gust", "Quick Attack"],
 			"nature":"Quiet","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
-		,"[FRLG] Rival 2 w/ Charmander (Route 24)": {
-			"ability":"Keen Eye","level":17,
-			"moves":[ "Tackle", "Sand Attack", "Gust", "Quick Attack"],
-			"nature":"Quiet","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
-		,"[FRLG] Rival 2 w/ Squirtle (Route 24)": {
-			"ability":"Keen Eye","level":17,
-			"moves":[ "Tackle", "Sand Attack", "Gust", "Quick Attack"],
-			"nature":"Quiet","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
-		,"[FRLG] Rival 3 w/ Bulbasaur (S.S. Anne)": {
+		,"[FRLG] Rival 3 (S.S. Anne)": {
 			"ability":"Keen Eye","level":19,
 			"moves":[ "Tackle", "Sand Attack", "Gust", "Quick Attack"],
 			"nature":"Quiet","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
-		,"[FRLG] Rival 3 w/ Charmander (S.S. Anne)": {
-			"ability":"Keen Eye","level":19,
-			"moves":[ "Tackle", "Sand Attack", "Gust", "Quick Attack"],
-			"nature":"Quiet","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
-		,"[FRLG] Rival 3 w/ Squirtle (S.S. Anne)": {
-			"ability":"Keen Eye","level":19,
-			"moves":[ "Tackle", "Sand Attack", "Gust", "Quick Attack"],
-			"nature":"Quiet","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
 		,"[FRLG] Picknicker Carol (Route 10)": {
 			"ability":"Keen Eye","level":21,
 			"moves":[ "Sand Attack", "Gust", "Quick Attack", "Whirlwind"],
 			"nature":"Calm","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Rival 4 w/ Bulbasaur (Pokémon Tower)": {
+		,"[FRLG] Rival 4 (Pokémon Tower)": {
 			"ability":"Keen Eye","level":25,
 			"moves":[ "Sand Attack", "Gust", "Quick Attack", "Whirlwind"],
 			"nature":"Quiet","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
-		,"[FRLG] Rival 4 w/ Charmander (Pokémon Tower)": {
-			"ability":"Keen Eye","level":25,
-			"moves":[ "Sand Attack", "Gust", "Quick Attack", "Whirlwind"],
-			"nature":"Quiet","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
-		,"[FRLG] Rival 4 w/ Squirtle (Pokémon Tower)": {
-			"ability":"Keen Eye","level":25,
-			"moves":[ "Sand Attack", "Gust", "Quick Attack", "Whirlwind"],
-			"nature":"Quiet","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
 		,"[FRLG] Bird Keeper Sebastian (Route 13)": {
 			"ability":"Keen Eye","level":29,
 			"moves":[ "Gust", "Quick Attack", "Whirlwind", "Wing Attack"],
@@ -7521,15 +7451,7 @@ var SETDEX_ADV = {
 			"nature":"Naughty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Pidgey": {
-		"[FRLG] Rival 1.5 w/ Bulbasaur (Route 22)": {
-			"ability":"Keen Eye","level":9,
-			"moves":[ "Tackle", "Sand Attack"],
-			"nature":"Quirky","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
-		,"[FRLG] Rival 1.5 w/ Charmander (Route 22)": {
-			"ability":"Keen Eye","level":9,
-			"moves":[ "Tackle", "Sand Attack"],
-			"nature":"Quirky","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
-		,"[FRLG] Rival 1.5 w/ Squirtle (Route 22)": {
+		"[FRLG] Rival 1.5 (Route 22)": {
 			"ability":"Keen Eye","level":9,
 			"moves":[ "Tackle", "Sand Attack"],
 			"nature":"Quirky","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
@@ -8193,18 +8115,10 @@ var SETDEX_ADV = {
 			"ability":"Run Away","level":17,
 			"moves":[ "Tackle", "Tail Whip", "Quick Attack", "Hyper Fang"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Rival 3 w/ Bulbasaur (S.S. Anne)": {
+		,"[FRLG] Rival 3 (S.S. Anne)": {
 			"ability":"Run Away","level":16,
 			"moves":[ "Tackle", "Tail Whip", "Quick Attack", "Hyper Fang"],
 			"nature":"Adamant","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
-		,"[FRLG] Rival 3 w/ Charmander (S.S. Anne)": {
-			"ability":"Run Away","level":16,
-			"moves":[ "Tackle", "Tail Whip", "Quick Attack", "Hyper Fang"],
-			"nature":"Adamant","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
-		,"[FRLG] Rival 3 w/ Squirtle (S.S. Anne)": {
-			"ability":"Run Away","level":16,
-			"moves":[ "Tackle", "Tail Whip", "Quick Attack", "Hyper Fang"],
-			"nature":"Adamant","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
 		,"[FRLG] Team Rocket Grunt (Celadon City)": {
 			"ability":"Run Away","level":20,
 			"moves":[ "Tail Whip", "Quick Attack", "Hyper Fang", "Scary Face"],
@@ -8311,18 +8225,10 @@ var SETDEX_ADV = {
 			"ability":"Run Away","level":13,
 			"moves":[ "Tackle", "Tail Whip", "Quick Attack", "Hyper Fang"],
 			"nature":"Rash","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Rival 2 w/ Bulbasaur (Route 24)": {
+		,"[FRLG] Rival 2 (Route 24)": {
 			"ability":"Run Away","level":15,
 			"moves":[ "Tackle", "Tail Whip", "Quick Attack"],
 			"nature":"Adamant","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
-		,"[FRLG] Rival 2 w/ Charmander (Route 24)": {
-			"ability":"Run Away","level":15,
-			"moves":[ "Tackle", "Tail Whip", "Quick Attack"],
-			"nature":"Adamant","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
-		,"[FRLG] Rival 2 w/ Squirtle (Route 24)": {
-			"ability":"Run Away","level":15,
-			"moves":[ "Tackle", "Tail Whip", "Quick Attack"],
-			"nature":"Adamant","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
 		,"[FRLG] Camper Shane (Route 24)": {
 			"ability":"Run Away","level":14,
 			"moves":[ "Tackle", "Tail Whip", "Quick Attack", "Hyper Fang"],
@@ -8442,15 +8348,7 @@ var SETDEX_ADV = {
 			"moves":[ "Metal Claw", "Earthquake", "Iron Defense", "Toxic"]}
 	}
 	,"Rhydon": {
-		"[FRLG] Champ 1 w/ Bulbasaur (Indigo Plateau)": {
-			"ability":"Lightning Rod","level":59,
-			"moves":[ "Take Down", "Earthquake", "Rock Tomb", "Scary Face"],
-			"nature":"Mild"}
-		,"[FRLG] Champ 1 w/ Charmander (Indigo Plateau)": {
-			"ability":"Lightning Rod","level":59,
-			"moves":[ "Take Down", "Earthquake", "Rock Tomb", "Scary Face"],
-			"nature":"Mild"}
-		,"[FRLG] Champ 1 w/ Squirtle (Indigo Plateau)": {
+		"[FRLG] Champ 1 (Indigo Plateau)": {
 			"ability":"Lightning Rod","level":59,
 			"moves":[ "Take Down", "Earthquake", "Rock Tomb", "Scary Face"],
 			"nature":"Mild"}
@@ -8500,18 +8398,10 @@ var SETDEX_ADV = {
 			"ability":"Lightning Rod","level":50,
 			"moves":[ "Take Down", "Rock Blast", "Scary Face", "Earthquake"],
 			"nature":"Sassy","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
-		,"[FRLG] Rival 6 w/ Bulbasaur (Route 22)": {
+		,"[FRLG] Rival 6 (Route 22)": {
 			"ability":"Lightning Rod","level":45,
 			"moves":[ "Take Down", "Horn Drill", "Rock Blast", "Fury Attack"],
 			"nature":"Rash","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
-		,"[FRLG] Rival 6 w/ Charmander (Route 22)": {
-			"ability":"Lightning Rod","level":45,
-			"moves":[ "Take Down", "Horn Drill", "Rock Blast", "Fury Attack"],
-			"nature":"Rash","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
-		,"[FRLG] Rival 6 w/ Squirtle (Route 22)": {
-			"ability":"Lightning Rod","level":45,
-			"moves":[ "Take Down", "Horn Drill", "Rock Blast", "Fury Attack"],
-			"nature":"Rash","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
 		,"[FRLG] Pokémaniac Hector (Ruin Valley)": {
 			"ability":"Lightning Rod","level":49,
 			"moves":[ "Scary Face", "Rock Blast", "Horn Drill", "Take Down"],
@@ -11093,11 +10983,7 @@ var SETDEX_ADV = {
 			"nature":"Timid","ivs":{"hp":1,"at":1,"sa":1,"sp":1,"df":1,"sd":1}}
 	}
 	,"Tyranitar": {
-		"[FRLG] Champ 2 w/ Bulbasaur (Indigo Plateau)": {
-			"ability":"Sand Stream","level":72,
-			"moves":[ "Crunch", "Earthquake", "Thunderbolt", "Aerial Ace"],
-			"nature":"Adamant"}
-		,"[FRLG] Champ 2 w/ Squirtle (Indigo Plateau)": {
+		"[FRLG] Champ 2 (Indigo Plateau)": {
 			"ability":"Sand Stream","level":72,
 			"moves":[ "Crunch", "Earthquake", "Thunderbolt", "Aerial Ace"],
 			"nature":"Adamant"}
