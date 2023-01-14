@@ -1159,10 +1159,22 @@ var SETDEX_ADV = {
 			"ability":"Blaze","level":63,"item":"Sitrus Berry",
 			"moves":[ "Fire Blast", "Aerial Ace", "Slash", "Fire Spin"],
 			"nature":"Calm"}
+		,"[FRLG] Champ 2 w/ Charmander (Indigo Plateau)": {
+			"ability":"Blaze","level":75,"item":"Sitrus Berry",
+			"moves":[ "Fire Blast", "Aerial Ace", "Earthquake", "Dragon Dance"],
+			"nature":"Relaxed"}
 		
 	}
 	,"Charmander": {
-		"[FRLG] Camper Chris (Route 9)": {
+		"[FRLG] Rival 1 w/ Charmander (Pallet Town)": {
+			"ability":"Blaze","level":5,
+			"moves":[ "Scratch", "Growl"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[FRLG] Rival 1.5 w/ Charmander (Route 22)": {
+			"ability":"Blaze","level":9,
+			"moves":[ "Scratch", "Growl"],
+			"nature":"Modest","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"[FRLG] Camper Chris (Route 9)": {
 			"ability":"Blaze","level":21,
 			"moves":[ "Growl", "Ember", "Metal Claw", "Smokescreen"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -2034,6 +2046,9 @@ var SETDEX_ADV = {
 			"ability":"Chlorophyll","level":49,
 			"moves":[ "Confusion", "Egg Bomb", "Sleep Powder", "Stomp"],
 			"nature":"Timid","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+		,"[FRLG] Champ 2 w/ Charmander (Indigo Plateau)": {
+			"ability":"Chlorophyll","level":73,
+			"moves":[ "Giga Drain", "Psychic", "Sleep Powder", "Light Screen"]}
 		,"[FRLG] Champ 2 w/ Squirtle (Indigo Plateau)": {
 			"ability":"Chlorophyll","level":73,
 			"moves":[ "Giga Drain", "Psychic", "Sleep Powder", "Light Screen"],
@@ -3300,6 +3315,10 @@ var SETDEX_ADV = {
 			"ability":"Intimidate","level":73,
 			"moves":[ "Hydro Pump", "Dragon Dance", "Earthquake", "Hyper Beam"],
 			"nature":"Quiet"}
+		,"[FRLG] Champ 2 w/ Charmander (Indigo Plateau)": {
+			"ability":"Intimidate","level":73,
+			"moves":[ "Hydro Pump", "Dragon Dance", "Earthquake", "Hyper Beam"],
+			"nature":"Naive"}
 	}
 	,"Hariyama": {
 		"[RuSa] Black Belt Atsushi (Mt. Pyre)": {
@@ -7506,10 +7525,14 @@ var SETDEX_ADV = {
 			"ability":"Keen Eye","level":9,
 			"moves":[ "Tackle", "Sand Attack"],
 			"nature":"Quirky","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"[FRLG] Rival 1.5 w/ Charmander (Route 22)": {
+			"ability":"Keen Eye","level":9,
+			"moves":[ "Tackle", "Sand Attack"],
+			"nature":"Quirky","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
 		,"[FRLG] Rival 1.5 w/ Squirtle (Route 22)": {
 			"ability":"Keen Eye","level":9,
 			"moves":[ "Tackle", "Sand Attack"],
-			"ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+			"nature":"Quirky","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
 		,"[FRLG] Lass Janice (Route 3) [1]": {
 			"ability":"Keen Eye","level":9,
 			"moves":[ "Tackle", "Sand Attack", "Gust"],
