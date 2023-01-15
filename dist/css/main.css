@@ -289,6 +289,12 @@ th {
 .right {
     float: right;
 }
+.gameSelection {
+    display: inline-block;
+    position: relative;
+    top: -8px;
+    right: 50px;
+}
 .locked-move:checked + .btn {
     background: #ffff99;
 }

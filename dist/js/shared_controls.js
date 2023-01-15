@@ -856,7 +856,7 @@ var RANDDEX = [
 	typeof GEN7RANDOMBATTLE === 'undefined' ? {} : GEN7RANDOMBATTLE,
 	typeof GEN8RANDOMBATTLE === 'undefined' ? {} : GEN8RANDOMBATTLE,
 ];
-var gen, genWasChanged, notation, pokedex, setdex, randdex, typeChart, moves, abilities, items, calcHP, calcStat, GENERATION;
+var gen, genWasChanged, notation, pokedex, setdex, randdex, typeChart, moves, abilities, items, calcHP, calcStat, GENERATION, gen3game;
 $(".gen").change(function () {
 	/*eslint-disable */
 	gen = ~~$(this).val() || 8;
@@ -921,16 +921,14 @@ $(".notation").change(function () {
 
 $(".gen3game").change(function () {
 	if ($("#rusa").prop("checked")) {
-		gen3game = "rusa"
+		gen3game = "RuSa"
 	} else if ($("#em").prop("checked")) {
-		gen3game = "em"
+		gen3game = "Em"
 	} else if ($("#frlg").prop("checked")) {
-		gen3game = "frlg"
+		gen3game = "FRLG"
 	} else {
-		gen3game = "all"
+		gen3game = "All"
 	}
-	//gen3game = $(this).val();
-	console.log("gen3game = " + gen3game)
 });
 
 function clearField() {
@@ -1146,6 +1144,9 @@ function loadDefaultLists() {
 			}
 		},
 		query: function (query) {
+			if (gen3game == null) {
+				gen3game = "All";
+			}
 			var pageSize = 30;
 			var results = [];
 			var options = getSetOptions();
@@ -1158,7 +1159,19 @@ function loadDefaultLists() {
 					if ($("#randoms").prop("checked")) {
 						if (option.id) results.push(option);
 					} else {
-						results.push(option);
+						if (gen3game === "All") {
+							results.push(option);
+						} else {
+							var rBrace = option.text.indexOf("]");
+							if (rBrace != -1) {
+								var lBrace = option.text.indexOf("[");
+								if (option.text.substring(lBrace + 1, rBrace) === gen3game) {
+									results.push(option);
+								}
+							} else {
+								results.push(option); //Should only be Blank Set
+							}
+						}
 					}
 				}
 			}
