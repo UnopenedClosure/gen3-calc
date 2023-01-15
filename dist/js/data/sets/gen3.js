@@ -10953,27 +10953,11 @@ var SETDEX_ADV = {
 			"ability":"Chlorophyll","level":29,
 			"moves":[ "Solar Beam", "Aerial Ace", "Sunny Day", "Synthesis"],
 			"nature":"Impish","ivs":{"hp":25,"at":25,"sa":25,"sp":25,"df":25,"sd":25}}
-		,"[Em] May 4 w/ Mudkip (Lilycove City)": {
+		,"[Em] May 4 (Lilycove City)": {
 			"ability":"Chlorophyll","level":31,
 			"moves":[ "Stomp", "Magical Leaf", "Sweet Scent", "Whirlwind"],
 			"nature":"Sassy","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
-		,"[Em] Brendan 4 w/ Mudkip (Lilycove City)": {
-			"ability":"Chlorophyll","level":31,
-			"moves":[ "Stomp", "Magical Leaf", "Sweet Scent", "Whirlwind"],
-			"nature":"Mild","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
-		,"[Em] May 4 w/ Treecko (Lilycove City)": {
-			"ability":"Chlorophyll","level":31,
-			"moves":[ "Stomp", "Magical Leaf", "Sweet Scent", "Whirlwind"],
-			"nature":"Sassy","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
-		,"[Em] Brendan 4 w/ Treecko (Lilycove City)": {
-			"ability":"Chlorophyll","level":31,
-			"moves":[ "Stomp", "Magical Leaf", "Sweet Scent", "Whirlwind"],
-			"nature":"Mild","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
-		,"[Em] May 4 w/ Torchic (Lilycove City)": {
-			"ability":"Chlorophyll","level":31,
-			"moves":[ "Stomp", "Magical Leaf", "Sweet Scent", "Whirlwind"],
-			"nature":"Sassy","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
-		,"[Em] Brendan 4 w/ Torchic (Lilycove City)": {
+		,"[Em] Brendan 4 (Lilycove City)": {
 			"ability":"Chlorophyll","level":31,
 			"moves":[ "Stomp", "Magical Leaf", "Sweet Scent", "Whirlwind"],
 			"nature":"Mild","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
