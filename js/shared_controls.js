@@ -919,6 +919,20 @@ $(".notation").change(function () {
 	notation = $(this).val();
 });
 
+$(".gen3game").change(function () {
+	if ($("#rusa").prop("checked")) {
+		gen3game = "rusa"
+	} else if ($("#em").prop("checked")) {
+		gen3game = "em"
+	} else if ($("#frlg").prop("checked")) {
+		gen3game = "frlg"
+	} else {
+		gen3game = "all"
+	}
+	//gen3game = $(this).val();
+	console.log("gen3game = " + gen3game)
+});
+
 function clearField() {
 	$("#singles-format").prop("checked", true);
 	$("#clear").prop("checked", true);
