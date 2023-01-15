@@ -62,14 +62,57 @@ export function calculateADV(
     desc.moveBP = move.bp;
   }
 
+  let typeHierarchy: string[] = ['Normal', 'Fire', 'Water', 'Electric',
+  								 'Grass', 'Ice', 'Fighting', 'Poison',
+  								 'Ground', 'Flying', 'Psychic', 'Bug',
+  								 'Rock', 'Ghost', 'Dragon', 'Dark', 'Steel'];
+  let iceTypeHierarchy: string[] = ['Normal', 'Water', 'Electric',
+  								 'Grass', 'Ice', 'Fighting', 'Poison',
+  								 'Ground', 'Flying', 'Psychic', 'Bug',
+  								 'Rock', 'Ghost', 'Dragon', 'Dark', 'Steel', 'Fire'];
+  let type1;
+  let type2;
+  let ind0 = -1;
+  let ind1 = -1;
+  if (defender.types[1]) {
+  	if(move.hasType('Ice')) {
+  	  for(var i = 0; i < iceTypeHierarchy.length; i++) {
+  	  	if(iceTypeHierarchy[i] === defender.types[0]) {
+  	  	  ind0 = i;
+  	  	}
+  	  	if(iceTypeHierarchy[i] === defender.types[1]) {
+  	  	  ind1 = i;
+  	  	}
+  	  }
+  	} else {
+  	  for(var i = 0; i < typeHierarchy.length; i++) {
+  	  	if(typeHierarchy[i] === defender.types[0]) {
+  	  	  ind0 = i;
+  	  	}
+  	  	if(typeHierarchy[i] === defender.types[1]) {
+  	  	  ind1 = i;
+  	  	}
+  	  }
+  	}
+	  if(ind0 < ind1) {
+	    type1 = defender.types[0];
+	    type2 = defender.types[1];
+	  } else {
+	    type2 = defender.types[0];
+	    type1 = defender.types[1];
+	  }
+  } else {
+  	type1 = defender.types[0];
+  	type2 = defender.types[1];
+  }
   const type1Effectiveness = getMoveEffectiveness(
     gen,
     move,
-    defender.types[0],
+    type1,
     field.defenderSide.isForesight
   );
-  const type2Effectiveness = defender.types[1]
-    ? getMoveEffectiveness(gen, move, defender.types[1], field.defenderSide.isForesight)
+  const type2Effectiveness = type2
+    ? getMoveEffectiveness(gen, move, type2, field.defenderSide.isForesight)
     : 1;
   const typeEffectiveness = type1Effectiveness * type2Effectiveness;
 
@@ -307,7 +350,8 @@ export function calculateADV(
     baseDamage = Math.floor(baseDamage * 1.5);
   }
 
-  baseDamage = Math.floor(baseDamage * typeEffectiveness);
+  baseDamage = Math.floor(baseDamage * type1Effectiveness);
+  baseDamage = Math.floor(baseDamage * type2Effectiveness);
   result.damage = [];
   for (let i = 85; i <= 100; i++) {
     result.damage[i - 85] = Math.max(1, Math.floor((baseDamage * i) / 100));

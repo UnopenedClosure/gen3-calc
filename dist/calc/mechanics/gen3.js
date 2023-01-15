@@ -63,9 +63,55 @@ function calculateADV(gen, attacker, defender, move, field) {
         desc.moveType = move.type;
         desc.moveBP = move.bp;
     }
-    var type1Effectiveness = (0, util_1.getMoveEffectiveness)(gen, move, defender.types[0], field.defenderSide.isForesight);
-    var type2Effectiveness = defender.types[1]
-        ? (0, util_1.getMoveEffectiveness)(gen, move, defender.types[1], field.defenderSide.isForesight)
+    var typeHierarchy = ['Normal', 'Fire', 'Water', 'Electric',
+        'Grass', 'Ice', 'Fighting', 'Poison',
+        'Ground', 'Flying', 'Psychic', 'Bug',
+        'Rock', 'Ghost', 'Dragon', 'Dark', 'Steel'];
+    var iceTypeHierarchy = ['Normal', 'Water', 'Electric',
+        'Grass', 'Ice', 'Fighting', 'Poison',
+        'Ground', 'Flying', 'Psychic', 'Bug',
+        'Rock', 'Ghost', 'Dragon', 'Dark', 'Steel', 'Fire'];
+    var type1;
+    var type2;
+    var ind0 = -1;
+    var ind1 = -1;
+    if (defender.types[1]) {
+        if (move.hasType('Ice')) {
+            for (var i = 0; i < iceTypeHierarchy.length; i++) {
+                if (iceTypeHierarchy[i] === defender.types[0]) {
+                    ind0 = i;
+                }
+                if (iceTypeHierarchy[i] === defender.types[1]) {
+                    ind1 = i;
+                }
+            }
+        }
+        else {
+            for (var i = 0; i < typeHierarchy.length; i++) {
+                if (typeHierarchy[i] === defender.types[0]) {
+                    ind0 = i;
+                }
+                if (typeHierarchy[i] === defender.types[1]) {
+                    ind1 = i;
+                }
+            }
+        }
+        if (ind0 < ind1) {
+            type1 = defender.types[0];
+            type2 = defender.types[1];
+        }
+        else {
+            type2 = defender.types[0];
+            type1 = defender.types[1];
+        }
+    }
+    else {
+        type1 = defender.types[0];
+        type2 = defender.types[1];
+    }
+    var type1Effectiveness = (0, util_1.getMoveEffectiveness)(gen, move, type1, field.defenderSide.isForesight);
+    var type2Effectiveness = type2
+        ? (0, util_1.getMoveEffectiveness)(gen, move, type2, field.defenderSide.isForesight)
         : 1;
     var typeEffectiveness = type1Effectiveness * type2Effectiveness;
     if (typeEffectiveness === 0) {
@@ -270,10 +316,11 @@ function calculateADV(gen, attacker, defender, move, field) {
     if (move.hasType.apply(move, __spreadArray([], __read(attacker.types), false))) {
         baseDamage = Math.floor(baseDamage * 1.5);
     }
-    baseDamage = Math.floor(baseDamage * typeEffectiveness);
+    baseDamage = Math.floor(baseDamage * type1Effectiveness);
+    baseDamage = Math.floor(baseDamage * type2Effectiveness);
     result.damage = [];
-    for (var i = 85; i <= 100; i++) {
-        result.damage[i - 85] = Math.max(1, Math.floor((baseDamage * i) / 100));
+    for (var i_1 = 85; i_1 <= 100; i_1++) {
+        result.damage[i_1 - 85] = Math.max(1, Math.floor((baseDamage * i_1) / 100));
     }
     return result;
 }
