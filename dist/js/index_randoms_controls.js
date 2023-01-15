@@ -175,6 +175,11 @@ $(".notation").change(function () {
 	performCalculations();
 });
 
+// $(".gen3game").change(function () {
+// 	gen3game = $(this).val();
+// 	console.log("gen3game = " + gen3game)
+// });
+
 $(document).ready(function () {
 	var params = new URLSearchParams(window.location.search);
 	var m = params.get('mode');
