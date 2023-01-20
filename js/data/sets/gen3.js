@@ -3045,15 +3045,15 @@ var SETDEX_ADV = {
 			"nature":"Calm","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Grovyle": {
-		"[RuSa] PKMN Trainer Brendan (Lilycove City)": {
+		"[RuSa] Brendan 4 w/ Treecko (Lilycove City)": {
 			"ability":"Overgrow","level":34,
 			"moves":[ "Fury Cutter", "Pursuit", "Screech", "Leaf Blade"],
 			"nature":"Gentle","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
-		,"[RuSa] PKMN Trainer Brendan (Route 110)": {
+		,"[RuSa] Brendan 2 w/ Treecko (Route 110)": {
 			"ability":"Overgrow","level":20,
 			"moves":[ "Absorb", "Quick Attack", "Fury Cutter", "Pursuit"],
 			"nature":"Calm","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
-		,"[RuSa] PKMN Trainer Brendan (Route 119)": {
+		,"[RuSa] Brendan 3 w/ Treecko (Route 119)": {
 			"ability":"Overgrow","level":31,
 			"moves":[ "Fury Cutter", "Pursuit", "Screech", "Leaf Blade"],
 			"nature":"Calm","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
@@ -5964,6 +5964,18 @@ var SETDEX_ADV = {
 			"ability":"Torrent","level":34,
 			"moves":[ "Mud Shot", "Take Down", "Foresight", "Mud Sport"],
 			"nature":"Hasty","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
+		,"[RuSa] Brendan 2 w/ Mudkip (Route 110)": {
+			"ability":"Torrent","level":20,
+			"moves":[ "Water Gun", "Mud Shot", "Bide", "Foresight"],
+			"nature":"Docile","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+		,"[RuSa] Brendan 3 w/ Mudkip (Route 119)": {
+			"ability":"Torrent","level":31,
+			"moves":[ "Mud Shot", "Take Down", "Foresight", "Mud Sport"],
+			"nature":"Docile","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"[RuSa] Brendan 4 w/ Mudkip (Lilycove City)": {
+			"ability":"Torrent","level":34,
+			"moves":[ "Mud Shot", "Take Down", "Foresight", "Mud Sport"],
+			"nature":"Relaxed","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
 	}
 	,"Mawile": {
 		"[RuSa] Cooltrainer Caroline (Victory Road)": {
@@ -6424,6 +6436,10 @@ var SETDEX_ADV = {
 			"ability":"Torrent","level":15,
 			"moves":[ "Water Gun", "Mud-Slap", "Growl", "Bide"],
 			"nature":"Bold","ivs":{"hp":4,"at":4,"sa":4,"sp":4,"df":4,"sd":4}}
+		,"[RuSa] Brendan 1 w/ Mudkip (Route 103)": {
+			"ability":"Torrent","level":5,
+			"moves":[ "Tackle", "Growl"],
+			"nature":"Hasty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Muk": {
 		"[RuSa] Cooltrainer Albert (Victory Road)": {
@@ -6852,18 +6868,30 @@ var SETDEX_ADV = {
 			"ability":"Oblivious","level":20,
 			"moves":[ "Ember", "Tackle", "Magnitude", "Sunny Day"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] PKMN Trainer Brendan (Lilycove City)": {
-			"ability":"Oblivious","level":32,
-			"moves":[ "Magnitude", "Focus Energy", "Take Down", "Amnesia"],
-			"nature":"Quiet","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
-		,"[RuSa] PKMN Trainer Brendan (Route 110)": {
+		,"[RuSa] Brendan 2 w/ Mudkip (Route 110)": {
+			"ability":"Oblivious","level":18,
+			"moves":[ "Growl", "Tackle", "Ember"],
+			"nature":"Naive","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Brendan 2 w/ Treecko (Route 110)": {
 			"ability":"Oblivious","level":18,
 			"moves":[ "Growl", "Tackle", "Ember"],
 			"nature":"Mild","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
-		,"[RuSa] PKMN Trainer Brendan (Route 119)": {
+		,"[RuSa] Brendan 3 w/ Mudkip (Route 119)": {
+			"ability":"Oblivious","level":29,
+			"moves":[ "Ember", "Magnitude", "Focus Energy", "Take Down"],
+			"nature":"Naive","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Brendan 3 w/ Treecko (Route 119)": {
 			"ability":"Oblivious","level":29,
 			"moves":[ "Ember", "Magnitude", "Focus Energy", "Take Down"],
 			"nature":"Mild","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Brendan 4 w/ Mudkip (Lilycove City)": {
+			"ability":"Oblivious","level":32,
+			"moves":[ "Magnitude", "Focus Energy", "Take Down", "Amnesia"],
+			"nature":"Modest","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[RuSa] Brendan 4 w/ Treecko (Lilycove City)": {
+			"ability":"Oblivious","level":32,
+			"moves":[ "Magnitude", "Focus Energy", "Take Down", "Amnesia"],
+			"nature":"Quiet","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
 		,"[RuSa] School Kid Paul (Trick House)": {
 			"ability":"Oblivious","level":15,
 			"moves":[ "Growl", "Tackle", "Ember"],
@@ -9247,51 +9275,7 @@ var SETDEX_ADV = {
 			"nature":"Jolly","ivs":{"hp":30,"at":30,"sa":30,"sp":30,"df":30,"sd":30}}
 	}
 	,"Shroomish": {
-		"[RuSa] Aroma Lady Rose (Route 118)": {
-			"ability":"Effect Spore","level":16,
-			"moves":[ "Tackle", "Stun Spore", "Leech Seed", "Mega Drain"],
-			"nature":"Naive","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Aroma Lady Violet (Route 123)": {
-			"ability":"Effect Spore","level":25,
-			"moves":[ "Stun Spore", "Leech Seed", "Mega Drain", "Headbutt"],
-			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Beauty Sheila (Mt. Chimney)": {
-			"ability":"Effect Spore","level":22,
-			"moves":[ "Stun Spore", "Leech Seed", "Mega Drain", "Headbutt"],
-			"nature":"Adamant","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Lass Haley (Route 104)": {
-			"ability":"Effect Spore","level":7,
-			"moves":[ "Absorb", "Tackle", "Stun Spore"],
-			"nature":"Sassy","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Lass Robin (Trick House)": {
-			"ability":"Effect Spore","level":14,
-			"moves":[ "Absorb", "Tackle", "Stun Spore", "Leech Seed"],
-			"nature":"Lax","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Picnicker Diana (Jagged Pass)": {
-			"ability":"Effect Spore","level":20,
-			"moves":[ "Tackle", "Stun Spore", "Leech Seed", "Mega Drain"],
-			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Picnicker Irene (Route 111)": {
-			"ability":"Effect Spore","level":18,
-			"moves":[ "Tackle", "Stun Spore", "Leech Seed", "Mega Drain"],
-			"nature":"Rash","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Pokémon Breeder Lydia (Route 117)": {
-			"ability":"Effect Spore","level":12,
-			"moves":[ "Absorb", "Tackle", "Stun Spore", "Leech Seed"],
-			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] School Kid Georgia (Trick House)": {
-			"ability":"Effect Spore","level":16,
-			"moves":[ "Tackle", "Stun Spore", "Leech Seed", "Mega Drain"],
-			"nature":"Quiet","ivs":{"hp":1,"at":1,"df":1,"sa":1,"sd":1,"sp":1}}
-		,"[RuSa] School Kid Karen (Route 116)": {
-			"ability":"Effect Spore","level":9,
-			"moves":[ "Absorb", "Tackle", "Stun Spore"],
-			"nature":"Relaxed","ivs":{"hp":1,"at":1,"df":1,"sa":1,"sd":1,"sp":1}}
-		,"[RuSa] Winstrate Vivi (Route 111)": {
-			"ability":"Effect Spore","level":15,
-			"moves":[ "Absorb", "Tackle", "Stun Spore", "Leech Seed"],
-			"nature":"Mild","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
-		,"[Em] Aroma Lady Daisy (Route 103)": {
+		"[Em] Aroma Lady Daisy (Route 103)": {
 			"ability":"Effect Spore","level":14,
 			"moves":[ "Absorb", "Tackle", "Stun Spore", "Leech Seed"],
 			"nature":"Hasty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -9359,6 +9343,62 @@ var SETDEX_ADV = {
 			"ability":"Effect Spore","level":8,
 			"moves":[ "Absorb", "Tackle", "Stun Spore"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[RuSa] Brendan 2 w/ Mudkip (Route 110)": {
+			"ability":"Effect Spore","level":18,
+			"moves":[ "Tackle", "Stun Spore", "Leech Seed", "Mega Drain"],
+			"nature":"Lax","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Brendan 3 w/ Mudkip (Route 119)": {
+			"ability":"Effect Spore","level":29,
+			"moves":[ "Poison Powder", "Headbutt", "Leech Seed", "Mega Drain"],
+			"nature":"Lax","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Brendan 4 w/ Mudkip (Lilycove City)": {
+			"ability":"Effect Spore","level":32,
+			"moves":[ "Poison Powder", "Headbutt", "Leech Seed", "Mega Drain"],
+			"nature":"Timid","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Aroma Lady Rose (Route 118)": {
+			"ability":"Effect Spore","level":16,
+			"moves":[ "Tackle", "Stun Spore", "Leech Seed", "Mega Drain"],
+			"nature":"Naive","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Aroma Lady Violet (Route 123)": {
+			"ability":"Effect Spore","level":25,
+			"moves":[ "Stun Spore", "Leech Seed", "Mega Drain", "Headbutt"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Beauty Sheila (Mt. Chimney)": {
+			"ability":"Effect Spore","level":22,
+			"moves":[ "Stun Spore", "Leech Seed", "Mega Drain", "Headbutt"],
+			"nature":"Adamant","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Lass Haley (Route 104)": {
+			"ability":"Effect Spore","level":7,
+			"moves":[ "Absorb", "Tackle", "Stun Spore"],
+			"nature":"Sassy","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Lass Robin (Trick House)": {
+			"ability":"Effect Spore","level":14,
+			"moves":[ "Absorb", "Tackle", "Stun Spore", "Leech Seed"],
+			"nature":"Lax","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Picnicker Diana (Jagged Pass)": {
+			"ability":"Effect Spore","level":20,
+			"moves":[ "Tackle", "Stun Spore", "Leech Seed", "Mega Drain"],
+			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Picnicker Irene (Route 111)": {
+			"ability":"Effect Spore","level":18,
+			"moves":[ "Tackle", "Stun Spore", "Leech Seed", "Mega Drain"],
+			"nature":"Rash","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Pokémon Breeder Lydia (Route 117)": {
+			"ability":"Effect Spore","level":12,
+			"moves":[ "Absorb", "Tackle", "Stun Spore", "Leech Seed"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] School Kid Georgia (Trick House)": {
+			"ability":"Effect Spore","level":16,
+			"moves":[ "Tackle", "Stun Spore", "Leech Seed", "Mega Drain"],
+			"nature":"Quiet","ivs":{"hp":1,"at":1,"df":1,"sa":1,"sd":1,"sp":1}}
+		,"[RuSa] School Kid Karen (Route 116)": {
+			"ability":"Effect Spore","level":9,
+			"moves":[ "Absorb", "Tackle", "Stun Spore"],
+			"nature":"Relaxed","ivs":{"hp":1,"at":1,"df":1,"sa":1,"sd":1,"sp":1}}
+		,"[RuSa] Winstrate Vivi (Route 111)": {
+			"ability":"Effect Spore","level":15,
+			"moves":[ "Absorb", "Tackle", "Stun Spore", "Leech Seed"],
+			"nature":"Mild","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
 	}
 	,"Shuckle": {
 		"[Em] Pike Queen Lucy (Silver Symbol)": {
@@ -10365,7 +10405,7 @@ var SETDEX_ADV = {
 			"ability":"Guts","level":31,
 			"moves":[ "Quick Attack", "Aerial Ace", "Double Team", "Endeavor"],
 			"nature":"Jolly","ivs":{"hp":24,"at":24,"df":24,"sa":24,"sd":24,"sp":24}}
-		,"[RuSa] PKMN Trainer Brendan (Lilycove City)": {
+		,"[RuSa] Brendan 4 (Lilycove City)": {
 			"ability":"Guts","level":31,
 			"moves":[ "Quick Attack", "Wing Attack", "Double Team", "Endeavor"],
 			"nature":"Serious","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
@@ -10903,7 +10943,7 @@ var SETDEX_ADV = {
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Treecko": {
-		"[RuSa] PKMN Trainer Brendan (Route 103)": {
+		"[RuSa] Brendan 1 w/ Treecko (Route 103)": {
 			"ability":"Overgrow","level":5,
 			"moves":[ "Pound", "Leer"],
 			"nature":"Calm","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
@@ -11327,15 +11367,15 @@ var SETDEX_ADV = {
 			"ability":"Water Veil","level":29,
 			"moves":[ "Rollout", "Whirlpool", "Astonish", "Water Pulse"],
 			"nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] PKMN Trainer Brendan (Lilycove City)": {
+		,"[RuSa] Brendan 4 w/ Treecko (Lilycove City)": {
 			"ability":"Water Veil","level":32,
 			"moves":[ "Whirlpool", "Astonish", "Water Pulse", "Mist"],
 			"ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
-		,"[RuSa] PKMN Trainer Brendan (Route 110)": {
+		,"[RuSa] Brendan 2 w/ Treecko (Route 110)": {
 			"ability":"Water Veil","level":18,
 			"moves":[ "Splash", "Growl", "Water Gun", "Rollout"],
 			"nature":"Quirky","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
-		,"[RuSa] PKMN Trainer Brendan (Route 119)": {
+		,"[RuSa] Brendan 3 w/ Treecko (Route 119)": {
 			"ability":"Water Veil","level":29,
 			"moves":[ "Rollout", "Whirlpool", "Astonish", "Water Pulse"],
 			"nature":"Quirky","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
