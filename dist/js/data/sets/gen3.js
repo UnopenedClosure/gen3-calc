@@ -1400,6 +1400,18 @@ var SETDEX_ADV = {
 			"ability":"Blaze","level":34,
 			"moves":[ "Peck", "Sand Attack", "Bulk Up", "Quick Attack"],
 			"nature":"Quiet","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
+		,"[RuSa] Brendan 2 w/ Torchic (Route 110)": {
+			"ability":"Blaze","level":20,
+			"moves":[ "Ember", "Double Kick", "Focus Energy", "Peck"],
+			"nature":"Naive","ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
+		,"[RuSa] Brendan 3 w/ Torchic (Route 119)": {
+			"ability":"Blaze","level":31,
+			"moves":[ "Double Kick", "Peck", "Sand Attack", "Bulk Up"],
+			"nature":"Naive","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"[RuSa] Brendan 4 w/ Torchic (Lilycove City)": {
+			"ability":"Blaze","level":34,
+			"moves":[ "Peck", "Sand Attack", "Bulk Up", "Quick Attack"],
+			"nature":"Modest","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
 	}
 	,"Corphish": {
 		"[Em] Beauty Olivia (Sootopolis Gym)": {
@@ -9347,14 +9359,26 @@ var SETDEX_ADV = {
 			"ability":"Effect Spore","level":18,
 			"moves":[ "Tackle", "Stun Spore", "Leech Seed", "Mega Drain"],
 			"nature":"Lax","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Brendan 2 w/ Torchic (Route 110)": {
+			"ability":"Effect Spore","level":18,
+			"moves":[ "Tackle", "Stun Spore", "Leech Seed", "Mega Drain"],
+			"nature":"Quiet","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
 		,"[RuSa] Brendan 3 w/ Mudkip (Route 119)": {
 			"ability":"Effect Spore","level":29,
 			"moves":[ "Poison Powder", "Headbutt", "Leech Seed", "Mega Drain"],
 			"nature":"Lax","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Brendan 3 w/ Torchic (Route 119)": {
+			"ability":"Effect Spore","level":29,
+			"moves":[ "Poison Powder", "Headbutt", "Leech Seed", "Mega Drain"],
+			"nature":"Quiet","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
 		,"[RuSa] Brendan 4 w/ Mudkip (Lilycove City)": {
 			"ability":"Effect Spore","level":32,
 			"moves":[ "Poison Powder", "Headbutt", "Leech Seed", "Mega Drain"],
 			"nature":"Timid","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Brendan 4 w/ Torchic (Lilycove City)": {
+			"ability":"Effect Spore","level":32,
+			"moves":[ "Poison Powder", "Headbutt", "Leech Seed", "Mega Drain"],
+			"nature":"Bashful","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
 		,"[RuSa] Aroma Lady Rose (Route 118)": {
 			"ability":"Effect Spore","level":16,
 			"moves":[ "Tackle", "Stun Spore", "Leech Seed", "Mega Drain"],
@@ -10905,6 +10929,11 @@ var SETDEX_ADV = {
 			"ability":"Blaze","level":15,
 			"moves":[ "Scratch", "Growl", "Focus Energy", "Ember"],
 			"nature":"Mild","ivs":{"hp":4,"at":4,"sa":4,"sp":4,"df":4,"sd":4}}
+		,"[RuSa] Brendan 1 w/ Torchic (Route 103)": {
+			"ability":"Blaze","level":5,
+			"moves":[ "Scratch", "Growl"],
+			"nature":"Naive","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		
 	}
 	,"Torkoal": {
 		"[RuSa] Leader Flannery (Lavaridge Gym 1F)": {
@@ -11367,18 +11396,30 @@ var SETDEX_ADV = {
 			"ability":"Water Veil","level":29,
 			"moves":[ "Rollout", "Whirlpool", "Astonish", "Water Pulse"],
 			"nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Brendan 4 w/ Treecko (Lilycove City)": {
-			"ability":"Water Veil","level":32,
-			"moves":[ "Whirlpool", "Astonish", "Water Pulse", "Mist"],
-			"ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[RuSa] Brendan 2 w/ Torchic (Route 110)": {
+			"ability":"Water Veil","level":18,
+			"moves":[ "Splash", "Growl", "Water Gun", "Rollout"],
+			"nature":"Rash","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
 		,"[RuSa] Brendan 2 w/ Treecko (Route 110)": {
 			"ability":"Water Veil","level":18,
 			"moves":[ "Splash", "Growl", "Water Gun", "Rollout"],
 			"nature":"Quirky","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[RuSa] Brendan 3 w/ Torchic (Route 119)": {
+			"ability":"Water Veil","level":29,
+			"moves":[ "Rollout", "Whirlpool", "Astonish", "Water Pulse"],
+			"nature":"Rash","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
 		,"[RuSa] Brendan 3 w/ Treecko (Route 119)": {
 			"ability":"Water Veil","level":29,
 			"moves":[ "Rollout", "Whirlpool", "Astonish", "Water Pulse"],
 			"nature":"Quirky","ivs":{"hp":12,"at":12,"df":12,"sa":12,"sd":12,"sp":12}}
+		,"[RuSa] Brendan 4 w/ Torchic (Lilycove City)": {
+			"ability":"Water Veil","level":32,
+			"moves":[ "Whirlpool", "Astonish", "Water Pulse", "Mist"],
+			"nature":"Calm","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[RuSa] Brendan 4 w/ Treecko (Lilycove City)": {
+			"ability":"Water Veil","level":32,
+			"moves":[ "Whirlpool", "Astonish", "Water Pulse", "Mist"],
+			"ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
 		,"[RuSa] Sailor Duncan (Abandoned Ship Corridors B1F)": {
 			"ability":"Water Veil","level":26,
 			"moves":[ "Water Gun", "Rollout", "Whirlpool", "Astonish"],
