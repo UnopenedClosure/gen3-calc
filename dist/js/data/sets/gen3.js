@@ -5029,7 +5029,7 @@ var SETDEX_ADV = {
 		,"[FRLG] Sailor Edmond (S.S. Anne)": {
 			"ability":"Guts","level":18,
 			"moves":[ "Low Kick", "Leer", "Focus Energy", "Karate Chop"],
-			"nature":"Quiet","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+			"nature":"Rash","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 		,"[FRLG] Hiker Jeremy (Route 9)": {
 			"ability":"Guts","level":20,
 			"moves":[ "Leer", "Focus Energy", "Karate Chop", "Seismic Toss"],
