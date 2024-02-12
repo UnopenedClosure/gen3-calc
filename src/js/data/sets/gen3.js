@@ -6852,7 +6852,87 @@ var SETDEX_ADV = {
 			"nature":"Lonely","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
 	}
 	,"Numel": {
-		"[RuSa] Beauty Shirley (Mt. Chimney)": {
+		"[Ruby] Team Magma Grunt 1 (Slateport City)": {
+			"ability":"Oblivious","level":15,
+			"moves":[ "Growl", "Tackle", "Ember"],
+			"nature":"Mild","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Ruby] Team Magma Grunt 2 (Slateport City)": {
+			"ability":"Oblivious","level":14,
+			"moves":[ "Growl", "Tackle", "Ember"],
+			"nature":"Lonely","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Ruby] Magma Admin Tabitha (Mt. Chimney) [1]": {
+			"ability":"Oblivious","level":20,
+			"moves":[ "Growl", "Tackle", "Ember", "Magnitude"],
+			"nature":"Lax","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"[Ruby] Magma Admin Tabitha (Mt. Chimney) [2]": {
+			"ability":"Oblivious","level":20,
+			"moves":[ "Growl", "Tackle", "Ember", "Magnitude"],
+			"nature":"Mild","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"[Ruby] Team Magma Grunt 1 (Weather Institute)": {
+			"ability":"Oblivious","level":28,
+			"moves":[ "Tackle", "Ember", "Magnitude", "Focus Energy"],
+			"nature":"Hardy","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Ruby] Team Magma Grunt 3 (Weather Institute)": {
+			"ability":"Oblivious","level":27,
+			"moves":[ "Tackle", "Ember", "Magnitude", "Focus Energy"],
+			"nature":"Relaxed","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Ruby] Team Magma Grunt 4 (Weather Institute)": {
+			"ability":"Oblivious","level":26,
+			"moves":[ "Tackle", "Ember", "Magnitude", "Focus Energy"],
+			"nature":"Quiet","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Ruby] Magma Admin Courtney (Weather Institute)": {
+			"ability":"Oblivious","level":28,
+			"moves":[ "Tackle", "Ember", "Magnitude", "Focus Energy"],
+			"nature":"Rash","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"[Ruby] Team Magma Grunt 2 (Mt. Pyre)": {
+			"ability":"Oblivious","level":31,
+			"moves":[ "Magnitude", "Focus Energy", "Take Down", "Amnesia"],
+			"nature":"Relaxed","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Ruby] Team Magma Grunt 3 (Mt. Pyre) [1]": {
+			"ability":"Oblivious","level":31,
+			"moves":[ "Magnitude", "Focus Energy", "Take Down", "Amnesia"],
+			"nature":"Mild","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Ruby] Team Magma Grunt 3 (Mt. Pyre) [2]": {
+			"ability":"Oblivious","level":31,
+			"moves":[ "Magnitude", "Focus Energy", "Take Down", "Amnesia"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Ruby] Team Magma Grunt 3 (Magma Hideout B1F) [1]": {
+			"ability":"Oblivious","level":31,
+			"moves":[ "Magnitude", "Focus Energy", "Take Down", "Amnesia"],
+			"nature":"Mild","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Ruby] Team Magma Grunt 3 (Magma Hideout B1F) [2]": {
+			"ability":"Oblivious","level":31,
+			"moves":[ "Magnitude", "Focus Energy", "Take Down", "Amnesia"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Ruby] Team Magma Grunt 4 (Magma Hideout B1F)": {
+			"ability":"Oblivious","level":32,
+			"moves":[ "Magnitude", "Focus Energy", "Take Down", "Amnesia"],
+			"nature":"Mild","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Ruby] Team Magma Grunt 5 (Magma Hideout B1F)": {
+			"ability":"Oblivious","level":30,
+			"moves":[ "Ember", "Magnitude", "Focus Energy", "Take Down"],
+			"nature":"Quiet","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Ruby] Team Magma Grunt 6 (Magma Hideout B2F)": {
+			"ability":"Oblivious","level":33,
+			"moves":[ "Magnitude", "Focus Energy", "Take Down", "Amnesia"],
+			"nature":"Mild","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Ruby] Magma Admin Tabitha (Magma Hideout B2F)": {
+			"ability":"Oblivious","level":32,
+			"moves":[ "Magnitude", "Focus Energy", "Take Down", "Amnesia"],
+			"nature":"Lax","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"[Ruby] Team Magma Grunt 1 (Seafloor Cavern)": {
+			"ability":"Oblivious","level":37,
+			"moves":[ "Focus Energy", "Take Down", "Amnesia", "Earthquake"],
+			"nature":"Relaxed","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Ruby] Team Magma Grunt 2 (Seafloor Cavern)": {
+			"ability":"Oblivious","level":38,
+			"moves":[ "Focus Energy", "Take Down", "Amnesia", "Earthquake"],
+			"nature":"Mild","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Ruby] Team Magma Grunt 3 (Seafloor Cavern)": {
+			"ability":"Oblivious","level":36,
+			"moves":[ "Focus Energy", "Take Down", "Amnesia", "Earthquake"],
+			"nature":"Quiet","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[RuSa] Beauty Shirley (Mt. Chimney)": {
 			"ability":"Oblivious","level":22,
 			"moves":[ "Growl", "Tackle", "Ember", "Magnitude"],
 			"nature":"Adamant","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
