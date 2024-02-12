@@ -6253,22 +6253,42 @@ var SETDEX_ADV = {
 			"nature":"Sassy","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Mightyena": {
-		"[Sapph] Aqua Admin Matt (Aqua Hideout B2F)": {
-			"ability":"Intimidate","level":32,
-			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
-			"nature":"Naughty","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
-		,"[Sapph] Aqua Admin Shelly (Weather Institute)": {
-			"ability":"Intimidate","level":28,
-			"moves":[ "Bite", "Odor Sleuth", "Roar", "Swagger"],
-			"nature":"Lonely","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
-		,"[Sapph] Aqua Admin Shelly (Seafloor Cavern)": {
-			"ability":"Intimidate","level":38,
-			"moves":[ "Roar", "Swagger", "Scary Face", "Take Down"],
-			"nature":"Lax","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		"[Ruby] Magma Leader Maxie (Mt. Chimney)": {
+			"ability":"Intimidate","level":24,
+			"moves":[ "Sand Attack", "Bite", "Odor Sleuth", "Roar"],
+			"nature":"Lax","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
 		,"[Sapph] Aqua Leader Archie (Mt. Chimney)": {
 			"ability":"Intimidate","level":24,
 			"moves":[ "Sand Attack", "Bite", "Odor Sleuth", "Roar"],
 			"nature":"Brave","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[Ruby] Magma Admin Courtney (Weather Institute)": {
+			"ability":"Intimidate","level":28,
+			"moves":[ "Bite", "Odor Sleuth", "Roar", "Swagger"],
+			"nature":"Naughty","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"[Sapph] Aqua Admin Shelly (Weather Institute)": {
+			"ability":"Intimidate","level":28,
+			"moves":[ "Bite", "Odor Sleuth", "Roar", "Swagger"],
+			"nature":"Lonely","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[Ruby] Magma Admin Tabitha (Magma Hideout B2F)": {
+			"ability":"Intimidate","level":32,
+			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
+			"nature":"Bashful","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"[Sapph] Aqua Admin Matt (Aqua Hideout B2F)": {
+			"ability":"Intimidate","level":32,
+			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
+			"nature":"Naughty","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[Ruby] Magma Admin Courtney (Seafloor Cavern)": {
+			"ability":"Intimidate","level":38,
+			"moves":[ "Roar", "Swagger", "Scary Face", "Take Down"],
+			"nature":"Rash","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"[Sapph] Aqua Admin Shelly (Seafloor Cavern)": {
+			"ability":"Intimidate","level":38,
+			"moves":[ "Roar", "Swagger", "Scary Face", "Take Down"],
+			"nature":"Lax","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[Ruby] Magma Leader Maxie (Seafloor Cavern)": {
+			"ability":"Intimidate","level":41,
+			"moves":[ "Roar", "Swagger", "Scary Face", "Take Down"],
+			"nature":"Lax","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
 		,"[Sapph] Aqua Leader Archie (Seafloor Cavern)": {
 			"ability":"Intimidate","level":41,
 			"moves":[ "Roar", "Swagger", "Scary Face", "Take Down"],
