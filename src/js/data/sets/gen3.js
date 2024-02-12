@@ -7913,27 +7913,7 @@ var SETDEX_ADV = {
 			"ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
 	}
 	,"Poochyena": {
-		"[Sapph] Aqua Admin Matt (Mt. Chimney)": {
-			"ability":"Run Away","level":20,
-			"moves":[ "Howl", "Sand Attack", "Bite", "Odor Sleuth"],
-			"nature":"Naughty","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
-		,"[RuSa] Pokémon Breeder Isaac (Route 117)": {
-			"ability":"Run Away","level":12,
-			"moves":[ "Tackle", "Howl", "Sand Attack"],
-			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[Sapph] Team Aqua Grunt (Aqua Hideout 1F) [1]": {
-			"ability":"Run Away","level":32,
-			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
-			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[Sapph] Team Aqua Grunt (Aqua Hideout 1F) [2]": {
-			"ability":"Run Away","level":32,
-			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
-			"nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[Sapph] Team Aqua Grunt (Mt. Chimney)": {
-			"ability":"Run Away","level":20,
-			"moves":[ "Howl", "Sand Attack", "Bite", "Odor Sleuth"],
-			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[Ruby] Team Magma Grunt (Petalburg Woods)": {
+		"[Ruby] Team Magma Grunt (Petalburg Woods)": {
 			"ability":"Run Away","level":9,
 			"moves":[ "Tackle", "Howl", "Sand Attack"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -7949,42 +7929,114 @@ var SETDEX_ADV = {
 			"ability":"Run Away","level":11,
 			"moves":[ "Tackle", "Howl", "Sand Attack"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[Sapph] Team Aqua Grunt (Seafloor Cavern)": {
-			"ability":"Run Away","level":36,
-			"moves":[ "Roar", "Swagger", "Scary Face", "Take Down"],
-			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[Sapph] Team Aqua Grunt 1 (Aqua Hideout B1F)": {
-			"ability":"Run Away","level":31,
-			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
-			"nature":"Hasty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[Sapph] Team Aqua Grunt 1 (Seafloor Cavern)": {
-			"ability":"Run Away","level":37,
-			"moves":[ "Swagger", "Scary Face", "Take Down", "Taunt"],
-			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[Sapph] Team Aqua Grunt 2 (Aqua Hideout B1F) [1]": {
-			"ability":"Run Away","level":30,
-			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
+		,"[Ruby] Team Magma Grunt (Mt. Chimney)": {
+			"ability":"Run Away","level":20,
+			"moves":[ "Howl", "Sand Attack", "Bite", "Odor Sleuth"],
+			"nature":"Serious","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Sapph] Team Aqua Grunt (Mt. Chimney)": {
+			"ability":"Run Away","level":20,
+			"moves":[ "Howl", "Sand Attack", "Bite", "Odor Sleuth"],
 			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[Sapph] Team Aqua Grunt 2 (Aqua Hideout B1F) [2]": {
-			"ability":"Run Away","level":30,
-			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
-			"nature":"Quirky","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[Sapph] Team Aqua Grunt 2 (Mt. Pyre)": {
-			"ability":"Run Away","level":31,
-			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
-			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Ruby] Magma Admin Tabitha (Mt. Chimney)": {
+			"ability":"Run Away","level":20,
+			"moves":[ "Howl", "Sand Attack", "Bite", "Odor Sleuth"],
+			"nature":"Bashful","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"[Sapph] Aqua Admin Matt (Mt. Chimney)": {
+			"ability":"Run Away","level":20,
+			"moves":[ "Howl", "Sand Attack", "Bite", "Odor Sleuth"],
+			"nature":"Naughty","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
+		,"[Ruby] Team Magma Grunt 2 (Weather Institute)": {
+			"ability":"Run Away","level":27,
+			"moves":[ "Bite", "Odor Sleuth", "Roar", "Swagger"],
+			"nature":"Serious","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 		,"[Sapph] Team Aqua Grunt 2 (Weather Institute)": {
 			"ability":"Run Away","level":27,
 			"moves":[ "Bite", "Odor Sleuth", "Roar", "Swagger"],
 			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Ruby] Team Magma Grunt 3 (Weather Institute)": {
+			"ability":"Run Away","level":27,
+			"moves":[ "Bite", "Odor Sleuth", "Roar", "Swagger"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 		,"[Sapph] Team Aqua Grunt 3 (Weather Institute)": {
 			"ability":"Run Away","level":27,
 			"moves":[ "Bite", "Odor Sleuth", "Roar", "Swagger"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Ruby] Team Magma Grunt 4 (Weather Institute)": {
+			"ability":"Run Away","level":26,
+			"moves":[ "Bite", "Odor Sleuth", "Roar", "Swagger"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 		,"[Sapph] Team Aqua Grunt 4 (Weather Institute)": {
 			"ability":"Run Away","level":26,
 			"moves":[ "Bite", "Odor Sleuth", "Roar", "Swagger"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Ruby] Team Magma Grunt 2 (Mt. Pyre)": {
+			"ability":"Run Away","level":31,
+			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Sapph] Team Aqua Grunt 2 (Mt. Pyre)": {
+			"ability":"Run Away","level":31,
+			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Ruby] Team Magma Grunt 1 (Magma Hideout 1F) [1]": {
+			"ability":"Run Away","level":32,
+			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Sapph] Team Aqua Grunt 1 (Aqua Hideout 1F) [1]": {
+			"ability":"Run Away","level":32,
+			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Ruby] Team Magma Grunt 1 (Magma Hideout 1F) [2]": {
+			"ability":"Run Away","level":32,
+			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
+			"nature":"Bashful","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Sapph] Team Aqua Grunt 1 (Aqua Hideout 1F) [2]": {
+			"ability":"Run Away","level":32,
+			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
+			"nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Ruby] Team Magma Grunt 3 (Magma Hideout B1F)": {
+			"ability":"Run Away","level":31,
+			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
+			"nature":"Hasty","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Sapph] Team Aqua Grunt 3 (Aqua Hideout B1F)": {
+			"ability":"Run Away","level":31,
+			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
+			"nature":"Hasty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Ruby] Team Magma Grunt 5 (Magma Hideout B1F) [1]": {
+			"ability":"Run Away","level":30,
+			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
+			"nature":"Serious","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Sapph] Team Aqua Grunt 5 (Aqua Hideout B1F) [1]": {
+			"ability":"Run Away","level":30,
+			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
+			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Ruby] Team Magma Grunt 5 (Magma Hideout B1F) [2]": {
+			"ability":"Run Away","level":30,
+			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
+			"nature":"Impish","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Sapph] Team Aqua Grunt 5 (Aqua Hideout B1F) [2]": {
+			"ability":"Run Away","level":30,
+			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
+			"nature":"Quirky","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Ruby] Team Magma Grunt 1 (Seafloor Cavern)": {
+			"ability":"Run Away","level":37,
+			"moves":[ "Swagger", "Scary Face", "Take Down", "Taunt"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Sapph] Team Aqua Grunt 1 (Seafloor Cavern)": {
+			"ability":"Run Away","level":37,
+			"moves":[ "Swagger", "Scary Face", "Take Down", "Taunt"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Ruby] Team Magma Grunt 3 (Seafloor Cavern)": {
+			"ability":"Run Away","level":36,
+			"moves":[ "Roar", "Swagger", "Scary Face", "Take Down"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Sapph] Team Aqua Grunt 3 (Seafloor Cavern)": {
+			"ability":"Run Away","level":36,
+			"moves":[ "Roar", "Swagger", "Scary Face", "Take Down"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[RuSa] Pokémon Breeder Isaac (Route 117)": {
+			"ability":"Run Away","level":12,
+			"moves":[ "Tackle", "Howl", "Sand Attack"],
+			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
 		,"[RuSa] Youngster Allen (Route 102)": {
 			"ability":"Run Away","level":5,
 			"moves":[ "Tackle", "Howl"],
