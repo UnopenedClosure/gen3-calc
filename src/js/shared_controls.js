@@ -920,7 +920,9 @@ $(".notation").change(function () {
 });
 
 $(".gen3game").change(function () {
-	if ($("#sapph").prop("checked")) {
+	if ($("#ruby").prop("checked")) {
+		gen3game = "Ruby"
+	} else if ($("#sapph").prop("checked")) {
 		gen3game = "Sapph"
 	} else if ($("#em").prop("checked")) {
 		gen3game = "Em"

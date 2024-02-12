@@ -7853,6 +7853,10 @@ var SETDEX_ADV = {
 			"ability":"Run Away","level":20,
 			"moves":[ "Howl", "Sand Attack", "Bite", "Odor Sleuth"],
 			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Ruby] Team Magma Grunt (Petalburg Woods)": {
+			"ability":"Run Away","level":9,
+			"moves":[ "Tackle", "Howl", "Sand Attack"],
+			"nature":"Brave","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 		,"[Sapph] Team Aqua Grunt (Petalburg Woods)": {
 			"ability":"Run Away","level":9,
 			"moves":[ "Tackle", "Howl", "Sand Attack"],
