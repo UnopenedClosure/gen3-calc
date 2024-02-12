@@ -12520,49 +12520,93 @@ var SETDEX_ADV = {
 			"nature":"Careful","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Zubat": {
-		"[Sapph] Team Aqua Grunt (Mt. Chimney)": {
-			"ability":"Inner Focus","level":20,
-			"moves":[ "Leech Life", "Supersonic", "Astonish", "Bite"],
-			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[Sapph] Team Aqua Grunt (Seafloor Cavern)": {
-			"ability":"Inner Focus","level":36,
-			"moves":[ "Wing Attack", "Confuse Ray", "Air Cutter", "Mean Look"],
-			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[Sapph] Team Aqua Grunt 1 (Mt. Pyre) [1]": {
-			"ability":"Inner Focus","level":30,
-			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
-			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[Sapph] Team Aqua Grunt 1 (Mt. Pyre) [2]": {
-			"ability":"Inner Focus","level":30,
-			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
-			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[Sapph] Team Aqua Grunt 1 (Mt. Pyre) [3]": {
-			"ability":"Inner Focus","level":30,
-			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
-			"nature":"Mild","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[Sapph] Team Aqua Grunt 2 (Aqua Hideout B1F)": {
-			"ability":"Inner Focus","level":30,
-			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
-			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[Sapph] Team Aqua Grunt 2 (Aqua Hideout B2F)": {
-			"ability":"Inner Focus","level":33,
-			"moves":[ "Bite", "Wing Attack", "Confuse Ray", "Air Cutter"],
-			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[Sapph] Team Aqua Grunt 2 (Weather Institute)": {
-			"ability":"Inner Focus","level":27,
-			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
-			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		"[Ruby] Team Magma Grunt 2 (Slateport City)": {
+			"ability":"Inner Focus","level":14,
+			"moves":[ "Leech Life", "Supersonic", "Astonish"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 		,"[Sapph] Team Aqua Grunt 2 (Slateport City)": {
 			"ability":"Inner Focus","level":14,
 			"moves":[ "Leech Life", "Supersonic", "Astonish"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[Sapph] Team Aqua Grunt 3 (Aqua Hideout B1F)": {
-			"ability":"Inner Focus","level":32,
-			"moves":[ "Bite", "Wing Attack", "Confuse Ray", "Air Cutter"],
-			"nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Ruby] Team Magma Grunt (Mt. Chimney)": {
+			"ability":"Inner Focus","level":20,
+			"moves":[ "Leech Life", "Supersonic", "Astonish", "Bite"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Sapph] Team Aqua Grunt (Mt. Chimney)": {
+			"ability":"Inner Focus","level":20,
+			"moves":[ "Leech Life", "Supersonic", "Astonish", "Bite"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Ruby] Team Magma Grunt 2 (Weather Institute)": {
+			"ability":"Inner Focus","level":27,
+			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Sapph] Team Aqua Grunt 2 (Weather Institute)": {
+			"ability":"Inner Focus","level":27,
+			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Ruby] Team Magma Grunt 4 (Weather Institute)": {
+			"ability":"Inner Focus","level":26,
+			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
+			"nature":"Serious","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 		,"[Sapph] Team Aqua Grunt 4 (Weather Institute)": {
 			"ability":"Inner Focus","level":26,
 			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
+			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Ruby] Team Magma Grunt 1 (Mt. Pyre) [1]": {
+			"ability":"Inner Focus","level":30,
+			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Sapph] Team Aqua Grunt 1 (Mt. Pyre) [1]": {
+			"ability":"Inner Focus","level":30,
+			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Ruby] Team Magma Grunt 1 (Mt. Pyre) [2]": {
+			"ability":"Inner Focus","level":30,
+			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Sapph] Team Aqua Grunt 1 (Mt. Pyre) [2]": {
+			"ability":"Inner Focus","level":30,
+			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
+			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Ruby] Team Magma Grunt 1 (Mt. Pyre) [3]": {
+			"ability":"Inner Focus","level":30,
+			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
+			"nature":"Mild","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Sapph] Team Aqua Grunt 1 (Mt. Pyre) [3]": {
+			"ability":"Inner Focus","level":30,
+			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
+			"nature":"Mild","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Ruby] Team Magma Grunt 2 (Magma Hideout B2F)": {
+			"ability":"Inner Focus","level":33,
+			"moves":[ "Bite", "Wing Attack", "Confuse Ray", "Air Cutter"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Sapph] Team Aqua Grunt 2 (Aqua Hideout B2F)": {
+			"ability":"Inner Focus","level":33,
+			"moves":[ "Bite", "Wing Attack", "Confuse Ray", "Air Cutter"],
+			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Ruby] Team Magma Grunt 4 (Magma Hideout B1F)": {
+			"ability":"Inner Focus","level":32,
+			"moves":[ "Bite", "Wing Attack", "Confuse Ray", "Air Cutter"],
+			"nature":"Lonely","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Sapph] Team Aqua Grunt 4 (Aqua Hideout B1F)": {
+			"ability":"Inner Focus","level":32,
+			"moves":[ "Bite", "Wing Attack", "Confuse Ray", "Air Cutter"],
+			"nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Ruby] Team Magma Grunt 5 (Magma Hideout B1F)": {
+			"ability":"Inner Focus","level":30,
+			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Sapph] Team Aqua Grunt 5 (Aqua Hideout B1F)": {
+			"ability":"Inner Focus","level":30,
+			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
+			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
+		,"[Ruby] Team Magma Grunt 3 (Seafloor Cavern)": {
+			"ability":"Inner Focus","level":36,
+			"moves":[ "Wing Attack", "Confuse Ray", "Air Cutter", "Mean Look"],
+			"nature":"Serious","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
+		,"[Sapph] Team Aqua Grunt 3 (Seafloor Cavern)": {
+			"ability":"Inner Focus","level":36,
+			"moves":[ "Wing Attack", "Confuse Ray", "Air Cutter", "Mean Look"],
 			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
 		,"[Em] Aqua Grunt 2 (Mt. Pyre)": {
 			"ability":"Inner Focus","level":32,
