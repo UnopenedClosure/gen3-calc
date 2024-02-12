@@ -776,19 +776,19 @@ var SETDEX_ADV = {
 			"nature":"Adamant","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
 	}
 	,"Carvanha": {
-		"[RuSa] Aqua Admin Matt (Aqua Hideout B2F)": {
+		"[Sapph] Aqua Admin Matt (Aqua Hideout B2F)": {
 			"ability":"Rough Skin","level":32,
 			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
 			"nature":"Timid","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
-		,"[RuSa] Aqua Admin Matt (Mt. Chimney) [1]": {
+		,"[Sapph] Aqua Admin Matt (Mt. Chimney) [1]": {
 			"ability":"Rough Skin","level":20,
 			"moves":[ "Bite", "Rage", "Focus Energy", "Scary Face"],
 			"nature":"Timid","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
-		,"[RuSa] Aqua Admin Matt (Mt. Chimney) [2]": {
+		,"[Sapph] Aqua Admin Matt (Mt. Chimney) [2]": {
 			"ability":"Rough Skin","level":20,
 			"moves":[ "Bite", "Rage", "Focus Energy", "Scary Face"],
 			"nature":"Adamant","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
-		,"[RuSa] Aqua Admin Shelly (Weather Institute)": {
+		,"[Sapph] Aqua Admin Shelly (Weather Institute)": {
 			"ability":"Rough Skin","level":28,
 			"moves":[ "Focus Energy", "Scary Face", "Crunch", "Screech"],
 			"nature":"Jolly","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
@@ -856,67 +856,67 @@ var SETDEX_ADV = {
 			"ability":"Rough Skin","level":27,
 			"moves":[ "Rage", "Focus Energy", "Scary Face", "Crunch"],
 			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt (Seafloor Cavern)": {
+		,"[Sapph] Team Aqua Grunt (Seafloor Cavern)": {
 			"ability":"Rough Skin","level":36,
 			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
 			"nature":"Impish","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 1 (Aqua Hideout B1F) [1]": {
+		,"[Sapph] Team Aqua Grunt 1 (Aqua Hideout B1F) [1]": {
 			"ability":"Rough Skin","level":31,
 			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
 			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 1 (Aqua Hideout B1F) [2]": {
+		,"[Sapph] Team Aqua Grunt 1 (Aqua Hideout B1F) [2]": {
 			"ability":"Rough Skin","level":31,
 			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
 			"nature":"Adamant","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 1 (Aqua Hideout B2F)": {
+		,"[Sapph] Team Aqua Grunt 1 (Aqua Hideout B2F)": {
 			"ability":"Rough Skin","level":33,
 			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
 			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 1 (Weather Institute)": {
+		,"[Sapph] Team Aqua Grunt 1 (Weather Institute)": {
 			"ability":"Rough Skin","level":28,
 			"moves":[ "Focus Energy", "Scary Face", "Crunch", "Screech"],
 			"nature":"Mild","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 1 (Seafloor Cavern)": {
+		,"[Sapph] Team Aqua Grunt 1 (Seafloor Cavern)": {
 			"ability":"Rough Skin","level":37,
 			"moves":[ "Crunch", "Screech", "Take Down", "Swagger"],
 			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 1 (Slateport City)": {
+		,"[Sapph] Team Aqua Grunt 1 (Slateport City)": {
 			"ability":"Rough Skin","level":15,
 			"moves":[ "Leer", "Bite", "Rage", "Focus Energy"],
 			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 2 (Aqua Hideout B1F)": {
+		,"[Sapph] Team Aqua Grunt 2 (Aqua Hideout B1F)": {
 			"ability":"Rough Skin","level":30,
 			"moves":[ "Focus Energy", "Scary Face", "Crunch", "Screech"],
 			"nature":"Impish","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 2 (Mt. Pyre)": {
+		,"[Sapph] Team Aqua Grunt 2 (Mt. Pyre)": {
 			"ability":"Rough Skin","level":31,
 			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
 			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 2 (Seafloor Cavern)": {
+		,"[Sapph] Team Aqua Grunt 2 (Seafloor Cavern)": {
 			"ability":"Rough Skin","level":38,
 			"moves":[ "Crunch", "Screech", "Take Down", "Swagger"],
 			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 2 (Slateport City)": {
+		,"[Sapph] Team Aqua Grunt 2 (Slateport City)": {
 			"ability":"Rough Skin","level":14,
 			"moves":[ "Leer", "Bite", "Rage", "Focus Energy"],
 			"nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 3 (Aqua Hideout B1F)": {
+		,"[Sapph] Team Aqua Grunt 3 (Aqua Hideout B1F)": {
 			"ability":"Rough Skin","level":32,
 			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
 			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 3 (Mt. Pyre) [1]": {
+		,"[Sapph] Team Aqua Grunt 3 (Mt. Pyre) [1]": {
 			"ability":"Rough Skin","level":31,
 			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
 			"nature":"Relaxed","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 3 (Mt. Pyre) [2]": {
+		,"[Sapph] Team Aqua Grunt 3 (Mt. Pyre) [2]": {
 			"ability":"Rough Skin","level":31,
 			"moves":[ "Scary Face", "Crunch", "Screech", "Take Down"],
 			"nature":"Adamant","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 3 (Weather Institute)": {
+		,"[Sapph] Team Aqua Grunt 3 (Weather Institute)": {
 			"ability":"Rough Skin","level":27,
 			"moves":[ "Rage", "Focus Energy", "Scary Face", "Crunch"],
 			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 4 (Weather Institute)": {
+		,"[Sapph] Team Aqua Grunt 4 (Weather Institute)": {
 			"ability":"Rough Skin","level":26,
 			"moves":[ "Rage", "Focus Energy", "Scary Face", "Crunch"],
 			"nature":"Impish","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
@@ -1440,7 +1440,7 @@ var SETDEX_ADV = {
 			"nature":"Adamant","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
 	}
 	,"Crobat": {
-		"[RuSa] Aqua Leader Archie (Seafloor Cavern)": {
+		"[Sapph] Aqua Leader Archie (Seafloor Cavern)": {
 			"ability":"Inner Focus","level":41,
 			"moves":[ "Bite", "Wing Attack", "Confuse Ray", "Air Cutter"],
 			"nature":"Serious","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
@@ -2601,7 +2601,7 @@ var SETDEX_ADV = {
 			"ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
 	}
 	,"Golbat": {
-		"[RuSa] Aqua Leader Archie (Mt. Chimney)": {
+		"[Sapph] Aqua Leader Archie (Mt. Chimney)": {
 			"ability":"Inner Focus","level":24,
 			"moves":[ "Supersonic", "Astonish", "Bite", "Wing Attack"],
 			"ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
@@ -6253,23 +6253,23 @@ var SETDEX_ADV = {
 			"nature":"Sassy","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Mightyena": {
-		"[RuSa] Aqua Admin Matt (Aqua Hideout B2F)": {
+		"[Sapph] Aqua Admin Matt (Aqua Hideout B2F)": {
 			"ability":"Intimidate","level":32,
 			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
 			"nature":"Naughty","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
-		,"[RuSa] Aqua Admin Shelly (Weather Institute)": {
+		,"[Sapph] Aqua Admin Shelly (Weather Institute)": {
 			"ability":"Intimidate","level":28,
 			"moves":[ "Bite", "Odor Sleuth", "Roar", "Swagger"],
 			"nature":"Lonely","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
-		,"[RuSa] Aqua Admin Shelly (Seafloor Cavern)": {
+		,"[Sapph] Aqua Admin Shelly (Seafloor Cavern)": {
 			"ability":"Intimidate","level":38,
 			"moves":[ "Roar", "Swagger", "Scary Face", "Take Down"],
 			"nature":"Lax","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
-		,"[RuSa] Aqua Leader Archie (Mt. Chimney)": {
+		,"[Sapph] Aqua Leader Archie (Mt. Chimney)": {
 			"ability":"Intimidate","level":24,
 			"moves":[ "Sand Attack", "Bite", "Odor Sleuth", "Roar"],
 			"nature":"Brave","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
-		,"[RuSa] Aqua Leader Archie (Seafloor Cavern)": {
+		,"[Sapph] Aqua Leader Archie (Seafloor Cavern)": {
 			"ability":"Intimidate","level":41,
 			"moves":[ "Roar", "Swagger", "Scary Face", "Take Down"],
 			"nature":"Brave","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
@@ -7833,7 +7833,7 @@ var SETDEX_ADV = {
 			"ivs":{"hp":12,"at":12,"sa":12,"sp":12,"df":12,"sd":12}}
 	}
 	,"Poochyena": {
-		"[RuSa] Aqua Admin Matt (Mt. Chimney)": {
+		"[Sapph] Aqua Admin Matt (Mt. Chimney)": {
 			"ability":"Run Away","level":20,
 			"moves":[ "Howl", "Sand Attack", "Bite", "Odor Sleuth"],
 			"nature":"Naughty","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
@@ -7841,59 +7841,59 @@ var SETDEX_ADV = {
 			"ability":"Run Away","level":12,
 			"moves":[ "Tackle", "Howl", "Sand Attack"],
 			"nature":"Careful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt (Aqua Hideout 1F) [1]": {
+		,"[Sapph] Team Aqua Grunt (Aqua Hideout 1F) [1]": {
 			"ability":"Run Away","level":32,
 			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt (Aqua Hideout 1F) [2]": {
+		,"[Sapph] Team Aqua Grunt (Aqua Hideout 1F) [2]": {
 			"ability":"Run Away","level":32,
 			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
 			"nature":"Bashful","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt (Mt. Chimney)": {
+		,"[Sapph] Team Aqua Grunt (Mt. Chimney)": {
 			"ability":"Run Away","level":20,
 			"moves":[ "Howl", "Sand Attack", "Bite", "Odor Sleuth"],
 			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt (Petalburg Woods)": {
+		,"[Sapph] Team Aqua Grunt (Petalburg Woods)": {
 			"ability":"Run Away","level":9,
 			"moves":[ "Tackle", "Howl", "Sand Attack"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt (Rusturf Tunnel)": {
+		,"[Sapph] Team Aqua Grunt (Rusturf Tunnel)": {
 			"ability":"Run Away","level":11,
 			"moves":[ "Tackle", "Howl", "Sand Attack"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt (Seafloor Cavern)": {
+		,"[Sapph] Team Aqua Grunt (Seafloor Cavern)": {
 			"ability":"Run Away","level":36,
 			"moves":[ "Roar", "Swagger", "Scary Face", "Take Down"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 1 (Aqua Hideout B1F)": {
+		,"[Sapph] Team Aqua Grunt 1 (Aqua Hideout B1F)": {
 			"ability":"Run Away","level":31,
 			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
 			"nature":"Hasty","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 1 (Seafloor Cavern)": {
+		,"[Sapph] Team Aqua Grunt 1 (Seafloor Cavern)": {
 			"ability":"Run Away","level":37,
 			"moves":[ "Swagger", "Scary Face", "Take Down", "Taunt"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 2 (Aqua Hideout B1F) [1]": {
+		,"[Sapph] Team Aqua Grunt 2 (Aqua Hideout B1F) [1]": {
 			"ability":"Run Away","level":30,
 			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
 			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 2 (Aqua Hideout B1F) [2]": {
+		,"[Sapph] Team Aqua Grunt 2 (Aqua Hideout B1F) [2]": {
 			"ability":"Run Away","level":30,
 			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
 			"nature":"Quirky","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 2 (Mt. Pyre)": {
+		,"[Sapph] Team Aqua Grunt 2 (Mt. Pyre)": {
 			"ability":"Run Away","level":31,
 			"moves":[ "Odor Sleuth", "Roar", "Swagger", "Scary Face"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 2 (Weather Institute)": {
+		,"[Sapph] Team Aqua Grunt 2 (Weather Institute)": {
 			"ability":"Run Away","level":27,
 			"moves":[ "Bite", "Odor Sleuth", "Roar", "Swagger"],
 			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 3 (Weather Institute)": {
+		,"[Sapph] Team Aqua Grunt 3 (Weather Institute)": {
 			"ability":"Run Away","level":27,
 			"moves":[ "Bite", "Odor Sleuth", "Roar", "Swagger"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 4 (Weather Institute)": {
+		,"[Sapph] Team Aqua Grunt 4 (Weather Institute)": {
 			"ability":"Run Away","level":26,
 			"moves":[ "Bite", "Odor Sleuth", "Roar", "Swagger"],
 			"nature":"Brave","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
@@ -9104,19 +9104,19 @@ var SETDEX_ADV = {
 			"moves":[ "Sludge Bomb", "Crunch", "Giga Drain", "Swagger"]}
 	}
 	,"Sharpedo": {
-		"[RuSa] Aqua Admin Matt (Aqua Hideout B2F)": {
+		"[Sapph] Aqua Admin Matt (Aqua Hideout B2F)": {
 			"ability":"Rough Skin","level":32,
 			"moves":[ "Focus Energy", "Scary Face", "Crunch", "Screech"],
 			"nature":"Hasty","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
-		,"[RuSa] Aqua Admin Shelly (Seafloor Cavern)": {
+		,"[Sapph] Aqua Admin Shelly (Seafloor Cavern)": {
 			"ability":"Rough Skin","level":38,
 			"moves":[ "Crunch", "Screech", "Slash", "Taunt"],
 			"nature":"Gentle","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
-		,"[RuSa] Aqua Leader Archie (Mt. Chimney)": {
+		,"[Sapph] Aqua Leader Archie (Mt. Chimney)": {
 			"ability":"Rough Skin","level":25,
 			"moves":[ "Rage", "Focus Energy", "Scary Face", "Crunch"],
 			"nature":"Naughty","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
-		,"[RuSa] Aqua Leader Archie (Seafloor Cavern)": {
+		,"[Sapph] Aqua Leader Archie (Seafloor Cavern)": {
 			"ability":"Rough Skin","level":43,
 			"moves":[ "Screech", "Slash", "Taunt", "Swagger"],
 			"nature":"Mild","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
@@ -12380,47 +12380,47 @@ var SETDEX_ADV = {
 			"nature":"Careful","ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
 	}
 	,"Zubat": {
-		"[RuSa] Team Aqua Grunt (Mt. Chimney)": {
+		"[Sapph] Team Aqua Grunt (Mt. Chimney)": {
 			"ability":"Inner Focus","level":20,
 			"moves":[ "Leech Life", "Supersonic", "Astonish", "Bite"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt (Seafloor Cavern)": {
+		,"[Sapph] Team Aqua Grunt (Seafloor Cavern)": {
 			"ability":"Inner Focus","level":36,
 			"moves":[ "Wing Attack", "Confuse Ray", "Air Cutter", "Mean Look"],
 			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 1 (Mt. Pyre) [1]": {
+		,"[Sapph] Team Aqua Grunt 1 (Mt. Pyre) [1]": {
 			"ability":"Inner Focus","level":30,
 			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 1 (Mt. Pyre) [2]": {
+		,"[Sapph] Team Aqua Grunt 1 (Mt. Pyre) [2]": {
 			"ability":"Inner Focus","level":30,
 			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
 			"nature":"Docile","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 1 (Mt. Pyre) [3]": {
+		,"[Sapph] Team Aqua Grunt 1 (Mt. Pyre) [3]": {
 			"ability":"Inner Focus","level":30,
 			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
 			"nature":"Mild","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 2 (Aqua Hideout B1F)": {
+		,"[Sapph] Team Aqua Grunt 2 (Aqua Hideout B1F)": {
 			"ability":"Inner Focus","level":30,
 			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 2 (Aqua Hideout B2F)": {
+		,"[Sapph] Team Aqua Grunt 2 (Aqua Hideout B2F)": {
 			"ability":"Inner Focus","level":33,
 			"moves":[ "Bite", "Wing Attack", "Confuse Ray", "Air Cutter"],
 			"nature":"Bold","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 2 (Weather Institute)": {
+		,"[Sapph] Team Aqua Grunt 2 (Weather Institute)": {
 			"ability":"Inner Focus","level":27,
 			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 2 (Slateport City)": {
+		,"[Sapph] Team Aqua Grunt 2 (Slateport City)": {
 			"ability":"Inner Focus","level":14,
 			"moves":[ "Leech Life", "Supersonic", "Astonish"],
 			"nature":"Gentle","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 3 (Aqua Hideout B1F)": {
+		,"[Sapph] Team Aqua Grunt 3 (Aqua Hideout B1F)": {
 			"ability":"Inner Focus","level":32,
 			"moves":[ "Bite", "Wing Attack", "Confuse Ray", "Air Cutter"],
 			"nature":"Quiet","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}
-		,"[RuSa] Team Aqua Grunt 4 (Weather Institute)": {
+		,"[Sapph] Team Aqua Grunt 4 (Weather Institute)": {
 			"ability":"Inner Focus","level":26,
 			"moves":[ "Astonish", "Bite", "Wing Attack", "Confuse Ray"],
 			"nature":"Serious","ivs":{"hp":0,"at":0,"df":0,"sa":0,"sd":0,"sp":0}}

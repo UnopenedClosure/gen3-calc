@@ -920,8 +920,8 @@ $(".notation").change(function () {
 });
 
 $(".gen3game").change(function () {
-	if ($("#rusa").prop("checked")) {
-		gen3game = "RuSa"
+	if ($("#sapph").prop("checked")) {
+		gen3game = "Sapph"
 	} else if ($("#em").prop("checked")) {
 		gen3game = "Em"
 	} else if ($("#frlg").prop("checked")) {
@@ -1161,11 +1161,31 @@ function loadDefaultLists() {
 					} else {
 						if (gen3game === "All") {
 							results.push(option);
-						} else {
+						} else if (gen3game === "Em" || gen3game === "FRLG") {
 							var rBrace = option.text.indexOf("]");
 							if (rBrace != -1) {
 								var lBrace = option.text.indexOf("[");
 								if (option.text.substring(lBrace + 1, rBrace) === gen3game) {
+									results.push(option);
+								}
+							} else {
+								results.push(option); //Should only be Blank Set
+							}
+						} else if (gen3game === "Sapph"){
+							var rBrace = option.text.indexOf("]");
+							if (rBrace != -1) {
+								var lBrace = option.text.indexOf("[");
+								if (option.text.substring(lBrace + 1, rBrace) === "Sapph" || option.text.substring(lBrace + 1, rBrace) === "RuSa") {
+									results.push(option);
+								}
+							} else {
+								results.push(option); //Should only be Blank Set
+							}
+						} else { // Ruby
+							var rBrace = option.text.indexOf("]");
+							if (rBrace != -1) {
+								var lBrace = option.text.indexOf("[");
+								if (option.text.substring(lBrace + 1, rBrace) === "Ruby" || option.text.substring(lBrace + 1, rBrace) === "RuSa") {
 									results.push(option);
 								}
 							} else {
