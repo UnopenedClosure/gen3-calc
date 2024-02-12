@@ -746,7 +746,23 @@ var SETDEX_ADV = {
 			"nature":"Impish","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
 	}
 	,"Camerupt": {
-		"[Em] Cooltrainer Darcy (Route 132)": {
+		"[Ruby] Magma Leader Maxie (Mt. Chimney)": {
+			"ability":"Magma Armor","level":25,
+			"moves":[ "Tackle", "Ember", "Magnitude", "Focus Energy"],
+			"nature":"Mild","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"[Ruby] Magma Admin Tabitha (Magma Hideout B2F)": {
+			"ability":"Magma Armor","level":32,
+			"moves":[ "Magnitude", "Focus Energy", "Take Down", "Amnesia"],
+			"nature":"Docile","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"[Ruby] Magma Admin Courtney (Seafloor Cavern)": {
+			"ability":"Magma Armor","level":38,
+			"moves":[ "Take Down", "Amnesia", "Rock Slide", "Earthquake"],
+			"nature":"Lax","ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
+		,"[Ruby] Magma Leader Maxie (Seafloor Cavern)": {
+			"ability":"Magma Armor","level":43,
+			"moves":[ "Take Down", "Amnesia", "Rock Slide", "Earthquake"],
+			"nature":"Adamant","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"[Em] Cooltrainer Darcy (Route 132)": {
 			"ability":"Magma Armor","level":33,
 			"moves":[ "Focus Energy", "Take Down", "Amnesia", "Rock Slide"],
 			"ivs":{"hp":0,"at":0,"sa":0,"sp":0,"df":0,"sd":0}}
@@ -1440,7 +1456,11 @@ var SETDEX_ADV = {
 			"nature":"Adamant","ivs":{"hp":24,"at":24,"sa":24,"sp":24,"df":24,"sd":24}}
 	}
 	,"Crobat": {
-		"[Sapph] Aqua Leader Archie (Seafloor Cavern)": {
+		"[Ruby] Magma Leader Maxie (Seafloor Cavern)": {
+			"ability":"Inner Focus","level":41,
+			"moves":[ "Bite", "Wing Attack", "Confuse Ray", "Air Cutter"],
+			"nature":"Lonely","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"[Sapph] Aqua Leader Archie (Seafloor Cavern)": {
 			"ability":"Inner Focus","level":41,
 			"moves":[ "Bite", "Wing Attack", "Confuse Ray", "Air Cutter"],
 			"nature":"Serious","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
@@ -2601,7 +2621,11 @@ var SETDEX_ADV = {
 			"ivs":{"hp":6,"at":6,"sa":6,"sp":6,"df":6,"sd":6}}
 	}
 	,"Golbat": {
-		"[Sapph] Aqua Leader Archie (Mt. Chimney)": {
+		"[Ruby] Magma Leader Maxie (Mt. Chimney)": {
+			"ability":"Inner Focus","level":24,
+			"moves":[ "Supersonic", "Astonish", "Bite", "Wing Attack"],
+			"nature":"Naive","ivs":{"hp":18,"at":18,"sa":18,"sp":18,"df":18,"sd":18}}
+		,"[Sapph] Aqua Leader Archie (Mt. Chimney)": {
 			"ability":"Inner Focus","level":24,
 			"moves":[ "Supersonic", "Astonish", "Bite", "Wing Attack"],
 			"ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
@@ -9264,7 +9288,11 @@ var SETDEX_ADV = {
 			"moves":[ "Sludge Bomb", "Crunch", "Giga Drain", "Swagger"]}
 	}
 	,"Sharpedo": {
-		"[Sapph] Aqua Admin Matt (Aqua Hideout B2F)": {
+		"[Sapph] Aqua Leader Archie (Mt. Chimney)": {
+			"ability":"Rough Skin","level":25,
+			"moves":[ "Rage", "Focus Energy", "Scary Face", "Crunch"],
+			"nature":"Naughty","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
+		,"[Sapph] Aqua Admin Matt (Aqua Hideout B2F)": {
 			"ability":"Rough Skin","level":32,
 			"moves":[ "Focus Energy", "Scary Face", "Crunch", "Screech"],
 			"nature":"Hasty","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
@@ -9272,10 +9300,6 @@ var SETDEX_ADV = {
 			"ability":"Rough Skin","level":38,
 			"moves":[ "Crunch", "Screech", "Slash", "Taunt"],
 			"nature":"Gentle","ivs":{"hp":6,"at":6,"df":6,"sa":6,"sd":6,"sp":6}}
-		,"[Sapph] Aqua Leader Archie (Mt. Chimney)": {
-			"ability":"Rough Skin","level":25,
-			"moves":[ "Rage", "Focus Energy", "Scary Face", "Crunch"],
-			"nature":"Naughty","ivs":{"hp":18,"at":18,"df":18,"sa":18,"sd":18,"sp":18}}
 		,"[Sapph] Aqua Leader Archie (Seafloor Cavern)": {
 			"ability":"Rough Skin","level":43,
 			"moves":[ "Screech", "Slash", "Taunt", "Swagger"],
