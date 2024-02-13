@@ -7,6 +7,7 @@
     <link type="text/css" rel="stylesheet" href="./js/vendor/select2/select2.css" />
     <link type="text/css" rel="stylesheet" href="./css/main.css?" />
     <link type="text/css" rel="stylesheet" href="./css/vendor/bootstrap.css" />
+    <link type="text/css" rel="stylesheet" href="./css/dark-theme.css" id="dark-theme-styles">
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-26211653-3"></script>
     <script>
@@ -21,9 +22,20 @@
             return false;
         };
     </script>
+    <script>
+        /*
+        * localStorage will only store strings
+        * This means that if it has the value 'false',
+        * It will be truey and incorrectly cause the
+        * dark theme to load.
+        */
+        if (localStorage.getItem('darkTheme') !== 'true') {
+            document.getElementById('dark-theme-styles').disabled = true;
+        }
+    </script>
 </head>
 
-<body>
+<body class="dark-theme">
 
 <nav><div class="header"><div class="header-inner">
     <ul class="nav">
@@ -510,7 +522,7 @@
                 <select class="move-selector calc-trigger small-select"></select>
                 <input class="move-bp calc-trigger" value="50" />
                 <select class="move-type calc-trigger"></select>
-                <select class="move-cat calc-trigger gen-specific g4 g5 g6 g7 g8">
+                <select class="move-cat calc-trigger gen-specific g4 g5 g6 g7 g8 dark-theme">
                     <option value="Physical">Physical</option>
                     <option value="Special">Special</option>
                 </select>
@@ -542,9 +554,9 @@
             </div>
             <div class="move2">
                 <select class="move-selector calc-trigger small-select"></select>
-                <input class="move-bp calc-trigger" value="0" />
-                <select class="move-type calc-trigger"></select>
-                <select class="move-cat calc-trigger gen-specific g4 g5 g6 g7 g8">
+                <input class="move-bp calc-trigger dark-theme" value="0" />
+                <select class="move-type calc-trigger dark-theme"></select>
+                <select class="move-cat calc-trigger gen-specific g4 g5 g6 g7 g8 dark-theme">
                     <option value="Physical">Physical</option>
                     <option value="Special">Special</option>
                 </select>
@@ -576,9 +588,9 @@
             </div>
             <div class="move3">
                 <select class="move-selector calc-trigger small-select"></select>
-                <input class="move-bp calc-trigger" value="0" />
-                <select class="move-type calc-trigger"></select>
-                <select class="move-cat calc-trigger gen-specific g4 g5 g6 g7 g8">
+                <input class="move-bp calc-trigger dark-theme" value="0" />
+                <select class="move-type calc-trigger dark-theme"></select>
+                <select class="move-cat calc-trigger gen-specific g4 g5 g6 g7 g8 dark-theme">
                     <option value="Physical">Physical</option>
                     <option value="Special">Special</option>
                 </select>
@@ -610,9 +622,9 @@
             </div>
             <div class="move4">
                 <select class="move-selector calc-trigger small-select"></select>
-                <input class="move-bp calc-trigger" value="0" />
-                <select class="move-type calc-trigger"></select>
-                <select class="move-cat calc-trigger gen-specific g4 g5 g6 g7 g8">
+                <input class="move-bp calc-trigger dark-theme" value="0" />
+                <select class="move-type calc-trigger dark-theme"></select>
+                <select class="move-cat calc-trigger gen-specific g4 g5 g6 g7 g8 dark-theme">
                     <option value="Physical">Physical</option>
                     <option value="Special">Special</option>
                 </select>
@@ -1466,6 +1478,9 @@
     <ul><li><a href="https://github.com/smogon/damage-calc/contributors" target="_blank">Contributors</a></li>
     <li><a href="https://www.smogon.com/forums/threads/pok%C3%A9mon-showdown-damage-calculator.3593546/" target="_blank">Bug Reports</a></li>
     <li><a href="https://github.com/smogon/damage-calc" target="_blank">GitHub repository</a></li></ul>
+
+    <button type="button" id="dark-theme-toggle"></button>
+    <script type="text/javascript" src="./js/dark-theme-toggle.js?"></script>
 </div>
 
 </body>
